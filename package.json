@@ -1,0 +1,19 @@
+{
+  "name": "enjoy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Migu3lR/Enjoy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Migu3lR/Enjoy/issues"
+  },
+  "homepage": "https://github.com/Migu3lR/Enjoy#readme"
+}
