@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
-import RaisedButton from 'material-ui/RaisedButton';
 
 import Post from '../../posts/containers/Post';
 import Loading from '../../shared/components/Loading';
@@ -77,7 +76,6 @@ class Home extends Component {
       <section name="Home" className={styles.section}>
         <Title>
           <FormattedMessage id="title.home" />
-          <RaisedButton label="Default" primary />
         </Title>
 
         <section className={styles.list}>
