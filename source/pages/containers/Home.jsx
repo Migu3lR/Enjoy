@@ -76,6 +76,7 @@ class Home extends Component {
       <section name="Home" className={styles.section}>
         <Title>
           <FormattedMessage id="title.home" />
+          <a class="waves-effect waves-light btn-large" href="#">Wave</a>
         </Title>
 
         <section className={styles.list}>
