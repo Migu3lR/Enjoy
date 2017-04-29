@@ -22,13 +22,14 @@ function Layout(props) {
             __html: props.content,
           }}
         />
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src={`${props.domain}/materialize.js`}></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" />
+        <script type="text/javascript" src={`${props.domain}/materialize.js`} />
         <script src={`${props.domain}/app.js`} />
       </body>
     </html>
   );
 }
+
 
 Layout.propTypes = {
   title: PropTypes.string,
