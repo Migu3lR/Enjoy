@@ -14063,7 +14063,7 @@ class Home extends _react.Component {
         _Title2.default,
         null,
         _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'title.home' }),
-        _react2.default.createElement(_RaisedButton2.default, { label: 'Default' })
+        _react2.default.createElement(_RaisedButton2.default, { label: 'Default', primary: true })
       ),
       _react2.default.createElement(
         'section',

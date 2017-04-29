@@ -35,7 +35,8 @@ const config = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ['latest-minimal', 'react'],
+              plugins: ['transform-decorators-legacy'],
+              presets: ['latest-minimal', 'react', 'stage-1'],
               env: {
                 production: {
                   plugins: ['transform-regenerator', 'transform-runtime'],
@@ -83,7 +84,7 @@ if (process.env.NODE_ENV === 'production') {
       mangle: {
         except: ['$super', '$', 'exports', 'require'],
       },
-    })
+    }) 
   );
 }
 

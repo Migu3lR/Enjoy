@@ -4,10 +4,6 @@ import { renderToString, renderToStaticMarkup } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
 
-import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
 import messages from './messages.json';
 
 import Pages from './pages/containers/Page';
@@ -21,8 +17,6 @@ function requestHandler(request, response) {
   const locale = request.headers['accept-language'].indexOf('es') >= 0 ? 'es' : 'en';
 
   const context = {};
-
-  const prepareStyles = this.context.muiTheme ? this.context.muiTheme.prepareStyles : () => {};
 
   const html = renderToString(
     <IntlProvider locale={locale} messages={messages[locale]} >
@@ -43,13 +37,11 @@ function requestHandler(request, response) {
 
   response.write(
     renderToStaticMarkup(
-      <MuiThemeProvider muiTheme={getMuiTheme(baseTheme)}>
-        <Layout
-          title="Aplicacion"
-          content={html}
-          domain={domain}
-        />
-      </MuiThemeProvider>,
+      <Layout
+        title="Aplicacion"
+        content={html}
+        domain={domain}
+      />,
     ),
   );
   response.end();

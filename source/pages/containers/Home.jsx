@@ -77,7 +77,7 @@ class Home extends Component {
       <section name="Home" className={styles.section}>
         <Title>
           <FormattedMessage id="title.home" />
-          <RaisedButton label="Default" />
+          <RaisedButton label="Default" primary />
         </Title>
 
         <section className={styles.list}>
