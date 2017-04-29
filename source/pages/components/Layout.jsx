@@ -11,7 +11,8 @@ function Layout(props) {
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
         />
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css" />
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href={`${props.domain}/materialize.css`} media="screen,projection" />
         <link rel="stylesheet" href={`${props.domain}/styles.css`} />
       </head>
       <body>
@@ -21,6 +22,8 @@ function Layout(props) {
             __html: props.content,
           }}
         />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src={`${props.domain}/materialize.js`}></script>
         <script src={`${props.domain}/app.js`} />
       </body>
     </html>
