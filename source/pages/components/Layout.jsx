@@ -42,5 +42,4 @@ Layout.defaultProps = {
   domain: '',
 };
 
-
 export default Layout;
