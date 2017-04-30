@@ -3,9 +3,9 @@ import styles from './Title.css';
 
 function Title(props) {
   return (
-    <h2 className={styles.title}>
+    <h1 className={styles.title}>
       {props.children}
-    </h2>
+    </h1>
   );
 }
 
