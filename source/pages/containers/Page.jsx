@@ -10,6 +10,7 @@ import Profile from './Profile';
 import Error404 from './Error404';
 
 import Header from '../../shared/components/Header';
+import Footer from '../../shared/components/Footer';
 
 function Pages() {
   return (
@@ -37,6 +38,8 @@ function Pages() {
 
         <Route component={Error404} />
       </Switch>
+
+      <Footer />
     </main>
   );
 }
