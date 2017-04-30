@@ -1,9 +1,8 @@
 import React, { PropTypes } from 'react';
-import styles from './Title.css';
 
 function Title(props) {
   return (
-    <h1 className={styles.title}>
+    <h1 className="header center orange-text">
       {props.children}
     </h1>
   );
