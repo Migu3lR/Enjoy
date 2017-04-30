@@ -2,9 +2,9 @@ import React, { PropTypes } from 'react';
 
 function Title(props) {
   return (
-    <h1 className="header center orange-text">
+    <h2 className="header center orange-text">
       {props.children}
-    </h1>
+    </h2>
   );
 }
 
