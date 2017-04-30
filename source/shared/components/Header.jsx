@@ -29,7 +29,7 @@ class Header extends Component {
               </li>
             </ul>
             <a
-              href="#" data-activates="nav-mobile" className="button-collapse"
+              href="#m" data-activates="nav-mobile" className="button-collapse"
               ref={
                 //eslint-disable-next-line
                 node => this.button_collapse = node
