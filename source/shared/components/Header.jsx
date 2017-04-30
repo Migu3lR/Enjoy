@@ -33,6 +33,7 @@ class Header extends Component {
               ref={
                 //eslint-disable-next-line
                 node => this.button_collapse = node
+                //eslint-disable-next-line
               }>
               <i className="material-icons">menu</i></a>
           </div>
