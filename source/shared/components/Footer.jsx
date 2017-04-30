@@ -5,9 +5,9 @@ function Footer() {
     <footer className="page-footer orange">
       <div className="container">
         <div className="row">
-          <div className="col l6 s12">
-            <h5 className="white-text">Company Bio</h5>
-            <p className="grey-text text-lighten-4">We are a team of college students working on this project like its our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <div className="col m8 offset-m2 s12">
+            <p className="center white-text">Enjoy Life ProNET is &lt;/&gt; by <a href="https://migu3lr.github.io/">Miguel Romero</a></p>
+            <p className="grey-text text-lighten-4">Coaching Alegra © 2017</p>
 
 
           </div>
