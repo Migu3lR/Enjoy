@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import $ from 'jquery';
 
 function Layout(props) {
   return (
