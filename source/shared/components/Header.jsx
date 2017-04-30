@@ -7,7 +7,7 @@ import css from './Header.css';
 function Header() {
   return (
     <header>
-      <nav className="white" role="navigation">
+      <nav className="white z-depth-4" role="navigation">
         <div className="nav-wrapper container">
           <a id="logo-container" className={`brand-logo ${css.brand_logo}`}>Enjoy Life ProNET</a>
           <ul className="right hide-on-med-and-down">
