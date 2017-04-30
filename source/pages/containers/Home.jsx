@@ -37,6 +37,11 @@ function Home() {
       <div className="container">
         <div className="section">
           <div className="row">
+            <div className="col s12 m10 offset-m1">
+              <p className="dark flow-text">Conoce el proyecto Enjoy Life ProNET, puedes colaborar con una donacion. Clic en el siguiente boton para donar.</p>
+            </div>
+          </div>
+          <div className="row">
             <div className="col s12 m4">
               <div className={`icon-block ${css.icon_block}`}>
                 <h2 className="center light-blue-text"><i className={`material-icons ${css.material_icons}`}>flash_on</i></h2>
