@@ -13,7 +13,7 @@ function Home() {
       <div className={`section no-pad-bot ${css.section1}`} id="index-banner">
         <div className="container">
           <div className="row">
-            <div classNane="col m6">
+            <div className="col m6">
               <img src={`${domain}/images/logo.png`} alt="logo" />
             </div>
             <div className="col m6">
