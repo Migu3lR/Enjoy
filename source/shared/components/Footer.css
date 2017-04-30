@@ -2,3 +2,6 @@ footer {
   background: hsl(0, 0%, 14.5%) !important;
   color: white;
 }
+.material_icons {
+	font-size: inherit;
+}
