@@ -9,7 +9,6 @@ if (typeof (jQuery) === 'undefined') {
   }
 }
 ;
-
 (function ($) {
   // INITIALIZE
   $('.button-collapse').sideNav();
