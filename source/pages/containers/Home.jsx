@@ -12,7 +12,7 @@ function Home(props) {
         <div className="container">
           <div className="row">
             <div classNane="col m6">
-              <img src={`${props.domain}/images/initialize.js`} />
+              <img src={`${props.domain}/images/logo.png`} alt="logo" />
             </div>
             <div className="col m6">
               <Title>

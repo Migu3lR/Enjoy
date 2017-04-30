@@ -21,7 +21,7 @@ function requestHandler(request, response) {
   const html = renderToString(
     <IntlProvider locale={locale} messages={messages[locale]} >
       <StaticRouter location={request.url} context={context}>
-        <Pages />
+        <Pages domain={domain} />
       </StaticRouter>
     </IntlProvider>,
   );
