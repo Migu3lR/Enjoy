@@ -6,7 +6,7 @@ class Header extends Component {
   componentDidMount() {
     this.button_collapse.sideNav();
   }
-  /*eslint-disable no-alert, no-console */
+  /* eslint-disable no-alert, no-console */
   render() {
     return (
       <header>
@@ -34,7 +34,7 @@ class Header extends Component {
       </header>
     );
   }
-  /*eslint-enable no-alert */
+  /* eslint-enable no-alert */
 }
 
 export default Header;
