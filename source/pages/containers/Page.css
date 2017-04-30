@@ -12,3 +12,12 @@
 .section1 img{
   height: 50%;
 }
+
+.p_dona {
+  font-weight: 500;
+}
+
+.section2 {
+  background: hsl(0, 0%, 14.5%);
+  color: white;
+}

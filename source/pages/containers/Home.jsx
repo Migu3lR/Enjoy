@@ -36,9 +36,10 @@ function Home() {
 
       <div className="container">
         <div className="section">
-          <div className="row">
+          <div className={`row ${css.section2}`}>
             <div className="col s12 m10 offset-m1">
-              <p className="dark flow-text">Conoce el proyecto Enjoy Life ProNET, puedes colaborar con una donacion. Clic en el siguiente boton para donar.</p>
+              <p className={`flow-text ${css.p_dona}`}>Conoce el proyecto Enjoy Life ProNET, puedes colaborar con una donacion. Clic en el siguiente boton para donar.</p>
+              <a className="waves-effect waves-light btn">Ir a Enjoy Life</a>
             </div>
           </div>
           <div className="row">
