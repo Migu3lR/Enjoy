@@ -10,7 +10,7 @@ const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-s
 function Home() {
   return (
     <section name="Home">
-      <div className={`section no-pad-bot ${css.section1}`} id="index-banner">
+      <div className={`section ${css.section1}`} id="index-banner">
         <div className="container">
           <div className="row">
             <div className="col m6">
@@ -35,6 +35,7 @@ function Home() {
       </div>
 
       <div className={`section ${css.section2}`}>
+        <div className="section"></div>
         <div className="container">
           <div className="row">
             <div className="col s12 m10 offset-m1">
@@ -43,6 +44,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <div className="section"></div>
       </div>
       <div className="container">
         <div className="row">
