@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -15,26 +14,26 @@ function Footer() {
           <div className="col l3 s12">
             <h5 className="white-text">Settings</h5>
             <ul>
-              <li><Link className="white-text" to="#!">Link 1</Link></li>
-              <li><Link className="white-text" to="#!">Link 2</Link></li>
-              <li><Link className="white-text" to="#!">Link 3</Link></li>
-              <li><Link className="white-text" to="#!">Link 4</Link></li>
+              <li><a className="white-text" href="#!">a 1</a></li>
+              <li><a className="white-text" href="#!">a 2</a></li>
+              <li><a className="white-text" href="#!">a 3</a></li>
+              <li><a className="white-text" href="#!">a 4</a></li>
             </ul>
           </div>
           <div className="col l3 s12">
             <h5 className="white-text">Connect</h5>
             <ul>
-              <li><Link className="white-text" to="#!">Link 1</Link></li>
-              <li><Link className="white-text" to="#!">Link 2</Link></li>
-              <li><Link className="white-text" to="#!">Link 3</Link></li>
-              <li><Link className="white-text" to="#!">Link 4</Link></li>
+              <li><a className="white-text" href="#!">a 1</a></li>
+              <li><a className="white-text" href="#!">a 2</a></li>
+              <li><a className="white-text" href="#!">a 3</a></li>
+              <li><a className="white-text" href="#!">a 4</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div className="footer-copyright">
         <div className="container">
-          Made by <Link className="orange-text text-lighten-3" to="http://materializecss.com">Materialize</Link>
+          Made by <a className="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
         </div>
       </div>
     </footer>
