@@ -55,8 +55,8 @@ function Home() {
         </div>
       </div>
       <br /><br />
-    </div>,      
-  ]);
+    </div>]
+  );
 }
 
 export default Home;
