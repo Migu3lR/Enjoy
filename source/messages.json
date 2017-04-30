@@ -2,7 +2,7 @@
   "en": {
     "error.404": "Go back to home",
     "title": "My first application with React",
-    "title.home": "Starter Template",
+    "title.home": "Enjoy Life ProNET",
     "title.profile": "Profile of {name}",
     "profile.field.basic": "Basic info",
     "profile.field.address": "Address",
@@ -16,7 +16,7 @@
   "es": {
     "error.404": "Volver al inicio",
     "title": "Mi primera aplicación con React",
-    "title.home": "Plantilla de inicio",
+    "title.home": "Enjoy Life ProNET",
     "title.profile": "Perfil de {name}",
     "profile.field.basic": "Información básica",
     "profile.field.address": "Dirección",

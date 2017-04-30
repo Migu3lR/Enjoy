@@ -6,7 +6,7 @@ import css from './Header.css';
 
 function Header() {
   return (
-    <header className=" z-depth-4">
+    <header>
       <nav className="white" role="navigation">
         <div className="nav-wrapper container">
           <a id="logo-container" className={`brand-logo ${css.brand_logo}`}>Enjoy Life ProNET</a>
