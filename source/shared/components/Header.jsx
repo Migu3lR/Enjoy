@@ -34,7 +34,7 @@ class Header extends Component {
       </header>
     );
   }
-  /*eslint-disable no-alert, no-console */
+  /*eslint-enable no-alert */
 }
 
 export default Header;
