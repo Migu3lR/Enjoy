@@ -26,7 +26,7 @@ function Header() {
           <a href="#!" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
         </div>
       </nav>
-    </header >
+    </header>
   );
 }
 
