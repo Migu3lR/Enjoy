@@ -9,7 +9,7 @@ function Header() {
     <header>
       <nav className="white" role="navigation">
         <div className="nav-wrapper container">
-          <a id="logo-container" className={`brand-logo ${css.brand_logo}`}>alegra / Enjoy Life ProNET</a>
+          <a id="logo-container" className={`brand-logo ${css.brand_logo}`}>Enjoy Life ProNET</a>
           <ul className="right hide-on-med-and-down">
             <li>
               <Link to="/">

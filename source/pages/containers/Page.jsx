@@ -12,6 +12,8 @@ import Error404 from './Error404';
 import Header from '../../shared/components/Header';
 import Footer from '../../shared/components/Footer';
 
+const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://138.68.131.182:3002';
+
 function Pages() {
   return (
     <main role="application">
@@ -22,6 +24,7 @@ function Pages() {
           path="/"
           exact
           component={Home}
+          domain={domain}
         />
 
         <Route
