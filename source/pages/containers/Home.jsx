@@ -11,11 +11,11 @@ function Home() {
         <Title>
           <FormattedMessage id="title.home" />
         </Title>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <div className="row center">
+          <h5 className="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        <div className="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" className="btn-large waves-effect waves-light orange">Get Started</a>
         </div>
         <br /><br />
       </div>
