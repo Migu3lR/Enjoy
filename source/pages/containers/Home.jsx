@@ -5,14 +5,16 @@ import Title from '../../shared/components/Title';
 
 import css from './Page.css';
 
-function Home(props) {
+const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://138.68.131.182:3002';
+
+function Home() {
   return (
     <section name="Home">
       <div className={`section no-pad-bot ${css.section1}`} id="index-banner">
         <div className="container">
           <div className="row">
             <div classNane="col m6">
-              <img src={`${props.domain}/images/logo.png`} alt="logo" />
+              <img src={`${domain}/images/logo.png`} alt="logo" />
             </div>
             <div className="col m6">
               <Title>
