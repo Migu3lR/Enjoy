@@ -31,9 +31,8 @@ class Header extends Component {
             <a
               href="//" data-activates="nav-mobile" className="button-collapse"
               ref={
-                /* eslint-disable no-alert, no-console */
+                //eslint-disable-next-line
                 node => this.button_collapse = node
-                /* eslint-enable no-alert */
               }>
               <i className="material-icons">menu</i></a>
           </div>
