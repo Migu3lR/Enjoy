@@ -42,6 +42,10 @@ function Home() {
               <a className="waves-effect waves-light btn center-align">Ir a Enjoy Life</a>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
           <div className="row">
             <div className="col s12 m4">
               <div className={`icon-block ${css.icon_block}`}>
