@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 class Header extends Component {
-  componentDidMount() {
-    this.button_collapse.sideNav();
-  }
-
   render() {
     return (
       <header>
@@ -28,14 +24,7 @@ class Header extends Component {
                 </Link>
               </li>
             </ul>
-            <a
-              href="#m" data-activates="nav-mobile" className="button-collapse"
-              ref={
-                //eslint-disable-next-line
-                node => this.button_collapse = node
-                //eslint-disable-next-line
-              }>
-              <i className="material-icons">menu</i></a>
+            <a href="#m" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
           </div>
         </nav>
       </header >
