@@ -23,7 +23,7 @@ function Header() {
               </Link>
             </li>
           </ul>
-          <a href="#m" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
+          <a href="#!" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
         </div>
       </nav>
     </header >
