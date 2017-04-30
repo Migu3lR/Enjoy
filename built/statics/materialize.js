@@ -8294,7 +8294,4 @@ Picker.extend( 'pickadate', DatePicker )
   $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.tap-target' );
 };
 
-
-  // INITIALIZE
-  $('.button-collapse').sideNav();
 }( jQuery ));
