@@ -57,7 +57,7 @@ function Home() {
       </div>
       <br /><br />
 
-      <div class="section">
+      <div className="section">
 
       </div>
     </div>
