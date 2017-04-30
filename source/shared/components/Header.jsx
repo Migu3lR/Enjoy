@@ -6,7 +6,7 @@ class Header extends Component {
   componentDidMount() {
     this.button_collapse.sideNav();
   }
-  /* eslint-disable no-alert, no-console */
+
   render() {
     return (
       <header>
@@ -28,13 +28,20 @@ class Header extends Component {
                 </Link>
               </li>
             </ul>
-            <a href="//" data-activates="nav-mobile" className="button-collapse" ref={node => this.button_collapse = node}><i className="material-icons">menu</i></a>
+            <a
+              href="//" data-activates="nav-mobile" className="button-collapse"
+              ref={
+                /* eslint-disable no-alert, no-console */
+                node => this.button_collapse = node
+                /* eslint-enable no-alert */
+              }>
+              <i className="material-icons">menu</i></a>
           </div>
         </nav>
       </header>
     );
   }
-  /* eslint-enable no-alert */
+
 }
 
 export default Header;
