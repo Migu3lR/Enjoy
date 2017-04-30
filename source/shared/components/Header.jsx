@@ -5,9 +5,9 @@ import { FormattedMessage } from 'react-intl';
 function Header() {
   return (
     <header>
-      <nav className="light-blue lighten-1" role="navigation">
-        <div className="nav-wrapper container">
-          <a id="logo-container" className="brand-logo">Enjoy Life</a>
+      <nav className="white" role="navigation">
+        <div className="nav-wrapper container z-depth-4">
+          <a id="logo-container" className="brand-logo">alegra / Enjoy Life ProNET</a>
           <ul className="right hide-on-med-and-down">
             <li>
               <Link to="/">
