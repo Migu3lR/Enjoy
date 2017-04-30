@@ -2,12 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
+import css from './Header.css';
+
 function Header() {
   return (
     <header>
       <nav className="white" role="navigation">
-        <div className="nav-wrapper container z-depth-4">
-          <a id="logo-container" className="brand-logo">alegra / Enjoy Life ProNET</a>
+        <div className="nav-wrapper container">
+          <a id="logo-container" className={`brand-logo ${css.brand_logo}`}>alegra / Enjoy Life ProNET</a>
           <ul className="right hide-on-med-and-down">
             <li>
               <Link to="/">
