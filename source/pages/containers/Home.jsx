@@ -35,7 +35,7 @@ function Home() {
       </div>
 
       <div className={`section ${css.section2}`}>
-        <div className="section"></div>
+        <div className="section" />
         <div className="container">
           <div className="row">
             <div className="col s12 m10 offset-m1">
@@ -44,7 +44,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="section"></div>
+        <div className="section" />
       </div>
       <div className="section">
         <div className="container">
