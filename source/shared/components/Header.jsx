@@ -28,13 +28,16 @@ class Header extends Component {
                 </Link>
               </li>
             </ul>
-            <a href="//" data-activates="nav-mobile" className="button-collapse"
-              ref={node => {
-                this.button_collapse = node;
-              }}><i className="material-icons">menu</i></a>
+            <a
+              href="//" data-activates="nav-mobile" className="button-collapse"
+              ref={node() => {
+              this.button_collapse = node;
+            }}>
+              <i className="material-icons">menu</i>
+            </a>
           </div>
         </nav>
-      </header>
+      </header >
     );
   }
 }
