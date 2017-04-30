@@ -11,10 +11,10 @@ function Home(props) {
       <div className={`section no-pad-bot ${css.section1}`} id="index-banner">
         <div className="container">
           <div className="row">
-            <div class="col m6">
+            <div classNane="col m6">
               <img src={`${props.domain}/images/initialize.js`} />
             </div>
-            <div class="col m6">
+            <div className="col m6">
               <Title>
                 <FormattedMessage id="title.home" />
               </Title>
