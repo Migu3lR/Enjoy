@@ -8,8 +8,8 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    const bc = findDOMNode(this.ref.butcol);
-    $(butcol).sideNav();
+    const bc = findDOMNode(this.refs.butcol);
+    $(bc).sideNav();
   }
 
   render() {
