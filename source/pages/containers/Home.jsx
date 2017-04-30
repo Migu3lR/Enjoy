@@ -39,7 +39,7 @@ function Home() {
           <div className="row">
             <div className="col s12 m10 offset-m1">
               <p className={`flow-text center-align ${css.p_dona}`}>Conoce el proyecto Enjoy Life ProNET, puedes colaborar con una donacion. Clic en el siguiente boton para donar.</p>
-              <a className="waves-effect waves-light btn center-align">Ir a Enjoy Life</a>
+              <p className="center-align"><a className="waves-effect waves-light btn center-align">Ir a Enjoy Life</a></p>
             </div>
           </div>
         </div>
