@@ -9,7 +9,7 @@ class Header extends Component {
     super(props);
 
     this.state = {
-      PrintLogin: props.ruta.indexOf('/enjoy') === 0,
+      PrintLogin: props.CurrentRoute.indexOf('/enjoy') === 0,
     };
   }
 
@@ -17,7 +17,7 @@ class Header extends Component {
     // eslint-disable-next-line
     console.log(nextProps);
     this.setState({
-      PrintLogin: nextProps.ruta.indexOf('/enjoy') === 0,
+      PrintLogin: nextProps.CurrentRoute.indexOf('/enjoy') === 0,
     });
   }
 
@@ -75,11 +75,11 @@ class Header extends Component {
 }
 
 Header.propTypes = {
-  ruta: PropTypes.string,
+  CurrentRoute: PropTypes.string,
 };
 
 Header.defaultProps = {
-  ruta: '/',
+  CurrentRoute: '/',
 };
 
 export default Header;
