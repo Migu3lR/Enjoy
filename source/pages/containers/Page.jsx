@@ -20,7 +20,7 @@ class Pages extends Component {
       ruta: '/',
     };
 
-    this.RouteChange = this.RouteChange.bind(this);
+    //this.RouteChange = this.RouteChange.bind(this);
     console.log(this);
   }
 
@@ -43,7 +43,7 @@ class Pages extends Component {
             path="/"
             exact
             component={Home}
-            onChange={this.RouteChange}
+            onChange={this.RouteChange.bind(this)}
           />
 
           <Route
