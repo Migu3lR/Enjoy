@@ -20,7 +20,7 @@ function Pages() {
 
       <Switch>
         <Route
-          onChange={ console.log("cambio de url"); }
+          onChange={ console.log("cambio de url") }
           path="/"
           exact
           component={Home}
