@@ -18,7 +18,7 @@ class Pages extends Component {
     super(props);
     this.state = {
       // eslint-disable-next-line
-      ruta: this._reactInternalInstance._context.router.route.location.pathname,
+      ruta: '/',
     };
   }
 
