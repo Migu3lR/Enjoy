@@ -16,7 +16,6 @@ import Footer from '../../shared/components/Footer';
 class Pages extends Component {
   constructor(props) {
     super(props);
-    
     this.state = {
       ruta: '/',
     };
@@ -48,6 +47,7 @@ class Pages extends Component {
           <Route
             path="/enjoy"
             component={Enjoy}
+            onEnter={this.RouteChange}
           />
 
           <Route
