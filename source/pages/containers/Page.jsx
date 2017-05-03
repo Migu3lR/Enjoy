@@ -17,7 +17,7 @@ class Pages extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      ruta: "/",
+      ruta: '/',
     };
   }
 
@@ -34,7 +34,7 @@ class Pages extends Component {
 
         <Switch>
           <Route
-            onChange={RouteChange}
+            onChange={this.RouteChange}
             path="/"
             exact
             component={Home}

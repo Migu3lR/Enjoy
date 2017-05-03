@@ -17,7 +17,7 @@ class Header extends Component {
     // eslint-disable-next-line
     console.log(nextProps);
     this.setState({
-      PrintLogin: props.ruta.indexOf('/enjoy') === 0,
+      PrintLogin: nextProps.ruta.indexOf('/enjoy') === 0,
     });
   }
 
