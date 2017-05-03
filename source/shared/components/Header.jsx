@@ -32,6 +32,11 @@ class Header extends Component {
               {/* Menu en Enjoy */}
               {this.state.PrintLogin && (
                 <li>
+                  <Link to="/">
+                    <FormattedMessage id="header.nav.home" />
+                  </Link>
+                </li>
+                <li>
                   <Link to="/enjoy">
                     <FormattedMessage id="login" />
                   </Link>
@@ -51,6 +56,11 @@ class Header extends Component {
             <ul id="nav-mobile" className="side-nav">
               {/* Menu en Enjoy */}
               {this.state.PrintLogin && (
+                <li>
+                  <Link to="/">
+                    <FormattedMessage id="header.nav.home" />
+                  </Link>
+                </li>
                 <li>
                   <Link to="/enjoy">
                     <FormattedMessage id="login" />
