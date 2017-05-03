@@ -21,6 +21,7 @@ class Pages extends Component {
     };
 
     this.RouteChange = this.RouteChange.bind(this);
+    console.log(this);
   }
 
   RouteChange(previousRoute, nextRoute) {
@@ -32,6 +33,7 @@ class Pages extends Component {
   }
 
   render() {
+    console.log(this);
     return (
       <main role="application">
         <Header CurrentRoute={this.state.ruta} />
