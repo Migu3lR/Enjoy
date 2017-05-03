@@ -12,14 +12,15 @@ function Layout(props) {
         />
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <link rel="shortcut icon" href={`${props.domain}/images/favicon.png`} type="image/x-icon" />
-        <link rel="icon" href={`${props.domain}/images/favicon.png`} type="image/x-icon" />
+        <link rel="shortcut icon" href={`${props.domain}/images/favicon.ico`} type="image/x-icon" />
+        <link rel="icon" href={`${props.domain}/images/favicon.ico`} type="image/x-icon" />
         <link type="text/css" rel="stylesheet" href={`${props.domain}/materialize.css`} media="screen,projection" />
         <link rel="stylesheet" href={`${props.domain}/styles.css`} />
       </head>
       <body>
         <div
           id="render-target"
+          {/* eslint-disable-next-line */}
           dangerouslySetInnerHTML={{
             __html: props.content,
           }}
