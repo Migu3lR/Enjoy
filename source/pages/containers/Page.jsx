@@ -36,11 +36,11 @@ class Pages extends Component {
         <Header CurrentRoute={this.state.ruta} />
 
         <Switch>
-          <Route
-            onChange={this.RouteChange}
+          <Route            
             path="/"
             exact
             component={Home}
+            onChange={this.RouteChange}
           />
 
           <Route
