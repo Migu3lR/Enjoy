@@ -17,9 +17,9 @@ function Layout(props) {
         <link type="text/css" rel="stylesheet" href={`${props.domain}/materialize.css`} media="screen,projection" />
         <link rel="stylesheet" href={`${props.domain}/styles.css`} />
       </head>
-      <body>
-        {/* eslint-disable-next-line */}
-        <div id="render-target" dangerouslySetInnerHTML={{ __html: props.content }} />
+      <body>{
+        //eslint-disable-next-line react/no-danger
+        }<div id="render-target" dangerouslySetInnerHTML={{ __html: props.content }} />
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" />
         <script type="text/javascript" src={`${props.domain}/materialize.js`} />
         <script src={`${props.domain}/app.js`} />
