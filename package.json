@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./built/server/index.js",
+    "start": "forever start -a -l forever.log -o out.log -e err.log --uid enjoy -t --killSignal=SIGTERM -c nodemon ./built/server/index.js",
     "static": "serve ./built/statics/ --port 3002 --cache 0",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "stop": "forever stop ./built/server/index.js"
   },
   "repository": {
     "type": "git",

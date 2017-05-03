@@ -1,0 +1,533 @@
+[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+cambio de url
+cambio de url
+cambio de url
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Pages {
+  props: {},
+  context: undefined,
+  refs: {},
+  updater: 
+   { isMounted: [Function: isMounted],
+     enqueueCallback: [Function: enqueueCallback],
+     enqueueForceUpdate: [Function: enqueueForceUpdate],
+     enqueueReplaceState: [Function: enqueueReplaceState],
+     enqueueSetState: [Function: enqueueSetState] },
+  state: { ruta: '/' },
+  RouteChange: [Function: bound RouteChange] }
+Pages {
+  props: {},
+  context: {},
+  refs: {},
+  updater: 
+   ReactServerUpdateQueue {
+     transaction: 
+      ReactServerRenderingTransaction {
+        transactionWrappers: [Object],
+        wrapperInitData: [Object],
+        _isInTransaction: true,
+        renderToStaticMarkup: false,
+        useCreateElement: false,
+        updateQueue: [Circular] } },
+  state: { ruta: '/' },
+  RouteChange: [Function: bound RouteChange],
+  _reactInternalInstance: 
+   ReactCompositeComponentWrapper {
+     _currentElement: 
+      { '$$typeof': Symbol(react.element),
+        type: [Function: Pages],
+        key: null,
+        ref: null,
+        props: {},
+        _owner: null,
+        _store: {} },
+     _rootNodeID: 0,
+     _compositeType: 0,
+     _instance: [Circular],
+     _hostParent: null,
+     _hostContainerInfo: 
+      { _topLevelWrapper: undefined,
+        _idCounter: 1,
+        _ownerDocument: null,
+        _node: undefined,
+        _tag: null,
+        _namespaceURI: null,
+        _ancestorInfo: null },
+     _updateBatchNumber: null,
+     _pendingElement: null,
+     _pendingStateQueue: null,
+     _pendingReplaceState: false,
+     _pendingForceUpdate: false,
+     _renderedNodeType: null,
+     _renderedComponent: null,
+     _context: { intl: [Object], router: [Object] },
+     _mountOrder: 4,
+     _topLevelWrapper: null,
+     _pendingCallbacks: null,
+     _calledComponentWillUnmount: false,
+     _warnedAboutRefsInRender: false,
+     _mountIndex: 0,
+     _mountImage: null,
+     _debugID: 4 } }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Pages {
+  props: {},
+  context: undefined,
+  refs: {},
+  updater: 
+   { isMounted: [Function: isMounted],
+     enqueueCallback: [Function: enqueueCallback],
+     enqueueForceUpdate: [Function: enqueueForceUpdate],
+     enqueueReplaceState: [Function: enqueueReplaceState],
+     enqueueSetState: [Function: enqueueSetState] },
+  state: { ruta: '/' } }
+Pages {
+  props: {},
+  context: {},
+  refs: {},
+  updater: 
+   ReactServerUpdateQueue {
+     transaction: 
+      ReactServerRenderingTransaction {
+        transactionWrappers: [Object],
+        wrapperInitData: [Object],
+        _isInTransaction: true,
+        renderToStaticMarkup: false,
+        useCreateElement: false,
+        updateQueue: [Circular] } },
+  state: { ruta: '/' },
+  _reactInternalInstance: 
+   ReactCompositeComponentWrapper {
+     _currentElement: 
+      { '$$typeof': Symbol(react.element),
+        type: [Function: Pages],
+        key: null,
+        ref: null,
+        props: {},
+        _owner: null,
+        _store: {} },
+     _rootNodeID: 0,
+     _compositeType: 0,
+     _instance: [Circular],
+     _hostParent: null,
+     _hostContainerInfo: 
+      { _topLevelWrapper: undefined,
+        _idCounter: 1,
+        _ownerDocument: null,
+        _node: undefined,
+        _tag: null,
+        _namespaceURI: null,
+        _ancestorInfo: null },
+     _updateBatchNumber: null,
+     _pendingElement: null,
+     _pendingStateQueue: null,
+     _pendingReplaceState: false,
+     _pendingForceUpdate: false,
+     _renderedNodeType: null,
+     _renderedComponent: null,
+     _context: { intl: [Object], router: [Object] },
+     _mountOrder: 4,
+     _topLevelWrapper: null,
+     _pendingCallbacks: null,
+     _calledComponentWillUnmount: false,
+     _warnedAboutRefsInRender: false,
+     _mountIndex: 0,
+     _mountImage: null,
+     _debugID: 4 } }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Pages {
+  props: {},
+  context: {},
+  refs: {},
+  updater: 
+   ReactServerUpdateQueue {
+     transaction: 
+      ReactServerRenderingTransaction {
+        transactionWrappers: [Object],
+        wrapperInitData: [Object],
+        _isInTransaction: true,
+        renderToStaticMarkup: false,
+        useCreateElement: false,
+        updateQueue: [Circular] } },
+  state: { ruta: '/' },
+  _reactInternalInstance: 
+   ReactCompositeComponentWrapper {
+     _currentElement: 
+      { '$$typeof': Symbol(react.element),
+        type: [Function: Pages],
+        key: null,
+        ref: null,
+        props: {},
+        _owner: null,
+        _store: {} },
+     _rootNodeID: 0,
+     _compositeType: 0,
+     _instance: [Circular],
+     _hostParent: null,
+     _hostContainerInfo: 
+      { _topLevelWrapper: undefined,
+        _idCounter: 1,
+        _ownerDocument: null,
+        _node: undefined,
+        _tag: null,
+        _namespaceURI: null,
+        _ancestorInfo: null },
+     _updateBatchNumber: null,
+     _pendingElement: null,
+     _pendingStateQueue: null,
+     _pendingReplaceState: false,
+     _pendingForceUpdate: false,
+     _renderedNodeType: null,
+     _renderedComponent: null,
+     _context: { intl: [Object], router: [Object] },
+     _mountOrder: 4,
+     _topLevelWrapper: null,
+     _pendingCallbacks: null,
+     _calledComponentWillUnmount: false,
+     _warnedAboutRefsInRender: false,
+     _mountIndex: 0,
+     _mountImage: null,
+     _debugID: 4 } }
+Pages {
+  props: {},
+  context: {},
+  refs: {},
+  updater: 
+   ReactServerUpdateQueue {
+     transaction: 
+      ReactServerRenderingTransaction {
+        transactionWrappers: [Object],
+        wrapperInitData: [Object],
+        _isInTransaction: true,
+        renderToStaticMarkup: false,
+        useCreateElement: false,
+        updateQueue: [Circular] } },
+  state: { ruta: '/' },
+  _reactInternalInstance: 
+   ReactCompositeComponentWrapper {
+     _currentElement: 
+      { '$$typeof': Symbol(react.element),
+        type: [Function: Pages],
+        key: null,
+        ref: null,
+        props: {},
+        _owner: null,
+        _store: {} },
+     _rootNodeID: 0,
+     _compositeType: 0,
+     _instance: [Circular],
+     _hostParent: null,
+     _hostContainerInfo: 
+      { _topLevelWrapper: undefined,
+        _idCounter: 1,
+        _ownerDocument: null,
+        _node: undefined,
+        _tag: null,
+        _namespaceURI: null,
+        _ancestorInfo: null },
+     _updateBatchNumber: null,
+     _pendingElement: null,
+     _pendingStateQueue: null,
+     _pendingReplaceState: false,
+     _pendingForceUpdate: false,
+     _renderedNodeType: null,
+     _renderedComponent: null,
+     _context: { intl: [Object], router: [Object] },
+     _mountOrder: 22,
+     _topLevelWrapper: null,
+     _pendingCallbacks: null,
+     _calledComponentWillUnmount: false,
+     _warnedAboutRefsInRender: false,
+     _mountIndex: 0,
+     _mountImage: null,
+     _debugID: 108 } }
+Pages {
+  props: {},
+  context: {},
+  refs: {},
+  updater: 
+   ReactServerUpdateQueue {
+     transaction: 
+      ReactServerRenderingTransaction {
+        transactionWrappers: [Object],
+        wrapperInitData: [Object],
+        _isInTransaction: true,
+        renderToStaticMarkup: false,
+        useCreateElement: false,
+        updateQueue: [Circular] } },
+  state: { ruta: '/' },
+  _reactInternalInstance: 
+   ReactCompositeComponentWrapper {
+     _currentElement: 
+      { '$$typeof': Symbol(react.element),
+        type: [Function: Pages],
+        key: null,
+        ref: null,
+        props: {},
+        _owner: null,
+        _store: {} },
+     _rootNodeID: 0,
+     _compositeType: 0,
+     _instance: [Circular],
+     _hostParent: null,
+     _hostContainerInfo: 
+      { _topLevelWrapper: undefined,
+        _idCounter: 1,
+        _ownerDocument: null,
+        _node: undefined,
+        _tag: null,
+        _namespaceURI: null,
+        _ancestorInfo: null },
+     _updateBatchNumber: null,
+     _pendingElement: null,
+     _pendingStateQueue: null,
+     _pendingReplaceState: false,
+     _pendingForceUpdate: false,
+     _renderedNodeType: null,
+     _renderedComponent: null,
+     _context: { intl: [Object], router: [Object] },
+     _mountOrder: 39,
+     _topLevelWrapper: null,
+     _pendingCallbacks: null,
+     _calledComponentWillUnmount: false,
+     _warnedAboutRefsInRender: false,
+     _mountIndex: 0,
+     _mountImage: null,
+     _debugID: 165 } }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m

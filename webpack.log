@@ -5,52 +5,32 @@
 
 Webpack is watching the files…
 
-(node:30023) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
+(node:9807) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
 parseQuery() will be replaced with getOptions() in the next major version of loader-utils.
-Hash: f3bc36cad3f26ea0b399c2894feab54855e177ac
+Hash: 9e6679f2b93afda923087af926f426130c73e5f4
 Version: webpack 2.3.2
 Child
-    Hash: f3bc36cad3f26ea0b399
-    Time: 15728ms
+    Hash: 9e6679f2b93afda92308
+    Time: 16347ms
                     Asset     Size  Chunks                    Chunk Names
-                 index.js   697 kB       0  [emitted]  [big]  main
+                 index.js   699 kB       0  [emitted]  [big]  main
     ../statics/styles.css  1.37 kB       0  [emitted]         main
       [29] ./source/api.jsx 2.13 kB {0} [built]
       [30] ./source/pages/containers/Page.css 250 bytes {0} [built]
       [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
       [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
-      [86] ./source/pages/containers/Page.jsx 1.96 kB {0} [built]
-      [87] ./source/messages.json 1.06 kB {0} [built]
+      [86] ./source/pages/containers/Page.jsx 2.27 kB {0} [built]
+      [87] ./source/messages.json 1.11 kB {0} [built]
       [88] ./~/react-dom/server.js 65 bytes {0} [built]
       [90] ./source/comments/containers/Comment.jsx 1.22 kB {0} [built]
       [91] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
       [92] ./source/enjoy/pages/containers/Page.jsx 857 bytes {0} [built]
-      [93] ./source/pages/containers/Home.jsx 7.88 kB {0} [built]
+      [93] ./source/pages/containers/Home.jsx 8 kB {0} [built]
       [94] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
       [95] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
       [96] ./source/server.jsx 1.79 kB {0} [built]
-     [137] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
-        + 189 hidden modules
-    
-    WARNING in ./source/pages/components/Layout.jsx
-    
-    /home/migu3lr/enjoy/source/pages/components/Layout.jsx
-      21:11  warning  Dangerous property 'dangerouslySetInnerHTML' found  react/no-danger
-    
-    ✖ 1 problem (0 errors, 1 warning)
-    
-     @ ./source/server.jsx 25:14-50
-    
-    ERROR in ./source/shared/components/Header.jsx
-    
-    /home/migu3lr/enjoy/source/shared/components/Header.jsx
-      17:24  error  ["_reactInternalInstance"] is better written in dot notation  dot-notation
-      17:50  error  ["_context"] is better written in dot notation                dot-notation
-    
-    ✖ 2 problems (2 errors, 0 warnings)
-    
-     @ ./source/pages/containers/Page.jsx 33:14-55
-     @ ./source/server.jsx
+     [138] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+        + 190 hidden modules
     Child extract-text-webpack-plugin:
            [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
             + 1 hidden modules
@@ -67,38 +47,27 @@ Child
            [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
            [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
 Child
-    Hash: c2894feab54855e177ac
-    Time: 15848ms
+    Hash: 7af926f426130c73e5f4
+    Time: 16739ms
                     Asset     Size  Chunks                    Chunk Names
                    app.js  1.03 MB       0  [emitted]  [big]  main
     ../statics/styles.css  1.37 kB       0  [emitted]         main
        [3] ./~/react/react.js 56 bytes {0} [built]
-      [15] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
-      [20] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
-     [101] ./source/pages/containers/Page.jsx 1.96 kB {0} [built]
-     [102] ./source/messages.json 1.06 kB {0} [built]
+      [14] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [22] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+     [101] ./source/pages/containers/Page.jsx 2.26 kB {0} [built]
+     [102] ./source/messages.json 1.11 kB {0} [built]
      [103] ./~/react-dom/index.js 59 bytes {0} [built]
      [104] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
      [105] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
      [106] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
      [107] ./source/client.jsx 1.33 kB {0} [built]
-     [229] ./~/react-router-dom/es/HashRouter.js 2.08 kB {0} [built]
-     [235] ./~/react-router-dom/es/Router.js 49 bytes {0} [built]
-     [236] ./~/react-router-dom/es/StaticRouter.js 55 bytes {0} [built]
-     [237] ./~/react-router-dom/es/Switch.js 49 bytes {0} [built]
-     [238] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
-        + 265 hidden modules
-    
-    ERROR in ./source/shared/components/Header.jsx
-    
-    /home/migu3lr/enjoy/source/shared/components/Header.jsx
-      17:24  error  ["_reactInternalInstance"] is better written in dot notation  dot-notation
-      17:50  error  ["_context"] is better written in dot notation                dot-notation
-    
-    ✖ 2 problems (2 errors, 0 warnings)
-    
-     @ ./source/pages/containers/Page.jsx 33:14-55
-     @ ./source/client.jsx
+     [233] ./~/react-router-dom/es/Prompt.js 49 bytes {0} [built]
+     [234] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [235] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [239] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 266 hidden modules
     Child extract-text-webpack-plugin:
            [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
            [1] ./~/base64-js/index.js 3.48 kB {0} [built]
@@ -139,3 +108,55 @@ Child
            [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
            [5] ./~/ieee754/index.js 2.05 kB {0} [built]
            [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+Hash: 0a9fc09f69c089a0cf32
+Version: webpack 2.3.2
+Child
+    Hash: 0a9fc09f69c089a0cf32
+    Time: 1144ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   699 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 197 hidden modules
+Hash: 993db8da05f056772d63
+Version: webpack 2.3.2
+Child
+    Hash: 993db8da05f056772d63
+    Time: 1183ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.03 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 268 hidden modules
+Hash: 6912568f250436f87f4f
+Version: webpack 2.3.2
+Child
+    Hash: 6912568f250436f87f4f
+    Time: 718ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   699 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 197 hidden modules
+Hash: 5cc2fa44e89a6d3d6b56
+Version: webpack 2.3.2
+Child
+    Hash: 5cc2fa44e89a6d3d6b56
+    Time: 733ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.03 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 268 hidden modules
+Hash: 6912568f250436f87f4f
+Version: webpack 2.3.2
+Child
+    Hash: 6912568f250436f87f4f
+    Time: 784ms
+                    Asset     Size  Chunks             Chunk Names
+    ../statics/styles.css  1.37 kB       0  [emitted]  main
+        + 197 hidden modules
+Hash: 5cc2fa44e89a6d3d6b56
+Version: webpack 2.3.2
+Child
+    Hash: 5cc2fa44e89a6d3d6b56
+    Time: 787ms
+                    Asset     Size  Chunks             Chunk Names
+    ../statics/styles.css  1.37 kB       0  [emitted]  main
+        + 268 hidden modules
