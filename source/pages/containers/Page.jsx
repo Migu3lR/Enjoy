@@ -23,7 +23,6 @@ class Pages extends Component {
   }
 
   render() {
-    console.log(this);
     return (
       <main role="application">{
         // eslint-disable-next-line
