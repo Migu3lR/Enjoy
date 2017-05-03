@@ -20,6 +20,10 @@ class Header extends Component {
     this.setState({ PrintLogin });
   }
 
+  componentDidMount() {
+    console.log(this.state.PrintLogin);
+  }
+
   render() {
     return (
       <header>
