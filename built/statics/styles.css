@@ -3,6 +3,27 @@
 }
 ._1_fRGbuIXGk9cLTOcZygbi .w0P_h8no2DSiuAjHNAdpZ {
 	font-size: inherit;
+}
+._1J5H15dJSO6tfqAW8pkDqK{
+  background:linear-gradient(125deg, #fff, #f3f3f3 41%, #ededed 0, #fff);
+  display:block;
+}
+
+._1J5H15dJSO6tfqAW8pkDqK img{
+  height: 50%;
+}
+
+._36C1SgoElJyrYh2yXIlV8s {
+  font-weight: 500;
+}
+
+._1Si38y_6YVuCN00cYtvDWB {
+  background: hsl(0, 0%, 14.5%);
+  color: white;
+}
+
+nav a {
+  color: black;
 }.KE9W3OdH6xQ4bvE_SDR3N {
   border-radius: .5em;
   box-shadow: 0 0 .5em black;
@@ -47,4 +68,14 @@
 
 ._2PE8Mda7FQzJaNudMncfRw {
   margin: .5em 0; 
+}nav ul a,
+nav .rCru-8v_keeZnvf_qas9_ {
+  color: #444;
+}
+
+._39gOJvnGZdixJbo-2vFBJa {
+  color: brand-logo;
+}footer {
+  background: hsl(0, 0%, 14.5%) !important;
+  color: white;
 }

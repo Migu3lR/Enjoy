@@ -6,6 +6,7 @@ import {
 
 import Home from './Home';
 import Post from './Post';
+import Enjoy from '../../enjoy/pages/containers/Page';
 import Profile from './Profile';
 import Error404 from './Error404';
 
@@ -22,6 +23,11 @@ function Pages() {
           path="/"
           exact
           component={Home}
+        />
+
+        <Route
+          path="/enjoy"
+          component={Enjoy}
         />
 
         <Route
