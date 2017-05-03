@@ -14,6 +14,7 @@ class Header extends Component {
   }
 
   componentWillMount() {
+    // eslint-disable-next-line
     const route = this['_reactInternalInstance']['_context'].router.route.location.pathname;
     const PrintLogin = route.indexOf('/enjoy') === 0;
     this.setState({ PrintLogin });
