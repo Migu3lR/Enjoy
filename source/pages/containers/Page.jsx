@@ -22,8 +22,8 @@ class Pages extends Component {
   }
 
   RouteChange(previousRoute, nextRoute) {
-    console.log("previous: " + previousRoute);
-    console.log("next: " + nextRoute);
+    console.log(`previous: ${previousRoute}`);
+    console.log(`next: ${nextRoute}`);
     return this.setState({
       ruta: nextRoute,
     });
