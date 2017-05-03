@@ -30,7 +30,7 @@ class Header extends Component {
             {/* Menu navegacion en desktop */}
             <ul className="right hide-on-med-and-down">
               {/* Menu en Enjoy */}
-              {this.state.PrintLogin && ([
+              {this.state.PrintLogin && (
                 <li>
                   <Link to="/">
                     <FormattedMessage id="header.nav.home" />
@@ -40,8 +40,8 @@ class Header extends Component {
                   <Link to="/enjoy">
                     <FormattedMessage id="login" />
                   </Link>
-                </li>,
-              ])}
+                </li>
+              )}
               {/* Menu en Home */}
               {!this.state.PrintLogin && (
                 <li>
@@ -55,7 +55,7 @@ class Header extends Component {
             {/* Menu navegacion en mobiles */}
             <ul id="nav-mobile" className="side-nav">
               {/* Menu en Enjoy */}
-              {this.state.PrintLogin && ([
+              {this.state.PrintLogin && (
                 <li>
                   <Link to="/">
                     <FormattedMessage id="header.nav.home" />
@@ -65,8 +65,8 @@ class Header extends Component {
                   <Link to="/enjoy">
                     <FormattedMessage id="login" />
                   </Link>
-                </li>,
-              ])}
+                </li>
+              )}
               {/* Menu en Home */}
               {!this.state.PrintLogin && (
                 <li>
