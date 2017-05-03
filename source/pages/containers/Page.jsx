@@ -16,10 +16,11 @@ import Footer from '../../shared/components/Footer';
 function Pages() {
   return (
     <main role="application">
-      <Header />
+      <Header current="enjoy" />
 
       <Switch>
         <Route
+          onChange={ console.log("cambio de url"); }
           path="/"
           exact
           component={Home}
