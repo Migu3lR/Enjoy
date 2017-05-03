@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 import Title from '../../shared/components/Title';
@@ -26,7 +27,7 @@ function Home() {
                   <a className="waves-effect waves-light btn orange">Colabora</a>
                 </div>
                 <div className="col s6">
-                  <a className="waves-effect waves-light btn orange">Ir a Enjoy Life</a>
+                  <Link to="/enjoy" className="waves-effect waves-light btn orange">Ir a Enjoy Life</Link>
                 </div>
               </div>
             </div>
@@ -40,7 +41,7 @@ function Home() {
           <div className="row">
             <div className="col s12 m10 offset-m1">
               <p className={`flow-text center-align ${css.p_dona}`}>Conoce el proyecto Enjoy Life ProNET, puedes colaborar con una donacion. Clic en el siguiente boton para donar.</p>
-              <p className="center-align"><a className="waves-effect waves-light btn center-align">Ir a Enjoy Life</a></p>
+              <p className="center-align"><Link to="/enjoy" className="waves-effect waves-light btn center-align">Ir a Enjoy Life</Link></p>
             </div>
           </div>
         </div>

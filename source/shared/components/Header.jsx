@@ -35,7 +35,7 @@ class Header extends Component {
               {/* Menu en Enjoy */}
               {this.state.PrintLogin && (
               <li>
-                <Link to="/">
+                <Link to="/enjoy">
                   <FormattedMessage id="login" />
                 </Link>
               </li>
@@ -55,7 +55,7 @@ class Header extends Component {
               {/* Menu en Enjoy */}
               {this.state.PrintLogin && (
               <li>
-                <Link to="/">
+                <Link to="/enjoy">
                   <FormattedMessage id="login" />
                 </Link>
               </li>
