@@ -9,19 +9,16 @@ class Header extends Component {
     super(props);
 
     this.state = {
-      PrintLogin: false,
+      PrintLogin: props.ruta.indexOf('/enjoy') === 0,
     };
   }
 
-  componentWillMount() {
+  componentWillReceiveProps(nextProps) {
     // eslint-disable-next-line
-    const route = this['_reactInternalInstance']['_context'].router.route.location.pathname;
-    const PrintLogin = route.indexOf('/enjoy') === 0;
-    this.setState({ PrintLogin });
-  }
-
-  componentDidMount() {
-    console.log(this.state.PrintLogin);
+    console.log(nextProps);
+    this.setState({
+      PrintLogin: props.ruta.indexOf('/enjoy') === 0,
+    });
   }
 
   render() {
@@ -34,19 +31,19 @@ class Header extends Component {
             <ul className="right hide-on-med-and-down">
               {/* Menu en Enjoy */}
               {this.state.PrintLogin && (
-              <li>
-                <Link to="/enjoy">
-                  <FormattedMessage id="login" />
-                </Link>
-              </li>
+                <li>
+                  <Link to="/enjoy">
+                    <FormattedMessage id="login" />
+                  </Link>
+                </li>
               )}
               {/* Menu en Home */}
               {!this.state.PrintLogin && (
-              <li>
-                <Link to="/">
-                  <FormattedMessage id="header.nav.home" />
-                </Link>
-              </li>
+                <li>
+                  <Link to="/">
+                    <FormattedMessage id="header.nav.home" />
+                  </Link>
+                </li>
               )}
             </ul>
 
@@ -54,19 +51,19 @@ class Header extends Component {
             <ul id="nav-mobile" className="side-nav">
               {/* Menu en Enjoy */}
               {this.state.PrintLogin && (
-              <li>
-                <Link to="/enjoy">
-                  <FormattedMessage id="login" />
-                </Link>
-              </li>
+                <li>
+                  <Link to="/enjoy">
+                    <FormattedMessage id="login" />
+                  </Link>
+                </li>
               )}
               {/* Menu en Home */}
               {!this.state.PrintLogin && (
-              <li>
-                <Link to="/">
-                  <FormattedMessage id="header.nav.home" />
-                </Link>
-              </li>
+                <li>
+                  <Link to="/">
+                    <FormattedMessage id="header.nav.home" />
+                  </Link>
+                </li>
               )}
             </ul>
             <a href="#!" data-activates="nav-mobile" className={`button-collapse ${css.button_collapse}`}><i className="material-icons">menu</i></a>
@@ -77,5 +74,12 @@ class Header extends Component {
   }
 }
 
+Header.propTypes = {
+  ruta: PropTypes.string,
+};
+
+Header.defaultProps = {
+  ruta: '/',
+};
 
 export default Header;

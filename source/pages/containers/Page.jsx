@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Route,
   Switch,
@@ -13,42 +13,57 @@ import Error404 from './Error404';
 import Header from '../../shared/components/Header';
 import Footer from '../../shared/components/Footer';
 
-function Pages() {
-  return (
-    <main role="application">
-      <Header current="enjoy" />
+class Pages extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ruta: "/",
+    };
+  }
 
-      <Switch>
-        <Route
-          onChange={ console.log("cambio de url") }
-          path="/"
-          exact
-          component={Home}
-        />
+  RouteChange(previousRoute, nextRoute) {
+    return this.setState({
+      ruta: nextRoute,
+    });
+  }
 
-        <Route
-          path="/enjoy"
-          component={Enjoy}
-        />
+  render() {
+    return (
+      <main role="application">
+        <Header CurrentRoute={this.state.ruta} />
 
-        <Route
-          path="/post/:id"
-          exact
-          component={Post}
-        />
+        <Switch>
+          <Route
+            onChange={RouteChange}
+            path="/"
+            exact
+            component={Home}
+          />
 
-        <Route
-          path="/user/:id"
-          exact
-          component={Profile}
-        />
+          <Route
+            path="/enjoy"
+            component={Enjoy}
+          />
 
-        <Route component={Error404} />
-      </Switch>
+          <Route
+            path="/post/:id"
+            exact
+            component={Post}
+          />
 
-      <Footer />
-    </main>
-  );
+          <Route
+            path="/user/:id"
+            exact
+            component={Profile}
+          />
+
+          <Route component={Error404} />
+        </Switch>
+
+        <Footer />
+      </main>
+    );
+  }
 }
 
 export default Pages;
