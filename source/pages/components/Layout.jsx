@@ -18,13 +18,8 @@ function Layout(props) {
         <link rel="stylesheet" href={`${props.domain}/styles.css`} />
       </head>
       <body>
-        <div
-          id="render-target"
-          {/* eslint-disable-next-line */}
-          dangerouslySetInnerHTML={{
-            __html: props.content,
-          }}
-        />
+        {/* eslint-disable-next-line */}
+        <div id="render-target" dangerouslySetInnerHTML={{__html: props.content,}} />
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" />
         <script type="text/javascript" src={`${props.domain}/materialize.js`} />
         <script src={`${props.domain}/app.js`} />
