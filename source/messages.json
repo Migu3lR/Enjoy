@@ -11,7 +11,8 @@
     "comment.meta.author": "By: <a href=\"mailto:{email}\" target=\"_blank\">{name}</a>",
     "post.meta.comments": "{amount} comments",
     "post.meta.readMore": "Read more...",
-    "loading": "Loading data..."
+    "loading": "Loading data...",
+    "login": "Sign In"
   },
   "es": {
     "error.404": "Volver al inicio",
@@ -25,6 +26,7 @@
     "comment.meta.author": "Por: <a href=\"mailto:{email}\" target=\"_blank\">{name}</a>",
     "post.meta.comments": "{amount} comentarios",
     "post.meta.readMore": "Leer más...",
-    "loading": "Cargando datos..."
+    "loading": "Cargando datos...",
+    "login": "Iniciar Sesión"
   }
 }
