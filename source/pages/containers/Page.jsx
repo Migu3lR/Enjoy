@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Route,
   Switch,
@@ -13,43 +13,53 @@ import Error404 from './Error404';
 import Header from '../../shared/components/Header';
 import Footer from '../../shared/components/Footer';
 
-function Pages() {
-  return (
-    <main role="application">{
+class Pages extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
       // eslint-disable-next-line
-    }<Header CurrentRoute={this._reactInternalInstance._context.router.route.location.pathname} />
+      ruta: this._reactInternalInstance._context.router.route.location.pathname,
+    };
+  }
 
-      <Switch>
-        <Route
-          path="/"
-          exact
-          component={Home}
-        />
+  render() {
+    console.log(this);
+    return (
+      <main role="application">{
+        // eslint-disable-next-line
+        }<Header CurrentRoute={this._reactInternalInstance._context.router.route.location.pathname} />
 
-        <Route
-          path="/enjoy"
-          component={Enjoy}
-        />
+        <Switch>
+          <Route
+            path="/"
+            exact
+            component={Home}
+          />
 
-        <Route
-          path="/post/:id"
-          exact
-          component={Post}
-        />
+          <Route
+            path="/enjoy"
+            component={Enjoy}
+          />
 
-        <Route
-          path="/user/:id"
-          exact
-          component={Profile}
-        />
+          <Route
+            path="/post/:id"
+            exact
+            component={Post}
+          />
 
-        <Route component={Error404} />
-      </Switch>
+          <Route
+            path="/user/:id"
+            exact
+            component={Profile}
+          />
 
-      <Footer />
-    </main>
-  );
+          <Route component={Error404} />
+        </Switch>
+
+        <Footer />
+      </main>
+    );
+  }
 }
-
 
 export default Pages;
