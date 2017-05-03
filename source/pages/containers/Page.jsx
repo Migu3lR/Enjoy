@@ -16,10 +16,12 @@ import Footer from '../../shared/components/Footer';
 class Pages extends Component {
   constructor(props) {
     super(props);
-    console.log(window.location.pathname);
+    
     this.state = {
       ruta: '/',
     };
+
+    this.RouteChange = this.RouteChange.bind(this);
   }
 
   RouteChange(previousRoute, nextRoute) {
@@ -36,7 +38,7 @@ class Pages extends Component {
         <Header CurrentRoute={this.state.ruta} />
 
         <Switch>
-          <Route            
+          <Route
             path="/"
             exact
             component={Home}
