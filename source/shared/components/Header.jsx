@@ -35,7 +35,7 @@ class Header extends Component {
                   <Link to="/">
                     <FormattedMessage id="header.nav.home" />
                   </Link>
-                </li>
+                </li>,
                 <li>
                   <Link to="/enjoy">
                     <FormattedMessage id="login" />
@@ -60,7 +60,7 @@ class Header extends Component {
                   <Link to="/">
                     <FormattedMessage id="header.nav.home" />
                   </Link>
-                </li>
+                </li>,
                 <li>
                   <Link to="/enjoy">
                     <FormattedMessage id="login" />
