@@ -13,64 +13,44 @@ import Error404 from './Error404';
 import Header from '../../shared/components/Header';
 import Footer from '../../shared/components/Footer';
 
-class Pages extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      ruta: '/',
-    };
+function Pages() {
 
-    //this.RouteChange = this.RouteChange.bind(this);
-    console.log(this);
-  }
+  return (
+    <main role="application">{
+      // eslint-disable-next-line
+    }<Header CurrentRoute={this._reactInternalInstance._context.router.route.location.pathname} />
 
-  RouteChange(previousRoute, nextRoute) {
-    console.log(`previous: ${previousRoute}`);
-    console.log(`next: ${nextRoute}`);
-    return this.setState({
-      ruta: nextRoute,
-    });
-  }
+      <Switch>
+        <Route
+          path="/"
+          exact
+          component={Home}
+        />
 
-  render() {
-    console.log(this);
-    return (
-      <main role="application">
-        <Header CurrentRoute={this.state.ruta} />
+        <Route
+          path="/enjoy"
+          component={Enjoy}
+        />
 
-        <Switch>
-          <Route
-            path="/"
-            exact
-            component={Home}
-            onChange={this.RouteChange.bind(this)}
-          />
+        <Route
+          path="/post/:id"
+          exact
+          component={Post}
+        />
 
-          <Route
-            path="/enjoy"
-            component={Enjoy}
-            onEnter={this.RouteChange}
-          />
+        <Route
+          path="/user/:id"
+          exact
+          component={Profile}
+        />
 
-          <Route
-            path="/post/:id"
-            exact
-            component={Post}
-          />
+        <Route component={Error404} />
+      </Switch>
 
-          <Route
-            path="/user/:id"
-            exact
-            component={Profile}
-          />
-
-          <Route component={Error404} />
-        </Switch>
-
-        <Footer />
-      </main>
-    );
-  }
+      <Footer />
+    </main>
+  );
 }
+
 
 export default Pages;
