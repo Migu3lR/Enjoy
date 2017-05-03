@@ -12,6 +12,7 @@ function Layout(props) {
         />
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="icon" type="image/png" href={`${props.domain}/images/favicon.png`} />
         <link type="text/css" rel="stylesheet" href={`${props.domain}/materialize.css`} media="screen,projection" />
         <link rel="stylesheet" href={`${props.domain}/styles.css`} />
       </head>
