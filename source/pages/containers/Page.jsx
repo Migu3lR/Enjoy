@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   Route,
   Switch,
@@ -14,7 +14,6 @@ import Header from '../../shared/components/Header';
 import Footer from '../../shared/components/Footer';
 
 function Pages() {
-
   return (
     <main role="application">{
       // eslint-disable-next-line
