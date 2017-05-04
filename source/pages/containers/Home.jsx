@@ -12,7 +12,7 @@ import css from './Page.css';
 const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://138.68.131.182:3002';
 
 function Home() {
-  console.log(api.bd.getList());
+  console.log(api.db.getList());
   return (
     <section name="Home">
       <div className={`section ${css.section1}`} id="index-banner">
