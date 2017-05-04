@@ -451,12 +451,6 @@ module.exports = ReactDOMComponentTree;
 
 /***/ }),
 /* 5 */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -495,6 +489,12 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("react");
 
 /***/ }),
 /* 7 */
@@ -5361,7 +5361,7 @@ module.exports = getEventTarget;
 
 
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var useHasFeature;
 if (ExecutionEnvironment.canUseDOM) {
@@ -5426,7 +5426,7 @@ module.exports = isEventSupported;
 
 
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 var DOMNamespaces = __webpack_require__(33);
 
 var WHITESPACE_TEST = /^[ \r\n\t\f]/;
@@ -6241,7 +6241,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -6279,7 +6279,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -6415,7 +6415,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -6444,7 +6444,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -8186,7 +8186,7 @@ module.exports = forEachAccumulated;
 
 
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var contentKey = null;
 
@@ -8413,7 +8413,7 @@ module.exports = isTextInputElement;
 
 
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 var escapeTextContentForBrowser = __webpack_require__(28);
 var setInnerHTML = __webpack_require__(47);
 
@@ -8978,7 +8978,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9014,6 +9014,21 @@ function Layout(props) {
       _react2.default.createElement("div", { id: "render-target", dangerouslySetInnerHTML: { __html: props.content } }),
       _react2.default.createElement("script", { type: "text/javascript", src: "https://code.jquery.com/jquery-2.1.1.min.js" }),
       _react2.default.createElement("script", { type: "text/javascript", src: `${props.domain}/materialize.js` }),
+      _react2.default.createElement("script", { src: "https://www.gstatic.com/firebasejs/3.9.0/firebase.js" }),
+      _react2.default.createElement(
+        "script",
+        { type: "text/javascript" },
+        "const config = ",
+        {
+          apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
+          authDomain: 'enjoylife-32afb.firebaseapp.com',
+          databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+          projectId: 'enjoylife-32afb',
+          storageBucket: 'enjoylife-32afb.appspot.com',
+          messagingSenderId: '153966974380'
+        },
+        "; firebase.initializeApp(config);"
+      ),
       _react2.default.createElement("script", { src: `${props.domain}/app.js` }),
       _react2.default.createElement("script", { type: "text/javascript", src: `${props.domain}/initialize.js` })
     )
@@ -9045,7 +9060,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9189,7 +9204,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9251,7 +9266,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9278,7 +9293,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9320,7 +9335,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9542,7 +9557,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9658,7 +9673,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9802,7 +9817,7 @@ var _express = __webpack_require__(89);
 
 var _express2 = _interopRequireDefault(_express);
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9877,7 +9892,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9928,7 +9943,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -10015,7 +10030,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _react = __webpack_require__(5);
+var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -10390,7 +10405,7 @@ module.exports = createArrayFromMixed;
 
 /*eslint-disable fb-www/unsafe-html*/
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var createArrayFromMixed = __webpack_require__(107);
 var getMarkupWrap = __webpack_require__(109);
@@ -10478,7 +10493,7 @@ module.exports = createNodesFromMarkup;
 
 /*eslint-disable fb-www/unsafe-html */
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var invariant = __webpack_require__(0);
 
@@ -10798,7 +10813,7 @@ module.exports = memoizeStringOnly;
 
 
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var performance;
 
@@ -10973,7 +10988,7 @@ module.exports = AutoFocusUtils;
 
 
 var EventPropagators = __webpack_require__(22);
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 var FallbackCompositionState = __webpack_require__(126);
 var SyntheticCompositionEvent = __webpack_require__(167);
 var SyntheticInputEvent = __webpack_require__(170);
@@ -11363,7 +11378,7 @@ module.exports = BeforeInputEventPlugin;
 
 
 var CSSProperty = __webpack_require__(61);
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(8);
 
 var camelizeStyleName = __webpack_require__(105);
@@ -11578,7 +11593,7 @@ module.exports = CSSPropertyOperations;
 
 var EventPluginHub = __webpack_require__(21);
 var EventPropagators = __webpack_require__(22);
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 var ReactDOMComponentTree = __webpack_require__(4);
 var ReactUpdates = __webpack_require__(10);
 var SyntheticEvent = __webpack_require__(11);
@@ -11905,7 +11920,7 @@ module.exports = ChangeEventPlugin;
 var _prodInvariant = __webpack_require__(2);
 
 var DOMLazyTree = __webpack_require__(19);
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var createNodesFromMarkup = __webpack_require__(108);
 var emptyFunction = __webpack_require__(7);
@@ -15068,7 +15083,7 @@ module.exports = ReactDOMOption;
 
 
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var getNodeForCharacterOffset = __webpack_require__(182);
 var getTextContentAccessor = __webpack_require__(76);
@@ -15795,7 +15810,7 @@ module.exports = {
 var ReactInvalidSetStateWarningHook = __webpack_require__(150);
 var ReactHostOperationHistoryHook = __webpack_require__(148);
 var ReactComponentTreeHook = __webpack_require__(9);
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 var performanceNow = __webpack_require__(117);
 var warning = __webpack_require__(1);
@@ -16314,7 +16329,7 @@ module.exports = ReactEventEmitterMixin;
 var _assign = __webpack_require__(3);
 
 var EventListener = __webpack_require__(58);
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 var PooledClass = __webpack_require__(15);
 var ReactDOMComponentTree = __webpack_require__(4);
 var ReactUpdates = __webpack_require__(10);
@@ -18172,7 +18187,7 @@ module.exports = SVGDOMPropertyConfig;
 
 
 var EventPropagators = __webpack_require__(22);
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 var ReactDOMComponentTree = __webpack_require__(4);
 var ReactInputSelection = __webpack_require__(69);
 var SyntheticEvent = __webpack_require__(11);
@@ -19658,7 +19673,7 @@ module.exports = getNodeForCharacterOffset;
 
 
 
-var ExecutionEnvironment = __webpack_require__(6);
+var ExecutionEnvironment = __webpack_require__(5);
 
 /**
  * Generate a mapping of standard vendor prefixes using the defined style property and event name.

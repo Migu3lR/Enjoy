@@ -5,15 +5,15 @@
 
 Webpack is watching the files…
 
-(node:9807) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
+(node:12803) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
 parseQuery() will be replaced with getOptions() in the next major version of loader-utils.
-Hash: 9e6679f2b93afda923087af926f426130c73e5f4
+Hash: f561588ba9eeb6bb7540ba0399b9f6baa78980db
 Version: webpack 2.3.2
 Child
-    Hash: 9e6679f2b93afda92308
-    Time: 16347ms
+    Hash: f561588ba9eeb6bb7540
+    Time: 15436ms
                     Asset     Size  Chunks                    Chunk Names
-                 index.js   699 kB       0  [emitted]  [big]  main
+                 index.js   697 kB       0  [emitted]  [big]  main
     ../statics/styles.css  1.37 kB       0  [emitted]         main
       [29] ./source/api.jsx 2.13 kB {0} [built]
       [30] ./source/pages/containers/Page.css 250 bytes {0} [built]
@@ -28,9 +28,64 @@ Child
       [93] ./source/pages/containers/Home.jsx 8 kB {0} [built]
       [94] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
       [95] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
-      [96] ./source/server.jsx 1.79 kB {0} [built]
+      [96] ./source/server.jsx 1.79 kB {0} [built] [1 error]
      [138] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
         + 190 hidden modules
+    
+    ERROR in ./source/server.jsx
+    
+    /home/migu3lr/enjoy/source/server.jsx
+      10:20  error  Parse errors in imported module './pages/components/Layout': Line 30: Unexpected token, expected }
+    
+      28 |           {/* Initialize Firebase */}
+      29 |           const config = {
+    > 30 |             apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
+         |                   ^
+      31 |             authDomain: 'enjoylife-32afb.firebaseapp.com',
+      32 |             databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+      33 |             projectId: 'enjoylife-32afb', (30:19)  import/no-named-as-default
+      10:20  error  Parse errors in imported module './pages/components/Layout': Line 30: Unexpected token, expected }
+    
+      28 |           {/* Initialize Firebase */}
+      29 |           const config = {
+    > 30 |             apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
+         |                   ^
+      31 |             authDomain: 'enjoylife-32afb.firebaseapp.com',
+      32 |             databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+      33 |             projectId: 'enjoylife-32afb', (30:19)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+    
+    ERROR in ./source/pages/components/Layout.jsx
+    
+    /home/migu3lr/enjoy/source/pages/components/Layout.jsx
+      30:19  error  Parsing error: Unexpected token, expected }
+    
+      28 |           {/* Initialize Firebase */}
+      29 |           const config = {
+    > 30 |             apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
+         |                   ^
+      31 |             authDomain: 'enjoylife-32afb.firebaseapp.com',
+      32 |             databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+      33 |             projectId: 'enjoylife-32afb',
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/server.jsx 25:14-50
+    
+    ERROR in ./source/pages/components/Layout.jsx
+    Module build failed: SyntaxError: Unexpected token, expected } (30:18)
+    
+      28 |           {/* Initialize Firebase */}
+      29 |           const config = {
+    > 30 |             apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
+         |                   ^
+      31 |             authDomain: 'enjoylife-32afb.firebaseapp.com',
+      32 |             databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+      33 |             projectId: 'enjoylife-32afb',
+    
+     @ ./source/server.jsx 25:14-50
     Child extract-text-webpack-plugin:
            [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
             + 1 hidden modules
@@ -47,8 +102,8 @@ Child
            [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
            [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
 Child
-    Hash: 7af926f426130c73e5f4
-    Time: 16739ms
+    Hash: ba0399b9f6baa78980db
+    Time: 15793ms
                     Asset     Size  Chunks                    Chunk Names
                    app.js  1.03 MB       0  [emitted]  [big]  main
     ../statics/styles.css  1.37 kB       0  [emitted]         main
@@ -108,55 +163,45 @@ Child
            [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
            [5] ./~/ieee754/index.js 2.05 kB {0} [built]
            [6] (webpack)/buildin/global.js 509 bytes {0} [built]
-Hash: 0a9fc09f69c089a0cf32
+Hash: 0cc84d84090f2add81d7
 Version: webpack 2.3.2
 Child
-    Hash: 0a9fc09f69c089a0cf32
-    Time: 1144ms
+    Hash: 0cc84d84090f2add81d7
+    Time: 492ms
                     Asset     Size  Chunks                    Chunk Names
-                 index.js   699 kB       0  [emitted]  [big]  main
+                 index.js   700 kB       0  [emitted]  [big]  main
     ../statics/styles.css  1.37 kB       0  [emitted]         main
         + 197 hidden modules
-Hash: 993db8da05f056772d63
-Version: webpack 2.3.2
-Child
-    Hash: 993db8da05f056772d63
-    Time: 1183ms
-                    Asset     Size  Chunks                    Chunk Names
-                   app.js  1.03 MB       0  [emitted]  [big]  main
-    ../statics/styles.css  1.37 kB       0  [emitted]         main
-        + 268 hidden modules
-Hash: 6912568f250436f87f4f
-Version: webpack 2.3.2
-Child
-    Hash: 6912568f250436f87f4f
-    Time: 718ms
-                    Asset     Size  Chunks                    Chunk Names
-                 index.js   699 kB       0  [emitted]  [big]  main
-    ../statics/styles.css  1.37 kB       0  [emitted]         main
-        + 197 hidden modules
-Hash: 5cc2fa44e89a6d3d6b56
-Version: webpack 2.3.2
-Child
-    Hash: 5cc2fa44e89a6d3d6b56
-    Time: 733ms
-                    Asset     Size  Chunks                    Chunk Names
-                   app.js  1.03 MB       0  [emitted]  [big]  main
-    ../statics/styles.css  1.37 kB       0  [emitted]         main
-        + 268 hidden modules
-Hash: 6912568f250436f87f4f
-Version: webpack 2.3.2
-Child
-    Hash: 6912568f250436f87f4f
-    Time: 784ms
-                    Asset     Size  Chunks             Chunk Names
-    ../statics/styles.css  1.37 kB       0  [emitted]  main
-        + 197 hidden modules
-Hash: 5cc2fa44e89a6d3d6b56
-Version: webpack 2.3.2
-Child
-    Hash: 5cc2fa44e89a6d3d6b56
-    Time: 787ms
-                    Asset     Size  Chunks             Chunk Names
-    ../statics/styles.css  1.37 kB       0  [emitted]  main
-        + 268 hidden modules
+    
+    ERROR in ./source/server.jsx
+    
+    /home/migu3lr/enjoy/source/server.jsx
+      10:20  error  Parse errors in imported module './pages/components/Layout': Line 30: Unexpected token, expected }
+    
+      28 |           {/* Initialize Firebase */}
+      29 |           const config = {
+    > 30 |             apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
+         |                   ^
+      31 |             authDomain: 'enjoylife-32afb.firebaseapp.com',
+      32 |             databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+      33 |             projectId: 'enjoylife-32afb', (30:19)  import/no-named-as-default
+      10:20  error  Parse errors in imported module './pages/components/Layout': Line 30: Unexpected token, expected }
+    
+      28 |           {/* Initialize Firebase */}
+      29 |           const config = {
+    > 30 |             apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
+         |                   ^
+      31 |             authDomain: 'enjoylife-32afb.firebaseapp.com',
+      32 |             databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+      33 |             projectId: 'enjoylife-32afb', (30:19)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+############################################
+############################################
+############################################
+Wed May  3 21:03:22 COT 2017
+Updating 26084ea..f2a5e53
+Fast-forward
+ source/pages/components/Layout.jsx | 1 +
+ 1 file changed, 1 insertion(+)
