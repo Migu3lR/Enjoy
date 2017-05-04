@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "enjoylife-32afb",
+  "private_key_id": "d535250a0bd1c2c2460576af588a577532ad25e9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDB+xOaLVXqVYA/\n2Rukax+h7dwsjBKk3fkvK4HLH9tQRhuR0JkiHMkzdg/JtpjDEblGV1JVu81DYe+u\nf2I90fxsHxfOB+pQGuvGWS27GBGOlhWzSwWqoVYkO5XYheWz1hcqdVUiT9tlUSpM\nUYyOMy9/dNugJYnYGRWqeqvhJpQio6gZEqaUH/1Yj0W/Xn2ZqTlWY/ShJJLuo+77\nhavDNZ7Aov3zp2jdwD/oRPAzVmW6hHFCezYnjIAPYu69qdBMDPhRkIsQtjjIJMmL\n7GyeP52GHN0P3V3SnaI+0FynyhnG4II8SCQ7B9qG64lGZdwX5+hOoLUa6hcHuFwq\nPZpWUkZ9AgMBAAECggEBAL5xmB8oH09/PfhxWJglq9q4wg7iPnOqkjhjSHx5/EFl\ncy/HUnCRPl/Nq1ZodLYfMn0Cwgz14mIjRsNUwMjc3ivwotheIQcgRxZm+2TSDnqk\nkw2BvEB3QTE1Zro7SvcyW3AN3dVf/ZANDa/76Di7vAgwXGdwM1L73a+P3CuiSpFt\nz6tPh3FJI+Re7YMePkF9xWcIztueIfYN+iyBXeSUrJm+C6BU+hcZBl3J8q0Min/d\nVyFF29OUzDYkOq6uDt3Hq8zDMmhDC6seqvzPD/9OKG0bf+xFdgr06r2GxrJNIUR0\nm0Xx4OSNU9ftnPsl7F0xCIYzeMtY+5ZMQTR4GQ+SJqkCgYEA9e9XP49nenufw724\n3Xm98wmL07p20nZja6igVayYlDxn59xw98Dl5C7wFzUdcM5+tUYFgs4aPVDMyYEQ\n/RW4wFY0WOxU5dVN6t1zjEHbdzA7G2KUDXLmIFxx7j2MaI8eb+wRFD2IXb3I4AeL\nmvmOqNHN5CpsNzHKKpPJ1agsIMMCgYEAyetpinUyhsWoHSMkFpSryUr/TblPJ694\nHGhoH7D0VHSr3sC8gft1fc9/7XSqKV46j1/F6mCpSZmfTR2v62E1rfc12BjyjFpp\nmvUgXLgJb4HlHEojf6/43QLy3oQCC3MEltO3PPjdqaEIKLqu52rctvC5Y1iFS4La\n4gScP/V1h78CgYEA5zLLiLsdgm25ceBna/3I7jNpOfAvSAd3y3vIzwHkpmZrH/OC\nV8cF14+wsYCDXsshHvTmtWNgE4hkHIKzH9lNx7LCn139Kdtu1n6843v9/3xd9I6l\ntEbxxDZj/J3r41e4O2tnWunFyqphrwoo2dYFoPsrXXXsKa8q6P/qXGsuoNUCgYA3\nojY1IO9n9MPKK2mBEzt1vcU0HA+0JoOYiCfQO4hGUNMeD8qgobEQlgBwY4mS1lSa\nNlAosLNUBRDARaK33tPUd92NCeqiQzL/r/RXt5lZ8Nc4gTDguJKACpTyPDr3/pvQ\nFstQ8FzapPTDjBQuzOG9QfxCZBxt3sMCLTUD5lSYrwKBgQCvC3EBGIUM0wGcUB7b\nVa2/Zo/GjHolEXlvbGBspDR4XjlyX5sL/oSM6+HHcEI5brPlFwp2lh1HGxTLIeRy\nwrqtkWhVYdp7YhMtsQc/fvuRZyk4Cvk8A1Elvn1o+qxiIU9s9p3TBtijyCsugIUV\nU131A3GgudbWHmzkuGUPMrDrsA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "developer@enjoylife-32afb.iam.gserviceaccount.com",
+  "client_id": "116104613080569463949",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/developer%40enjoylife-32afb.iam.gserviceaccount.com"
+}
