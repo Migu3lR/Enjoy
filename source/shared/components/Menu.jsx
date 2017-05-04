@@ -38,8 +38,8 @@ class Menu extends Component {
               <FormattedMessage id="login" />
             </a>
             <ul id='ingreso-dd' className='dropdown-content'>
-              <li><Link href='/enjoy/signin'>Iniciar sesión</Link></li>
-              <li><Link href='/enjoy/signup'>Registrarme</Link></li>
+              <li><Link to='/enjoy/signin'>Iniciar sesión</Link></li>
+              <li><Link to='/enjoy/signup'>Registrarme</Link></li>
             </ul>
           </li>
         </ul>
