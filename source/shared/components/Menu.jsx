@@ -5,12 +5,12 @@ import { FormattedMessage } from 'react-intl';
 import api from '../../api';
 
 class Menu extends Component {
-  async componentDidMount() {
+  componentDidMount() {
     this.testFirebase();
   }
   
-  async testFirebase() {
-    const lista = await api.db.getList();
+  testFirebase() {
+    const lista = api.db.getList();
     console.log(lista);
   }  
 
