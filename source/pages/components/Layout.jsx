@@ -25,6 +25,7 @@ function Layout(props) {
 
         <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js" />
         <script type="text/javascript">
+          {/* Initialize Firebase */}
           const config = {{
             apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
             authDomain: 'enjoylife-32afb.firebaseapp.com',
