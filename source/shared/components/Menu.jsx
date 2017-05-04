@@ -34,7 +34,7 @@ class Menu extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/enjoy/auth" className="waves-effect waves-light btn">
+            <Link to="/enjoy/login" className="waves-effect waves-light btn">
               <i className="material-icons right">assignment_ind</i>
               <FormattedMessage id="login" />
             </Link>

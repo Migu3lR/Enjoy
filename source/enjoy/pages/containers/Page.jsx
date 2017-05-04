@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Home from './Enjoy';
+import Auth from './Login';
 import Error404 from '../../../pages/containers/Error404';
 
 function Pages() {
@@ -14,6 +15,12 @@ function Pages() {
         path="/enjoy"
         exact
         component={Home}
+      />
+
+      <Route
+        path="/enjoy/login"
+        exact
+        component={Login}
       />
 
       <Route component={Error404} />
