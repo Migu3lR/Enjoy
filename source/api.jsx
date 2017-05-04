@@ -7,7 +7,7 @@ const auth = Firebase.auth();
 const api = {
   db: {
     async getList() {
-      const response = data.ref('lista');
+      const response = await data.ref('lista');
       response.once('value').then(function(snapshot) {
         const data = snapshot.val();
         return data;
