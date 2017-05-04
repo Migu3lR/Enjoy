@@ -7,7 +7,11 @@ class Menu extends Component {
     const lista = await api.db.getList();
     console.log(lista);
   }
-  
+
+  async componentDidMount() {
+    this.testFirebase();
+  }
+
   render() {
     if (props.PrintLogin) {
       return (
