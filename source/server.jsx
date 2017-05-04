@@ -4,7 +4,11 @@ import { renderToString, renderToStaticMarkup } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
 
+import firebase from 'firebase';
+
 import messages from './messages.json';
+
+import serviceAccount from './EnjoyLife-d535250a0bd1.json';
 
 import Pages from './pages/containers/Page';
 import Layout from './pages/components/Layout';
@@ -48,5 +52,10 @@ function requestHandler(request, response) {
 }
 
 app.get('*', requestHandler);
+
+firebase.initializeApp({
+  serviceAccount,
+  databaseURL: 'https://enjoylife-32afb.firebaseio.com',
+});
 
 app.listen(3000);
