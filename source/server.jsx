@@ -4,8 +4,6 @@ import { renderToString, renderToStaticMarkup } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
 
-import firebaseApp from './Firebase';
-
 import messages from './messages.json';
 
 import Pages from './pages/containers/Page';
@@ -52,5 +50,3 @@ function requestHandler(request, response) {
 app.get('*', requestHandler);
 
 app.listen(3000);
-
-export default firebaseApp;
