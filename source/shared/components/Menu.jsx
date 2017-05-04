@@ -5,6 +5,11 @@ import { FormattedMessage } from 'react-intl';
 import api from '../../api';
 
 class Menu extends Component {
+  constructor(props) {
+    super(props);
+    this.testFirebase = this.testFirebase.bind(this);
+  }
+  
   componentDidMount() {
     this.testFirebase();
   }
