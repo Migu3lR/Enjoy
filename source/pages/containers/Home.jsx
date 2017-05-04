@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
-import firebase from 'firebase';
+import firebaseApp from '../../Firebase';
 
 import Title from '../../shared/components/Title';
 
@@ -12,7 +12,7 @@ import css from './Page.css';
 const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://138.68.131.182:3002';
 
 function Home() {
-  console.log(firebase.database().ref('lista'));
+  console.log(firebaseApp.database().ref('lista'));
   return (
     <section name="Home">
       <div className={`section ${css.section1}`} id="index-banner">
