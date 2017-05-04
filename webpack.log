@@ -227,3 +227,4114 @@ Child
      @ ./~/firebase/database-node.js 159:25-43
      @ ./~/firebase/firebase-node.js
      @ ./source/server.jsx
+Hash: 2bb4d72b40e5e353f970
+Version: webpack 2.3.2
+Child
+    Hash: 2bb4d72b40e5e353f970
+    Time: 913ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   699 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [96] ./source/server.jsx 1.79 kB {0} [built]
+        + 196 hidden modules
+lt/statics/initialize.js | 8 ++++++++
+ source/server.jsx           | 9 ---------
+ 2 files changed, 8 insertions(+), 9 deletions(-)
+
+> enjoy@1.0.0 watch /home/migu3lr/enjoy
+> webpack -w
+
+
+Webpack is watching the files…
+
+(node:13646) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
+parseQuery() will be replaced with getOptions() in the next major version of loader-utils.
+Hash: d3dbe6ac6ca47867a08bba0399b9f6baa78980db
+Version: webpack 2.3.2
+Child
+    Hash: d3dbe6ac6ca47867a08b
+    Time: 15549ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   699 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.13 kB {0} [built]
+      [30] ./source/pages/containers/Page.css 250 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [86] ./source/pages/containers/Page.jsx 2.27 kB {0} [built]
+      [87] ./source/messages.json 1.11 kB {0} [built]
+      [88] ./~/react-dom/server.js 65 bytes {0} [built]
+      [90] ./source/comments/containers/Comment.jsx 1.22 kB {0} [built]
+      [91] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [92] ./source/enjoy/pages/containers/Page.jsx 857 bytes {0} [built]
+      [93] ./source/pages/containers/Home.jsx 8 kB {0} [built]
+      [94] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+      [95] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+      [96] ./source/server.jsx 1.79 kB {0} [built]
+     [138] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+        + 190 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 863 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: ba0399b9f6baa78980db
+    Time: 15970ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.03 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+       [3] ./~/react/react.js 56 bytes {0} [built]
+      [14] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [22] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+     [101] ./source/pages/containers/Page.jsx 2.26 kB {0} [built]
+     [102] ./source/messages.json 1.11 kB {0} [built]
+     [103] ./~/react-dom/index.js 59 bytes {0} [built]
+     [104] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [105] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [106] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [107] ./source/client.jsx 1.33 kB {0} [built]
+     [233] ./~/react-router-dom/es/Prompt.js 49 bytes {0} [built]
+     [234] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [235] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [239] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 266 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 863 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Wed May  3 21:48:13 COT 2017
+Updating cf9b260..3c28fe9
+Fast-forward
+ built/statics/initialize.js        | 8 --------
+ source/pages/components/Layout.jsx | 8 ++++++++
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+Hash: cc30318a7e7491347e37
+Version: webpack 2.3.2
+Child
+    Hash: cc30318a7e7491347e37
+    Time: 994ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [205] ./source/EnjoyLife-d535250a0bd1.json 2.34 kB {0} [built]
+        + 198 hidden modules
+    
+    ERROR in ./source/pages/components/Layout.jsx
+    
+    /home/migu3lr/enjoy/source/pages/components/Layout.jsx
+      2:8  error  'firebase' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/server.jsx 25:14-50
+############################################
+############################################
+############################################
+Wed May  3 21:51:30 COT 2017
+Updating 3c28fe9..6538edd
+Fast-forward
+ source/pages/components/Layout.jsx | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+Hash: 75eefd7f381c0a1b14fd
+Version: webpack 2.3.2
+Child
+    Hash: 75eefd7f381c0a1b14fd
+    Time: 425ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 199 hidden modules
+############################################
+############################################
+############################################
+Wed May  3 22:29:50 COT 2017
+Updating 6538edd..69c59e8
+Fast-forward
+ source/Firebase.jsx                | 11 +++++++++++
+ source/pages/components/Layout.jsx | 10 ----------
+ source/pages/containers/Home.jsx   |  5 +++++
+ 3 files changed, 16 insertions(+), 10 deletions(-)
+ create mode 100644 source/Firebase.jsx
+Hash: 7f605f931d24298e6865
+Version: webpack 2.3.2
+Child
+    Hash: 7f605f931d24298e6865
+    Time: 1680ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.03 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 error]
+        + 267 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+       5:1   error    Do not import modules using an absolute path         import/no-absolute-path
+       5:20  error    Unable to resolve path to module '/source/Firebase'  import/no-unresolved
+       5:20  error    Missing file extension for "/source/Firebase"        import/extensions
+       5:38  error    Missing semicolon                                    semi
+      10:1   error    More than 2 blank lines not allowed                  no-multiple-empty-lines
+      16:3   warning  Unexpected console statement                         no-console
+    
+    ✖ 6 problems (5 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    Module not found: Error: Can't resolve '/source/Firebase' in '/home/migu3lr/enjoy/source/pages/containers'
+     @ ./source/pages/containers/Home.jsx 15:16-43
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 348c9517105470fe826a
+Version: webpack 2.3.2
+Child
+    Hash: 348c9517105470fe826a
+    Time: 1733ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   700 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 error]
+        + 196 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+       5:1   error    Do not import modules using an absolute path         import/no-absolute-path
+       5:20  error    Unable to resolve path to module '/source/Firebase'  import/no-unresolved
+       5:20  error    Missing file extension for "/source/Firebase"        import/extensions
+       5:38  error    Missing semicolon                                    semi
+      10:1   error    More than 2 blank lines not allowed                  no-multiple-empty-lines
+      16:3   warning  Unexpected console statement                         no-console
+    
+    ✖ 6 problems (5 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    Module not found: Error: Can't resolve '/source/Firebase' in '/home/migu3lr/enjoy/source/pages/containers'
+     @ ./source/pages/containers/Home.jsx 15:16-43
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Wed May  3 22:30:59 COT 2017
+Updating 69c59e8..af4a152
+Fast-forward
+ source/pages/containers/Home.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Hash: f2861878547b60676074
+Version: webpack 2.3.2
+Child
+    Hash: f2861878547b60676074
+    Time: 1252ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 error]
+     [207] ./source/Firebase.jsx 626 bytes {0} [built] [1 error]
+        + 198 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+       5:36  error    Missing semicolon                    semi
+      10:1   error    More than 2 blank lines not allowed  no-multiple-empty-lines
+      16:3   warning  Unexpected console statement         no-console
+    
+    ✖ 3 problems (2 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+Hash: fa68bde48d9dd33e4f09
+Version: webpack 2.3.2
+Child
+    Hash: fa68bde48d9dd33e4f09
+    Time: 4217ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 error]
+     [281] ./~/firebase/app.js 17.7 kB {0} [built]
+     [282] ./~/timers-browserify/main.js 1.36 kB {0} [built]
+     [283] ./source/Firebase.jsx 626 bytes {0} [built] [1 error]
+     [284] ./~/firebase/auth.js 129 kB {0} [built]
+     [285] ./~/firebase/database.js 121 kB {0} [built]
+     [286] ./~/firebase/firebase-browser.js 448 bytes {0} [built]
+     [287] ./~/firebase/messaging.js 17.8 kB {0} [built]
+     [288] ./~/firebase/storage.js 30.2 kB {0} [built]
+     [289] ./source/EnjoyLife-d535250a0bd1.json 2.34 kB {0} [built]
+     [290] ./~/setimmediate/setImmediate.js 6.47 kB {0} [built]
+        + 268 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+       5:36  error    Missing semicolon                    semi
+      10:1   error    More than 2 blank lines not allowed  no-multiple-empty-lines
+      16:3   warning  Unexpected console statement         no-console
+    
+    ✖ 3 problems (2 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+############################################
+############################################
+############################################
+Wed May  3 22:33:47 COT 2017
+Updating af4a152..7b0f46b
+Fast-forward
+ source/pages/containers/Home.jsx | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+Hash: f2861878547b60676074
+Version: webpack 2.3.2
+Child
+    Hash: f2861878547b60676074
+    Time: 921ms
+                    Asset     Size  Chunks             Chunk Names
+    ../statics/styles.css  1.37 kB       0  [emitted]  main
+      [93] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 warning]
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+Hash: fa68bde48d9dd33e4f09
+Version: webpack 2.3.2
+Child
+    Hash: fa68bde48d9dd33e4f09
+    Time: 922ms
+                    Asset     Size  Chunks             Chunk Names
+    ../statics/styles.css  1.37 kB       0  [emitted]  main
+     [111] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 warning]
+        + 278 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+############################################
+############################################
+############################################
+Wed May  3 22:42:14 COT 2017
+Updating 7b0f46b..4b3a94c
+Fast-forward
+ source/Firebase.jsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Hash: 5248687b81ffdc6082c2
+Version: webpack 2.3.2
+Child
+    Hash: 5248687b81ffdc6082c2
+    Time: 727ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [207] ./source/Firebase.jsx 627 bytes {0} [built] [1 error]
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+Hash: a56fdc1303dd40b87527
+Version: webpack 2.3.2
+Child
+    Hash: a56fdc1303dd40b87527
+    Time: 738ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [283] ./source/Firebase.jsx 627 bytes {0} [built] [1 error]
+        + 278 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+############################################
+############################################
+############################################
+Wed May  3 22:54:33 COT 2017
+Updating 4b3a94c..7cac859
+Fast-forward
+ source/Firebase.jsx | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+Hash: 56a8f0962380612d20b4
+Version: webpack 2.3.2
+Child
+    Hash: 56a8f0962380612d20b4
+    Time: 1758ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.18 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [283] ./source/Firebase.jsx 655 bytes {0} [built] [1 error]
+        + 274 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      12:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 0ca57545b1ce5cc42b2d
+Version: webpack 2.3.2
+Child
+    Hash: 0ca57545b1ce5cc42b2d
+    Time: 1811ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   841 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [207] ./source/Firebase.jsx 655 bytes {0} [built] [1 error]
+     [208] ./~/firebase/app.js 17.7 kB {0} [built]
+     [209] ./~/firebase/database.js 121 kB {0} [built]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      12:19  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Wed May  3 23:04:03 COT 2017
+Updating 7cac859..90fbfca
+Fast-forward
+ source/Firebase.jsx | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+Hash: ac9434a2b45b375dc81a
+Version: webpack 2.3.2
+Child
+    Hash: ac9434a2b45b375dc81a
+    Time: 810ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [283] ./source/Firebase.jsx 925 bytes {0} [built] [1 error]
+        + 278 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+       8:1   warning  Unexpected console statement                   no-console
+      11:19  error    Newline required at end of file but not found  eol-last
+    
+    ✖ 2 problems (1 error, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: dd27d9ecbe59c65ea75e
+Version: webpack 2.3.2
+Child
+    Hash: dd27d9ecbe59c65ea75e
+    Time: 868ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [207] ./source/Firebase.jsx 925 bytes {0} [built] [1 error]
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+       8:1   warning  Unexpected console statement                   no-console
+      11:19  error    Newline required at end of file but not found  eol-last
+    
+    ✖ 2 problems (1 error, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Wed May  3 23:06:14 COT 2017
+Updating 90fbfca..d4f35b9
+Fast-forward
+ source/Firebase.jsx              | 6 +++---
+ source/pages/containers/Home.jsx | 4 ++--
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+Hash: 693ee3333f3d5c847ac8
+Version: webpack 2.3.2
+Child
+    Hash: 693ee3333f3d5c847ac8
+    Time: 1312ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 warning]
+     [283] ./source/Firebase.jsx 912 bytes {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:28  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 87177bd6d6d9c13b4156
+Version: webpack 2.3.2
+Child
+    Hash: 87177bd6d6d9c13b4156
+    Time: 1357ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8.08 kB {0} [built] [1 warning]
+     [207] ./source/Firebase.jsx 912 bytes {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      11:28  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Wed May  3 23:14:19 COT 2017
+Updating d4f35b9..47c3365
+Fast-forward
+ source/Firebase.jsx              | 8 ++------
+ source/pages/containers/Home.jsx | 3 ---
+ source/server.jsx                | 2 ++
+ 3 files changed, 4 insertions(+), 9 deletions(-)
+Hash: 5cc2fa44e89a6d3d6b56
+Version: webpack 2.3.2
+Child
+    Hash: 5cc2fa44e89a6d3d6b56
+    Time: 1265ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.03 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8 kB {0} [built]
+        + 267 hidden modules
+Hash: a976dc3e7a71b597e1fc
+Version: webpack 2.3.2
+Child
+    Hash: a976dc3e7a71b597e1fc
+    Time: 1474ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   700 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8 kB {0} [built]
+      [96] ./source/server.jsx 1.81 kB {0} [built] [1 error]
+        + 195 hidden modules
+    
+    ERROR in ./source/server.jsx
+    
+    /home/migu3lr/enjoy/source/server.jsx
+      7:1  error  'Firebase' should be listed in the project's dependencies. Run 'npm i -S Firebase' to add it  import/no-extraneous-dependencies
+      7:8  error  Unable to resolve path to module 'Firebase'                                                   import/no-unresolved
+      7:8  error  Missing file extension for "Firebase"                                                         import/extensions
+    
+    ✖ 3 problems (3 errors, 0 warnings)
+    
+    
+    ERROR in ./source/server.jsx
+    Module not found: Error: Can't resolve 'Firebase' in '/home/migu3lr/enjoy/source'
+     @ ./source/server.jsx 17:0-19
+############################################
+############################################
+############################################
+Wed May  3 23:16:12 COT 2017
+Updating 47c3365..fc0169d
+Fast-forward
+ source/server.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Hash: 374f4111f09ee54f5e3e
+Version: webpack 2.3.2
+Child
+    Hash: 374f4111f09ee54f5e3e
+    Time: 493ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [96] ./source/server.jsx 1.81 kB {0} [built]
+     [207] ./source/Firebase.jsx 755 bytes {0} [built] [1 error]
+        + 198 hidden modules
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      7:4  error  Newline required at end of file but not found  eol-last
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/server.jsx 17:0-21
+############################################
+############################################
+############################################
+Wed May  3 23:18:33 COT 2017
+Updating fc0169d..b42f5d4
+Fast-forward
+ source/Firebase.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+############################################
+############################################
+############################################
+Wed May  3 23:21:01 COT 2017
+Updating b42f5d4..19a7259
+Fast-forward
+ source/pages/containers/Home.jsx | 3 +++
+ 1 file changed, 3 insertions(+)
+Hash: de13ac0ac7240de5751b
+Version: webpack 2.3.2
+Child
+    Hash: de13ac0ac7240de5751b
+    Time: 754ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8.14 kB {0} [built] [1 warning]
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+Hash: 56a79b9bbfd3d36ff7d2
+Version: webpack 2.3.2
+Child
+    Hash: 56a79b9bbfd3d36ff7d2
+    Time: 2618ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8.14 kB {0} [built] [1 warning]
+     [281] ./~/firebase/app.js 17.7 kB {0} [built]
+     [282] ./~/timers-browserify/main.js 1.36 kB {0} [built]
+     [284] ./~/firebase/auth.js 129 kB {0} [built]
+     [285] ./~/firebase/database.js 121 kB {0} [built]
+     [286] ./~/firebase/firebase-browser.js 448 bytes {0} [built]
+     [287] ./~/firebase/messaging.js 17.8 kB {0} [built]
+     [288] ./~/firebase/storage.js 30.2 kB {0} [built]
+     [290] ./~/setimmediate/setImmediate.js 6.47 kB {0} [built]
+        + 268 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+############################################
+############################################
+############################################
+Wed May  3 23:38:08 COT 2017
+Updating 19a7259..11012a0
+Fast-forward
+ source/Firebase.jsx              |  4 +++-
+ source/api.1.jsx                 | 45 ++++++++++++++++++++++++++++++++++++++++
+ source/api.jsx                   |  7 +++++++
+ source/pages/containers/Home.jsx |  3 +--
+ source/server.jsx                |  4 +++-
+ 5 files changed, 59 insertions(+), 4 deletions(-)
+ create mode 100644 source/api.1.jsx
+Hash: 01d8eea27c43656c6d58
+Version: webpack 2.3.2
+Child
+    Hash: 01d8eea27c43656c6d58
+    Time: 2003ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.35 kB {0} [built] [1 error]
+      [93] ./source/pages/containers/Home.jsx 8.02 kB {0} [built]
+      [96] ./source/server.jsx 1.99 kB {0} [built]
+     [207] ./source/Firebase.jsx 873 bytes {0} [built]
+        + 196 hidden modules
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      7:7   error    'lista' is assigned a value but never used  no-unused-vars
+      8:1   error    'ref' is not defined                        no-undef
+      8:10  error    Strings must use singlequote                quotes
+      8:19  warning  Unexpected unnamed function                 func-names
+      8:19  error    Unexpected function expression              prefer-arrow-callback
+      8:27  error    Missing space before function parentheses   space-before-function-paren
+      9:3   warning  Unexpected console statement                no-console
+    
+    ✖ 7 problems (5 errors, 2 warnings)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+Hash: 744d14424285dedf946f
+Version: webpack 2.3.2
+Child
+    Hash: 744d14424285dedf946f
+    Time: 6107ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  2.51 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.35 kB {0} [built] [1 error]
+     [111] ./source/pages/containers/Home.jsx 8.02 kB {0} [built]
+     [283] ./source/Firebase.jsx 873 bytes {0} [built]
+     [304] ./~/events/events.js 8.33 kB {0} [built]
+     [394] ./source/server.jsx 1.99 kB {0} [built]
+     [434] ./~/express/index.js 224 bytes {0} [built]
+     [436] ./~/express/lib/application.js 14.3 kB {0} [built]
+     [437] ./~/express/lib/express.js 2.22 kB {0} [built]
+     [439] ./~/express/lib/request.js 12.2 kB {0} [built]
+     [440] ./~/express/lib/response.js 25.2 kB {0} [built]
+     [462] ./~/merge-descriptors/index.js 1.22 kB {0} [built]
+     [483] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [485] ./~/react-dom/lib/ReactServerRendering.js 3.47 kB {0} [built]
+     [486] ./~/react-dom/server.js 65 bytes {0} [built]
+     [494] ./~/serve-static/index.js 4.53 kB {0} [built]
+        + 493 hidden modules
+    
+    WARNING in ./~/express/lib/view.js
+    80:29-41 Critical dependency: the request of a dependency is an expression
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      7:7   error    'lista' is assigned a value but never used  no-unused-vars
+      8:1   error    'ref' is not defined                        no-undef
+      8:10  error    Strings must use singlequote                quotes
+      8:19  warning  Unexpected unnamed function                 func-names
+      8:19  error    Unexpected function expression              prefer-arrow-callback
+      8:27  error    Missing space before function parentheses   space-before-function-paren
+      9:3   warning  Unexpected console statement                no-console
+    
+    ✖ 7 problems (5 errors, 2 warnings)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./~/express/lib/request.js
+    Module not found: Error: Can't resolve 'net' in '/home/migu3lr/enjoy/node_modules/express/lib'
+     @ ./~/express/lib/request.js 18:11-25
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/server.jsx
+     @ ./source/api.jsx
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./~/express/lib/view.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/express/lib'
+     @ ./~/express/lib/view.js 18:9-22
+     @ ./~/express/lib/application.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/server.jsx
+     @ ./source/api.jsx
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./~/send/index.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/send'
+     @ ./~/send/index.js 24:9-22
+     @ ./~/express/lib/response.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/server.jsx
+     @ ./source/api.jsx
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./~/etag/index.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/etag'
+     @ ./~/etag/index.js 22:12-25
+     @ ./~/express/lib/utils.js
+     @ ./~/express/lib/application.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/server.jsx
+     @ ./source/api.jsx
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./~/destroy/index.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/destroy'
+     @ ./~/destroy/index.js 14:17-30
+     @ ./~/send/index.js
+     @ ./~/express/lib/response.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/server.jsx
+     @ ./source/api.jsx
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./~/mime/mime.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/mime'
+     @ ./~/mime/mime.js 2:9-22
+     @ ./~/send/index.js
+     @ ./~/express/lib/response.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/server.jsx
+     @ ./source/api.jsx
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+############################################
+############################################
+############################################
+Wed May  3 23:49:04 COT 2017
+Updating 11012a0..0647b5b
+Fast-forward
+ source/api.jsx                   | 7 -------
+ source/pages/containers/Home.jsx | 3 ++-
+ source/server.jsx                | 4 ----
+ 3 files changed, 2 insertions(+), 12 deletions(-)
+Hash: 56a79b9bbfd3d36ff7d2
+Version: webpack 2.3.2
+Child
+    Hash: 56a79b9bbfd3d36ff7d2
+    Time: 2612ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.13 kB {0} [built]
+     [111] ./source/pages/containers/Home.jsx 8.14 kB {0} [built] [1 warning]
+        + 275 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+Hash: b628390c8d7d7faba57f
+Version: webpack 2.3.2
+Child
+    Hash: b628390c8d7d7faba57f
+    Time: 2772ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   700 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.13 kB {0} [built]
+      [93] ./source/pages/containers/Home.jsx 8.14 kB {0} [built] [1 warning]
+      [96] ./source/server.jsx 1.79 kB {0} [built]
+        + 195 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Wed May  3 23:52:12 COT 2017
+Updating 0647b5b..bad4e0b
+Fast-forward
+ source/pages/containers/Home.jsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Hash: 13c13f99f188a9f68eb8
+Version: webpack 2.3.2
+Child
+    Hash: 13c13f99f188a9f68eb8
+    Time: 1210ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8.15 kB {0} [built] [1 warning]
+        + 278 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+Hash: 2cf23236f3960e08653b
+Version: webpack 2.3.2
+Child
+    Hash: 2cf23236f3960e08653b
+    Time: 1270ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   703 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8.15 kB {0} [built] [1 warning]
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Wed May  3 23:55:05 COT 2017
+Updating bad4e0b..dd06524
+Fast-forward
+ source/Firebase.jsx | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+Hash: 6be8b49407227a1793d0
+Version: webpack 2.3.2
+Child
+    Hash: 6be8b49407227a1793d0
+    Time: 613ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [283] ./source/Firebase.jsx 797 bytes {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 0b88b31fc0570de47ee7
+Version: webpack 2.3.2
+Child
+    Hash: 0b88b31fc0570de47ee7
+    Time: 650ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   701 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [207] ./source/Firebase.jsx 797 bytes {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:16-41
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:12:55 COT 2017
+Updating dd06524..b13f181
+Fast-forward
+ source/Firebase.jsx              |  4 ++--
+ source/api.jsx                   | 18 ++++++++++--------
+ source/pages/containers/Home.jsx |  4 ++--
+ 3 files changed, 14 insertions(+), 12 deletions(-)
+Hash: 8ce04088b9c71def8e4c
+Version: webpack 2.3.2
+Child
+    Hash: 8ce04088b9c71def8e4c
+    Time: 1039ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.35 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.24 kB {0} [built] [1 error]
+     [111] ./source/pages/containers/Home.jsx 329 bytes {0} [built] [failed] [2 errors]
+     [283] ./source/Firebase.jsx 791 bytes {0} [built] [1 error]
+        + 275 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:15  error  Parsing error: await is a reserved word
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    Module build failed: SyntaxError: await is a reserved word (15:14)
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      10:13  error    'response' is assigned a value but never used  no-unused-vars
+      11:7   error    'ref' is not defined                           no-undef
+      11:23  error    Unexpected function expression                 prefer-arrow-callback
+      11:23  warning  Unexpected unnamed function                    func-names
+      11:31  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 15 problems (14 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 91584c95efd21f53e086
+Version: webpack 2.3.2
+Child
+    Hash: 91584c95efd21f53e086
+    Time: 1063ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   693 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.24 kB {0} [built] [1 error]
+      [93] ./source/pages/containers/Home.jsx 329 bytes {0} [built] [failed] [2 errors]
+     [207] ./source/Firebase.jsx 791 bytes {0} [built] [1 error]
+        + 196 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:15  error  Parsing error: await is a reserved word
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    Module build failed: SyntaxError: await is a reserved word (15:14)
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      10:13  error    'response' is assigned a value but never used  no-unused-vars
+      11:7   error    'ref' is not defined                           no-undef
+      11:23  error    Unexpected function expression                 prefer-arrow-callback
+      11:23  warning  Unexpected unnamed function                    func-names
+      11:31  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 15 problems (14 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:14:15 COT 2017
+Updating b13f181..a95f593
+Fast-forward
+ source/api.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Hash: eb9e80b0a00ccc87ad95
+Version: webpack 2.3.2
+Child
+    Hash: eb9e80b0a00ccc87ad95
+    Time: 962ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.35 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.25 kB {0} [built] [1 error]
+     [111] ./source/pages/containers/Home.jsx 329 bytes {0} [built] [failed] [2 errors]
+        + 276 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:15  error  Parsing error: await is a reserved word
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    Module build failed: SyntaxError: await is a reserved word (15:14)
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 2a8c7059a4610847c665
+Version: webpack 2.3.2
+Child
+    Hash: 2a8c7059a4610847c665
+    Time: 1015ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   693 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.25 kB {0} [built] [1 error]
+      [93] ./source/pages/containers/Home.jsx 329 bytes {0} [built] [failed] [2 errors]
+        + 197 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:15  error  Parsing error: await is a reserved word
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    Module build failed: SyntaxError: await is a reserved word (15:14)
+    
+      13 | 
+      14 | function Home() {
+    > 15 |   console.log(await api.bd.getList());
+         |               ^
+      16 |   return (
+      17 |     <section name="Home">
+      18 |       <div className={`section ${css.section1}`} id="index-banner">
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:16:38 COT 2017
+Updating a95f593..fb32833
+Fast-forward
+ source/pages/containers/Home.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Hash: 0d9c2c4f3dba0fa252ae
+Version: webpack 2.3.2
+Child
+    Hash: 0d9c2c4f3dba0fa252ae
+    Time: 1296ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8.12 kB {0} [built] [1 warning]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: dc8d8e0eeae2839cba90
+Version: webpack 2.3.2
+Child
+    Hash: dc8d8e0eeae2839cba90
+    Time: 1336ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   701 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8.12 kB {0} [built] [1 warning]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:25:32 COT 2017
+Updating fb32833..af7b17e
+Fast-forward
+ source/pages/containers/Home.jsx  |  2 +-
+ source/shared/components/Menu.jsx | 49 ++++++++++++++++++++++-----------------
+ 2 files changed, 29 insertions(+), 22 deletions(-)
+Hash: 1ab9282c08ca4388f6a7
+Version: webpack 2.3.2
+Child
+    Hash: 1ab9282c08ca4388f6a7
+    Time: 1546ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+     [111] ./source/pages/containers/Home.jsx 8.12 kB {0} [built] [1 warning]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+       7:25  error    'api' is not defined                                       no-undef
+       8:5   warning  Unexpected console statement                               no-console
+      10:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:9   error    'props' is not defined                                     no-undef
+      15:22  error    'props' is not defined                                     no-undef
+      16:15  error    'props' is not defined                                     no-undef
+      34:20  error    'props' is not defined                                     no-undef
+      35:13  error    'props' is not defined                                     no-undef
+      48:15  error    'PrintLogin' PropType is defined but prop is never used    react/no-unused-prop-types
+      49:11  error    'Mobile' PropType is defined but prop is never used        react/no-unused-prop-types
+    
+    ✖ 11 problems (10 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 6f5f3ec472c4f8546f27
+Version: webpack 2.3.2
+Child
+    Hash: 6f5f3ec472c4f8546f27
+    Time: 1600ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   701 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [93] ./source/pages/containers/Home.jsx 8.12 kB {0} [built] [1 warning]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+       7:25  error    'api' is not defined                                       no-undef
+       8:5   warning  Unexpected console statement                               no-console
+      10:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:9   error    'props' is not defined                                     no-undef
+      15:22  error    'props' is not defined                                     no-undef
+      16:15  error    'props' is not defined                                     no-undef
+      34:20  error    'props' is not defined                                     no-undef
+      35:13  error    'props' is not defined                                     no-undef
+      48:15  error    'PrintLogin' PropType is defined but prop is never used    react/no-unused-prop-types
+      49:11  error    'Mobile' PropType is defined but prop is never used        react/no-unused-prop-types
+    
+    ✖ 11 problems (10 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:27:02 COT 2017
+Updating af7b17e..f50f268
+Fast-forward
+ source/shared/components/Menu.jsx | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+Hash: 9149258a2822dcf24c23
+Version: webpack 2.3.2
+Child
+    Hash: 9149258a2822dcf24c23
+    Time: 953ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 278 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:3   error    testFirebase should be placed after componentDidMount      react/sort-comp
+       6:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+       7:25  error    'api' is not defined                                       no-undef
+       8:5   warning  Unexpected console statement                               no-console
+      16:9   error    'props' is not defined                                     no-undef
+      19:22  error    'props' is not defined                                     no-undef
+      20:15  error    'props' is not defined                                     no-undef
+      38:20  error    'props' is not defined                                     no-undef
+      39:13  error    'props' is not defined                                     no-undef
+      52:15  error    'PrintLogin' PropType is defined but prop is never used    react/no-unused-prop-types
+      53:11  error    'Mobile' PropType is defined but prop is never used        react/no-unused-prop-types
+    
+    ✖ 11 problems (10 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 48fe7dcaa160fe2c1834
+Version: webpack 2.3.2
+Child
+    Hash: 48fe7dcaa160fe2c1834
+    Time: 1040ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:3   error    testFirebase should be placed after componentDidMount      react/sort-comp
+       6:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+       7:25  error    'api' is not defined                                       no-undef
+       8:5   warning  Unexpected console statement                               no-console
+      16:9   error    'props' is not defined                                     no-undef
+      19:22  error    'props' is not defined                                     no-undef
+      20:15  error    'props' is not defined                                     no-undef
+      38:20  error    'props' is not defined                                     no-undef
+      39:13  error    'props' is not defined                                     no-undef
+      52:15  error    'PrintLogin' PropType is defined but prop is never used    react/no-unused-prop-types
+      53:11  error    'Mobile' PropType is defined but prop is never used        react/no-unused-prop-types
+    
+    ✖ 11 problems (10 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:28:03 COT 2017
+Updating f50f268..f5ec729
+Fast-forward
+ source/shared/components/Menu.jsx | 4 ++++
+ 1 file changed, 4 insertions(+)
+Hash: e194a031ce5b334245a8
+Version: webpack 2.3.2
+Child
+    Hash: e194a031ce5b334245a8
+    Time: 889ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 278 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:3   error    Useless constructor                                        no-useless-constructor
+       6:21  error    Missing space before opening brace                         space-before-blocks
+       9:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      10:3   error    testFirebase should be placed after componentDidMount      react/sort-comp
+      10:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      11:25  error    'api' is not defined                                       no-undef
+      12:5   warning  Unexpected console statement                               no-console
+      20:9   error    'props' is not defined                                     no-undef
+      23:22  error    'props' is not defined                                     no-undef
+      24:15  error    'props' is not defined                                     no-undef
+      42:20  error    'props' is not defined                                     no-undef
+      43:13  error    'props' is not defined                                     no-undef
+      56:15  error    'PrintLogin' PropType is defined but prop is never used    react/no-unused-prop-types
+      57:11  error    'Mobile' PropType is defined but prop is never used        react/no-unused-prop-types
+    
+    ✖ 14 problems (13 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 8661f34da9421ebb2da7
+Version: webpack 2.3.2
+Child
+    Hash: 8661f34da9421ebb2da7
+    Time: 948ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:3   error    Useless constructor                                        no-useless-constructor
+       6:21  error    Missing space before opening brace                         space-before-blocks
+       9:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      10:3   error    testFirebase should be placed after componentDidMount      react/sort-comp
+      10:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      11:25  error    'api' is not defined                                       no-undef
+      12:5   warning  Unexpected console statement                               no-console
+      20:9   error    'props' is not defined                                     no-undef
+      23:22  error    'props' is not defined                                     no-undef
+      24:15  error    'props' is not defined                                     no-undef
+      42:20  error    'props' is not defined                                     no-undef
+      43:13  error    'props' is not defined                                     no-undef
+      56:15  error    'PrintLogin' PropType is defined but prop is never used    react/no-unused-prop-types
+      57:11  error    'Mobile' PropType is defined but prop is never used        react/no-unused-prop-types
+    
+    ✖ 14 problems (13 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:32:02 COT 2017
+Updating f5ec729..fa8f64a
+Fast-forward
+ source/shared/components/Menu.jsx | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+Hash: d846640feceeccc5f9c1
+Version: webpack 2.3.2
+Child
+    Hash: d846640feceeccc5f9c1
+    Time: 740ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 278 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:3   error    Useless constructor                                        no-useless-constructor
+       6:21  error    Missing space before opening brace                         space-before-blocks
+       9:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      10:3   error    testFirebase should be placed after componentDidMount      react/sort-comp
+      10:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      11:25  error    'api' is not defined                                       no-undef
+      12:5   warning  Unexpected console statement                               no-console
+    
+    ✖ 7 problems (6 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 5110e26e03ae8ba8437a
+Version: webpack 2.3.2
+Child
+    Hash: 5110e26e03ae8ba8437a
+    Time: 763ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       6:3   error    Useless constructor                                        no-useless-constructor
+       6:21  error    Missing space before opening brace                         space-before-blocks
+       9:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      10:3   error    testFirebase should be placed after componentDidMount      react/sort-comp
+      10:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      11:25  error    'api' is not defined                                       no-undef
+      12:5   warning  Unexpected console statement                               no-console
+    
+    ✖ 7 problems (6 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:36:40 COT 2017
+Updating fa8f64a..c31a2f6
+Fast-forward
+ source/pages/containers/Page.css  |  2 +-
+ source/shared/components/Menu.jsx | 12 +++++-------
+ 2 files changed, 6 insertions(+), 8 deletions(-)
+Hash: f44c34f6e87bce9df230
+Version: webpack 2.3.2
+Child
+    Hash: f44c34f6e87bce9df230
+    Time: 1375ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [40] ./source/pages/containers/Page.css 250 bytes {0} [built]
+     [272] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes [built]
+     [278] ./~/style-loader/addStyles.js 8.51 kB [built]
+     [279] ./~/style-loader/fixUrls.js 3.01 kB [built]
+        + 282 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    Child extract-text-webpack-plugin:
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes {0} [built]
+            + 6 hidden modules
+Hash: 01e8aa90463d9e9f3300
+Version: webpack 2.3.2
+Child
+    Hash: 01e8aa90463d9e9f3300
+    Time: 1430ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [30] ./source/pages/containers/Page.css 250 bytes {0} [built]
+     [198] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes [built]
+     [203] ./~/style-loader/addStyles.js 8.51 kB [built]
+     [204] ./~/style-loader/fixUrls.js 3.01 kB [built]
+        + 199 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:28  error    Unexpected function expression                 prefer-arrow-callback
+      11:28  warning  Unexpected unnamed function                    func-names
+      11:36  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Post.jsx 25:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    Child extract-text-webpack-plugin:
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes {0} [built]
+            + 1 hidden modules
+############################################
+############################################
+############################################
+Thu May  4 00:48:31 COT 2017
+Updating c31a2f6..8df1ff5
+Fast-forward
+ source/api.jsx | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+Hash: 9964fb8bcb564750158e
+Version: webpack 2.3.2
+Child
+    Hash: 9964fb8bcb564750158e
+    Time: 837ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.18 kB {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:30  error    Unexpected function expression                 prefer-arrow-callback
+      11:30  warning  Unexpected unnamed function                    func-names
+      11:38  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 35e7e245f96b9afffba3
+Version: webpack 2.3.2
+Child
+    Hash: 35e7e245f96b9afffba3
+    Time: 863ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.18 kB {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:30  error    Unexpected function expression                 prefer-arrow-callback
+      11:30  warning  Unexpected unnamed function                    func-names
+      11:38  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:51:59 COT 2017
+Updating 8df1ff5..7353cb7
+Fast-forward
+ source/api.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Hash: 4ea69f786c00d11bab2d
+Version: webpack 2.3.2
+Child
+    Hash: 4ea69f786c00d11bab2d
+    Time: 820ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.18 kB {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:30  error    Unexpected function expression                 prefer-arrow-callback
+      11:30  warning  Unexpected unnamed function                    func-names
+      11:38  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: bb352a1bd69d79dbaabb
+Version: webpack 2.3.2
+Child
+    Hash: bb352a1bd69d79dbaabb
+    Time: 878ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.18 kB {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:30  error    Unexpected function expression                 prefer-arrow-callback
+      11:30  warning  Unexpected unnamed function                    func-names
+      11:38  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:54:40 COT 2017
+Updating 7353cb7..f77b282
+Fast-forward
+ source/api.jsx | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Hash: 7ba9b0a46deb63c0ad90
+Version: webpack 2.3.2
+Child
+    Hash: 7ba9b0a46deb63c0ad90
+    Time: 759ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.25 kB {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:35  error    Unexpected function expression                 prefer-arrow-callback
+      11:35  warning  Unexpected unnamed function                    func-names
+      11:43  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 33f1d7ec37a5cfa3fcd3
+Version: webpack 2.3.2
+Child
+    Hash: 33f1d7ec37a5cfa3fcd3
+    Time: 802ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.25 kB {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:35  error    Unexpected function expression                 prefer-arrow-callback
+      11:35  warning  Unexpected unnamed function                    func-names
+      11:43  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 00:57:36 COT 2017
+Updating f77b282..fb112c1
+Fast-forward
+ source/api.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Hash: ba391b015678a9826bc9
+Version: webpack 2.3.2
+Child
+    Hash: ba391b015678a9826bc9
+    Time: 732ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.26 kB {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:35  error    Unexpected function expression                 prefer-arrow-callback
+      11:35  warning  Unexpected unnamed function                    func-names
+      11:43  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: b4d1e5efb14844c1d618
+Version: webpack 2.3.2
+Child
+    Hash: b4d1e5efb14844c1d618
+    Time: 767ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.26 kB {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error    'auth' is assigned a value but never used      no-unused-vars
+      11:35  error    Unexpected function expression                 prefer-arrow-callback
+      11:35  warning  Unexpected unnamed function                    func-names
+      11:43  error    Missing space before function parentheses      space-before-function-paren
+      12:15  error    'data' is already declared in the upper scope  no-shadow
+      17:39  error    'baseUrl' is not defined                       no-undef
+      18:13  error    'data' is already declared in the upper scope  no-shadow
+      23:39  error    'baseUrl' is not defined                       no-undef
+      24:13  error    'data' is already declared in the upper scope  no-shadow
+      31:39  error    'baseUrl' is not defined                       no-undef
+      32:13  error    'data' is already declared in the upper scope  no-shadow
+      37:39  error    'baseUrl' is not defined                       no-undef
+      38:13  error    'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 13 problems (12 errors, 1 warning)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 01:03:45 COT 2017
+Updating fb112c1..ffa9209
+Fast-forward
+ source/api.jsx | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+Hash: 49c2636efd25c4ac38a2
+Version: webpack 2.3.2
+Child
+    Hash: 49c2636efd25c4ac38a2
+    Time: 816ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.15 kB {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error  'auth' is assigned a value but never used      no-unused-vars
+      14:39  error  'baseUrl' is not defined                       no-undef
+      15:13  error  'data' is already declared in the upper scope  no-shadow
+      20:39  error  'baseUrl' is not defined                       no-undef
+      21:13  error  'data' is already declared in the upper scope  no-shadow
+      28:39  error  'baseUrl' is not defined                       no-undef
+      29:13  error  'data' is already declared in the upper scope  no-shadow
+      34:39  error  'baseUrl' is not defined                       no-undef
+      35:13  error  'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 9 problems (9 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: d514fc09cc6cef0e4d12
+Version: webpack 2.3.2
+Child
+    Hash: d514fc09cc6cef0e4d12
+    Time: 861ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.15 kB {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error  'auth' is assigned a value but never used      no-unused-vars
+      14:39  error  'baseUrl' is not defined                       no-undef
+      15:13  error  'data' is already declared in the upper scope  no-shadow
+      20:39  error  'baseUrl' is not defined                       no-undef
+      21:13  error  'data' is already declared in the upper scope  no-shadow
+      28:39  error  'baseUrl' is not defined                       no-undef
+      29:13  error  'data' is already declared in the upper scope  no-shadow
+      34:39  error  'baseUrl' is not defined                       no-undef
+      35:13  error  'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 9 problems (9 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 01:06:14 COT 2017
+Updating ffa9209..54a55f2
+Fast-forward
+ source/api.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Hash: 230d6f2dda0a07b9a915
+Version: webpack 2.3.2
+Child
+    Hash: 230d6f2dda0a07b9a915
+    Time: 722ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.17 kB {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error  'auth' is assigned a value but never used      no-unused-vars
+      14:39  error  'baseUrl' is not defined                       no-undef
+      15:13  error  'data' is already declared in the upper scope  no-shadow
+      20:39  error  'baseUrl' is not defined                       no-undef
+      21:13  error  'data' is already declared in the upper scope  no-shadow
+      28:39  error  'baseUrl' is not defined                       no-undef
+      29:13  error  'data' is already declared in the upper scope  no-shadow
+      34:39  error  'baseUrl' is not defined                       no-undef
+      35:13  error  'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 9 problems (9 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: a4fd1fd6d17e68dc54c5
+Version: webpack 2.3.2
+Child
+    Hash: a4fd1fd6d17e68dc54c5
+    Time: 758ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.17 kB {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:21  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error  'auth' is assigned a value but never used      no-unused-vars
+      14:39  error  'baseUrl' is not defined                       no-undef
+      15:13  error  'data' is already declared in the upper scope  no-shadow
+      20:39  error  'baseUrl' is not defined                       no-undef
+      21:13  error  'data' is already declared in the upper scope  no-shadow
+      28:39  error  'baseUrl' is not defined                       no-undef
+      29:13  error  'data' is already declared in the upper scope  no-shadow
+      34:39  error  'baseUrl' is not defined                       no-undef
+      35:13  error  'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 9 problems (9 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 01:08:33 COT 2017
+Updating 54a55f2..a0c665e
+Fast-forward
+ source/api.jsx                    | 4 ++--
+ source/shared/components/Menu.jsx | 6 +++---
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+Hash: 8c9dc58262e58bca2cae
+Version: webpack 2.3.2
+Child
+    Hash: 8c9dc58262e58bca2cae
+    Time: 1149ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [39] ./source/api.jsx 2.1 kB {0} [built] [1 error]
+        + 277 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error  'auth' is assigned a value but never used      no-unused-vars
+      14:39  error  'baseUrl' is not defined                       no-undef
+      15:13  error  'data' is already declared in the upper scope  no-shadow
+      20:39  error  'baseUrl' is not defined                       no-undef
+      21:13  error  'data' is already declared in the upper scope  no-shadow
+      28:39  error  'baseUrl' is not defined                       no-undef
+      29:13  error  'data' is already declared in the upper scope  no-shadow
+      34:39  error  'baseUrl' is not defined                       no-undef
+      35:13  error  'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 9 problems (9 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:15  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+Hash: 13f481fdacc63bfb5459
+Version: webpack 2.3.2
+Child
+    Hash: 13f481fdacc63bfb5459
+    Time: 1181ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   701 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [29] ./source/api.jsx 2.1 kB {0} [built] [1 error]
+        + 198 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+       5:7   error  'auth' is assigned a value but never used      no-unused-vars
+      14:39  error  'baseUrl' is not defined                       no-undef
+      15:13  error  'data' is already declared in the upper scope  no-shadow
+      20:39  error  'baseUrl' is not defined                       no-undef
+      21:13  error  'data' is already declared in the upper scope  no-shadow
+      28:39  error  'baseUrl' is not defined                       no-undef
+      29:13  error  'data' is already declared in the upper scope  no-shadow
+      34:39  error  'baseUrl' is not defined                       no-undef
+      35:13  error  'data' is already declared in the upper scope  no-shadow
+    
+    ✖ 9 problems (9 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 11:16-37
+     @ ./source/pages/containers/Post.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      11:1   error    Trailing spaces not allowed                                no-trailing-spaces
+      12:15  error    Expected 'this' to be used by class method 'testFirebase'  class-methods-use-this
+      14:5   warning  Unexpected console statement                               no-console
+      15:4   error    Trailing spaces not allowed                                no-trailing-spaces
+    
+    ✖ 4 problems (3 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+############################################
+############################################
+############################################
+Thu May  4 13:17:01 COT 2017
+Already up-to-date.
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: c5d9a31ef35aef067ecd5cd31746911deb27330d
+Version: webpack 2.3.2
+Child
+    Hash: c5d9a31ef35aef067ecd
+    Time: 16891ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   698 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [30] ./source/pages/containers/Page.css 250 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built] [1 error]
+      [86] ./source/pages/containers/Page.jsx 2.27 kB {0} [built]
+      [87] ./source/messages.json 1.11 kB {0} [built]
+      [88] ./~/react-dom/server.js 65 bytes {0} [built]
+      [90] ./source/comments/containers/Comment.jsx 1.22 kB {0} [built]
+      [91] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [92] ./source/enjoy/pages/containers/Page.jsx 857 bytes {0} [built]
+      [93] ./source/pages/containers/Home.jsx 8.12 kB {0} [built] [1 error]
+      [94] ./source/pages/containers/Post.jsx 3.17 kB {0} [built] [1 error]
+      [95] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built] [1 error]
+      [96] ./source/server.jsx 1.79 kB {0} [built]
+     [138] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [143] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {0} [built]
+        + 189 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+      15:3   warning  Unexpected console statement                                                                                                                                                                                                                                                                                                                                                         no-console
+    
+    ✖ 3 problems (2 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/pages/containers/Post.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Post.jsx
+      7:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+      7:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 17:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/pages/containers/Profile.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Profile.jsx
+      8:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+      8:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 25:15-35
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      45:24  error  Parsing error: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data;
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    Module build failed: SyntaxError: await is a reserved word (45:23)
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data;
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/posts/containers/Post.jsx
+    
+    /home/migu3lr/enjoy/source/posts/containers/Post.jsx
+      5:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+      5:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Post.jsx 13:12-50
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+      12:1   error    Trailing spaces not allowed                                                                                                                                                                                                                                                                                                                                                          no-trailing-spaces
+      16:1   error    Trailing spaces not allowed                                                                                                                                                                                                                                                                                                                                                          no-trailing-spaces
+      17:15  error    Expected 'this' to be used by class method 'testFirebase'                                                                                                                                                                                                                                                                                                                            class-methods-use-this
+      19:5   warning  Unexpected console statement                                                                                                                                                                                                                                                                                                                                                         no-console
+      20:4   error    Trailing spaces not allowed                                                                                                                                                                                                                                                                                                                                                          no-trailing-spaces
+    
+    ✖ 7 problems (6 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: 5cd31746911deb27330d
+    Time: 16874ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.02 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+       [3] ./~/react/react.js 56 bytes {0} [built]
+      [14] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+     [101] ./source/pages/containers/Page.jsx 2.26 kB {0} [built]
+     [102] ./source/messages.json 1.11 kB {0} [built]
+     [103] ./~/react-dom/index.js 59 bytes {0} [built]
+     [104] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [105] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [106] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [107] ./source/client.jsx 1.33 kB {0} [built]
+     [139] ./~/intl-format-cache/index.js 110 bytes {0} [built]
+     [231] ./~/react-router-dom/es/NavLink.js 2.31 kB {0} [built]
+     [232] ./~/react-router-dom/es/Prompt.js 49 bytes {0} [built]
+     [233] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [234] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+        + 264 hidden modules
+    
+    ERROR in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+      15:3   warning  Unexpected console statement                                                                                                                                                                                                                                                                                                                                                         no-console
+    
+    ✖ 3 problems (2 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/pages/containers/Post.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Post.jsx
+      7:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+      7:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 17:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/pages/containers/Profile.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Profile.jsx
+      8:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+      8:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Page.jsx 25:15-35
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      45:24  error  Parsing error: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data;
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    Module build failed: SyntaxError: await is a reserved word (45:23)
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data;
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/posts/containers/Post.jsx
+    
+    /home/migu3lr/enjoy/source/posts/containers/Post.jsx
+      5:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+      5:17  error  Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/pages/containers/Post.jsx 13:12-50
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default
+       5:17  error    Parse errors in imported module '../../api': Line 45: await is a reserved word
+    
+      43 |       provider.addScope('email');
+      44 |       firebase.auth().signInWithRedirect(provider);
+    > 45 |       const response = await fetch(`${baseUrl}/users/${id}`);
+         |                        ^
+      46 |       const data = await response.json();
+      47 | 
+      48 |       return data; (45:24)  import/no-named-as-default-member
+      12:1   error    Trailing spaces not allowed                                                                                                                                                                                                                                                                                                                                                          no-trailing-spaces
+      16:1   error    Trailing spaces not allowed                                                                                                                                                                                                                                                                                                                                                          no-trailing-spaces
+      17:15  error    Expected 'this' to be used by class method 'testFirebase'                                                                                                                                                                                                                                                                                                                            class-methods-use-this
+      19:5   warning  Unexpected console statement                                                                                                                                                                                                                                                                                                                                                         no-console
+      20:4   error    Trailing spaces not allowed                                                                                                                                                                                                                                                                                                                                                          no-trailing-spaces
+    
+    ✖ 7 problems (6 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Thu May  4 14:13:18 COT 2017
+Already up-to-date.
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: a4cff4288bd43450793b2ef0d278415baa8205f6
+Version: webpack 2.3.2
+Child
+    Hash: a4cff4288bd43450793b
+    Time: 17499ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   702 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [30] ./source/pages/containers/Page.css 250 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [87] ./source/pages/containers/Page.jsx 2.27 kB {0} [built]
+      [88] ./source/messages.json 1.11 kB {0} [built]
+      [89] ./~/react-dom/server.js 65 bytes {0} [built]
+      [92] ./source/comments/containers/Comment.jsx 1.22 kB {0} [built]
+      [93] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [94] ./source/enjoy/pages/containers/Page.jsx 857 bytes {0} [built]
+      [95] ./source/pages/containers/Home.jsx 8.12 kB {0} [built] [1 warning]
+      [96] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+      [97] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+      [98] ./source/server.jsx 1.79 kB {0} [built]
+     [140] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [145] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {0} [built]
+        + 192 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/server.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      12:19  error    Strings must use singlequote                                                         quotes
+      12:34  error    Unexpected function expression                                                       prefer-arrow-callback
+      12:34  warning  Unexpected unnamed function                                                          func-names
+      12:42  error    Missing space before function parentheses                                            space-before-function-paren
+      13:9   warning  Unexpected console statement                                                         no-console
+      18:39  error    'baseUrl' is not defined                                                             no-undef
+      24:39  error    'baseUrl' is not defined                                                             no-undef
+      34:7   error    Unexpected var, use let or const instead                                             no-var
+      37:43  error    Unexpected function expression                                                       prefer-arrow-callback
+      37:43  warning  Unexpected unnamed function                                                          func-names
+      37:51  error    Missing space before function parentheses                                            space-before-function-paren
+      39:9   error    Unexpected var, use let or const instead                                             no-var
+      39:13  error    'token' is assigned a value but never used                                           no-unused-vars
+      42:9   warning  Unexpected console statement                                                         no-console
+      49:16  error    Expected parentheses around arrow function argument having a body with curly braces  arrow-parens
+      53:13  warning  Unexpected alert                                                                     no-alert
+      55:13  warning  Unexpected alert                                                                     no-alert
+      57:13  warning  Unexpected console statement                                                         no-console
+      57:13  error    Expected indentation of 10 spaces but found 12                                       indent
+      59:31  error    Expected parentheses around arrow function argument having a body with curly braces  arrow-parens
+      59:31  error    'user' is already declared in the upper scope                                        no-shadow
+      60:9   error    Expected space(s) after "if"                                                         keyword-spacing
+      61:11  warning  Unexpected console statement                                                         no-console
+    
+    ✖ 23 problems (15 errors, 8 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      12:1   error    Trailing spaces not allowed                                   no-trailing-spaces
+      15:5   error    Expected exception block, space or tab after '//' in comment  spaced-comment
+      18:1   error    Trailing spaces not allowed                                   no-trailing-spaces
+      19:15  error    Expected 'this' to be used by class method 'testFirebase'     class-methods-use-this
+      21:5   warning  Unexpected console statement                                  no-console
+      22:4   error    Trailing spaces not allowed                                   no-trailing-spaces
+    
+    ✖ 6 problems (5 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 15:16-37
+     @ ./source/pages/containers/Home.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: 2ef0d278415baa8205f6
+    Time: 17611ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.36 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+       [3] ./~/react/react.js 56 bytes {0} [built]
+      [14] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+     [105] ./source/pages/containers/Page.jsx 2.26 kB {0} [built]
+     [106] ./source/messages.json 1.11 kB {0} [built]
+     [107] ./~/react-dom/index.js 59 bytes {0} [built]
+     [108] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [109] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [110] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [112] ./source/client.jsx 1.33 kB {0} [built]
+     [239] ./~/react-router-dom/es/HashRouter.js 2.08 kB {0} [built]
+     [245] ./~/react-router-dom/es/Router.js 49 bytes {0} [built]
+     [246] ./~/react-router-dom/es/StaticRouter.js 55 bytes {0} [built]
+     [247] ./~/react-router-dom/es/Switch.js 49 bytes {0} [built]
+     [248] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 275 hidden modules
+    
+    WARNING in ./source/pages/containers/Home.jsx
+    
+    /home/migu3lr/enjoy/source/pages/containers/Home.jsx
+      15:3  warning  Unexpected console statement  no-console
+    
+    ✖ 1 problem (0 errors, 1 warning)
+    
+     @ ./source/pages/containers/Page.jsx 13:12-29
+     @ ./source/client.jsx
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      12:19  error    Strings must use singlequote                                                         quotes
+      12:34  error    Unexpected function expression                                                       prefer-arrow-callback
+      12:34  warning  Unexpected unnamed function                                                          func-names
+      12:42  error    Missing space before function parentheses                                            space-before-function-paren
+      13:9   warning  Unexpected console statement                                                         no-console
+      18:39  error    'baseUrl' is not defined                                                             no-undef
+      24:39  error    'baseUrl' is not defined                                                             no-undef
+      34:7   error    Unexpected var, use let or const instead                                             no-var
+      37:43  error    Unexpected function expression                                                       prefer-arrow-callback
+      37:43  warning  Unexpected unnamed function                                                          func-names
+      37:51  error    Missing space before function parentheses                                            space-before-function-paren
+      39:9   error    Unexpected var, use let or const instead                                             no-var
+      39:13  error    'token' is assigned a value but never used                                           no-unused-vars
+      42:9   warning  Unexpected console statement                                                         no-console
+      49:16  error    Expected parentheses around arrow function argument having a body with curly braces  arrow-parens
+      53:13  warning  Unexpected alert                                                                     no-alert
+      55:13  warning  Unexpected alert                                                                     no-alert
+      57:13  warning  Unexpected console statement                                                         no-console
+      57:13  error    Expected indentation of 10 spaces but found 12                                       indent
+      59:31  error    Expected parentheses around arrow function argument having a body with curly braces  arrow-parens
+      59:31  error    'user' is already declared in the upper scope                                        no-shadow
+      60:9   error    Expected space(s) after "if"                                                         keyword-spacing
+      61:11  warning  Unexpected console statement                                                         no-console
+    
+    ✖ 23 problems (15 errors, 8 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu.jsx
+      12:1   error    Trailing spaces not allowed                                   no-trailing-spaces
+      15:5   error    Expected exception block, space or tab after '//' in comment  spaced-comment
+      18:1   error    Trailing spaces not allowed                                   no-trailing-spaces
+      19:15  error    Expected 'this' to be used by class method 'testFirebase'     class-methods-use-this
+      21:5   warning  Unexpected console statement                                  no-console
+      22:4   error    Trailing spaces not allowed                                   no-trailing-spaces
+    
+    ✖ 6 problems (5 errors, 1 warning)
+    
+     @ ./source/shared/components/Header.jsx 17:12-29
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/Firebase.jsx
+    
+    /home/migu3lr/enjoy/source/Firebase.jsx
+      9:36  error  Missing trailing comma  comma-dangle
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/api.jsx 15:16-37
+     @ ./source/pages/containers/Home.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 865 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
