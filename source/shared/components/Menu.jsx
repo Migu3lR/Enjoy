@@ -17,11 +17,11 @@ class Menu extends Component {
   }
 
   render() {
-    if (props.PrintLogin) {
+    if (this.props.PrintLogin) {
       return (
         <ul
-          className={props.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
-          id={props.Mobile ? 'nav-mobile' : ''}
+          className={this.props.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
+          id={this.props.Mobile ? 'nav-mobile' : ''}
         >
           <li>
             <Link to="/">
@@ -39,8 +39,8 @@ class Menu extends Component {
 
     return (
       <ul
-        className={props.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
-        id={props.Mobile ? 'nav-mobile' : ''}
+        className={this.props.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
+        id={this.props.Mobile ? 'nav-mobile' : ''}
       >
         <li>
           <Link to="/">
