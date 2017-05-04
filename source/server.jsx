@@ -4,7 +4,7 @@ import { renderToString, renderToStaticMarkup } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
 
-import 'Firebase';
+import './Firebase';
 
 import messages from './messages.json';
 
