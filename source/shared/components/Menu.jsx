@@ -9,17 +9,17 @@ class Menu extends Component {
     super(props);
     this.testFirebase = this.testFirebase.bind(this);
   }
-  
+
   componentDidMount() {
     this.testFirebase();
     //api.auth.Login_Google();
     api.auth.Login_Email('admin@alegratuvida.com', '123456');
   }
-  
+
   testFirebase() {
     const lista = api.db.getList();
     console.log(lista);
-  }  
+  }
 
   render() {
     if (this.props.PrintLogin) {
@@ -34,9 +34,13 @@ class Menu extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/enjoy">
+            <a className='dropdown-button btn' href='#!' data-activates='ingreso-dd'>
               <FormattedMessage id="login" />
-            </Link>
+            </a>
+            <ul id='ingreso-dd' class='dropdown-content'>
+              <li><Link href='/enjoy/signin'>Iniciar sesión</Link></li>
+              <li><Link href='/enjoy/signup'>Registrarme</Link></li>
+            </ul>
           </li>
         </ul>
       );
