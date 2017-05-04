@@ -1,13 +1,7 @@
 import fetch from 'isomorphic-fetch';
 
-import firebaseApp from './server';
-
 const baseUrl = 'https://jsonplaceholder.typicode.com';
 
-const lista = firebaseApp.database().ref('lista');
-ref.once("value", function(snapshot) {
-  console.log(snapshot.val());
-});
 
 const api = {
   posts: {
