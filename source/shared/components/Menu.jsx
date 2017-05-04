@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 class Menu extends Component {
+  constructor(props){
+    super(props);
+  }
+  
   async testFirebase() {
     const lista = await api.db.getList();
     console.log(lista);
