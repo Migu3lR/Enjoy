@@ -8,10 +8,7 @@ const api = {
   db: {
     async getList() {
       const response = await data.ref('lista');
-      response.once('value').then(function(snapshot) {
-        const data = snapshot.val();
-        return data;
-      });
+      return response;
     },
     async getSingle(id = 1) {
       const response = await fetch(`${baseUrl}/posts/${id}`);
