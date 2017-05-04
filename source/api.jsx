@@ -1,16 +1,18 @@
 import fetch from 'isomorphic-fetch';
+import Firebase from './Firebase';
 
-const baseUrl = 'https://jsonplaceholder.typicode.com';
+const data = Firebase.database();
+const auth = Firebase.auth();
 
 const api = {
-  posts: {
-    async getList(page = 1) {
-      const response = await fetch(`${baseUrl}/posts?_page=${page}`);
-      const data = await response.json();
-
-      return data;
+  db: {
+    async getList() {
+      const response = data.ref('lista');
+      ref.on('value', function(snapshot) {
+        const data = snapshot.val();
+        return data;
+      });
     },
-
     async getSingle(id = 1) {
       const response = await fetch(`${baseUrl}/posts/${id}`);
       const data = await response.json();

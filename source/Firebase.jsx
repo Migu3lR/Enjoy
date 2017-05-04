@@ -1,6 +1,6 @@
 import * as firebase from 'firebase';
 
-const firebaseApp = firebase.initializeApp({
+const Firebase = firebase.initializeApp({
   apiKey: 'AIzaSyBgPTYEOEdRan943EQJ4PjDoIKJLnah0qA',
   authDomain: 'enjoylife-32afb.firebaseapp.com',
   databaseURL: 'https://enjoylife-32afb.firebaseio.com',
@@ -9,4 +9,4 @@ const firebaseApp = firebase.initializeApp({
   messagingSenderId: '153966974380'
 });
 
-export default firebaseApp;
+export default Firebase;
