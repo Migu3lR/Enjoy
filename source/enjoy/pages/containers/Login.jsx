@@ -6,7 +6,7 @@ function Login() {
     <section name="login">
       <div className="row">
         <div className="col s12">
-          <h3 class="center-align">Iniciar Sesión</h3>
+          <h3 className="center-align">Iniciar Sesión</h3>
         </div>
       </div>
 
