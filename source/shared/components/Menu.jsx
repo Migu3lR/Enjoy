@@ -37,7 +37,7 @@ class Menu extends Component {
             <a className='dropdown-button btn' href='#!' data-activates='ingreso-dd'>
               <FormattedMessage id="login" />
             </a>
-            <ul id='ingreso-dd' class='dropdown-content'>
+            <ul id='ingreso-dd' className='dropdown-content'>
               <li><Link href='/enjoy/signin'>Iniciar sesión</Link></li>
               <li><Link href='/enjoy/signup'>Registrarme</Link></li>
             </ul>
