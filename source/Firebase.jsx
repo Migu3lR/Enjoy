@@ -5,7 +5,7 @@ const firebaseApp = firebase.initializeApp({
   serviceAccount,
   databaseURL: 'https://enjoylife-32afb.firebaseio.com',
 });
-console.log(firebaseApp);
-const db = firebaseApp.database();
 
-export default db;
+// const db = firebaseApp.database();
+
+export default firebaseApp;
