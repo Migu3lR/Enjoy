@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
-import { db } from '/source/Firebase'
+import { db } from '../../Firebase'
 
 import Title from '../../shared/components/Title';
 
