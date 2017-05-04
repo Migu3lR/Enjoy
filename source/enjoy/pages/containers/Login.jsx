@@ -5,9 +5,14 @@ function Login() {
   return (
     <section name="login">
       <div className="row">
+        <div className="col s12">
+          <h3 class="center-align">Iniciar Sesión</h3>
+        </div>
+      </div>
+
+      <div className="row">
         <div className="col s12 m4 offset-m4">
           <div className="card">
-            <span className="card-title">Card Title</span>
             <div className="card-content">
               <div className="row">
                 <div className="input-field col s12">
