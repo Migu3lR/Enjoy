@@ -12,13 +12,13 @@ function Login() {
               <div className='row'>
                 <div className='input-field col s12'>
                   <input id='email' type='email' className='validate' />
-                  <label for='email'>Correo Electrónico</label>
+                  <label htmlFor='email'>Correo Electrónico</label>
                 </div>
               </div>
               <div className='row'>
                 <div className='input-field col s12'>
                   <input id='password' type='password' className='validate' />
-                  <label for='password'>Contraseña</label>
+                  <label htmlFor='password'>Contraseña</label>
                 </div>
               </div>
             </div>
