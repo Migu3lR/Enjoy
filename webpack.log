@@ -197,11 +197,33 @@ Child
     
     ✖ 2 problems (2 errors, 0 warnings)
     
-############################################
-############################################
-############################################
-Wed May  3 21:03:22 COT 2017
-Updating 26084ea..f2a5e53
-Fast-forward
- source/pages/components/Layout.jsx | 1 +
- 1 file changed, 1 insertion(+)
+Hash: c1f9d25375ebd1ceb241
+Version: webpack 2.3.2
+Child
+    Hash: c1f9d25375ebd1ceb241
+    Time: 5222ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js  1.83 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.37 kB       0  [emitted]         main
+      [96] ./source/server.jsx 2.17 kB {0} [built]
+     [210] ./~/firebase/app-node.js 386 bytes {0} [built]
+     [367] ./~/firebase/firebase-node.js 789 bytes {0} [built]
+     [368] ./source/EnjoyLife-d535250a0bd1.json 2.34 kB {0} [built]
+     [370] ./~/firebase/app/errors.js 3.23 kB {0} [built]
+     [371] ./~/firebase/app/firebase_app.js 11.2 kB {0} [built]
+     [372] ./~/firebase/app/subscribe.js 7.47 kB {0} [built]
+     [373] ./~/firebase/auth-node.js 129 kB {0} [built]
+     [374] ./~/firebase/database-node.js 120 kB {0} [built]
+     [378] ./~/firebase/~/dom-storage/lib/index.js 2.74 kB {0} [built]
+     [382] ./~/firebase/~/faye-websocket/lib/faye/websocket.js 1.33 kB {0} [built]
+     [415] ./~/firebase/~/xmlhttprequest/lib/XMLHttpRequest.js 17.6 kB {0} [built]
+     [416] ./~/firebase/server-auth-node/auth.js 5.85 kB {0} [built]
+     [417] ./~/firebase/server-auth-node/credential.js 2.9 kB {0} [built]
+     [418] ./~/firebase/server-auth-node/index.js 731 bytes {0} [built]
+        + 406 hidden modules
+    
+    ERROR in ./~/firebase/database-node.js
+    Module not found: Error: Can't resolve 'request' in '/home/migu3lr/enjoy/node_modules/firebase'
+     @ ./~/firebase/database-node.js 159:25-43
+     @ ./~/firebase/firebase-node.js
+     @ ./source/server.jsx
