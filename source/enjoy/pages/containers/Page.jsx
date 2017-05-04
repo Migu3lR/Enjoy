@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Home from './Enjoy';
-import Auth from './Login';
+import Login from './Login';
 import Error404 from '../../../pages/containers/Error404';
 
 function Pages() {
