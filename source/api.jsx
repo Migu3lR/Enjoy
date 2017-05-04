@@ -7,7 +7,7 @@ const auth = Firebase.auth();
 const api = {
   db: {
     async getList() {
-      const response = await data.ref('lista');
+      const response = await data.ref('lista').limitToLast(100);
       return response;
     },
     async getSingle(id = 1) {
