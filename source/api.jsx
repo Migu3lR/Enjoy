@@ -8,7 +8,7 @@ const api = {
   db: {
     async getList() {
       const response = data.ref('lista');
-      ref.on('value', function(snapshot) {
+      response.on('value', function(snapshot) {
         const data = snapshot.val();
         return data;
       });
