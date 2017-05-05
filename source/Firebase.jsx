@@ -6,7 +6,7 @@ const Firebase = firebase.initializeApp({
   databaseURL: 'https://enjoylife-32afb.firebaseio.com',
   projectId: 'enjoylife-32afb',
   storageBucket: 'enjoylife-32afb.appspot.com',
-  messagingSenderId: '153966974380'
+  messagingSenderId: '153966974380',
 });
 
 export default Firebase;

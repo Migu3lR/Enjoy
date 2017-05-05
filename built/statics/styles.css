@@ -78,4 +78,12 @@ nav .rCru-8v_keeZnvf_qas9_ {
 }footer {
   background: hsl(0, 0%, 14.5%) !important;
   color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer._1eS9wUVNr3aYTKqQeQunSJ {
+  padding-top: 0;
 }

@@ -5,21 +5,21 @@ import { FormattedMessage } from 'react-intl';
 import api from '../../api';
 
 class Menu extends Component {
+  static testFirebase() {
+    const lista = api.db.getList();
+    console.log(lista);
+  }
+
   constructor(props) {
     super(props);
     this.testFirebase = this.testFirebase.bind(this);
   }
-  
+
   componentDidMount() {
     this.testFirebase();
-    //api.auth.Login_Google();
+    // api.auth.Login_Google();
     api.auth.Login_Email('admin@alegratuvida.com', '123456');
   }
-  
-  testFirebase() {
-    const lista = api.db.getList();
-    console.log(lista);
-  }  
 
   render() {
     if (this.props.PrintLogin) {
