@@ -1,10 +1,11 @@
 footer {
   background: hsl(0, 0%, 14.5%) !important;
   color: white;
-/*  position: absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;*/
+  left: 0;
+  height: 80px;
 }
 
 footer.page_footer {
