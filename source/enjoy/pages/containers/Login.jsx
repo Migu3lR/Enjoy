@@ -26,6 +26,13 @@ function Login() {
                   <label htmlFor="password">Contraseña</label>
                 </div>
               </div>
+              <div className="row">
+                <div className="col s12">
+                  <button className="btn waves-effect waves-light" type="submit" name="action">
+                    Inicia Sesión
+                  </button>
+                </div>
+              </div>
             </div>
             <div className="card-action">
               ¿Aún no tienes un cuenta? <Link to="/enjoy/register/email">Regístrate aquí</Link>
@@ -33,7 +40,7 @@ function Login() {
           </div>
         </div>
       </div>
-    </section >
+    </section>
   );
 }
 
