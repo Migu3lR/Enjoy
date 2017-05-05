@@ -17,7 +17,7 @@ class Menu extends Component {
 
   componentDidMount() {
     this.testFirebase();
-    // api.auth.Login_Google();
+    // api.auth.Login_Google()
     api.auth.Login_Email('admin@alegratuvida.com', '123456');
   }
 
