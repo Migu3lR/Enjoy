@@ -45,9 +45,11 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <i className="material-icons left">person_pin</i>,
-      `${this.state.user.email}, `,
+      <span>
+        <i className="material-icons left">person_pin</i>
+        `${this.state.user.email}, `
         <Link to="/enjoy/logout" className="waves-effect waves-light btn">Cerrar sesión</Link>
+      </span>
     );
   }
 }
