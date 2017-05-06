@@ -9,18 +9,20 @@ class Menu extends Component {
     super(props);
 
     this.state = {
-      user: null,
+      user: {},
     };
+    this.suscribeAuth = this.suscribeAuth.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
+    this.suscribeAuth();
+  }
+
+  suscribeAuth() {
     const user = api.auth.SuscribeAuthChage();
     this.setState({
       user,
     });
-  }
-
-  componentDidMount() {
     console.log(this.state.user);
   }
 
