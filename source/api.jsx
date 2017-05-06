@@ -49,6 +49,14 @@ const api = {
         }
       });
     },
+    currentUser() {
+      const user = firebase.auth().currentUser;
+
+      if (user) {
+        return (user);
+      }
+      return null;
+    },
   },
 
 };
