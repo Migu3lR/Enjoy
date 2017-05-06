@@ -10,5 +10,8 @@ if (typeof (jQuery) === 'undefined') {
 
 (function ($) {
   // INITIALIZE
-  $('.button-collapse').sideNav();
+  $(function() {
+    $('.button-collapse').sideNav();
+    $(".dropdown-button").dropdown({ hover: false });
+  });
 }(jQuery));

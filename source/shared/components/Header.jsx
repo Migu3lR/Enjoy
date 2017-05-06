@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import css from './Header.css';
 
 import Menu from './Menu/Menu';
+import LoggedInMenu from './Menu/LoggedInMenu';
 
 class Header extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class Header extends Component {
   render() {
     return (
       <header>
+        <LoggedInMenu />
         <nav className="white" role="navigation">
           <div className="nav-wrapper container">
             <Link to="/" id="logo-container" className={`brand-logo ${css.brand_logo}`}>Enjoy Life ProNET</Link>
