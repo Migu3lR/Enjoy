@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import css from './Header.css';
 
-import Menu from './Menu';
+import Menu from './Menu/Menu';
 
 class Header extends Component {
   constructor(props) {
