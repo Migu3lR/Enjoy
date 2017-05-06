@@ -36,22 +36,20 @@ class LoginStatus extends Component {
   }
 
   render() {
-    if (this.state.user) {
+    if (!this.state.user) {
       return (
-        <li>
-          <Link to="/enjoy/login" className="waves-effect waves-light btn">
-            <i className="material-icons right">assignment_ind</i>
-            <FormattedMessage id="login" />
-          </Link>
-        </li>
+        <Link to="/enjoy/login" className="waves-effect waves-light btn">
+          <i className="material-icons right">assignment_ind</i>
+          <FormattedMessage id="login" />
+        </Link>
       );
     }
     return (
-      <li>
+      <div>
         <i className="material-icons right">person_pin</i>
-        Usuario
+        {`${this.state.user.email}, `}
         <Link to="/enjoy/logout">Cerrar Sesión</Link>
-      </li>
+      </div>
     );
   }
 }
