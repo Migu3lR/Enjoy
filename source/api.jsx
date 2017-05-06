@@ -40,12 +40,10 @@ const api = {
           const errorMessage = error.message;
           if (errorCode === 'auth/wrong-password' || errorCode === 'auth/user-not-found') {
             notify.show(errorCode, 'error', '4000');
+          } else {
+            notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo', 'error', '4000');
           }
-
-          console.log('error');
           console.log(errorCode, errorMessage);
-
-          return (error);
         });
     },
     currentUser() {
