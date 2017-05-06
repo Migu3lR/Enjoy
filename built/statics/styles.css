@@ -1,3 +1,19 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+main {
+  min-height:100%;
+  position:relative;
+}
+
+.vhIN9-rJWOJYOVF1SBZM1 {
+  padding-bottom:109px;
+}
+
 ._1_fRGbuIXGk9cLTOcZygbi {
   padding: 0 15px;
 }
@@ -82,6 +98,7 @@ nav .rCru-8v_keeZnvf_qas9_ {
   right: 0;
   bottom: 0;
   left: 0;
+  height: 109px;
 }
 
 footer._1eS9wUVNr3aYTKqQeQunSJ {
