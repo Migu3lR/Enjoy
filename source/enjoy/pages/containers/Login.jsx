@@ -13,7 +13,7 @@ function Login() {
       </div>
 
       <div className="row">
-        <div className="col s12 m4 offset-m4">
+        <div className="col s12 m6 offset-m3 l4 offset-l4">
           <div className="card">
             <div className="card-content">
               <LoginForm />
