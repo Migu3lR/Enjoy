@@ -47,7 +47,7 @@ class LoginStatus extends Component {
     return (
       <span>
         <i className="material-icons left">person_pin</i>
-        `${this.state.user.email}, `
+        {`${this.state.user.email}, `}
         <Link to="/enjoy/logout" className="waves-effect waves-light btn">Cerrar sesión</Link>
       </span>
     );
