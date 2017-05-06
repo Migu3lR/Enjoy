@@ -37,8 +37,8 @@ class LoginForm extends Component {
   handleFormSubmit(e) {
     e.preventDefault();
 
-    api.auth.Login_Email(this.state.email, this.state.password);
-
+    const a = api.auth.Login_Email(this.state.email, this.state.password);
+    console.log(a);
     this.handleClearForm(e);
   }
 

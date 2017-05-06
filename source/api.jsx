@@ -37,25 +37,31 @@ const api = {
           const errorCode = error.code;
           const errorMessage = error.message;
           if (errorCode === 'auth/wrong-password') {
-            alert('Wrong password.');
-          } else {
-            alert(errorMessage);
+            return (errorCode);
+          } else if (errorCode === 'auth/user-not-found') {
+            return (errorCode);
           }
-          console.log(error);
+
+          console.log('error');
+          console.log(errorCode, errorMessage);
+
+          return (error);
         });
-      Auth.onAuthStateChanged((user) => {
-        if (user) {
-          console.log(user);
-        }
-      });
     },
     currentUser() {
-      const user = firebase.auth().currentUser;
-
+      const user = Auth.currentUser;
       if (user) {
         return (user);
       }
       return null;
+    },
+    SuscribeAuthChage() {
+      Auth.onAuthStateChanged((user) => {
+        if (user) {
+          return (user);
+        }
+        return null;
+      });
     },
   },
 
