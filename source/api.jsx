@@ -32,7 +32,7 @@ const api = {
       return user;
     },
     async Login_Email(username, pass) {
-      Auth.signInWithEmailAndPassword(username, pass)
+      await Auth.signInWithEmailAndPassword(username, pass)
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
