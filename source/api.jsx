@@ -1,3 +1,5 @@
+import { notify } from 'react-notify-toast';
+
 import firebase from 'firebase';
 import Firebase from './Firebase';
 
@@ -36,10 +38,8 @@ const api = {
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
-          if (errorCode === 'auth/wrong-password') {
-            alert(errorCode);
-          } else if (errorCode === 'auth/user-not-found') {
-            alert(errorCode);
+          if (errorCode === 'auth/wrong-password' || errorCode === 'auth/user-not-found') {
+            notify.show(errorCode, 'error', '4000');
           }
 
           console.log('error');

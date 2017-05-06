@@ -4,6 +4,8 @@ import {
   Switch,
 } from 'react-router-dom';
 
+import Notifications from 'react-notify-toast';
+
 import Home from './Home';
 import Post from './Post';
 import Enjoy from '../../enjoy/pages/containers/Page';
@@ -31,6 +33,9 @@ class Pages extends Component {
         }<Header CurrentRoute={this._reactInternalInstance._context.router.route.location.pathname} />
 
         <section className={css.MainSection}>
+
+          <Notifications />
+
           <Switch>
             <Route
               path="/"

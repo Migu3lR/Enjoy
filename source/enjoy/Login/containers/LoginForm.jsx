@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import SingleInput from '../../../shared/components/forms/SingleInput';
 
 import api from '../../../api';
@@ -37,8 +38,8 @@ class LoginForm extends Component {
   handleFormSubmit(e) {
     e.preventDefault();
 
-    const a = api.auth.Login_Email(this.state.email, this.state.password);
-    console.log(a);
+    api.auth.Login_Email(this.state.email, this.state.password);
+
     this.handleClearForm(e);
   }
 
