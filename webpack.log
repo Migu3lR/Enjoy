@@ -10972,3 +10972,803 @@ Child
            [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
            [5] ./~/ieee754/index.js 2.05 kB {0} [built]
            [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Sat May  6 00:33:41 COT 2017
+Already up-to-date.
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: f061dac8f3be7c7901de43445440e10060011fa6
+Version: webpack 2.3.2
+Child
+    Hash: f061dac8f3be7c7901de
+    Time: 18632ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   707 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+      [27] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [87] ./source/pages/containers/Page.jsx 2.52 kB {0} [built]
+      [88] ./source/messages.json 1.11 kB {0} [built]
+      [89] ./~/react-dom/server.js 65 bytes {0} [built]
+      [95] ./source/enjoy/pages/containers/Login.jsx 1.68 kB {0} [built]
+      [96] ./source/enjoy/pages/containers/Page.jsx 1.08 kB {0} [built]
+      [97] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+      [98] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+      [99] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+     [100] ./source/server.jsx 1.79 kB {0} [built]
+     [143] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [148] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {0} [built]
+     [207] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 194 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: 43445440e10060011fa6
+    Time: 18619ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.35 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [13] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [22] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [26] ./~/react/lib/React.js 2.69 kB {0} [built]
+     [105] ./source/pages/containers/Page.jsx 2.51 kB {0} [built]
+     [106] ./source/messages.json 1.11 kB {0} [built]
+     [107] ./~/react-dom/index.js 59 bytes {0} [built]
+     [108] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [109] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [110] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [112] ./source/client.jsx 1.33 kB {0} [built]
+     [245] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [246] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [250] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 276 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Sat May  6 00:41:31 COT 2017
+Updating a5e5085..8d4b0c7
+Fast-forward
+ source/api.jsx                              | 14 ++++++--------
+ source/enjoy/Login/containers/LoginForm.jsx |  5 +++--
+ source/pages/containers/Page.jsx            |  5 +++++
+ 3 files changed, 14 insertions(+), 10 deletions(-)
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: c8c2bb3f387eb186424ca80ee766236351b47ef1
+Version: webpack 2.3.2
+Child
+    Hash: c8c2bb3f387eb186424c
+    Time: 18299ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   708 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+      [27] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [88] ./source/pages/containers/Page.jsx 2.72 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [95] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [96] ./source/enjoy/pages/containers/Login.jsx 1.68 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Page.jsx 1.08 kB {0} [built]
+      [98] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+      [99] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+     [100] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+     [101] ./source/server.jsx 1.79 kB {0} [built]
+     [144] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [208] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 195 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: a80ee766236351b47ef1
+    Time: 18291ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.37 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [13] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [22] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [26] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [68] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 2.71 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [113] ./source/client.jsx 1.33 kB {0} [built]
+     [247] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [248] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [252] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 278 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Sat May  6 00:45:39 COT 2017
+Updating 8d4b0c7..d23bbfd
+Fast-forward
+ source/api.jsx                   | 4 ++--
+ source/pages/containers/Page.jsx | 5 ++---
+ 2 files changed, 4 insertions(+), 5 deletions(-)
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: 2c2e819f305c3cd3946fed540ca3db27e198c369
+Version: webpack 2.3.2
+Child
+    Hash: 2c2e819f305c3cd3946f
+    Time: 15665ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   708 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+      [27] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [88] ./source/pages/containers/Page.jsx 2.71 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [95] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [96] ./source/enjoy/pages/containers/Login.jsx 1.68 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Page.jsx 1.08 kB {0} [built]
+      [98] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+      [99] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+     [100] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+     [101] ./source/server.jsx 1.79 kB {0} [built]
+     [144] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [208] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 195 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: ed540ca3db27e198c369
+    Time: 15652ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.37 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [13] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [22] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [26] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [68] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 2.7 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [113] ./source/client.jsx 1.33 kB {0} [built]
+     [247] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [248] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [252] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 278 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Sat May  6 00:57:49 COT 2017
+Updating d23bbfd..0822f6d
+Fast-forward
+ source/api.jsx                    |  2 +-
+ source/shared/components/Menu.jsx | 71 ++++++++++++++++++++++++++-------------
+ 2 files changed, 48 insertions(+), 25 deletions(-)
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: 10e6cf5d6e0ace36028c8669ee78b22116f62f4c
+Version: webpack 2.3.2
+Child
+    Hash: 10e6cf5d6e0ace36028c
+    Time: 16278ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   708 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+      [27] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [88] ./source/pages/containers/Page.jsx 2.71 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [95] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [96] ./source/enjoy/pages/containers/Login.jsx 1.68 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Page.jsx 1.08 kB {0} [built]
+      [98] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+      [99] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+     [100] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+     [101] ./source/server.jsx 1.79 kB {0} [built]
+     [144] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [208] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 195 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: 8669ee78b22116f62f4c
+    Time: 16259ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.37 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [13] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [23] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [68] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 2.7 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [113] ./source/client.jsx 1.33 kB {0} [built]
+     [121] ./source/pages/containers/Profile.jsx 4.29 kB {0} [built]
+     [247] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [248] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [252] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 278 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Sat May  6 01:04:24 COT 2017
+Updating 0822f6d..1f351a1
+Fast-forward
+ source/shared/components/Menu.jsx | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: 1b1909bda207eb9aa557ba61f62d712876267500
+Version: webpack 2.3.2
+Child
+    Hash: 1b1909bda207eb9aa557
+    Time: 17056ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   708 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+      [27] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [88] ./source/pages/containers/Page.jsx 2.71 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [95] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [96] ./source/enjoy/pages/containers/Login.jsx 1.68 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Page.jsx 1.08 kB {0} [built]
+      [98] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+      [99] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+     [100] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+     [101] ./source/server.jsx 1.79 kB {0} [built]
+     [144] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [208] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 195 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: ba61f62d712876267500
+    Time: 17047ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.37 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [13] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [23] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [68] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 2.7 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [113] ./source/client.jsx 1.33 kB {0} [built]
+     [121] ./source/pages/containers/Profile.jsx 4.29 kB {0} [built]
+     [247] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [248] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [252] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 278 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Sat May  6 01:36:23 COT 2017
+Updating 1f351a1..5f48471
+Fast-forward
+ source/Auth.jsx                                    |  5 ++
+ source/Database.jsx                                |  5 ++
+ source/shared/components/Header.jsx                |  2 +-
+ .../components/{Menu.jsx => Menu/LoginStatus.jsx}  |  0
+ source/shared/components/Menu/Menu.jsx             | 69 ++++++++++++++++++++++
+ 5 files changed, 80 insertions(+), 1 deletion(-)
+ create mode 100644 source/Auth.jsx
+ create mode 100644 source/Database.jsx
+ rename source/shared/components/{Menu.jsx => Menu/LoginStatus.jsx} (100%)
+ create mode 100644 source/shared/components/Menu/Menu.jsx
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: af4ac2c44917d4d204f68753602fbd3447c09de1
+Version: webpack 2.3.2
+Child
+    Hash: af4ac2c44917d4d204f6
+    Time: 16213ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   708 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+      [27] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [88] ./source/pages/containers/Page.jsx 2.71 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [95] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [96] ./source/enjoy/pages/containers/Login.jsx 1.68 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Page.jsx 1.08 kB {0} [built]
+      [98] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+      [99] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+     [100] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+     [101] ./source/server.jsx 1.79 kB {0} [built]
+     [144] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [208] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 195 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: 8753602fbd3447c09de1
+    Time: 16190ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.37 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [13] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [22] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [26] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [68] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 2.7 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [113] ./source/client.jsx 1.33 kB {0} [built]
+     [247] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [248] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [252] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 278 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+############################################
+############################################
+############################################
+Sat May  6 01:41:31 COT 2017
+Updating 5f48471..937ffcf
+Fast-forward
+ source/enjoy/pages/containers/Login.jsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: 8b88af71320b9b4226c858b3cdabfdb350721943
+Version: webpack 2.3.2
+Child
+    Hash: 8b88af71320b9b4226c8
+    Time: 15892ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   708 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+      [27] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [54] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [55] ./source/posts/containers/Post.jsx 3.79 kB {0} [built]
+      [88] ./source/pages/containers/Page.jsx 2.71 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [95] ./source/enjoy/pages/containers/Enjoy.jsx 394 bytes {0} [built]
+      [96] ./source/enjoy/pages/containers/Login.jsx 1.7 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Page.jsx 1.08 kB {0} [built]
+      [98] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+      [99] ./source/pages/containers/Post.jsx 3.17 kB {0} [built]
+     [100] ./source/pages/containers/Profile.jsx 4.31 kB {0} [built]
+     [101] ./source/server.jsx 1.79 kB {0} [built]
+     [144] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [208] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 195 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+Child
+    Hash: 58b3cdabfdb350721943
+    Time: 17578ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  1.37 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.66 kB       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [13] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [16] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [22] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [26] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [68] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 2.7 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [113] ./source/client.jsx 1.33 kB {0} [built]
+     [247] ./~/react-router-dom/es/Redirect.js 51 bytes {0} [built]
+     [248] ./~/react-router-dom/es/Route.js 48 bytes {0} [built]
+     [252] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 278 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/posts/containers/Post.css 866 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/comments/containers/Comment.css 520 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
