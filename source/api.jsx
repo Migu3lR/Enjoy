@@ -31,15 +31,15 @@ const api = {
 
       return user;
     },
-    async Login_Email(username, pass) {
-      await Auth.signInWithEmailAndPassword(username, pass)
+    Login_Email(username, pass) {
+      Auth.signInWithEmailAndPassword(username, pass)
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
           if (errorCode === 'auth/wrong-password') {
-            return (errorCode);
+            alert(errorCode);
           } else if (errorCode === 'auth/user-not-found') {
-            return (errorCode);
+            alert(errorCode);
           }
 
           console.log('error');
