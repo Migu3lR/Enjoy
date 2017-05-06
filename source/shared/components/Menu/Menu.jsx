@@ -2,6 +2,8 @@ import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
+import LoginStatus from './LoginStatus';
+
 class Menu extends Component {
   constructor(props) {
     super(props);
@@ -31,12 +33,7 @@ class Menu extends Component {
               <FormattedMessage id="header.nav.home" />
             </Link>
           </li>
-          <li>
-            <Link to="/enjoy/login" className="waves-effect waves-light btn">
-              <i className="material-icons right">assignment_ind</i>
-              <FormattedMessage id="login" />
-            </Link>
-          </li>
+          <LoginStatus />
         </ul>
       );
     }

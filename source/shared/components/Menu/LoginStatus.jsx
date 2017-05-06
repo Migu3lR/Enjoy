@@ -1,15 +1,15 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
-import api from '../../api';
+import Auth from '../../../Auth';
 
-class Menu extends Component {
+class LoginStatus extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      user: {},
+      user: null,
     };
     this.suscribeAuth = this.suscribeAuth.bind(this);
   }
@@ -18,60 +18,42 @@ class Menu extends Component {
     this.suscribeAuth();
   }
 
-  suscribeAuth() {
-    const user = api.auth.SuscribeAuthChage();
-    this.setState({
-      user,
-    });
-    console.log(this.state.user);
+  componentWillUpdate(nextProps, nextState) {
+    console.log(nextState);
   }
 
-  // const lista = api.db.getList();
-  render() {
-    if (this.props.PrintLogin) {
-      return (
-        <ul
-          className={this.props.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
-          id={this.props.Mobile ? 'nav-mobile' : ''}
-        >
-          <li>
-            <Link to="/">
-              <FormattedMessage id="header.nav.home" />
-            </Link>
-          </li>
-          <li>
-            <Link to="/enjoy/login" className="waves-effect waves-light btn">
-              <i className="material-icons right">assignment_ind</i>
-              <FormattedMessage id="login" />
-            </Link>
-          </li>
-        </ul>
-      );
-    }
+  suscribeAuth() {
+    Auth.onAuthStateChanged((user) => {
+      if (user) {
+        return (this.setState({
+          user,
+        }));
+      }
+      return (this.setState({
+        user: null,
+      }));
+    });
+  }
 
-    return (
-      <ul
-        className={this.props.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
-        id={this.props.Mobile ? 'nav-mobile' : ''}
-      >
+  render() {
+    if (this.state.user) {
+      return (
         <li>
-          <Link to="/">
-            <FormattedMessage id="header.nav.home" />
+          <Link to="/enjoy/login" className="waves-effect waves-light btn">
+            <i className="material-icons right">assignment_ind</i>
+            <FormattedMessage id="login" />
           </Link>
         </li>
-      </ul>
+      );
+    }
+    return (
+      <li>
+        <i className="material-icons right">person_pin</i>
+        Usuario
+        <Link to="/enjoy/logout">Cerrar Sesión</Link>
+      </li>
     );
   }
 }
 
-Menu.propTypes = {
-  PrintLogin: PropTypes.bool,
-  Mobile: PropTypes.bool,
-};
-
-Menu.defaultProps = {
-  PrintLogin: false,
-  Mobile: false,
-};
-
-export default Menu;
+export default LoginStatus;
