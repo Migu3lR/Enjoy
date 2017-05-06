@@ -31,7 +31,7 @@ const api = {
 
       return user;
     },
-    Login_Email(username, pass) {
+    async Login_Email(username, pass) {
       Auth.signInWithEmailAndPassword(username, pass)
         .catch((error) => {
           const errorCode = error.code;

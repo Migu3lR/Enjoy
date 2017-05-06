@@ -34,10 +34,10 @@ class LoginForm extends Component {
     });
   }
 
-  handleFormSubmit(e) {
+  async handleFormSubmit(e) {
     e.preventDefault();
 
-    const a = api.auth.Login_Email(this.state.email, this.state.password);
+    const a = await api.auth.Login_Email(this.state.email, this.state.password);
     console.log(a);
     this.handleClearForm(e);
   }
