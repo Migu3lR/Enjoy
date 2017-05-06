@@ -33,7 +33,7 @@ SingleInput.propTypes = {
 };
 
 SingleInput.defaultProps = {
-  placeholder: '',
+  placeholder: null,
   validate: false,
   required: false,
 };
