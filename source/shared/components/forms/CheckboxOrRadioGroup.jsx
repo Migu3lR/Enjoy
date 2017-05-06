@@ -1,22 +1,28 @@
 import React, { PropTypes } from 'react';
 
 function CheckboxOrRadioGroup(props) {
+  let id = 0;
   return (
-    <div>
-      <label className="form-label">{props.title}</label>
+    <div className="input-field">
+      <label htmlFor={props.name}>{props.title}</label>
       <div className="checkbox-group">
-        {props.options.map(opt => (
-          <label key={opt} className="form-label capitalize">
-            <input
-              className="form-checkbox"
-              name={props.setName}
-              onChange={props.controlFunc}
-              value={opt}
-              checked={props.selectedOptions.indexOf(opt) > -1}
-              type={props.type}
-            /> {opt}
-          </label>
-        ))}
+        {props.options.map((opt) => {
+          id += 1;
+          return (
+            <p>
+              <input
+                className="form-checkbox"
+                name={props.name}
+                onChange={props.controlFunc}
+                value={opt}
+                id={`ipt-${id}`}
+                checked={props.selectedOptions.indexOf(opt) > -1}
+                type={props.type}
+              />
+              <label htmlFor={`ipt-${id}`} className="capitalize">{opt}</label>
+            </p>
+          );
+        })}
       </div>
     </div>
   );
@@ -25,7 +31,7 @@ function CheckboxOrRadioGroup(props) {
 CheckboxOrRadioGroup.propTypes = {
   title: PropTypes.string.isRequired,
   type: PropTypes.oneOf(['checkbox', 'radio']).isRequired,
-  setName: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   options: PropTypes.arrayOf(
     PropTypes.string,
   ).isRequired,

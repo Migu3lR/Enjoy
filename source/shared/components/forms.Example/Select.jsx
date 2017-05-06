@@ -2,15 +2,14 @@ import React, { PropTypes } from 'react';
 
 function Select(props) {
   return (
-    <div className="input-field">
+    <div className="form-group">
       <select
-        id={props.name}
         name={props.name}
         value={props.selectedOption}
         onChange={props.controlFunc}
-        required={props.required}
+        className="form-select"
       >
-        <option value="" disabled selected>{props.placeholder}</option>
+        <option value="">{props.placeholder}</option>
         {props.options.map(opt => (
           <option
             key={opt}
@@ -32,13 +31,11 @@ Select.propTypes = {
   selectedOption: PropTypes.string,
   controlFunc: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
-  required: PropTypes.boolean,
 };
 
 Select.defaultProps = {
   selectedOption: '',
   placeholder: '',
-  required: false,
 };
 
 export default Select;

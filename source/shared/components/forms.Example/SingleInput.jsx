@@ -2,40 +2,34 @@ import React, { PropTypes } from 'react';
 
 function SingleInput(props) {
   return (
-    <div className="input-field">
-      <label htmlFor={props.name} data-error="Error" data-success="">{props.title}</label>
+    <div className="form-group">
+      <label className="form-label">{props.title}</label>
       <input
-        id={props.name}
-        className={props.validate ? 'validate' : null}
+        className="form-input"
         name={props.name}
         type={props.inputType}
         value={props.content}
         onChange={props.controlFunc}
         placeholder={props.placeholder}
-        required={props.required}
       />
     </div>
   );
 }
 
 SingleInput.propTypes = {
-  inputType: PropTypes.oneOf(['text', 'number', 'email', 'password']).isRequired,
+  inputType: PropTypes.oneOf(['text', 'number']).isRequired,
   title: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   controlFunc: PropTypes.func.isRequired,
-  validate: PropTypes.bool,
   content: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
   ]).isRequired,
-  required: PropTypes.bool,
   placeholder: PropTypes.string,
 };
 
 SingleInput.defaultProps = {
   placeholder: '',
-  validate: false,
-  required: false,
 };
 
 export default SingleInput;
