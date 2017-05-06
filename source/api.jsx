@@ -39,9 +39,9 @@ const api = {
           const errorCode = error.code;
           const errorMessage = error.message;
           if (errorCode === 'auth/wrong-password' || errorCode === 'auth/user-not-found') {
-            notify.show(errorCode, 'error', 4000);
+            notify.show('Usuario y/o contraseña erroneos.', 'error', 5000);
           } else {
-            notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo', 'error', 4000);
+            notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo', 'error', 5000);
           }
           console.log(errorCode, errorMessage);
         });
