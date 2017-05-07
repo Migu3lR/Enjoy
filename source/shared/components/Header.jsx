@@ -8,6 +8,7 @@ import Menu from './Menu/Menu';
 class Header extends Component {
   constructor(props) {
     super(props);
+    console.log(props);
 
     this.state = {
       PrintLogin: props.CurrentRoute.indexOf('/enjoy') === 0,

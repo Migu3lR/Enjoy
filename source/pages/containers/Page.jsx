@@ -33,7 +33,9 @@ class Pages extends Component {
       <main role="application">
         <Notifications />{
         // eslint-disable-next-line
-        }<Header CurrentRoute={this._reactInternalInstance._context.router.route.location.pathname} />
+        }<Route
+          component={Header}
+        />
 
         <section className={css.MainSection}>
 
