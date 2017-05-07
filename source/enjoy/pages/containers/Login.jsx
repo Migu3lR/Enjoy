@@ -39,7 +39,7 @@ class Login extends Component {
   render() {
     if (this.state.user) {
       return (
-        <Redirect to="/enjoy" />
+        <Redirect to="/enjoy" replace />
       );
     }
     return (

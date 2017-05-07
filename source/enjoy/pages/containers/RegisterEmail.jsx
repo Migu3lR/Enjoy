@@ -9,19 +9,23 @@ import api from '../../../api';
 class RegisterEmail extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      user: api.auth.currentUser(),
+    };
   }
 
   render() {
     if (this.state.user) {
       return (
-        <Redirect to="/enjoy" />
+        <Redirect to="/enjoy" replace />
       );
     }
     return (
       <section name="login">
         <div className="row">
           <div className="col s12">
-            <h3 className="center-align">Iniciar Sesión</h3>
+            <h3 className="center-align">Regístrate</h3>
           </div>
         </div>
 
@@ -32,7 +36,7 @@ class RegisterEmail extends Component {
                 <RegisterForm />
               </div>
               <div className="card-action">
-                ¿Aún no tienes un cuenta? <Link to="/enjoy/register/email">Regístrate aquí</Link>
+                ¿Ya tienes cuenta? <Link to="/enjoy/register/email">Inicia Sesión</Link>
               </div>
             </div>
           </div>

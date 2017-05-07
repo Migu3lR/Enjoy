@@ -9,10 +9,6 @@ import Login from './Login';
 import RegisterEmail from './RegisterEmail';
 import Error404 from '../../../pages/containers/Error404';
 
-function requireUnAuth(nextState, replace) {
-  console.log(nextState, replace);
-}
-
 function Pages() {
   return (
     <Switch>
@@ -26,14 +22,12 @@ function Pages() {
         path="/enjoy/login"
         exact
         component={Login}
-        onEnter={requireUnAuth}
       />
 
       <Route
         path="/enjoy/register/email"
         exact
         component={RegisterEmail}
-        onEnter={requireUnAuth}
       />
 
       <Route component={Error404} />
