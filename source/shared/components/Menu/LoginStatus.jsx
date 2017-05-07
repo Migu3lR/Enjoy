@@ -15,6 +15,7 @@ class LoginStatus extends Component {
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
+    this.logout = this.logout.bind(this);
   }
 
   componentDidMount() {
@@ -59,7 +60,7 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <a href="#!" title="Cerrar Sesión" className="waves-effect waves-light btn" onClick={this.logout()}>
+      <a href="#!" title="Cerrar Sesión" className="waves-effect waves-light btn" onClick={this.logout}>
         {this.state.user.email}
         <i className="material-icons right" title="Cerrar Sesión">power_settings_new</i>
       </a>
