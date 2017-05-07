@@ -3,6 +3,7 @@ import { Link, Redirect } from 'react-router-dom';
 
 import LoginForm from '../../Login/containers/LoginForm';
 
+import Auth from '../../../Auth';
 import api from '../../../api';
 
 class Login extends Component {
@@ -13,6 +14,26 @@ class Login extends Component {
     this.state = {
       user: api.auth.currentUser(),
     };
+
+    this.suscribeAuth = this.suscribeAuth.bind(this);
+  }
+
+  componentDidMount() {
+    this.suscribeAuth();
+  }
+
+  suscribeAuth() {
+    Auth.onAuthStateChanged((user) => {
+      if (user) {
+        this.setState({
+          user,
+        });
+      } else {
+        this.setState({
+          user: null,
+        });
+      }
+    });
   }
 
   render() {
