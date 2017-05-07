@@ -73,9 +73,6 @@ const api = {
           });
         }
       });
-      Auth.currentUser.updateProfile({
-        displayName: `${displayName}|${fullName}`,
-      });
     },
     currentUser() {
       const user = Auth.currentUser;
