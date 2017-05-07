@@ -4,7 +4,7 @@ import SingleInput from '../../../shared/components/forms/SingleInput';
 
 import api from '../../../api';
 
-class LoginForm extends Component {
+class RegisterForm extends Component {
   constructor(props) {
     super(props);
 
@@ -82,4 +82,4 @@ class LoginForm extends Component {
   }
 }
 
-export default LoginForm;
+export default RegisterForm;
