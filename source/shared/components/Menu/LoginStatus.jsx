@@ -8,7 +8,8 @@ import Auth from '../../../Auth';
 import api from '../../../api';
 
 function getDisplayName(user) {
-  const u = user || api.auth.currentUser();
+  let u = user;
+  if (u == null) u = api.auth.currentUser();
 
   let displayName = '';
 
@@ -63,7 +64,6 @@ class LoginStatus extends Component {
           user,
           displayName: getDisplayName(),
         });
-        console.log();
       } else {
         this.setState({
           user: null,
