@@ -45,7 +45,7 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <a className="dropdown-button" href="#!" data-activates="LoggedInMenu">
+      <a className="dropdown-button" href="#!" data-activates="LoggedInMenu" onClick="$('.dropdown-button').dropdown('open');">
         {this.state.user.email}
         <i className="material-icons left">person_pin</i>
       </a>
