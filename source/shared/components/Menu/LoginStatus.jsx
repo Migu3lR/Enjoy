@@ -6,16 +6,16 @@ import { notify } from 'react-notify-toast';
 
 import Auth from '../../../Auth';
 
-function logout() {
-  Auth.signOut().then(() => {
-    notify.show('Sesión de usuario cerrada.', 'success', 5000);
-  }, (error) => {
-    notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
-    console.log(error);
-  });
-}
-
 class LoginStatus extends Component {
+  static logout() {
+    Auth.signOut().then(() => {
+      notify.show('Sesión de usuario cerrada.', 'success', 5000);
+    }, (error) => {
+      notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
+      console.log(error);
+    });
+  }
+
   constructor(props) {
     super(props);
 
