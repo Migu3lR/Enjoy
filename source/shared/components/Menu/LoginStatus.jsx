@@ -51,7 +51,14 @@ class LoginStatus extends Component {
     Auth.signOut().then(() => {
       const u = this.state.user;
       notify.show('Sesión de usuario cerrada.', 'success', 5000);
-      this.RedirectToLogin();
+      return (
+        <Redirect
+          to={{
+            pathname: '/enjoy/login',
+            state: { from: props.location },
+          }}
+        />
+      );
     }, (error) => {
       notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
       console.log(error);
