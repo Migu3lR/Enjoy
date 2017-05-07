@@ -2,7 +2,18 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
+import { notify } from 'react-notify-toast';
+
 import Auth from '../../../Auth';
+
+function logout() {
+  Auth.signOut().then(() => {
+    notify.show('Sesión de usuario cerrada.', 'success', 5000);
+  }, (error) => {
+    notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
+    console.log(error);
+  });
+}
 
 class LoginStatus extends Component {
   constructor(props) {
@@ -26,13 +37,14 @@ class LoginStatus extends Component {
   suscribeAuth() {
     Auth.onAuthStateChanged((user) => {
       if (user) {
-        return (this.setState({
+        this.setState({
           user,
-        }));
+        });
+      } else {
+        this.setState({
+          user: null,
+        });
       }
-      return (this.setState({
-        user: null,
-      }));
     });
   }
 
@@ -46,10 +58,10 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <Link to="/enjoy/logout" title="Cerrar Sesión" className="waves-effect waves-light btn">
+      <a href="#!" title="Cerrar Sesión" className="waves-effect waves-light btn" onCLick={logout()}>
         {this.state.user.email}
         <i className="material-icons right" title="Cerrar Sesión">power_settings_new</i>
-      </Link>
+      </a>
     );
   }
 }
