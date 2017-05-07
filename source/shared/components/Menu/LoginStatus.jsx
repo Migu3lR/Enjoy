@@ -13,7 +13,7 @@ function getDisplayName(user) {
 
   let displayName = '';
 
-  if (u) {
+  if (u != null) {
     const dn = u.providerData[0].displayName;
     if (dn) {
       const display = dn.split('|');
