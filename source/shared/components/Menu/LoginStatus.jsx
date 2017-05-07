@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, BrowserRouter } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 import { notify } from 'react-notify-toast';
@@ -20,6 +20,7 @@ class LoginStatus extends Component {
 
   componentDidMount() {
     this.suscribeAuth();
+    BrowserRouter.push('/');
   }
 
   componentWillUpdate(nextProps, nextState) {
