@@ -20,7 +20,6 @@ class LoginStatus extends Component {
 
   componentDidMount() {
     this.suscribeAuth();
-    this.handleToggle();
   }
 
   componentWillUpdate(nextProps, nextState) {
