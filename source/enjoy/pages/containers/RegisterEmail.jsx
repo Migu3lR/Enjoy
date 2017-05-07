@@ -54,7 +54,7 @@ class RegisterEmail extends Component {
           <div className="col s12 m6 offset-m3 l4 offset-l4">
             <div className="card">
               <div className="card-content">
-                <LoginForm />
+                <RegisterForm />
               </div>
               <div className="card-action">
                 ¿Aún no tienes un cuenta? <Link to="/enjoy/register/email">Regístrate aquí</Link>
