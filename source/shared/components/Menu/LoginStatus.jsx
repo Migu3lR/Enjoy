@@ -14,7 +14,7 @@ class LoginStatus extends Component {
     this.state = {
       user: api.auth.currentUser(),
       loggedOut: false,
-      displayName: '';
+      displayName: '',
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
