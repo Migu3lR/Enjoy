@@ -18,7 +18,7 @@ class Login extends Component {
     this.suscribeAuth = this.suscribeAuth.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.suscribeAuth();
   }
 
