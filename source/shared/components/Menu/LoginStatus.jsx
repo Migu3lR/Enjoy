@@ -18,15 +18,6 @@ class LoginStatus extends Component {
 
   componentDidMount() {
     this.suscribeAuth();
-
-    $('.dropdown-button').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      constrain_width: true,
-      hover: false,
-      gutter: 0,
-      belowOrigin: false,
-    });
   }
 
   componentWillUpdate(nextProps, nextState) {
@@ -56,10 +47,10 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <a className="dropdown-button" href="#!" data-activates="LoggedInMenu">
+      <span>
         {this.state.user.email}
-        <i className="material-icons left">person_pin</i>
-      </a>
+        <Link to="/enjoy/logout"><i className="material-icons right">power_settings_new</i></Link>
+      </span>
     );
   }
 }

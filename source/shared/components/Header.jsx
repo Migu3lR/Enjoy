@@ -26,7 +26,6 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <LoggedInMenu />
         <nav className="white" role="navigation">
           <div className="nav-wrapper container">
             <Link to="/" id="logo-container" className={`brand-logo ${css.brand_logo}`}>Enjoy Life ProNET</Link>
