@@ -46,7 +46,7 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <Link to="/enjoy/logout" title="Cerrar Sesión">
+      <Link to="/enjoy/logout" title="Cerrar Sesión" className="waves-effect waves-light btn">
         {this.state.user.email}
         <i className="material-icons right" title="Cerrar Sesión">power_settings_new</i>
       </Link>
