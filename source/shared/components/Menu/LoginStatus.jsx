@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, withRouter, Redirect } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 import { notify } from 'react-notify-toast';
@@ -15,7 +15,7 @@ class LoginStatus extends Component {
       user: api.auth.currentUser(),
       loggedOut: false,
     };
-    console.log(this.state.from);
+
     this.suscribeAuth = this.suscribeAuth.bind(this);
     this.logout = this.logout.bind(this);
     this.RedirectToLogin = this.RedirectToLogin.bind(this);
