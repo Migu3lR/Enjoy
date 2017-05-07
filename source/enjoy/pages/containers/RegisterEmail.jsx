@@ -36,7 +36,7 @@ class RegisterEmail extends Component {
                 <RegisterForm />
               </div>
               <div className="card-action">
-                ¿Ya tienes cuenta? <Link to="/enjoy/register/email">Inicia Sesión</Link>
+                ¿Ya tienes cuenta? <Link to="/enjoy/login">Inicia Sesión</Link>
               </div>
             </div>
           </div>
