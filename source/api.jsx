@@ -66,6 +66,13 @@ const api = {
           }
           console.log(errorCode, errorMessage);
         });
+      Auth.onAuthStateChanged((user) => {
+        if (user) {
+          Auth.currentUser.updateProfile({
+            displayName: `${displayName}|${fullName}`,
+          });
+        }
+      });
       Auth.currentUser.updateProfile({
         displayName: `${displayName}|${fullName}`,
       });
