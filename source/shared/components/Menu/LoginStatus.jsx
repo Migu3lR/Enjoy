@@ -43,6 +43,7 @@ class LoginStatus extends Component {
         this.setState({
           user,
         });
+        console.log(user.providerData);
       } else {
         this.setState({
           user: null,
@@ -64,7 +65,6 @@ class LoginStatus extends Component {
   render() {
     const user = this.state.user;
     const displayName = '';
-    console.log(user.providerData);
     /*if (!user) {
       userData = user.
     }*/
