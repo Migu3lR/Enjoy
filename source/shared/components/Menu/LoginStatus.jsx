@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { findDOMNode } from 'react-dom';
 import { FormattedMessage } from 'react-intl';
 import $ from 'jquery';
 
@@ -12,15 +13,23 @@ class LoginStatus extends Component {
     this.state = {
       user: null,
     };
+
     this.suscribeAuth = this.suscribeAuth.bind(this);
+    this.handleToggle = this.handleToggle.bind(this);
   }
 
   componentDidMount() {
     this.suscribeAuth();
+    this.handleToggle();
   }
 
   componentWillUpdate(nextProps, nextState) {
     console.log(nextState);
+  }
+
+  handleToggle() {
+    const el = findDOMNode(this.refs.toggle);
+    $(el).dropdown('open');
   }
 
   suscribeAuth() {
@@ -46,7 +55,7 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <a className="dropdown-button" href="#!" data-activates="LoggedInMenu" onClick={$('.dropdown-button').dropdown('open')}>
+      <a className="dropdown-button" ref="toggle" href="#!" data-activates="LoggedInMenu" onClick={this.handleToggle()}>
         {this.state.user.email}
         <i className="material-icons left">person_pin</i>
       </a>
