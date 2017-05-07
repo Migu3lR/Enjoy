@@ -13,6 +13,7 @@ class LoginStatus extends Component {
 
     this.state = {
       user: api.auth.currentUser(),
+      loggedOut: false,
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
@@ -24,13 +25,16 @@ class LoginStatus extends Component {
     this.suscribeAuth();
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps, prevState) {
+    if (!this.state.user && prevState.user) {
+      this.RedirectToLogin();
+    }
   }
 
   RedirectToLogin() {
-    withRouter(({ history }) => (
-      history.push('/enjoy/login')
-    ));
+    this.setState({
+      loggedOut: true,
+    });
   }
 
   suscribeAuth() {
@@ -51,6 +55,14 @@ class LoginStatus extends Component {
     Auth.signOut().then(() => {
       const u = this.state.user;
       notify.show('Sesión de usuario cerrada.', 'success', 5000);
+    }, (error) => {
+      notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
+      console.log(error);
+    });
+  }
+
+  render() {
+    if (this.state.loggedOut) {
       return (
         <Redirect
           to={{
@@ -59,13 +71,7 @@ class LoginStatus extends Component {
           }}
         />
       );
-    }, (error) => {
-      notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
-      console.log(error);
-    });
-  }
-
-  render() {
+    }
     if (!this.state.user) {
       return (
         <Link to="/enjoy/login" className="waves-effect waves-light btn">
