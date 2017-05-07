@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 
-import LoginForm from '../../Login/containers/LoginForm';
+import RegisterForm from '../../Register/containers/RegisterForm';
 
 import Auth from '../../../Auth';
 import api from '../../../api';
 
-class Login extends Component {
+class RegisterEmail extends Component {
   constructor(props) {
     super(props);
-    console.log(props);
+    console.log(this.state);
 
     this.state = {
       user: api.auth.currentUser(),
@@ -67,4 +67,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default RegisterEmail;

@@ -6,6 +6,7 @@ import {
 
 import Home from './Enjoy';
 import Login from './Login';
+import RegisterEmail from './RegisterEmail';
 import Error404 from '../../../pages/containers/Error404';
 
 function Pages() {
@@ -21,6 +22,12 @@ function Pages() {
         path="/enjoy/login"
         exact
         component={Login}
+      />
+
+      <Route
+        path="/enjoy/register/email"
+        exact
+        component={RegisterEmail}
       />
 
       <Route component={Error404} />
