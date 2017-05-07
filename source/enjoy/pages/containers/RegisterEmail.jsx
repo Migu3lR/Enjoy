@@ -14,7 +14,6 @@ class RegisterEmail extends Component {
     this.state = {
       user: api.auth.currentUser(),
     };
-
     this.suscribeAuth = this.suscribeAuth.bind(this);
   }
 
