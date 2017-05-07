@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
+import $ from 'jquery';
 
 import Auth from '../../../Auth';
 
@@ -45,7 +46,7 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <a className="dropdown-button" href="#!" data-activates="LoggedInMenu" onClick="$('.dropdown-button').dropdown('open');">
+      <a className="dropdown-button" href="#!" data-activates="LoggedInMenu" onClick={$('.dropdown-button').dropdown('open')}>
         {this.state.user.email}
         <i className="material-icons left">person_pin</i>
       </a>
