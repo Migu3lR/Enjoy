@@ -66,9 +66,9 @@ class LoginStatus extends Component {
     const user = this.state.user;
     let displayName = '';
 
-    if (user) {
+    if (user !== null) {
       const dn = user.providerData[0].displayName;
-      if (dn) {
+      if (dn !== null) {
         const display = dn.split('|');
         displayName = display[0];
       } else {
