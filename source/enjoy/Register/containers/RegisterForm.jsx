@@ -59,7 +59,12 @@ class RegisterForm extends Component {
   handleFormSubmit(e) {
     e.preventDefault();
 
-    api.auth.Register_Email(this.state.email, this.state.password);
+    api.auth.Register_Email(
+      this.state.email,
+      this.state.password,
+      this.state.displayName,
+      this.state.fullName,
+    );
 
     this.handleClearForm(e);
   }
@@ -77,6 +82,7 @@ class RegisterForm extends Component {
               controlFunc={this.handleDisplayNameChange}
               content={this.state.displayName}
               validate
+              required
             />
           </div>
           <div className="col s12 m6">
@@ -87,6 +93,7 @@ class RegisterForm extends Component {
               controlFunc={this.handleFullNameChange}
               content={this.state.fullName}
               validate
+              required
             />
           </div>
         </div>
@@ -100,6 +107,7 @@ class RegisterForm extends Component {
               controlFunc={this.handleEmailChange}
               content={this.state.email}
               validate
+              required
             />
           </div>
         </div>
@@ -112,6 +120,7 @@ class RegisterForm extends Component {
               name={'password'}
               controlFunc={this.handlePasswordChange}
               content={this.state.password}
+              required
             />
           </div>
           <div className="col s12 m6">
@@ -121,6 +130,7 @@ class RegisterForm extends Component {
               name={'passwordConfirm'}
               controlFunc={this.handlePasswordConfirmChange}
               content={this.state.passwordConfirm}
+              required
             />
           </div>
         </div>

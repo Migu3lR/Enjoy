@@ -46,7 +46,7 @@ const api = {
           console.log(errorCode, errorMessage);
         });
     },
-    Register_Email(email, pass) {
+    Register_Email(email, pass, displayName, fullName) {
       Auth.createUserWithEmailAndPassword(email, pass)
         .catch((error) => {
           const errorCode = error.code;
@@ -66,6 +66,9 @@ const api = {
           }
           console.log(errorCode, errorMessage);
         });
+      Auth.currentUser.updateProfile({
+        displayName: `${displayName}|${fullName}`,
+      });
     },
     currentUser() {
       const user = Auth.currentUser;

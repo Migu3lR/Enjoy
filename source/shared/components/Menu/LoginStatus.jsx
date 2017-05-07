@@ -62,6 +62,13 @@ class LoginStatus extends Component {
   }
 
   render() {
+    const user = this.state.user;
+    const displayName = '';
+    console.log(user.providerData);
+    /*if (!user) {
+      userData = user.
+    }*/
+
     if (this.state.loggedOut) {
       return (
         <Redirect
