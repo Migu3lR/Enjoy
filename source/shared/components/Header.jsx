@@ -25,7 +25,7 @@ function Header(props) {
 
 Header.propTypes = {
   location: PropTypes.shape({
-    pathname: PropTypes.object,
+    pathname: PropTypes.string,
   }),
 };
 
