@@ -7,6 +7,24 @@ import { notify } from 'react-notify-toast';
 import Auth from '../../../Auth';
 import api from '../../../api';
 
+function getDisplayName(user) {
+  const u = user || api.auth.currentUser();
+
+  let displayName = '';
+
+  if (u) {
+    const dn = u.providerData[0].displayName;
+    if (dn) {
+      const display = dn.split('|');
+      displayName = display[0];
+    } else {
+      displayName = dn.email;
+    }
+  }
+
+  return (displayName);
+}
+
 class LoginStatus extends Component {
   constructor(props) {
     super(props);
@@ -14,7 +32,7 @@ class LoginStatus extends Component {
     this.state = {
       user: api.auth.currentUser(),
       loggedOut: false,
-      displayName: '',
+      displayName: getDisplayName(),
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
@@ -40,24 +58,10 @@ class LoginStatus extends Component {
 
   suscribeAuth() {
     Auth.onAuthStateChanged((user) => {
-      let displayName = '';
-      console.log(user.providerData[0]);
-      console.log(user.providerData);
-
-      if (user) {
-        const dn = user.providerData[0].displayName;
-        if (dn) {
-          const display = dn.split('|');
-          displayName = display[0];
-        } else {
-          displayName = dn.email;
-        }
-      }
-
       if (user) {
         this.setState({
           user,
-          displayName,
+          displayName: getDisplayName(),
         });
         console.log();
       } else {
