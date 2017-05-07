@@ -43,7 +43,7 @@ class LoginStatus extends Component {
         this.setState({
           user,
         });
-        console.log(user.providerData);
+        console.log();
       } else {
         this.setState({
           user: null,
@@ -64,10 +64,17 @@ class LoginStatus extends Component {
 
   render() {
     const user = this.state.user;
-    const displayName = '';
-    /*if (!user) {
-      userData = user.
-    }*/
+    let displayName = '';
+
+    if (user) {
+      const dn = user.providerData[0].displayName;
+      if (dn) {
+        const display = dn.split('|');
+        displayName = display[0];
+      } else {
+        displayName = dn.email;
+      }
+    }
 
     if (this.state.loggedOut) {
       return (
@@ -89,7 +96,7 @@ class LoginStatus extends Component {
     }
     return (
       <a href="#!" title="Cerrar Sesión" className="waves-effect waves-light btn" onClick={this.logout}>
-        {this.state.user.email}
+        {displayName}
         <i className="material-icons right" title="Cerrar Sesión">power_settings_new</i>
       </a>
     );
