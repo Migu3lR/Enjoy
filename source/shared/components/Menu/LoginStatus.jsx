@@ -1,30 +1,38 @@
 import React, { Component } from 'react';
-import { Link, BrowserRouter } from 'react-router-dom';
+import { Link, withRouter, Redirect } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 import { notify } from 'react-notify-toast';
 
 import Auth from '../../../Auth';
+import api from '../../../api';
 
 class LoginStatus extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      user: null,
+      user: api.auth.currentUser(),
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
     this.logout = this.logout.bind(this);
+    this.RedirectToLogin = this.RedirectToLogin.bind(this);
   }
 
   componentDidMount() {
     this.suscribeAuth();
-    BrowserRouter.push('/');
   }
 
-  componentWillUpdate(nextProps, nextState) {
-    console.log(nextState);
+  componentDidUpdate() {
+  }
+
+  RedirectToLogin() {
+    if (!this.state.user) {
+      withRouter(({ history }) => (
+        !api.auth.currentUser() && history.push('/enjoy/login')
+      ));
+    }
   }
 
   suscribeAuth() {
@@ -45,6 +53,7 @@ class LoginStatus extends Component {
     Auth.signOut().then(() => {
       const u = this.state.user;
       notify.show('Sesión de usuario cerrada.', 'success', 5000);
+      this.RedirectToLogin();
     }, (error) => {
       notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
       console.log(error);
