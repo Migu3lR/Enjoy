@@ -55,7 +55,7 @@ class LoginStatus extends Component {
         <Redirect
           to={{
             pathname: '/enjoy/login',
-            state: { from: props.location },
+            state: { from: '/enjoy' },
           }}
         />
       );
