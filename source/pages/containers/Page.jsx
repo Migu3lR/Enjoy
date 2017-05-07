@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   Route,
   Switch,
@@ -7,9 +7,7 @@ import {
 import Notifications from 'react-notify-toast';
 
 import Home from './Home';
-import Post from './Post';
-import Enjoy from '../../enjoy/pages/containers/Page';
-import Profile from './Profile';
+import PageEnjoy from '../../enjoy/pages/containers/Page';
 import Error404 from './Error404';
 
 import Header from '../../shared/components/Header';
@@ -17,60 +15,34 @@ import Footer from '../../shared/components/Footer';
 
 import css from './Page.css';
 
-class Pages extends Component {
-  constructor(props) {
-    super(props);
-    console.log('page');
-    console.log(props);
-    this.state = {
-      // eslint-disable-next-line
-      ruta: '/',
-    };
-  }
+function Pages() {
+  return (
+    <main role="application">
 
-  render() {
-    return (
-      <main role="application">
-        <Notifications />{
-        // eslint-disable-next-line
-        }<Route
-          component={Header}
-        />
+      <Notifications />
+      <Route component={Header} />
 
-        <section className={css.MainSection}>
+      <section className={css.MainSection}>
 
-          <Switch>
-            <Route
-              path="/"
-              exact
-              component={Home}
-            />
+        <Switch>
+          <Route
+            path="/"
+            exact
+            component={Home}
+          />
 
-            <Route
-              path="/enjoy"
-              component={Enjoy}
-            />
+          <Route
+            path="/enjoy"
+            component={PageEnjoy}
+          />
 
-            <Route
-              path="/post/:id"
-              exact
-              component={Post}
-            />
+          <Route component={Error404} />
+        </Switch>
+      </section>
 
-            <Route
-              path="/user/:id"
-              exact
-              component={Profile}
-            />
-
-            <Route component={Error404} />
-          </Switch>
-        </section>
-
-        <Footer />
-      </main>
-    );
-  }
+      <Footer />
+    </main>
+  );
 }
 
 export default Pages;
