@@ -14,6 +14,7 @@ class LoginStatus extends Component {
     this.state = {
       user: api.auth.currentUser(),
       loggedOut: false,
+      displayName: '';
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
@@ -39,14 +40,30 @@ class LoginStatus extends Component {
 
   suscribeAuth() {
     Auth.onAuthStateChanged((user) => {
+      let displayName = '';
+      console.log(user.providerData[0]);
+      console.log(user.providerData);
+
+      if (user) {
+        const dn = user.providerData[0].displayName;
+        if (dn) {
+          const display = dn.split('|');
+          displayName = display[0];
+        } else {
+          displayName = dn.email;
+        }
+      }
+
       if (user) {
         this.setState({
           user,
+          displayName,
         });
         console.log();
       } else {
         this.setState({
           user: null,
+          displayName: '',
         });
       }
     });
