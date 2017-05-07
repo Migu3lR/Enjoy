@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-import $ from 'jquery';
 
 import Auth from '../../../Auth';
 

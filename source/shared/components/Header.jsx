@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import css from './Header.css';
 
 import Menu from './Menu/Menu';
-import LoggedInMenu from './Menu/LoggedInMenu';
 
 class Header extends Component {
   constructor(props) {
