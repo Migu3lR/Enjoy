@@ -7,15 +7,6 @@ import { notify } from 'react-notify-toast';
 import Auth from '../../../Auth';
 
 class LoginStatus extends Component {
-  static logout() {
-    Auth.signOut().then(() => {
-      notify.show('Sesión de usuario cerrada.', 'success', 5000);
-    }, (error) => {
-      notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
-      console.log(error);
-    });
-  }
-
   constructor(props) {
     super(props);
 
@@ -48,6 +39,16 @@ class LoginStatus extends Component {
     });
   }
 
+  logout() {
+    Auth.signOut().then(() => {
+      const u = this.state.user;
+      notify.show('Sesión de usuario cerrada.', 'success', 5000);
+    }, (error) => {
+      notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
+      console.log(error);
+    });
+  }
+
   render() {
     if (!this.state.user) {
       return (
@@ -58,7 +59,7 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <a href="#!" title="Cerrar Sesión" className="waves-effect waves-light btn" onClick={this.logout()}>
+      <a href="#!" title="Cerrar Sesión" className="waves-effect waves-light btn" onClick={logout()}>
         {this.state.user.email}
         <i className="material-icons right" title="Cerrar Sesión">power_settings_new</i>
       </a>
