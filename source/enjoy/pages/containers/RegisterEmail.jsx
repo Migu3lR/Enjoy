@@ -13,6 +13,26 @@ class RegisterEmail extends Component {
     this.state = {
       user: api.auth.currentUser(),
     };
+
+    this.suscribeAuth = this.suscribeAuth.bind(this);
+  }
+
+  componentWillMount() {
+    this.suscribeAuth();
+  }
+
+  suscribeAuth() {
+    Auth.onAuthStateChanged((user) => {
+      if (user) {
+        this.setState({
+          user,
+        });
+      } else {
+        this.setState({
+          user: null,
+        });
+      }
+    });
   }
 
   render() {
