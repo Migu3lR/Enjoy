@@ -8,19 +8,17 @@ import Auth from '../../../Auth';
 import api from '../../../api';
 
 function getDisplayName(user) {
-  let u = user;
-  if (u == null) u = api.auth.currentUser();
-
+  const u = user || api.auth.currentUser();
   let displayName = '';
 
-  if (u != null) {
+  if (u) {
     console.log(u.providerData[0]);
     const dn = u.providerData[0].displayName;
     if (dn) {
       const display = dn.split('|');
       displayName = display[0];
     } else {
-      displayName = dn.email;
+      displayName = u.email;
     }
   }
 
