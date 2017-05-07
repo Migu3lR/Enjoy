@@ -28,11 +28,9 @@ class LoginStatus extends Component {
   }
 
   RedirectToLogin() {
-    if (!this.state.user) {
-      withRouter(({ history }) => (
-        !api.auth.currentUser() && history.push('/enjoy/login')
-      ));
-    }
+    withRouter(({ history }) => (
+      history.push('/enjoy/login')
+    ));
   }
 
   suscribeAuth() {
