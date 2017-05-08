@@ -1,46 +1,26 @@
-import React, { Component } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import React, { PropTypes, Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import RegisterForm from '../../Register/containers/RegisterForm';
 
 import Auth from '../../../Auth';
-import api from '../../../api';
 
 class RegisterEmail extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      user: api.auth.currentUser(),
-    };
-
-    this.suscribeAuth = this.suscribeAuth.bind(this);
-  }
-
-  componentWillMount() {
-    this.suscribeAuth();
-  }
-
-  suscribeAuth() {
-    Auth.onAuthStateChanged((user) => {
+    this.authSuscribe = Auth.onAuthStateChanged((user) => {
       if (user) {
-        this.setState({
-          user,
-        });
-      } else {
-        this.setState({
-          user: null,
-        });
+        this.props.history.push('/enjoy/login');
       }
     });
   }
 
+  componentWillUnmount() {
+    this.authSuscribe();
+  }
+
   render() {
-    if (this.state.user) {
-      return (
-        <Redirect to="/enjoy" replace />
-      );
-    }
     return (
       <section name="login">
         <div className="row">
@@ -65,5 +45,15 @@ class RegisterEmail extends Component {
     );
   }
 }
+
+RegisterEmail.propTypes = {
+  history: PropTypes.shape({
+    push: PropTypes.func,
+  }),
+};
+
+RegisterEmail.defaultProps = {
+  history: {},
+};
 
 export default RegisterEmail;
