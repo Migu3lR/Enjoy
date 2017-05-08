@@ -18,6 +18,7 @@ class Login extends Component {
         }
       });
     };
+    this.authSuscribe();
   }
 
   componentWillUnmount() {
