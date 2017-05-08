@@ -68,7 +68,6 @@ const api = {
         });
       Auth.onAuthStateChanged((user) => {
         if (user) {
-          console.log(displayName, fullName);
           Auth.currentUser.updateProfile({
             displayName: `${displayName}|${fullName}`,
           });

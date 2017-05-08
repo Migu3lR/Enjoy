@@ -41,7 +41,7 @@ class LoginStatus extends Component {
     this.RedirectToLogin = this.RedirectToLogin.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.suscribeAuth();
   }
 
