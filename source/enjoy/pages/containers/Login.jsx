@@ -8,7 +8,9 @@ import Auth from '../../../Auth';
 class Login extends Component {
   constructor(props) {
     super(props);
+  }
 
+  componentWillMount(){
     this.authSuscribe = () => {
       Auth.onAuthStateChanged((user) => {
         if (user) {
