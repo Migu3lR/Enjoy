@@ -49,8 +49,11 @@ const api = {
     Register_Email(email, pass, displayName, fullName) {
       const createUser = Auth.createUserWithEmailAndPassword(email, pass);
 
-      createUser.then((user) => {
-        console.log(user, 'usuario registrado')
+      createUser.then(() => {
+        Auth.currentUser.updateProfile({
+          displayName: `${displayName}|${fullName}`,
+        });
+        notify.show('Gracias por registrarte.', 'success', 5000);
       });
 
       createUser.catch((error) => {
@@ -70,13 +73,6 @@ const api = {
             notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo.', 'error', 5000);
         }
         console.log(errorCode, errorMessage);
-      });
-      Auth.onAuthStateChanged((user) => {
-        if (user) {
-          Auth.currentUser.updateProfile({
-            displayName: `${displayName}|${fullName}`,
-          });
-        }
       });
     },
     currentUser() {
