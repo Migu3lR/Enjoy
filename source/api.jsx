@@ -89,6 +89,15 @@ const api = {
         return null;
       });
     },
+    logOut(history) {
+      Auth.signOut().then(() => {
+        notify.show('Sesión de usuario cerrada.', 'success', 5000);
+        history.push('/enjoy/login');
+      }, (error) => {
+        notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
+        console.log(error);
+      });
+    },
   },
 
 };

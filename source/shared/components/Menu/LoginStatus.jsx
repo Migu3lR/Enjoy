@@ -1,8 +1,6 @@
 import React, { PropTypes, Component } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
-
-import { notify } from 'react-notify-toast';
 
 import Auth from '../../../Auth';
 import api from '../../../api';
@@ -12,9 +10,7 @@ function getDisplayName(user) {
   let displayName = '';
 
   if (u) {
-    console.log(u.providerData[0]);
     const dn = u.providerData[0].displayName;
-    console.log(dn);
     if (dn) {
       const display = dn.split('|');
       displayName = display[0];
@@ -32,30 +28,15 @@ class LoginStatus extends Component {
 
     this.state = {
       user: api.auth.currentUser(),
-      loggedOut: false,
       displayName: getDisplayName(),
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
     this.logout = this.logout.bind(this);
-    this.RedirectToLogin = this.RedirectToLogin.bind(this);
   }
 
   componentDidMount() {
     this.suscribeAuth();
-  }
-
-  componentDidUpdate(prevProps, prevState) {
-    /*if (!this.state.user && prevState.user) {
-      this.RedirectToLogin();
-
-    }*/
-  }
-
-  RedirectToLogin() {
-    this.setState({
-      loggedOut: true,
-    });
   }
 
   suscribeAuth() {
@@ -75,26 +56,10 @@ class LoginStatus extends Component {
   }
 
   logout() {
-    Auth.signOut().then(() => {
-      notify.show('Sesión de usuario cerrada.', 'success', 5000);
-      this.props.history.push('/enjoy/login');
-    }, (error) => {
-      notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
-      console.log(error);
-    });
+    api.auth.logOut(this.props.history);
   }
 
   render() {
-    if (this.state.loggedOut) {
-      return (
-        <Redirect
-          to={{
-            pathname: '/enjoy/login',
-            state: { from: '/enjoy' },
-          }}
-        />
-      );
-    }
     if (!this.state.user) {
       return (
         <Link to="/enjoy/login" className="waves-effect waves-light btn">
