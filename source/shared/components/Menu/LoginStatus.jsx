@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PropTypes, Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
@@ -30,7 +30,6 @@ class LoginStatus extends Component {
   constructor(props) {
     super(props);
 
-    console.log(props);
     this.state = {
       user: api.auth.currentUser(),
       loggedOut: false,
@@ -47,10 +46,10 @@ class LoginStatus extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (!this.state.user && prevState.user) {
+    /*if (!this.state.user && prevState.user) {
       this.RedirectToLogin();
 
-    }
+    }*/
   }
 
   RedirectToLogin() {
@@ -77,8 +76,8 @@ class LoginStatus extends Component {
 
   logout() {
     Auth.signOut().then(() => {
-      const u = this.state.user;
       notify.show('Sesión de usuario cerrada.', 'success', 5000);
+      this.props.history.push('/enjoy/login');
     }, (error) => {
       notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
       console.log(error);
@@ -112,5 +111,15 @@ class LoginStatus extends Component {
     );
   }
 }
+
+LoginStatus.propTypes = {
+  history: PropTypes.shape({
+    push: PropTypes.func,
+  }),
+};
+
+LoginStatus.defaultProps = {
+  history: {},
+};
 
 export default LoginStatus;
