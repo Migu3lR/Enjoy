@@ -13,9 +13,9 @@ function Header(props) {
         <div className="nav-wrapper container">
           <Link to="/" id="logo-container" className={`brand-logo ${css.brand_logo}`}>Enjoy Life ProNET</Link>
           {/* Menu navegacion en desktop */}
-          <Menu PrintLogin={PrintLogin} />
+          <Menu PrintLogin={PrintLogin} {...props} />
           {/* Menu navegacion en mobiles */}
-          <Menu PrintLogin={PrintLogin} Mobile />
+          <Menu PrintLogin={PrintLogin} Mobile {...props} />
           <a href="#!" data-activates="nav-mobile" className={`button-collapse ${css.button_collapse}`}><i className="material-icons">menu</i></a>
         </div>
       </nav>

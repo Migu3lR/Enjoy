@@ -30,6 +30,7 @@ class LoginStatus extends Component {
   constructor(props) {
     super(props);
 
+    console.log(props);
     this.state = {
       user: api.auth.currentUser(),
       loggedOut: false,
@@ -48,6 +49,7 @@ class LoginStatus extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (!this.state.user && prevState.user) {
       this.RedirectToLogin();
+
     }
   }
 

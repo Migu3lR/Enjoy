@@ -33,7 +33,7 @@ class Menu extends Component {
               <FormattedMessage id="header.nav.home" />
             </Link>
           </li>
-          <li><LoginStatus /></li>
+          <li><LoginStatus {...this.props} /></li>
         </ul>
       );
     }
