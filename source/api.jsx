@@ -47,25 +47,30 @@ const api = {
         });
     },
     Register_Email(email, pass, displayName, fullName) {
-      Auth.createUserWithEmailAndPassword(email, pass)
-        .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          switch (errorCode) {
-            case 'auth/email-already-in-use':
-              notify.show('Este correo electrónico ya se encuentra registrado.', 'error', 5000);
-              break;
-            case 'auth/invalid-email':
-              notify.show('Correo electrónico invalido.', 'error', 5000);
-              break;
-            case 'auth/weak-password':
-              notify.show('Tu contraseña es demasiado facil, por favor intenta con otra.', 'error', 5000);
-              break;
-            default:
-              notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo.', 'error', 5000);
-          }
-          console.log(errorCode, errorMessage);
-        });
+      const createUser = Auth.createUserWithEmailAndPassword(email, pass);
+
+      createUser.then((user) => {
+        console.log(user, 'usuario registrado')
+      });
+
+      createUser.catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        switch (errorCode) {
+          case 'auth/email-already-in-use':
+            notify.show('Este correo electrónico ya se encuentra registrado.', 'error', 5000);
+            break;
+          case 'auth/invalid-email':
+            notify.show('Correo electrónico invalido.', 'error', 5000);
+            break;
+          case 'auth/weak-password':
+            notify.show('Tu contraseña es demasiado facil, por favor intenta con otra.', 'error', 5000);
+            break;
+          default:
+            notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo.', 'error', 5000);
+        }
+        console.log(errorCode, errorMessage);
+      });
       Auth.onAuthStateChanged((user) => {
         if (user) {
           Auth.currentUser.updateProfile({
