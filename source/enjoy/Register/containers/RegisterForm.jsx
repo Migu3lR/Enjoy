@@ -131,6 +131,7 @@ class RegisterForm extends Component {
               controlFunc={this.handlePasswordConfirmChange}
               content={this.state.passwordConfirm}
               required
+              pattern={this.state.password}
             />
           </div>
         </div>

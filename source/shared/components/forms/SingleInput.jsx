@@ -3,10 +3,16 @@ import React, { PropTypes } from 'react';
 function SingleInput(props) {
   return (
     <div className="input-field">
-      <label htmlFor={props.name} data-error="Error" data-success="">{props.title}</label>
+      <label 
+        htmlFor={props.name}
+        data-error={props.dataError ? props.dataError : 'Error'}
+        data-success={props.dataSuccess ? props.dataSuccess : ''}
+      >
+        {props.title}
+      </label>
       <input
         id={props.name}
-        className={props.validate ? 'validate' : null}
+        className={props.validate ? `validate ${isValid}` : null}
         name={props.name}
         type={props.inputType}
         value={props.content}
@@ -30,12 +36,18 @@ SingleInput.propTypes = {
   ]).isRequired,
   required: PropTypes.bool,
   placeholder: PropTypes.string,
+  dataError: PropTypes.string,
+  dataSuccess: PropTypes.string,
+  isValid: PropTypes.oneOf(['valid', 'invalid','']),
 };
 
 SingleInput.defaultProps = {
   placeholder: null,
   validate: false,
   required: false,
+  dataError: null,
+  dataSuccess: null,
+  isValid: '',
 };
 
 export default SingleInput;
