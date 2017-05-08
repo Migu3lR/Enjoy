@@ -9,11 +9,14 @@ class RegisterEmail extends Component {
   constructor(props) {
     super(props);
 
-    this.authSuscribe = Auth.onAuthStateChanged((user) => {
-      if (user) {
-        this.props.history.push('/enjoy/login');
-      }
-    });
+    this.authSuscribe = () => {
+      Auth.onAuthStateChanged((user) => {
+        if (user) {
+          this.props.history.push('/enjoy');
+        }
+      });
+    };
+    this.authSuscribe();
   }
 
   componentWillUnmount() {
