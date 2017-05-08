@@ -14,6 +14,7 @@ function getDisplayName(user) {
   if (u) {
     console.log(u.providerData[0]);
     const dn = u.providerData[0].displayName;
+    console.log(dn);
     if (dn) {
       const display = dn.split('|');
       displayName = display[0];
