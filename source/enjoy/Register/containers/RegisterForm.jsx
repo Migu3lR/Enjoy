@@ -140,6 +140,7 @@ class RegisterForm extends Component {
               controlFunc={this.handlePasswordConfirmChange}
               content={this.state.passwordConfirm}
               required
+              validate
               isValid={this.state.ValidPasswordConfirm}
               dataError={'La contraseña no coincide.'}
               dataSuccess={'Confirmación de contraseña valida.'}
