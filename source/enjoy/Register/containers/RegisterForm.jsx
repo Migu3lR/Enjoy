@@ -59,6 +59,8 @@ class RegisterForm extends Component {
       passwordConfirm: '',
       displayName: '',
       fullName: '',
+
+      ValidPasswordConfirm: '',
     });
   }
 
