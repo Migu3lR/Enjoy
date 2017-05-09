@@ -34,12 +34,12 @@ class RegisterForm extends Component {
 
   handlePasswordChange(e) {
     this.setState({ password: e.target.value });
-    this.ValidPasswordConfirm();
+    this.ValidPasswordConfirm(e.target.value, this.state.passwordConfirm);
   }
 
   handlePasswordConfirmChange(e) {
     this.setState({ passwordConfirm: e.target.value });
-    this.ValidPasswordConfirm();
+    this.ValidPasswordConfirm(this.state.password, e.target.value);
   }
 
   handleDisplayNameChange(e) {
@@ -61,8 +61,8 @@ class RegisterForm extends Component {
     });
   }
 
-  ValidPasswordConfirm() {
-    this.setState({ ValidPasswordConfirm: (this.state.password === this.state.passwordConfirm) ? 'valid' : 'invalid' });
+  ValidPasswordConfirm(p1, p2) {
+    this.setState({ ValidPasswordConfirm: (p1 === p2) ? 'valid' : 'invalid' });
   }
 
   handleFormSubmit(e) {
