@@ -14,6 +14,8 @@ class RegisterForm extends Component {
       passwordConfirm: '',
       displayName: '',
       fullName: '',
+
+      ValidPasswordConfirm: '',
     };
 
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
@@ -23,6 +25,7 @@ class RegisterForm extends Component {
     this.handlePasswordConfirmChange = this.handlePasswordConfirmChange.bind(this);
     this.handleDisplayNameChange = this.handleDisplayNameChange.bind(this);
     this.handleFullNameChange = this.handleFullNameChange.bind(this);
+    this.ValidPasswordConfirm = this.ValidPasswordConfirm.bind(this);
   }
 
   handleEmailChange(e) {
@@ -31,10 +34,12 @@ class RegisterForm extends Component {
 
   handlePasswordChange(e) {
     this.setState({ password: e.target.value });
+    this.Valid_passwordConfirm();
   }
 
   handlePasswordConfirmChange(e) {
     this.setState({ passwordConfirm: e.target.value });
+    this.ValidPasswordConfirm();
   }
 
   handleDisplayNameChange(e) {
@@ -54,6 +59,10 @@ class RegisterForm extends Component {
       displayName: '',
       fullName: '',
     });
+  }
+
+  ValidPasswordConfirm() {
+    this.setState({ ValidPasswordConfirm: (this.state.password === this.state.passwordConfirm) ? 'valid' : 'invalid' });
   }
 
   handleFormSubmit(e) {
@@ -131,7 +140,7 @@ class RegisterForm extends Component {
               controlFunc={this.handlePasswordConfirmChange}
               content={this.state.passwordConfirm}
               required
-              pattern={this.state.password}
+              isValid={this.state.ValidPasswordConfirm}
             />
           </div>
         </div>

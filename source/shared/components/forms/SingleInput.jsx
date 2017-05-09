@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 function SingleInput(props) {
   return (
     <div className="input-field">
-      <label 
+      <label
         htmlFor={props.name}
         data-error={props.dataError ? props.dataError : 'Error'}
         data-success={props.dataSuccess ? props.dataSuccess : ''}
@@ -12,7 +12,7 @@ function SingleInput(props) {
       </label>
       <input
         id={props.name}
-        className={props.validate ? `validate ${isValid}` : null}
+        className={props.validate ? `validate ${props.isValid}` : null}
         name={props.name}
         type={props.inputType}
         value={props.content}
@@ -38,7 +38,7 @@ SingleInput.propTypes = {
   placeholder: PropTypes.string,
   dataError: PropTypes.string,
   dataSuccess: PropTypes.string,
-  isValid: PropTypes.oneOf(['valid', 'invalid','']),
+  isValid: PropTypes.oneOf(['valid', 'invalid', '']),
 };
 
 SingleInput.defaultProps = {
