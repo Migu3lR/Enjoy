@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { notify } from 'react-notify-toast';
 
 import SingleInput from '../../../shared/components/forms/SingleInput';
 
@@ -66,16 +67,20 @@ class RegisterForm extends Component {
   }
 
   handleFormSubmit(e) {
-    e.preventDefault();
+    if (this.state.ValidPasswordConfirm !== 'valid') {
+      notify.show('Confirmación de contraseña erronea.', 'error', 5000);
+    } else {
+      e.preventDefault();
 
-    api.auth.Register_Email(
-      this.state.email,
-      this.state.password,
-      this.state.displayName,
-      this.state.fullName,
-    );
+      api.auth.Register_Email(
+        this.state.email,
+        this.state.password,
+        this.state.displayName,
+        this.state.fullName,
+      );
 
-    this.handleClearForm(e);
+      this.handleClearForm(e);
+    }
   }
 
   render() {
