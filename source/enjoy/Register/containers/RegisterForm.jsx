@@ -34,7 +34,7 @@ class RegisterForm extends Component {
 
   handlePasswordChange(e) {
     this.setState({ password: e.target.value });
-    this.Valid_passwordConfirm();
+    this.ValidPasswordConfirm();
   }
 
   handlePasswordConfirmChange(e) {
