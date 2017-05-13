@@ -85,6 +85,7 @@ const api = {
     SuscribeAuthChage() {
       Auth.onAuthStateChanged((user) => {
         if (user) {
+          console.log(user);
           return (user);
         }
         return null;
