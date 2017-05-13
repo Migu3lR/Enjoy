@@ -1,14 +1,22 @@
 const path = require('path');
 
+const fs = require('fs');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+const nodeModules = fs
+  .readdirSync('node_modules')
+  .filter(x => ['.bin'].indexOf(x) === -1)
+  .reduce(
+  (modules, module) => Object.assign(modules, { [module]: `commonjs ${module}` }), {}
+  );
 
 const config = {
   entry: './source/payu-listener.jsx',
   output: {
     filename: 'payment.js',
     path: path.resolve(__dirname, '../built/server'),
-    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'http://138.68.131.182:55880',
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'http://138.68.131.182:3002',
   },
   module: {
     loaders: [
@@ -27,15 +35,15 @@ const config = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ['es2016', 'es2017', 'react'],
-              plugins: ['babel-plugin-transform-es2015-modules-commonjs'],
+              plugins: ['transform-decorators-legacy'],
+              presets: ['latest-minimal', 'react', 'stage-1'],
               env: {
                 production: {
                   plugins: ['transform-regenerator', 'transform-runtime'],
                   presets: ['es2015'],
                 },
                 development: {
-                  plugins: ['transform-es2015-modules-commonjs'],
+                  presets: ['latest-minimal'],
                 },
               },
             },
@@ -43,17 +51,13 @@ const config = {
         ],
         exclude: /(node_modules)/,
       },
-      {
-        test: /\.css?$/,
-        exclude: /node_modules/,
-        use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader?modules' }),
-      },
     ],
   },
-  target: 'web',
+  target: 'node',
   resolve: {
-    extensions: ['.js', '.jsx', '.css', '.json'],
+    extensions: ['.js', '.jsx', '.json'],
   },
+  externals: nodeModules,
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
@@ -61,7 +65,6 @@ const config = {
       },
     }),
     new webpack.optimize.OccurrenceOrderPlugin(true),
-    new ExtractTextPlugin({ filename: '../statics/styles.css' }),
   ],
 };
 
@@ -75,7 +78,7 @@ if (process.env.NODE_ENV === 'production') {
       mangle: {
         except: ['$super', '$', 'exports', 'require'],
       },
-    })
+    }) 
   );
 }
 
