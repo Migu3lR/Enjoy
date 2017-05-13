@@ -13,11 +13,11 @@ const acceso = Firebase.auth().signInWithEmailAndPassword('alegraEL_Payments@ale
 
 acceso.then(() => {
   auth = true;
-  console('Login OK.');
+  console.log('Login OK.');
 });
 
 acceso.catch(() => {
-  console('Login Error.');
+  console.log('Login Error.');
   auth = false;
 });
 
