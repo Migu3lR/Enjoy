@@ -5,7 +5,7 @@ import queryString from 'query-string';
 import api from '../../../api';
 
 function Portal(props) {
-  console.log(api.auth.currentUser());
+  console.log(api.auth.SuscribeAuthChage());
   console.log(queryString.parse(props.location.search));
   return (
     <section name="Portal">
