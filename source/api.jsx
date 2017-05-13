@@ -15,7 +15,7 @@ const api = {
         return snapshot;
       });
     },
-    ref: Data.ref(),
+    ref: d => Data.ref(d),
   },
   auth: {
     Login_Google() {

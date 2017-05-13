@@ -6,11 +6,11 @@ import api from '../../../api';
 import sha256 from '../../../CryptoSHA256';
 
 function Portal(props) {
-  console.log(api.auth.currentUser);
+  console.log(api.auth.currentUser());
 
   const transaccion = {
     Fecha: Date(),
-    ClienteID: api.auth.currentUser.uid,
+    ClienteID: api.auth.currentUser().uid,
     ValorTotal: 10000,
     Iva: 0,
     BaseIva: 0,
@@ -20,17 +20,31 @@ function Portal(props) {
     EstadoDet: 0,
   };
 
-  const sign = '4Vj8eK4rloUd272L48hsrarnUA~508029~TestPayU~3~USD';
+  const firma = {
+    apiKey: null,
+    merchantId: null,
+    newTrx: api.db.ref().child('transacciones').push().key,
+    valor: transaccion.ValorTotal,
+    moneda: transaccion.Moneda,
+  };
 
-  console.log(sha256(sign));
+  console.log(firma);
 
-  /*const newTrx = api.db.ref.child('transacciones').push().key;
+  api.db.ref('/parametros/seguridad').once('value')
+  .then((seguridad) => {
+    firma.apikey = seguridad.PUapiKey;
+    firma.merchantId = seguridad.PUmerchantId;
+  });
+
+  console.log(sha256(firma));
+
+  /*const newTrx = api.db.ref().child('transacciones').push().key;
 
   const updates = {};
   updates[`/transacciones/${newTrx}`] = transaccion;
   updates[`/usuarios/${transaccion.ClienteID}/${newTrx}`] = transaccion;
 
-  api.db.ref.update(updates);                                                                                                                                                                                                                                                                        
+  api.db.ref.update(updates);
 */
   console.log(queryString.parse(props.location.search));
   return (
