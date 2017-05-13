@@ -1,6 +1,5 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import firebase from 'firebase';
 import Firebase from './Firebase';
 
 const app = express();
@@ -8,17 +7,17 @@ const app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
-const token = firebase.auth().createCustomToken('alegraEL_Payments', { unlimited: true });
-
 let auth = false;
 
-const acceso = Firebase.auth().signInWithCustomToken(token);
+const acceso = Firebase.auth().signInWithEmailAndPassword('alegraEL_Payments@alegraELPayments.com', 'alegraEL_Payments!"#');
 
 acceso.then(() => {
   auth = true;
+  console('Login OK.');
 });
 
 acceso.catch(() => {
+  console('Login Error.');
   auth = false;
 });
 
