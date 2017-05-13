@@ -21,7 +21,7 @@ function Portal(props) {
         <input name="test" type="hidden" value="1" />
         <input name="buyerEmail" type="hidden" value="ingmromero34@gmail.com" />
         <input name="responseUrl" type="hidden" value="http://alegratuvida.com/enjoy/portal/transaccion" />
-        <input name="confirmationUrl" type="hidden" value="http://alegratuvida.com:5000" />
+        <input name="confirmationUrl" type="hidden" value="http://alegratuvida.com:55880" />
         <input name="Submit" type="submit" value="Enviar" />
       </form>
     </section>
