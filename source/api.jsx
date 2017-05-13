@@ -1,7 +1,10 @@
 import { notify } from 'react-notify-toast';
 
 import firebase from 'firebase';
-import { Data, Auth } from './Services';
+import Firebase from './Firebase';
+
+const Data = Firebase.database();
+const Auth = Firebase.auth();
 
 const api = {
   db: {
