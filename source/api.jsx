@@ -80,7 +80,7 @@ const api = {
         console.log(errorCode, errorMessage);
       });
     },
-    currentUser() {
+    currentUser: () => {
       const user = Auth.currentUser;
       if (user) {
         return (user);
