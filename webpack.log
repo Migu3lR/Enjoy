@@ -21492,3 +21492,618 @@ Child
            [5] ./~/ieee754/index.js 2.05 kB {0} [built]
            [6] (webpack)/buildin/global.js 509 bytes {0} [built]
             + 1 hidden modules
+############################################
+############################################
+############################################
+Fri May 12 21:57:18 COT 2017
+Already up-to-date.
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: 08b3a76df4e5589ca5341352f493fbddedf1a04c
+Version: webpack 2.3.2
+Child
+    Hash: 08b3a76df4e5589ca534
+    Time: 16846ms
+                    Asset       Size  Chunks                    Chunk Names
+                 index.js     711 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  923 bytes       0  [emitted]         main
+      [56] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [58] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [88] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [94] ./source/enjoy/pages/containers/Enjoy.jsx 1.18 kB {0} [built] [1 error]
+      [95] ./source/enjoy/pages/containers/Login.jsx 2.36 kB {0} [built]
+      [96] ./source/enjoy/pages/containers/Page.jsx 1.6 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Portal.jsx 2.3 kB {0} [built] [1 error]
+      [98] ./source/enjoy/pages/containers/RegisterEmail.jsx 2.38 kB {0} [built]
+      [99] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+     [100] ./source/server.jsx 1.79 kB {0} [built]
+     [142] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [147] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {0} [built]
+     [205] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 192 hidden modules
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Portal.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Portal.jsx
+       1:17  error  'PropTypes' is defined but never used                   no-unused-vars
+       1:28  error  'Component' is defined but never used                   no-unused-vars
+       2:10  error  'Link' is defined but never used                        no-unused-vars
+       8:39  error  'location' is missing in props validation               react/prop-types
+       8:48  error  'location.search' is missing in props validation        react/prop-types
+       9:5   error  Expected indentation of 2 spaces but found 4            indent
+      11:7   error  Expected indentation of 8 space characters but found 6  react/jsx-indent
+      12:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      12:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      12:69  error  Multiple spaces found before '/'                        no-multi-spaces
+      13:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      13:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      14:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:71  error  Multiple spaces found before '/'                        no-multi-spaces
+      15:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      16:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:68  error  Multiple spaces found before '/'                        no-multi-spaces
+      17:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      17:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      17:63  error  Multiple spaces found before '/'                        no-multi-spaces
+      18:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      19:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      19:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      20:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:94  error  Multiple spaces found before '/'                        no-multi-spaces
+      21:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      21:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      22:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      22:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      23:38  error  Multiple spaces found before 'type'                     no-multi-spaces
+      23:53  error  Multiple spaces found before 'value'                    no-multi-spaces
+      24:42  error  Multiple spaces found before 'type'                     no-multi-spaces
+      24:57  error  Multiple spaces found before 'value'                    no-multi-spaces
+      25:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      25:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+    
+    ✖ 38 problems (38 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 25:14-33
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+Child
+    Hash: 1352f493fbddedf1a04c
+    Time: 16821ms
+                    Asset       Size  Chunks                    Chunk Names
+                   app.js    1.38 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  923 bytes       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [10] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [21] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [25] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [33] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [69] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [112] ./source/client.jsx 1.33 kB {0} [built]
+     [117] ./source/enjoy/pages/containers/Page.jsx 1.6 kB {0} [built]
+     [120] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+     [251] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 276 hidden modules
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Portal.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Portal.jsx
+       1:17  error  'PropTypes' is defined but never used                   no-unused-vars
+       1:28  error  'Component' is defined but never used                   no-unused-vars
+       2:10  error  'Link' is defined but never used                        no-unused-vars
+       8:39  error  'location' is missing in props validation               react/prop-types
+       8:48  error  'location.search' is missing in props validation        react/prop-types
+       9:5   error  Expected indentation of 2 spaces but found 4            indent
+      11:7   error  Expected indentation of 8 space characters but found 6  react/jsx-indent
+      12:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      12:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      12:69  error  Multiple spaces found before '/'                        no-multi-spaces
+      13:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      13:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      14:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:71  error  Multiple spaces found before '/'                        no-multi-spaces
+      15:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      16:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:68  error  Multiple spaces found before '/'                        no-multi-spaces
+      17:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      17:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      17:63  error  Multiple spaces found before '/'                        no-multi-spaces
+      18:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      19:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      19:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      20:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:94  error  Multiple spaces found before '/'                        no-multi-spaces
+      21:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      21:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      22:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      22:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      23:38  error  Multiple spaces found before 'type'                     no-multi-spaces
+      23:53  error  Multiple spaces found before 'value'                    no-multi-spaces
+      24:42  error  Multiple spaces found before 'type'                     no-multi-spaces
+      24:57  error  Multiple spaces found before 'value'                    no-multi-spaces
+      25:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      25:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+    
+    ✖ 38 problems (38 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 25:14-33
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+############################################
+############################################
+############################################
+Fri May 12 22:25:02 COT 2017
+Updating 5d20d48..4d36a38
+Fast-forward
+ source/Services.jsx                | 10 ++---
+ source/payu-listener.jsx           | 12 ++++++
+ webpack.config.js                  |  2 +
+ webpack/webpack.services.config.js | 82 ++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 101 insertions(+), 5 deletions(-)
+ create mode 100644 source/payu-listener.jsx
+ create mode 100644 webpack/webpack.services.config.js
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+############################################
+############################################
+############################################
+Fri May 12 22:30:16 COT 2017
+Updating 4d36a38..cc82266
+Fast-forward
+ webpack/webpack.services.config.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: 08b3a76df4e5589ca5341352f493fbddedf1a04c742b1dac321180f414ac
+Version: webpack 2.3.2
+Child
+    Hash: 08b3a76df4e5589ca534
+    Time: 18340ms
+                    Asset       Size  Chunks                    Chunk Names
+                 index.js     711 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  923 bytes       0  [emitted]         main
+      [56] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [58] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [88] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+      [89] ./source/messages.json 1.11 kB {0} [built]
+      [90] ./~/react-dom/server.js 65 bytes {0} [built]
+      [94] ./source/enjoy/pages/containers/Enjoy.jsx 1.18 kB {0} [built] [1 error]
+      [95] ./source/enjoy/pages/containers/Login.jsx 2.36 kB {0} [built]
+      [96] ./source/enjoy/pages/containers/Page.jsx 1.6 kB {0} [built]
+      [97] ./source/enjoy/pages/containers/Portal.jsx 2.3 kB {0} [built] [1 error]
+      [98] ./source/enjoy/pages/containers/RegisterEmail.jsx 2.38 kB {0} [built]
+      [99] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+     [100] ./source/server.jsx 1.79 kB {0} [built]
+     [142] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [147] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {0} [built]
+     [205] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 192 hidden modules
+    
+    ERROR in ./source/enjoy/pages/containers/Portal.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Portal.jsx
+       1:17  error  'PropTypes' is defined but never used                   no-unused-vars
+       1:28  error  'Component' is defined but never used                   no-unused-vars
+       2:10  error  'Link' is defined but never used                        no-unused-vars
+       8:39  error  'location' is missing in props validation               react/prop-types
+       8:48  error  'location.search' is missing in props validation        react/prop-types
+       9:5   error  Expected indentation of 2 spaces but found 4            indent
+      11:7   error  Expected indentation of 8 space characters but found 6  react/jsx-indent
+      12:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      12:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      12:69  error  Multiple spaces found before '/'                        no-multi-spaces
+      13:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      13:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      14:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:71  error  Multiple spaces found before '/'                        no-multi-spaces
+      15:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      16:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:68  error  Multiple spaces found before '/'                        no-multi-spaces
+      17:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      17:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      17:63  error  Multiple spaces found before '/'                        no-multi-spaces
+      18:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      19:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      19:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      20:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:94  error  Multiple spaces found before '/'                        no-multi-spaces
+      21:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      21:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      22:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      22:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      23:38  error  Multiple spaces found before 'type'                     no-multi-spaces
+      23:53  error  Multiple spaces found before 'value'                    no-multi-spaces
+      24:42  error  Multiple spaces found before 'type'                     no-multi-spaces
+      24:57  error  Multiple spaces found before 'value'                    no-multi-spaces
+      25:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      25:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+    
+    ✖ 38 problems (38 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 25:14-33
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+Child
+    Hash: 1352f493fbddedf1a04c
+    Time: 18783ms
+                    Asset       Size  Chunks                    Chunk Names
+                   app.js    1.38 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  923 bytes       0  [emitted]         main
+       [2] ./~/react/react.js 56 bytes {0} [built]
+      [10] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [21] ./~/react-dom/lib/EventPluginHub.js 9.11 kB {0} [built]
+      [25] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [33] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+      [69] ./~/react-dom/index.js 59 bytes {0} [built]
+     [107] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+     [108] ./source/messages.json 1.11 kB {0} [built]
+     [109] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [110] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [111] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [112] ./source/client.jsx 1.33 kB {0} [built]
+     [117] ./source/enjoy/pages/containers/Page.jsx 1.6 kB {0} [built]
+     [120] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+     [251] ./~/react-router-dom/es/matchPath.js 52 bytes {0} [built]
+        + 276 hidden modules
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Portal.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Portal.jsx
+       1:17  error  'PropTypes' is defined but never used                   no-unused-vars
+       1:28  error  'Component' is defined but never used                   no-unused-vars
+       2:10  error  'Link' is defined but never used                        no-unused-vars
+       8:39  error  'location' is missing in props validation               react/prop-types
+       8:48  error  'location.search' is missing in props validation        react/prop-types
+       9:5   error  Expected indentation of 2 spaces but found 4            indent
+      11:7   error  Expected indentation of 8 space characters but found 6  react/jsx-indent
+      12:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      12:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      12:69  error  Multiple spaces found before '/'                        no-multi-spaces
+      13:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      13:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      14:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      14:71  error  Multiple spaces found before '/'                        no-multi-spaces
+      15:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      16:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      16:68  error  Multiple spaces found before '/'                        no-multi-spaces
+      17:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      17:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      17:63  error  Multiple spaces found before '/'                        no-multi-spaces
+      18:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      19:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      19:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      20:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      20:94  error  Multiple spaces found before '/'                        no-multi-spaces
+      21:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      21:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      22:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      22:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+      23:38  error  Multiple spaces found before 'type'                     no-multi-spaces
+      23:53  error  Multiple spaces found before 'value'                    no-multi-spaces
+      24:42  error  Multiple spaces found before 'type'                     no-multi-spaces
+      24:57  error  Multiple spaces found before 'value'                    no-multi-spaces
+      25:37  error  Multiple spaces found before 'type'                     no-multi-spaces
+      25:52  error  Multiple spaces found before 'value'                    no-multi-spaces
+    
+    ✖ 38 problems (38 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 25:14-33
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+Child
+    Hash: 742b1dac321180f414ac
+    Time: 20615ms
+         Asset     Size  Chunks                    Chunk Names
+    payment.js  1.28 MB       0  [emitted]  [big]  main
+       [6] ./~/fbjs/lib/warning.js 2.1 kB {0} [built]
+      [14] ./~/react/lib/ReactElement.js 11.2 kB {0} [built]
+      [86] ./~/express/lib/middleware/query.js 863 bytes {0} [built]
+      [87] ./~/express/lib/router/index.js 14.9 kB {0} [built]
+      [89] ./~/express/lib/router/route.js 4.15 kB {0} [built]
+     [114] ./~/express/index.js 224 bytes {0} [built]
+     [115] ./~/react/react.js 56 bytes {0} [built]
+     [125] ./source/payu-listener.jsx 412 bytes {0} [built] [1 error]
+     [168] ./~/express/lib/application.js 14.3 kB {0} [built]
+     [169] ./~/express/lib/express.js 2.22 kB {0} [built]
+     [171] ./~/express/lib/request.js 12.2 kB {0} [built]
+     [172] ./~/express/lib/response.js 25.2 kB {0} [built]
+     [218] ./~/react/lib/React.js 2.69 kB {0} [built]
+     [224] ./~/react/lib/ReactVersion.js 350 bytes {0} [built]
+     [235] ./~/serve-static/index.js 4.53 kB {0} [built]
+        + 243 hidden modules
+    
+    WARNING in ./~/express/lib/view.js
+    80:29-41 Critical dependency: the request of a dependency is an expression
+    
+    ERROR in ./source/payu-listener.jsx
+    
+    /home/migu3lr/enjoy/source/payu-listener.jsx
+      2:8   error  'React' is defined but never used     no-unused-vars
+      6:34  error  'response' is defined but never used  no-unused-vars
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+    
+    ERROR in ./~/express/lib/request.js
+    Module not found: Error: Can't resolve 'net' in '/home/migu3lr/enjoy/node_modules/express/lib'
+     @ ./~/express/lib/request.js 18:11-25
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/payu-listener.jsx
+    
+    ERROR in ./~/express/lib/view.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/express/lib'
+     @ ./~/express/lib/view.js 18:9-22
+     @ ./~/express/lib/application.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/payu-listener.jsx
+    
+    ERROR in ./~/send/index.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/send'
+     @ ./~/send/index.js 24:9-22
+     @ ./~/express/lib/response.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/payu-listener.jsx
+    
+    ERROR in ./~/etag/index.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/etag'
+     @ ./~/etag/index.js 22:12-25
+     @ ./~/express/lib/utils.js
+     @ ./~/express/lib/application.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/payu-listener.jsx
+    
+    ERROR in ./~/mime/mime.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/mime'
+     @ ./~/mime/mime.js 2:9-22
+     @ ./~/send/index.js
+     @ ./~/express/lib/response.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/payu-listener.jsx
+    
+    ERROR in ./~/destroy/index.js
+    Module not found: Error: Can't resolve 'fs' in '/home/migu3lr/enjoy/node_modules/destroy'
+     @ ./~/destroy/index.js 14:17-30
+     @ ./~/send/index.js
+     @ ./~/express/lib/response.js
+     @ ./~/express/lib/express.js
+     @ ./~/express/index.js
+     @ ./source/payu-listener.jsx
