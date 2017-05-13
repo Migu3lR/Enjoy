@@ -24,14 +24,14 @@ function Portal(props) {
 
   console.log(sha256(sign));
 
-  const newTrx = api.db.ref.child('transacciones').push().key;
+  /*const newTrx = api.db.ref.child('transacciones').push().key;
 
   const updates = {};
   updates[`/transacciones/${newTrx}`] = transaccion;
   updates[`/usuarios/${transaccion.ClienteID}/${newTrx}`] = transaccion;
 
   api.db.ref.update(updates);                                                                                                                                                                                                                                                                        
-
+*/
   console.log(queryString.parse(props.location.search));
   return (
     <section name="Portal">
