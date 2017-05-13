@@ -7,6 +7,7 @@ import {
 import Home from './Enjoy';
 import Login from './Login';
 import RegisterEmail from './RegisterEmail';
+import Portal from './Portal';
 import Error404 from '../../../pages/containers/Error404';
 
 function Pages() {
@@ -28,6 +29,12 @@ function Pages() {
         path="/enjoy/register/email"
         exact
         component={RegisterEmail}
+      />
+
+      <Route
+        path="/enjoy/portal"
+        exact
+        component={Portal}
       />
 
       <Route component={Error404} />
