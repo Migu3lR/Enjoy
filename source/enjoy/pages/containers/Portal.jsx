@@ -2,9 +2,10 @@ import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import queryString from 'query-string';
+import api from '../../../api';
 
 function Portal(props) {
-  console.log(1);
+  console.log(api.auth.currentUser());
   console.log(queryString.parse(props.location.search));
   return (
     <section name="Portal">
