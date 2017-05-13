@@ -53,6 +53,10 @@ const api = {
         Auth.currentUser.updateProfile({
           displayName: `${displayName}|${fullName}`,
         });
+        Data.ref(`usuarios/${Auth.currentUser.uid}`).set({
+          email,
+          displayName,
+        });
         notify.show('Gracias por registrarte.', 'success', 5000);
       });
 
