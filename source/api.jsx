@@ -50,7 +50,7 @@ const api = {
 
             Data.ref().update(updates);
 
-            firebase.database().ref(`/transacciones/${firma.newTrx}`)
+            Data.ref(`/transacciones/${firma.newTrx}`)
             .on('child_added', () => {
               resolve({
                 api: seguridad.val().PUapi,

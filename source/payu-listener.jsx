@@ -7,8 +7,10 @@ const app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
+const Data = Firebase.database();
+const Auth = Firebase.auth();
 
-const acceso = Firebase.auth().signInWithEmailAndPassword('alegraEL_Payments@alegraELPayments.com', 'alegraEL_Payments!"#');
+const acceso = Auth.signInWithEmailAndPassword('alegraEL_Payments@alegraELPayments.com', 'alegraEL_Payments!"#');
 
 app.post('/payu', (req, res) => {
   const params = req.body;
@@ -20,18 +22,19 @@ app.post('/payu', (req, res) => {
     const transaccion = {
       Estado: params.state_pol,
       EstadoDet: params.response_code_pol,
-    }
+    };
 
     const updates = {};
     updates[`/transacciones/${params.reference_sale}`] = transaccion;
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}`] = transaccion;
 
     Data.ref().update(updates);
-    
-    firebase.database().ref(`/transacciones/${params.reference_sale}`)
+
+    Data.ref(`/transacciones/${params.reference_sale}`)
     .on('child_changed', () => {
       res.writeHead(200);
       res.end();
+    });
   });
 
   acceso.catch(() => {
