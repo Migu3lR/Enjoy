@@ -25,10 +25,10 @@ app.post('/payu', (req, res) => {
     const updates = {};
     updates[`/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
-    updates[`/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'isoDateTime');
+    updates[`/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'yyyy-mm-dd"T"HH:MM:ss');
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
-    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'isoDateTime');
+    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'yyyy-mm-dd"T"HH:MM:ss');
 
     Data.ref().update(updates);
 
