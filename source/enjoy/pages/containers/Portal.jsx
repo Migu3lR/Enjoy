@@ -5,30 +5,30 @@ import queryString from 'query-string';
 import api from '../../../api';
 
 function Portal(props) {
-  const trxData = api.db.nuevaTrx('Curso 1', 70000).then(data => data);
-  console.log(trxData);
-
-  console.log(queryString.parse(props.location.search));
-  return (
-    <section name="Portal">
-      <form method="post" action="https://sandbox.gateway.payulatam.com/ppp-web-gateway/">
-        <input name="merchantId" type="hidden" value="508029" />
-        <input name="accountId" type="hidden" value="512321" />
-        <input name="description" type="hidden" value="Test PAYU" />
-        <input name="referenceCode" type="hidden" value="ALG-00004" />
-        <input name="amount" type="hidden" value="10000" />
-        <input name="tax" type="hidden" value="0" />
-        <input name="taxReturnBase" type="hidden" value="0" />
-        <input name="currency" type="hidden" value="COP" />
-        <input name="signature" type="hidden" value="3e74bfda62b4581ea7a339fd75505404" />
-        <input name="test" type="hidden" value="1" />
-        <input name="buyerEmail" type="hidden" value="ingmromero34@gmail.com" />
-        <input name="responseUrl" type="hidden" value="http://alegratuvida.com/enjoy/portal/" />
-        <input name="confirmationUrl" type="hidden" value="http://alegratuvida.com:55880/payu" />
-        <input name="Submit" type="submit" value="Enviar" />
-      </form>
-    </section>
-  );
+  return api.db.nuevaTrx('Curso 1', 70000).then((trx) => {
+    console.log(queryString.parse(props.location.search));
+    return (
+      <section name="Portal">
+        <form method="post" action={trx.api}>
+          <input name="merchantId" type="hidden" value={trx.merchantId} />
+          <input name="accountId" type="hidden" value={trx.accountId} />
+          <input name="description" type="hidden" value={trx.description} />
+          <input name="referenceCode" type="hidden" value={trx.referenceCode} />
+          <input name="amount" type="hidden" value={trx.amount} />
+          <input name="tax" type="hidden" value={trx.tax} />
+          <input name="taxReturnBase" type="hidden" value={trx.taxReturnBase} />
+          <input name="currency" type="hidden" value={trx.currency} />
+          <input name="signature" type="hidden" value={trx.signature} />
+          <input name="test" type="hidden" value="1" />
+          <input name="buyerEmail" type="hidden" value={trx.buyerEmail} />
+          <input name="extra1" type="hidden" value={trx.extra1} />
+          <input name="responseUrl" type="hidden" value="http://alegratuvida.com/enjoy/portal/" />
+          <input name="confirmationUrl" type="hidden" value="http://alegratuvida.com:55880/payu" />
+          <input name="Submit" type="submit" value="Enviar" />
+        </form>
+      </section>
+    );
+  });
 }
 
 export default Portal;
