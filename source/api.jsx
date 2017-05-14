@@ -20,8 +20,9 @@ const api = {
     nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve, reject) => {
       Auth.onAuthStateChanged((user) => {
         if (user) {
+          dateFormat.masks.ALG = 'yyyy-mm-dd"T"HH:MM:ss';
           const transaccion = {
-            Fecha: dateFormat(new Date(), 'yyyy-mm-ddTHH:MM:ss'),
+            Fecha: dateFormat(new Date(), 'ALG'),
             FechaUdp: null,
             ClienteID: user.uid,
             ValorTotal: 10000,
