@@ -12,7 +12,7 @@ const Data = Firebase.database();
 const Auth = Firebase.auth();
 
 const acceso = Auth.signInWithEmailAndPassword('alegraEL_Payments@alegraELPayments.com', 'alegraEL_Payments!"#');
-dateFormat.masks.ALG = 'yyyy-mm-dd"T"HH:MM:ss';
+dateFormat.masks.ALG = 'yyyy-mm-dd HH:MM:ss';
 app.post('/payu', (req, res) => {
   const params = req.body;
   console.log(params);
