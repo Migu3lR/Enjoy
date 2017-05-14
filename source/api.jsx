@@ -42,8 +42,8 @@ const api = {
 
           api.db.ref('/parametros/seguridad').once('value')
           .then((seguridad) => {
-            firma.apiKey = seguridad.PUapiKey;
-            firma.merchantId = seguridad.PUmerchantId;
+            firma.apiKey = seguridad.val().PUapiKey;
+            firma.merchantId = seguridad.val().PUmerchantId;
             console.log(firma);
             console.log(`${firma.apiKey}~${firma.merchantId}~${firma.newTrx}~${firma.valor}~${firma.moneda}`);
             console.log(sha256(firma));
