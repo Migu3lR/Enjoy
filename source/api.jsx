@@ -21,7 +21,7 @@ const api = {
       Auth.onAuthStateChanged((user) => {
         if (user) {
           const transaccion = {
-            Fecha: dateFormat(new Date(), 'yyyy-mm-dd"T"HH:MM:ss'),
+            Fecha: dateFormat(new Date(), 'yyyy-mm-ddTHH:MM:ss'),
             FechaUdp: null,
             ClienteID: user.uid,
             ValorTotal: 10000,
