@@ -16,7 +16,6 @@ const api = {
         return snapshot;
       });
     },
-    ref: d => Data.ref(d),
     nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => {
       Auth.onAuthStateChanged((user) => {
         if (user) {
@@ -40,18 +39,20 @@ const api = {
             moneda: transaccion.Moneda,
           };
 
-          api.db.ref('/parametros/seguridad').once('value')
+          Data.ref('/parametros/seguridad').once('value')
           .then((seguridad) => {
             firma.apiKey = seguridad.val().PUapiKey;
             firma.merchantId = seguridad.val().PUmerchantId;
-            console.log(firma);
-            console.log(`${firma.apiKey}~${firma.merchantId}~${firma.newTrx}~${firma.valor}~${firma.moneda}`);
             console.log(sha256(firma));
+
+            const updates = {};
+            updates[`/transacciones/${firma.newTrx}`] = transaccion;
+            updates[`/usuarios/${transaccion.ClienteID}/${firma.newTrx}`] = transaccion;
+
+            Data.ref.update(updates);
           });
         }
       });
-
-
     },
   },
   auth: {
