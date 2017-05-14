@@ -65,6 +65,7 @@ const api = {
                 signature: sha256(firma),
                 buyerEmail: user.email,
                 extra1: user.uid,
+                algorithmSignature: 'SHA256',
               });
             });
           });
