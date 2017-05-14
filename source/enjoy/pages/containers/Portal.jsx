@@ -5,9 +5,10 @@ import queryString from 'query-string';
 import api from '../../../api';
 
 function Portal(props) {
-  return api.db.nuevaTrx('Curso 1', 70000).then((trx) => {
+  let boton;
+  api.db.nuevaTrx('Curso 1', 70000).then((trx) => {
     console.log(queryString.parse(props.location.search));
-    return (
+    boton = (
       <section name="Portal">
         <form method="post" action={trx.api}>
           <input name="merchantId" type="hidden" value={trx.merchantId} />
@@ -29,6 +30,7 @@ function Portal(props) {
       </section>
     );
   });
+  return boton;
 }
 
 export default Portal;
