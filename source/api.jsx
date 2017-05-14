@@ -1,6 +1,7 @@
 import { notify } from 'react-notify-toast';
 
 import firebase from 'firebase';
+import dateFormat from 'dateformat';
 import Firebase from './Firebase';
 import sha256 from './CryptoSHA256';
 
@@ -20,7 +21,8 @@ const api = {
       Auth.onAuthStateChanged((user) => {
         if (user) {
           const transaccion = {
-            Fecha: Date(),
+            Fecha: dateFormat(new Date(), 'isoDateTime'),
+            FechaUdp: null,
             ClienteID: user.uid,
             ValorTotal: 10000,
             Iva,

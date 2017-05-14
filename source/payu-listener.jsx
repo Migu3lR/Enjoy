@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import dateFormat from 'dateformat';
 import Firebase from './Firebase';
 
 const app = express();
@@ -18,17 +19,21 @@ app.post('/payu', (req, res) => {
 
   acceso.then(() => {
     console.log('Login OK.');
-    
+
+    const now = new Date();
+
     const updates = {};
     updates[`/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
+    updates[`/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'isoDateTime');
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
+    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'isoDateTime');
 
     Data.ref().update(updates);
 
     Data.ref(`/transacciones/${params.reference_sale}`)
-    .on('child_changed', () => {
+    .once('child_changed', () => {
       res.writeHead(200);
       res.end();
     });
