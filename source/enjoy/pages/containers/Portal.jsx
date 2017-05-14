@@ -34,12 +34,12 @@ class Portal extends Component {
           <input name="taxReturnBase" type="hidden" value={this.state.newTrx.taxReturnBase} />
           <input name="currency" type="hidden" value={this.state.newTrx.currency} />
           <input name="signature" type="hidden" value={this.state.newTrx.signature} />
-          <input name="test" type="hidden" value="1" />
+          <input name="test" type="hidden" value={'1'} />
           <input name="buyerEmail" type="hidden" value={this.state.newTrx.buyerEmail} />
           <input name="extra1" type="hidden" value={this.state.newTrx.extra1} />
-          <input name="responseUrl" type="hidden" value="http://alegratuvida.com/enjoy/portal/" />
-          <input name="confirmationUrl" type="hidden" value="http://alegratuvida.com:55880/payu" />
-          <input name="Submit" type="submit" value="Enviar" />
+          <input name="responseUrl" type="hidden" value={'http://alegratuvida.com/enjoy/portal/'} />
+          <input name="confirmationUrl" type="hidden" value={'http://alegratuvida.com:55880/payu'} />
+          <input name="Submit" type="submit" value={'PAGAR'} />
         </form>
       </section>
     );

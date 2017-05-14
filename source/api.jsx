@@ -51,9 +51,7 @@ const api = {
             Data.ref().update(updates);
 
             firebase.database().ref(`/transacciones/${firma.newTrx}`)
-            .on('child_added', (data) => {
-              console.log(data);
-              console.log(data.val());
+            .on('child_added', () => {
               resolve({
                 api: seguridad.val().PUapi,
                 referenceCode: firma.newTrx,
