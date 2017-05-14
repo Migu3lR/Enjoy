@@ -11,15 +11,19 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 const Data = Firebase.database();
 const Auth = Firebase.auth();
 
+let auth = false;
+
 const acceso = Auth.signInWithEmailAndPassword('alegraEL_Payments@alegraELPayments.com', 'alegraEL_Payments!"#');
+acceso.then(() => {
+  console.log('Login OK.');
+  auth = true;
+});
 
 app.post('/payu', (req, res) => {
   const params = req.body;
   console.log(params);
 
-  acceso.then(() => {
-    console.log('Login OK.');
-
+  if (auth) {
     const now = new Date();
 
     const updates = {};
@@ -37,13 +41,10 @@ app.post('/payu', (req, res) => {
       res.writeHead(200);
       res.end();
     });
-  });
-
-  acceso.catch(() => {
-    console.log('Login Error.');
+  } else {
     res.writeHead(400);
     res.end();
-  });
+  }
 });
 
 app.listen(55880);
