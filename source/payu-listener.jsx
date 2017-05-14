@@ -25,6 +25,7 @@ acceso.catch(() => {
 app.post('/payu', (req, res) => {
   const params = req.body;
   console.log(params);
+  
   res.writeHead(200);
   res.end();
 });

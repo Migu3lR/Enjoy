@@ -16,7 +16,7 @@ const api = {
         return snapshot;
       });
     },
-    nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => {
+    nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve, reject) => {
       Auth.onAuthStateChanged((user) => {
         if (user) {
           const transaccion = {
@@ -43,17 +43,34 @@ const api = {
           .then((seguridad) => {
             firma.apiKey = seguridad.val().PUapiKey;
             firma.merchantId = seguridad.val().PUmerchantId;
-            console.log(sha256(firma));
 
             const updates = {};
             updates[`/transacciones/${firma.newTrx}`] = transaccion;
             updates[`/usuarios/${transaccion.ClienteID}/transacciones/${firma.newTrx}`] = transaccion;
 
             Data.ref().update(updates);
+
+            firebase.database().ref(`/transacciones/${firma.newTrx}`)
+            .on('child_added', (data) => {
+              resolve({
+                api: seguridad.val().PUapi,
+                referenceCode: data.key,
+                merchantId: seguridad.val().PUmerchantId,
+                accountId: seguridad.val().PUaccounttId,
+                description: data.val().Descripcion,
+                amount: data.val().ValorTotal,
+                tax: data.val().Iva,
+                taxReturnBase: data.val().IvaBase,
+                currency: data.val().Moneda,
+                signature: sha256(firma),
+                buyerEmail: user.email,
+                extra1: user.uid,
+              });
+            });
           });
         }
       });
-    },
+    }),
   },
   auth: {
     Login_Google() {

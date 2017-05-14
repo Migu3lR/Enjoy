@@ -5,16 +5,9 @@ import queryString from 'query-string';
 import api from '../../../api';
 
 function Portal(props) {
-  api.db.nuevaTrx('Curso 1', 70000);
-  
-  /*const newTrx = api.db.ref().child('transacciones').push().key;
+  const trxData = api.db.nuevaTrx('Curso 1', 70000).then(data => data);
+  console.log(trxData);
 
-  const updates = {};
-  updates[`/transacciones/${newTrx}`] = transaccion;
-  updates[`/usuarios/${transaccion.ClienteID}/${newTrx}`] = transaccion;
-
-  api.db.ref.update(updates);
-*/
   console.log(queryString.parse(props.location.search));
   return (
     <section name="Portal">
