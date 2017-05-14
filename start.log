@@ -1,0 +1,1079 @@
+[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+
+/home/migu3lr/enjoy/node_modules/firebase/app/firebase_app.js:268
+    throw appErrors.create(code, args);
+    ^
+[DEFAULT]: Firebase: Firebase App named '[DEFAULT]' already exists (app/duplicate-app).
+    at error (/home/migu3lr/enjoy/node_modules/firebase/app/firebase_app.js:268:21)
+    at Object.initializeApp (/home/migu3lr/enjoy/node_modules/firebase/app/firebase_app.js:146:17)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:9132:27)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.hasOwnProperty (/home/migu3lr/enjoy/built/server/index.js:3676:17)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:9566:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:9672:14)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+
+/home/migu3lr/enjoy/node_modules/firebase/app/firebase_app.js:268
+    throw appErrors.create(code, args);
+    ^
+[DEFAULT]: Firebase: Firebase App named '[DEFAULT]' already exists (app/duplicate-app).
+    at error (/home/migu3lr/enjoy/node_modules/firebase/app/firebase_app.js:268:21)
+    at Object.initializeApp (/home/migu3lr/enjoy/node_modules/firebase/app/firebase_app.js:146:17)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:9132:27)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.hasOwnProperty (/home/migu3lr/enjoy/built/server/index.js:3676:17)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:9566:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:9672:14)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+undefined
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10114:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+undefined
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+1
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+1
+{}
+1
+{ TX_TAX: '.00',
+  TX_VALUE: '10000.00',
+  authorizationCode: '00000000',
+  buyerEmail: 'ingmromero34@gmail.com',
+  currency: 'COP',
+  cus: '00000000',
+  description: 'Test PAYU',
+  extra1: '',
+  extra2: '',
+  extra3: '',
+  installmentsNumber: '1',
+  lapPaymentMethod: 'AMEX',
+  lapPaymentMethodType: 'CREDIT_CARD',
+  lapResponseCode: 'APPROVED',
+  lapTransactionState: 'APPROVED',
+  lng: 'es',
+  merchantId: '508029',
+  merchant_address: 'Av 123 Calle 12',
+  merchant_name: 'Test PayU Test',
+  merchant_url: 'http://pruebaslapv.xtrweb.com',
+  message: 'APPROVED',
+  orderLanguage: 'es',
+  polPaymentMethod: '12',
+  polPaymentMethodType: '2',
+  polResponseCode: '1',
+  polTransactionState: '4',
+  processingDate: '2017-05-13',
+  pseBank: '',
+  pseCycle: '',
+  pseReference1: '',
+  pseReference2: '',
+  pseReference3: '',
+  referenceCode: 'ALG-00004',
+  reference_pol: '840999932',
+  risk: '.00',
+  signature: '43bfab4120376a4e37a149e2b9ff6b74',
+  telephone: '7512354',
+  transactionId: '944b111a-116b-43c4-b2d6-f161641c8b1e',
+  transactionState: '4',
+  trazabilityCode: '00000000' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+null
+{}
+null
+{}
+null
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+undefined
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+{}
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+undefined
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10123:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[Function: currentUser]
+TypeError: Key must be a buffer
+    at TypeError (native)
+    at new Hmac (crypto.js:91:16)
+    at Object.Hmac (crypto.js:89:12)
+    at sha256 (/home/migu3lr/enjoy/built/server/index.js:9171:40)
+    at Portal (/home/migu3lr/enjoy/built/server/index.js:9766:39)
+    at /home/migu3lr/enjoy/built/server/index.js:13389:16
+    at measureLifeCyclePerf (/home/migu3lr/enjoy/built/server/index.js:13158:12)
+    at ReactCompositeComponentWrapper._constructComponentWithoutOwner (/home/migu3lr/enjoy/built/server/index.js:13388:14)
+    at ReactCompositeComponentWrapper._constructComponent (/home/migu3lr/enjoy/built/server/index.js:13363:21)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13271:21)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[Function: currentUser]
+001b2ae9a449b3999f7d33076d7adcc42787c77ee12225682c9136d15e9b672e
+Error: Firebase.update failed: First argument contains undefined in property 'transacciones.-Kk36sVkHcQzh5GnPyQg.ClienteID'
+    at Error (native)
+    at Md (/home/migu3lr/enjoy/node_modules/firebase/database-node.js:100:67)
+    at /home/migu3lr/enjoy/node_modules/firebase/database-node.js:101:166
+    at cb (/home/migu3lr/enjoy/node_modules/firebase/database-node.js:46:356)
+    at Md (/home/migu3lr/enjoy/node_modules/firebase/database-node.js:100:424)
+    at /home/migu3lr/enjoy/node_modules/firebase/database-node.js:103:168
+    at cb (/home/migu3lr/enjoy/node_modules/firebase/database-node.js:46:356)
+    at Od (/home/migu3lr/enjoy/node_modules/firebase/database-node.js:103:134)
+    at U.h.update (/home/migu3lr/enjoy/node_modules/firebase/database-node.js:249:359)
+    at Portal (/home/migu3lr/enjoy/built/server/index.js:9774:24)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[Function: currentUser]
+001b2ae9a449b3999f7d33076d7adcc42787c77ee12225682c9136d15e9b672e
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[Function: currentUser]
+e43ad790765c4ef8d355dc40782241b76cbd57764b9ebb58d6241b88ff3f5164
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+null
+TypeError: Cannot read property 'uid' of null
+    at Portal (/home/migu3lr/enjoy/built/server/index.js:9757:48)
+    at /home/migu3lr/enjoy/built/server/index.js:13403:16
+    at measureLifeCyclePerf (/home/migu3lr/enjoy/built/server/index.js:13172:12)
+    at ReactCompositeComponentWrapper._constructComponentWithoutOwner (/home/migu3lr/enjoy/built/server/index.js:13402:14)
+    at ReactCompositeComponentWrapper._constructComponent (/home/migu3lr/enjoy/built/server/index.js:13377:21)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13285:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:2954:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13468:34)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13355:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:2954:35)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10188:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10188:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10188:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10188:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+null
+{ apiKey: null,
+  merchantId: null,
+  newTrx: '-Kk3ihPsMo81wzH97LQG',
+  valor: 10000,
+  moneda: 'COP' }
+a449bd23d834f05d77956a20fbeee590ed184cabb9ecc5929b95fad680dae31e
+{}
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10188:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10188:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10192:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Promise { <pending> }
+{}
+Promise { <pending> }
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: Portal(...): A valid React element (or null) must be returned. You may have returned undefined, an array or some other invalid object.
+Invariant Violation: Portal(...): A valid React element (or null) must be returned. You may have returned undefined, an array or some other invalid object.
+    at invariant (/home/migu3lr/enjoy/built/server/index.js:117:15)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13310:82)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13486:34)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13373:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13486:34)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13373:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13486:34)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: Portal(...): A valid React element (or null) must be returned. You may have returned undefined, an array or some other invalid object.
+Invariant Violation: Portal(...): A valid React element (or null) must be returned. You may have returned undefined, an array or some other invalid object.
+    at invariant (/home/migu3lr/enjoy/built/server/index.js:117:15)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13312:82)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13488:34)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13375:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13488:34)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13375:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13488:34)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+TypeError: Cannot read property 'api' of undefined
+    at Portal (/home/migu3lr/enjoy/built/server/index.js:9815:36)
+    at /home/migu3lr/enjoy/built/server/index.js:13423:16
+    at measureLifeCyclePerf (/home/migu3lr/enjoy/built/server/index.js:13192:12)
+    at ReactCompositeComponentWrapper._constructComponentWithoutOwner (/home/migu3lr/enjoy/built/server/index.js:13422:14)
+    at ReactCompositeComponentWrapper._constructComponent (/home/migu3lr/enjoy/built/server/index.js:13397:21)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13305:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+    at ReactCompositeComponentWrapper.performInitialMount (/home/migu3lr/enjoy/built/server/index.js:13488:34)
+    at ReactCompositeComponentWrapper.mountComponent (/home/migu3lr/enjoy/built/server/index.js:13375:21)
+    at Object.mountComponent (/home/migu3lr/enjoy/built/server/index.js:3010:35)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10220:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+{}
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10220:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10220:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10220:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10220:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+{}
+{ TX_TAX: '.00',
+  TX_VALUE: '10000.00',
+  authorizationCode: '00000000',
+  buyerEmail: 'ingmromero34@gmail.com',
+  currency: 'COP',
+  cus: '00000000',
+  description: 'Curso 1',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  extra3: '',
+  installmentsNumber: '1',
+  lapPaymentMethod: 'AMEX',
+  lapPaymentMethodType: 'CREDIT_CARD',
+  lapResponseCode: 'APPROVED',
+  lapTransactionState: 'APPROVED',
+  lng: 'es',
+  merchantId: '508029',
+  merchant_address: 'Av 123 Calle 12',
+  merchant_name: 'Test PayU Test',
+  merchant_url: 'http://pruebaslapv.xtrweb.com',
+  message: 'APPROVED',
+  orderLanguage: 'es',
+  polPaymentMethod: '12',
+  polPaymentMethodType: '2',
+  polResponseCode: '1',
+  polTransactionState: '4',
+  processingDate: '2017-05-14',
+  pseBank: '',
+  pseCycle: '',
+  pseReference1: '',
+  pseReference2: '',
+  pseReference3: '',
+  referenceCode: '-Kk4f-Hl2PmauEWwaMlp',
+  reference_pol: '841001036',
+  risk: '.00',
+  signature: '6832c74c5f39686ca43f192ce5fee40e16f3d662f45c226ac37ce52543d2e193',
+  telephone: '7512354',
+  transactionId: '7294b97b-3f72-4a52-850f-e06235123daf',
+  transactionState: '4',
+  trazabilityCode: '00000000' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+{ TX_TAX: '.00',
+  TX_VALUE: '10000.00',
+  authorizationCode: '00000000',
+  buyerEmail: 'ingmromero34@gmail.com',
+  currency: 'COP',
+  cus: '00000000',
+  description: 'Curso 1',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  extra3: '',
+  installmentsNumber: '1',
+  lapPaymentMethod: 'AMEX',
+  lapPaymentMethodType: 'CREDIT_CARD',
+  lapResponseCode: 'APPROVED',
+  lapTransactionState: 'APPROVED',
+  lng: 'es',
+  merchantId: '508029',
+  merchant_address: 'Av 123 Calle 12',
+  merchant_name: 'Test PayU Test',
+  merchant_url: 'http://pruebaslapv.xtrweb.com',
+  message: 'APPROVED',
+  orderLanguage: 'es',
+  polPaymentMethod: '12',
+  polPaymentMethodType: '2',
+  polResponseCode: '1',
+  polTransactionState: '4',
+  processingDate: '2017-05-14',
+  pseBank: '',
+  pseCycle: '',
+  pseReference1: '',
+  pseReference2: '',
+  pseReference3: '',
+  referenceCode: '-Kk4kTNA39GUCkYsqR9_',
+  reference_pol: '841001037',
+  risk: '.00',
+  signature: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  telephone: '7512354',
+  transactionId: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  transactionState: '4',
+  trazabilityCode: '00000000' }
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+undefined
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10222:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+{}
+{ TX_TAX: '.00',
+  TX_VALUE: '10000.00',
+  authorizationCode: '00000000',
+  buyerEmail: 'ingmromero34@gmail.com',
+  currency: 'COP',
+  cus: '00000000',
+  description: 'Curso 1',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  extra3: '',
+  installmentsNumber: '1',
+  lapPaymentMethod: 'AMEX',
+  lapPaymentMethodType: 'CREDIT_CARD',
+  lapResponseCode: 'APPROVED',
+  lapTransactionState: 'APPROVED',
+  lng: 'es',
+  merchantId: '508029',
+  merchant_address: 'Av 123 Calle 12',
+  merchant_name: 'Test PayU Test',
+  merchant_url: 'http://pruebaslapv.xtrweb.com',
+  message: 'APPROVED',
+  orderLanguage: 'es',
+  polPaymentMethod: '12',
+  polPaymentMethodType: '2',
+  polResponseCode: '1',
+  polTransactionState: '4',
+  processingDate: '2017-05-14',
+  pseBank: '',
+  pseCycle: '',
+  pseReference1: '',
+  pseReference2: '',
+  pseReference3: '',
+  referenceCode: '-Kk7ULB9zCM-RiyoedQ6',
+  reference_pol: '841001068',
+  risk: '.00',
+  signature: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  telephone: '7512354',
+  transactionId: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  transactionState: '4',
+  trazabilityCode: '00000000' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m

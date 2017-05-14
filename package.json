@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "forever start -a -l forever.log -o out.log -e err.log --uid enjoy -t --killSignal=SIGTERM -c nodemon ./built/server/index.js",
+    "start": "forever start -a -l forever_start.log -o start.log -e start.log --uid enjoy -t --killSignal=SIGTERM -c nodemon ./built/server/index.js",
     "static": "serve ./built/statics/ --port 3002 --cache 0",
     "watch": "webpack -w",
     "wp": "webpack",
-    "stop": "forever stop ./built/server/index.js"
+    "stop": "forever stop ./built/server/index.js",
+    "payStart": "forever start -a -l forever_payStart.log -o payStart.log -e payStart.log --uid enjoy -t --killSignal=SIGTERM -c nodemon ./built/server/payment.js",
+    "payStop": "forever stop ./built/server/payment.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "babel-preset-stage-1": "^6.24.1",
     "babel-runtime": "^6.23.0",
     "body-parser": "^1.17.1",
+    "dateformat": "^2.0.0",
     "express": "^4.15.2",
     "firebase": "^3.9.0",
     "install": "^0.8.8",

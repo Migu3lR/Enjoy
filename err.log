@@ -540,3 +540,153 @@ Warning: Failed prop type: Menu: prop type `PrintLogin` is invalid; it must be a
     in Menu
 Warning: Failed prop type: Menu: prop type `Mobile` is invalid; it must be a function, usually from React.PropTypes.
     in Menu
+/home/migu3lr/enjoy/built/server/payment.js:36956
+var fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"fs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+                                                                                                                                              ^
+
+Error: Cannot find module "fs"
+    at webpackMissingModule (/home/migu3lr/enjoy/built/server/payment.js:36956:74)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:36956:153)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:34538:12)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:35184:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:24450:18)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.exports.byteLength (/home/migu3lr/enjoy/built/server/payment.js:26180:16)
+/home/migu3lr/enjoy/built/server/payment.js:36956
+var fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"fs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+                                                                                                                                              ^
+
+Error: Cannot find module "fs"
+    at webpackMissingModule (/home/migu3lr/enjoy/built/server/payment.js:36956:74)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:36956:153)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:34538:12)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:35184:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:24450:18)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.exports.byteLength (/home/migu3lr/enjoy/built/server/payment.js:26180:16)
+/home/migu3lr/enjoy/built/server/payment.js:36956
+var fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"fs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+                                                                                                                                              ^
+
+Error: Cannot find module "fs"
+    at webpackMissingModule (/home/migu3lr/enjoy/built/server/payment.js:36956:74)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:36956:153)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:34538:12)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:35184:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:24450:18)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.exports.byteLength (/home/migu3lr/enjoy/built/server/payment.js:26180:16)
+/home/migu3lr/enjoy/built/server/payment.js:36956
+var fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"fs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+                                                                                                                                              ^
+
+Error: Cannot find module "fs"
+    at webpackMissingModule (/home/migu3lr/enjoy/built/server/payment.js:36956:74)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:36956:153)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:34538:12)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:35184:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:24450:18)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.exports.byteLength (/home/migu3lr/enjoy/built/server/payment.js:26180:16)
+/home/migu3lr/enjoy/built/server/payment.js:36956
+var fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"fs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+                                                                                                                                              ^
+
+Error: Cannot find module "fs"
+    at webpackMissingModule (/home/migu3lr/enjoy/built/server/payment.js:36956:74)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:36956:153)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:34538:12)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:35184:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:24450:18)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.exports.byteLength (/home/migu3lr/enjoy/built/server/payment.js:26180:16)
+/home/migu3lr/enjoy/built/server/payment.js:139
+const token = _Services.Auth.createCustomToken('alegraEL_Payments', { unlimited: true });
+                            ^
+
+TypeError: Cannot read property 'createCustomToken' of undefined
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:139:29)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/payment.js:66:18)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+/home/migu3lr/enjoy/built/server/payment.js:139
+const token = _Services.Auth.createCustomToken('alegraEL_Payments', { unlimited: true });
+                            ^
+
+TypeError: Cannot read property 'createCustomToken' of undefined
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:139:29)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/payment.js:66:18)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+/home/migu3lr/enjoy/built/server/payment.js:141
+const token = _Services2.default.Auth.createCustomToken('alegraEL_Payments', { unlimited: true });
+                                      ^
+
+TypeError: _Services2.default.Auth.createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:141:39)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/payment.js:66:18)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+/home/migu3lr/enjoy/built/server/payment.js:141
+const token = _Services2.default.Auth.createCustomToken('alegraEL_Payments', { unlimited: true });
+                                      ^
+
+TypeError: _Services2.default.Auth.createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:141:39)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/payment.js:66:18)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+/home/migu3lr/enjoy/built/server/payment.js:141
+const token = _Services2.default.Auth.createCustomToken('alegraEL_Payments', { unlimited: true });
+                                      ^
+
+TypeError: _Services2.default.Auth.createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:141:39)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/payment.js:66:18)
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)

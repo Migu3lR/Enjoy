@@ -1,0 +1,2476 @@
+[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:124
+const token = Firebase.auth().createCustomToken('alegraEL_Payments', { unlimited: true });
+                              ^
+
+TypeError: Firebase.auth(...).createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:124:31)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:124
+const token = Firebase.auth().createCustomToken('alegraEL_Payments', { unlimited: true });
+                              ^
+
+TypeError: Firebase.auth(...).createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:124:31)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:124
+const token = Firebase.auth().createCustomToken('alegraEL_Payments', { unlimited: true });
+                              ^
+
+TypeError: Firebase.auth(...).createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:124:31)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:145
+const token = _firebase2.default.auth().createCustomToken('alegraEL_Payments', { unlimited: true });
+                                        ^
+
+TypeError: _firebase2.default.auth(...).createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:145:41)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:145
+const token = _firebase2.default.auth().createCustomToken('alegraEL_Payments', { unlimited: true });
+                                        ^
+
+TypeError: _firebase2.default.auth(...).createCustomToken is not a function
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:145:41)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:40
+h.send=function(a){if(a)if("string"==typeof a)this.ua.send(a);else throw Error("Only string data is supported");else this.ua.send()};h.abort=function(){this.ua.abort()};h.setRequestHeader=function(){};h.Re=function(){this.status=200;this.responseText=this.ua.responseText;Ic(this,4)};h.Sd=function(){this.status=500;this.responseText="";Ic(this,4)};h.Te=function(){this.Sd()};h.Se=function(){this.status=200;Ic(this,1)};var Ic=function(a,b){a.readyState=b;if(a.onreadystatechange)a.onreadystatechange()};var Jc=function(a,b,c){this.ef=c;this.Fe=a;this.wf=b;this.sc=0;this.lc=null};Jc.prototype.get=function(){var a;0<this.sc?(this.sc--,a=this.lc,this.lc=a.next,a.next=null):a=this.Fe();return a};Jc.prototype.put=function(a){this.wf(a);this.sc<this.ef&&(this.sc++,a.next=this.lc,this.lc=a)};var Kc=function(a){l.setTimeout(function(){throw a;},0)},Lc,Mc=function(){var a=l.MessageChannel;"undefined"===typeof a&&"undefined"!==typeof window&&window.postMessage&&win
+
+TypeError: console is not a function
+    at acceso.then (/home/migu3lr/enjoy/built/server/payment.js:141:3)
+    at e.Oa (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:46:491)
+    at td (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:50:220)
+    at pd (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:50:100)
+    at A.Je (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:49:401)
+    at Vc (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:43:497)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:40
+h.send=function(a){if(a)if("string"==typeof a)this.ua.send(a);else throw Error("Only string data is supported");else this.ua.send()};h.abort=function(){this.ua.abort()};h.setRequestHeader=function(){};h.Re=function(){this.status=200;this.responseText=this.ua.responseText;Ic(this,4)};h.Sd=function(){this.status=500;this.responseText="";Ic(this,4)};h.Te=function(){this.Sd()};h.Se=function(){this.status=200;Ic(this,1)};var Ic=function(a,b){a.readyState=b;if(a.onreadystatechange)a.onreadystatechange()};var Jc=function(a,b,c){this.ef=c;this.Fe=a;this.wf=b;this.sc=0;this.lc=null};Jc.prototype.get=function(){var a;0<this.sc?(this.sc--,a=this.lc,this.lc=a.next,a.next=null):a=this.Fe();return a};Jc.prototype.put=function(a){this.wf(a);this.sc<this.ef&&(this.sc++,a.next=this.lc,this.lc=a)};var Kc=function(a){l.setTimeout(function(){throw a;},0)},Lc,Mc=function(){var a=l.MessageChannel;"undefined"===typeof a&&"undefined"!==typeof window&&window.postMessage&&win
+
+TypeError: console is not a function
+    at acceso.then (/home/migu3lr/enjoy/built/server/payment.js:141:3)
+    at e.Oa (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:46:491)
+    at td (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:50:220)
+    at pd (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:50:100)
+    at A.Je (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:49:401)
+    at Vc (/home/migu3lr/enjoy/node_modules/firebase/auth-node.js:43:497)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-13 01:25:26',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Test PAYU',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '944b111a-116b-43c4-b2d6-f161641c8b1e',
+  sign: '43bfab4120376a4e37a149e2b9ff6b74',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.13 01:25:26',
+  nickname_buyer: '',
+  reference_pol: '840999932',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: '',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: 'ALG-00004',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 01:37:32',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '7294b97b-3f72-4a52-850f-e06235123daf',
+  sign: '6832c74c5f39686ca43f192ce5fee40e16f3d662f45c226ac37ce52543d2e193',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 01:37:32',
+  nickname_buyer: '',
+  reference_pol: '841001036',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4f-Hl2PmauEWwaMlp',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:73
+throw new Error("Module build failed: SyntaxError: Unexpected token (45:0)\n\n  43 | \n  44 | app.listen(55880);\n> 45 | \n     | ^\n");
+^
+
+Error: Module build failed: SyntaxError: Unexpected token (45:0)
+
+  43 | 
+  44 | app.listen(55880);
+> 45 | 
+     | ^
+
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:73:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:73
+throw new Error("Module build failed: SyntaxError: Unexpected token (45:0)\n\n  43 | \n  44 | app.listen(55880);\n> 45 | \n     | ^\n");
+^
+
+Error: Module build failed: SyntaxError: Unexpected token (45:0)
+
+  43 | 
+  44 | app.listen(55880);
+> 45 | 
+     | ^
+
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:73:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:73
+throw new Error("Module build failed: SyntaxError: Unexpected token (45:0)\n\n  43 | \n  44 | app.listen(55880);\n> 45 | \n     | ^\n");
+^
+
+Error: Module build failed: SyntaxError: Unexpected token (45:0)
+
+  43 | 
+  44 | app.listen(55880);
+> 45 | 
+     | ^
+
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:73:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+/home/migu3lr/enjoy/built/server/payment.js:73
+throw new Error("Module build failed: SyntaxError: Unexpected token (45:0)\n\n  43 | \n  44 | app.listen(55880);\n> 45 | \n     | ^\n");
+^
+
+Error: Module build failed: SyntaxError: Unexpected token (45:0)
+
+  43 | 
+  44 | app.listen(55880);
+> 45 | 
+     | ^
+
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:73:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/payment.js:20:30)
+    at /home/migu3lr/enjoy/built/server/payment.js:66:18
+    at Object.<anonymous> (/home/migu3lr/enjoy/built/server/payment.js:69:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 02:01:13',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '5aaa937e-88de-48b7-b097-cebc97495b7c',
+  sign: 'aaf9ed4412b723685bd0e6807dc699925f3ef3c11695cf628b4119d967bebf00',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:01:13',
+  nickname_buyer: '',
+  reference_pol: '841001037',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk4kTNA39GUCkYsqR9_',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+{ response_code_pol: '1',
+  phone: '',
+  additional_value: '0.00',
+  test: '1',
+  transaction_date: '2017-05-14 14:46:11',
+  cc_number: '***********4642',
+  cc_holder: 'APPROVED',
+  error_code_bank: '',
+  billing_country: 'CO',
+  bank_referenced_name: '',
+  description: 'Curso 1',
+  administrative_fee_tax: '0.00',
+  value: '10000.00',
+  administrative_fee: '0.00',
+  payment_method_type: '2',
+  office_phone: '',
+  email_buyer: 'ingmromero34@gmail.com',
+  response_message_pol: 'APPROVED',
+  error_message_bank: '',
+  shipping_city: '',
+  transaction_id: '48aedfd9-17c0-4e7e-8cce-17296736b376',
+  sign: 'd5677512c8d6ac09c3f1272de0ef24b74a0a1908460ad0a376933b4c043e2ef3',
+  tax: '0.00',
+  transaction_bank_id: '00000000',
+  payment_method: '12',
+  billing_address: 'asdasdasdasd111',
+  payment_method_name: 'AMEX',
+  pse_bank: '',
+  state_pol: '4',
+  date: '2017.05.14 02:46:11',
+  nickname_buyer: '',
+  reference_pol: '841001068',
+  currency: 'COP',
+  risk: '0.0',
+  shipping_address: '',
+  bank_id: '12',
+  payment_request_state: 'A',
+  customer_number: '',
+  administrative_fee_base: '0.00',
+  attempts: '1',
+  merchant_id: '508029',
+  exchange_rate: '1.00',
+  shipping_country: 'CO',
+  installments_number: '1',
+  franchise: 'AMEX',
+  payment_method_id: '2',
+  extra1: 'S55wI1aKAjbHEcPZyiXHVVTMVZe2',
+  extra2: '',
+  antifraudMerchantId: '',
+  extra3: '',
+  commision_pol_currency: 'COP',
+  nickname_seller: '',
+  ip: '186.154.104.135',
+  commision_pol: '476.00',
+  airline_code: '',
+  billing_city: 'Bogota',
+  pse_reference1: '',
+  cus: '00000000',
+  reference_sale: '-Kk7ULB9zCM-RiyoedQ6',
+  authorization_code: '00000000',
+  pse_reference3: '',
+  pse_reference2: '' }
+Login OK.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/payment.js`[39m
