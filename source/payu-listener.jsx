@@ -18,15 +18,12 @@ app.post('/payu', (req, res) => {
 
   acceso.then(() => {
     console.log('Login OK.');
-
-    const transaccion = {
-      Estado: params.state_pol,
-      EstadoDet: params.response_code_pol,
-    };
-
+    
     const updates = {};
-    updates[`/transacciones/${params.reference_sale}`] = transaccion;
-    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}`] = transaccion;
+    updates[`/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
+    updates[`/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
+    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
+    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
 
     Data.ref().update(updates);
 
