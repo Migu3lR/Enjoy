@@ -52,11 +52,13 @@ const api = {
 
             firebase.database().ref(`/transacciones/${firma.newTrx}`)
             .on('child_added', (data) => {
+              console.log(data);
+              console.log(data.val());
               resolve({
                 api: seguridad.val().PUapi,
                 referenceCode: data.key,
                 merchantId: seguridad.val().PUmerchantId,
-                accountId: seguridad.val().PUaccounttId,
+                accountId: seguridad.val().PUaccountId,
                 description: data.val().Descripcion,
                 amount: data.val().ValorTotal,
                 tax: data.val().Iva,
@@ -165,3 +167,4 @@ const api = {
 };
 
 export default api;
+
