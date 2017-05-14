@@ -47,7 +47,7 @@ const api = {
 
             const updates = {};
             updates[`/transacciones/${firma.newTrx}`] = transaccion;
-            updates[`/usuarios/${transaccion.ClienteID}/${firma.newTrx}`] = transaccion;
+            updates[`/usuarios/${transaccion.ClienteID}/transacciones/${firma.newTrx}`] = transaccion;
 
             Data.ref().update(updates);
           });
