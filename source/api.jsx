@@ -27,8 +27,8 @@ const api = {
             BaseIva,
             Moneda,
             Descripcion,
-            Estado: 0,
-            EstadoDet: 0,
+            Estado: '0',
+            EstadoDet: '0',
           };
 
           const firma = {
