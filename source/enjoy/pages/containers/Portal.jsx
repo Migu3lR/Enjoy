@@ -28,13 +28,14 @@ function Portal(props) {
     moneda: transaccion.Moneda,
   };
 
-  console.log(firma);
-
   api.db.ref('/parametros/seguridad').once('value')
   .then((seguridad) => {
-    firma.apikey = seguridad.PUapiKey;
+    firma.apiKey = seguridad.PUapiKey;
     firma.merchantId = seguridad.PUmerchantId;
+    console.log(firma);
   });
+
+console.log(firma);
 
   console.log(sha256(firma));
 
