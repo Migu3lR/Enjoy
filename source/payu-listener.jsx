@@ -12,7 +12,7 @@ const Data = Firebase.database();
 const Auth = Firebase.auth();
 
 const acceso = Auth.signInWithEmailAndPassword('alegraEL_Payments@alegraELPayments.com', 'alegraEL_Payments!"#');
-dateFormat.masks.ALG = 'yyyy-mm-dd HH:MM:ss';
+
 app.post('/payu', (req, res) => {
   const params = req.body;
   console.log(params);
@@ -25,10 +25,10 @@ app.post('/payu', (req, res) => {
     const updates = {};
     updates[`/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
-    updates[`/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'ALG');
+    updates[`/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'yyyy-mm-dd HH:MM:ss');
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
-    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'ALG');
+    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/FechaUdp`] = dateFormat(now, 'yyyy-mm-dd HH:MM:ss');
 
     Data.ref().update(updates);
 
