@@ -3,42 +3,10 @@ import { Link } from 'react-router-dom';
 
 import queryString from 'query-string';
 import api from '../../../api';
-import sha256 from '../../../CryptoSHA256';
 
 function Portal(props) {
-  console.log(api.auth.currentUser());
-
-  const transaccion = {
-    Fecha: Date(),
-    //ClienteID: api.auth.currentUser().uid,
-    ValorTotal: 10000,
-    Iva: 0,
-    BaseIva: 0,
-    Moneda: 'COP',
-    Descripcion: 'Transaccion de prueba',
-    Estado: 0,
-    EstadoDet: 0,
-  };
-
-  const firma = {
-    apiKey: null,
-    merchantId: null,
-    newTrx: api.db.ref().child('transacciones').push().key,
-    valor: transaccion.ValorTotal,
-    moneda: transaccion.Moneda,
-  };
-
-  api.db.ref('/parametros/seguridad').once('value')
-  .then((seguridad) => {
-    firma.apiKey = seguridad.PUapiKey;
-    firma.merchantId = seguridad.PUmerchantId;
-    console.log(firma);
-  });
-
-console.log(firma);
-
-  console.log(sha256(firma));
-
+  api.db.nuevaTrx('Curso 1', 70000);
+  
   /*const newTrx = api.db.ref().child('transacciones').push().key;
 
   const updates = {};

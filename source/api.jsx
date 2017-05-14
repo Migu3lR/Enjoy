@@ -2,6 +2,7 @@ import { notify } from 'react-notify-toast';
 
 import firebase from 'firebase';
 import Firebase from './Firebase';
+import sha256 from './CryptoSHA256';
 
 const Data = Firebase.database();
 const Auth = Firebase.auth();
@@ -16,6 +17,42 @@ const api = {
       });
     },
     ref: d => Data.ref(d),
+    nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => {
+      Auth.onAuthStateChanged((user) => {
+        if (user) {
+          const transaccion = {
+            Fecha: Date(),
+            ClienteID: user.uid,
+            ValorTotal: 10000,
+            Iva,
+            BaseIva,
+            Moneda,
+            Descripcion,
+            Estado: 0,
+            EstadoDet: 0,
+          };
+
+          const firma = {
+            apiKey: null,
+            merchantId: null,
+            newTrx: Data.ref().child('transacciones').push().key,
+            valor: transaccion.ValorTotal,
+            moneda: transaccion.Moneda,
+          };
+
+          api.db.ref('/parametros/seguridad').once('value')
+          .then((seguridad) => {
+            firma.apiKey = seguridad.PUapiKey;
+            firma.merchantId = seguridad.PUmerchantId;
+            console.log(firma);
+            console.log(`${firma.apiKey}~${firma.merchantId}~${firma.newTrx}~${firma.valor}~${firma.moneda}`);
+            console.log(sha256(firma));
+          });
+        }
+      });
+
+
+    },
   },
   auth: {
     Login_Google() {
