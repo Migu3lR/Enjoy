@@ -10,7 +10,7 @@ function Portal(props) {
 
   const transaccion = {
     Fecha: Date(),
-    ClienteID: api.auth.currentUser().uid,
+    //ClienteID: api.auth.currentUser().uid,
     ValorTotal: 10000,
     Iva: 0,
     BaseIva: 0,
