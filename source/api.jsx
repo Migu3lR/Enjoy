@@ -49,7 +49,7 @@ const api = {
             updates[`/transacciones/${firma.newTrx}`] = transaccion;
             updates[`/usuarios/${transaccion.ClienteID}/${firma.newTrx}`] = transaccion;
 
-            Data.ref.update(updates);
+            Data.ref().update(updates);
           });
         }
       });
