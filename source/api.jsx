@@ -17,6 +17,10 @@ const api = {
         return snapshot;
       });
     },
+    bindState: (scope, stateElement, dbLocation) => {
+      const ref = firebase.database().ref().child(dbLocation);
+      scope.bindAsObject(ref, stateElement);
+    },
     nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve, reject) => {
       Auth.onAuthStateChanged((user) => {
         if (user) {
