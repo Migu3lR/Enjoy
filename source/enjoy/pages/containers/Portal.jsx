@@ -16,7 +16,7 @@ class Portal extends Component {
     api.db.bindState(this, 'lineas', '/lineas');
   }
 
-  componentDidMount() {
+  componentDidUpdate() {
     console.log(this.state.lineas);
   }
 
