@@ -36,7 +36,7 @@ class Linea extends Component {
             <div className="collapsible-body">
               <ul>
                 {Object.keys(this.state.cursos)
-                  .forEach(key => (
+                  .map(key => (
                     <li key={key}>{this.state.cursos[key].nombre}</li>
                   ))
                 }
