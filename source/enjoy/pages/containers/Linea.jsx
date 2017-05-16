@@ -11,6 +11,14 @@ class Linea extends Component {
     console.log(props.cursos);
   }
 
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      cursos: nextProps.cursos,
+      descripcion: nextProps.descripcion,
+      nombre: nextProps.nombre,
+    });
+  }
+
   render() {
     return (
       <div className="section">
