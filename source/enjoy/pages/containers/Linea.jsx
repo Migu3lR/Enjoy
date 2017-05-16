@@ -17,6 +17,7 @@ class Linea extends Component {
       descripcion: nextProps.descripcion,
       nombre: nextProps.nombre,
     });
+    console.log(nextProps.cursos);
   }
 
 
