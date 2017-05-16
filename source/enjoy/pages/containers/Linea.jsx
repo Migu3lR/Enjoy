@@ -49,13 +49,19 @@ class Linea extends Component {
 }
 
 Linea.propTypes = {
+  cursos: PropTypes.shape({
+    clases: PropTypes.object,
+    descripcion: PropTypes.string,
+    nombre: PropTypes.string,
+  }),
   descripcion: PropTypes.string,
-  nombre: PropTypes.string
+  nombre: PropTypes.string,
 };
 
 Linea.defaultProps = {
+  cursos: {},
   descripcion: '',
-  nombre: ''
+  nombre: '',
 };
 
 export default Linea;
