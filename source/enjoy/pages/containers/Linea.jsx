@@ -25,9 +25,9 @@ class Linea extends Component {
             </div>
             <div className="collapsible-body">
               <ul>
-                {Object.keys(this.state.cursos)
-                  .forEach(key => (
-                    <li>{this.state.cursos[key].nombre}</li>
+                {this.state.cursos
+                  .map(curso => (
+                    <li>{curso.nombre}</li>
                   ))
                 }
               </ul>
@@ -41,12 +41,12 @@ class Linea extends Component {
 
 Linea.propTypes = {
   descripcion: PropTypes.string,
-  nombre: PropTypes.string
+  nombre: PropTypes.string,
 };
 
 Linea.defaultProps = {
   descripcion: '',
-  nombre: ''
+  nombre: '',
 };
 
 export default Linea;
