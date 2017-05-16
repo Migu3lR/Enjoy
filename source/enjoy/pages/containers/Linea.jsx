@@ -26,7 +26,7 @@ class Linea extends Component {
             <div className="collapsible-body">
               <ul>
                 {this.state.cursos
-                  .map(curso => (
+                  .forEach(curso => (
                     <li>{curso.nombre}</li>
                   ))
                 }
