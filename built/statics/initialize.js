@@ -12,5 +12,6 @@ if (typeof (jQuery) === 'undefined') {
   // INITIALIZE
   $(function() {
     $('.button-collapse').sideNav();
+    $('.collapsiblelineas').collapsible();
   });
 }(jQuery));

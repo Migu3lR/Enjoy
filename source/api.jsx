@@ -19,7 +19,7 @@ const api = {
     },
     bindState: (scope, stateElement, dbLocation) => {
       const ref = firebase.database().ref().child(dbLocation);
-      scope.bindAsObject(ref, stateElement);
+      scope.bindAsArray(ref, stateElement);
     },
     nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve, reject) => {
       Auth.onAuthStateChanged((user) => {

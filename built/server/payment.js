@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "http://138.68.131.182:3002";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -77,7 +77,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _firebase = __webpack_require__(4);
+var _firebase = __webpack_require__(5);
 
 var firebase = _interopRequireWildcard(_firebase);
 
@@ -104,22 +104,32 @@ module.exports = require("body-parser");
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("express");
+module.exports = require("dateformat");
 
 /***/ }),
 /* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("express");
+
+/***/ }),
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _express = __webpack_require__(2);
+var _express = __webpack_require__(3);
 
 var _express2 = _interopRequireDefault(_express);
 
 var _bodyParser = __webpack_require__(1);
 
 var _bodyParser2 = _interopRequireDefault(_bodyParser);
+
+var _dateformat = __webpack_require__(2);
+
+var _dateformat2 = _interopRequireDefault(_dateformat);
 
 var _Firebase = __webpack_require__(0);
 
@@ -135,40 +145,45 @@ app.use(_bodyParser2.default.urlencoded({ extended: true })); // support encoded
 const Data = _Firebase2.default.database();
 const Auth = _Firebase2.default.auth();
 
+let auth = false;
+
 const acceso = Auth.signInWithEmailAndPassword('alegraEL_Payments@alegraELPayments.com', 'alegraEL_Payments!"#');
+acceso.then(() => {
+  console.log('Login OK.');
+  auth = true;
+});
 
 app.post('/payu', (req, res) => {
   const params = req.body;
   console.log(params);
 
-  acceso.then(() => {
-    console.log('Login OK.');
+  if (auth) {
+    const now = new Date();
 
     const updates = {};
     updates[`/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
+    updates[`/transacciones/${params.reference_sale}/FechaUdp`] = (0, _dateformat2.default)(now, 'yyyy-mm-dd HH:MM:ss');
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/Estado`] = params.state_pol;
     updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/EstadoDet`] = params.response_code_pol;
+    updates[`/usuarios/${params.extra1}/transacciones/${params.reference_sale}/FechaUdp`] = (0, _dateformat2.default)(now, 'yyyy-mm-dd HH:MM:ss');
 
     Data.ref().update(updates);
 
-    Data.ref(`/transacciones/${params.reference_sale}`).on('child_changed', () => {
+    Data.ref(`/transacciones/${params.reference_sale}`).once('child_changed', () => {
       res.writeHead(200);
       res.end();
     });
-  });
-
-  acceso.catch(() => {
-    console.log('Login Error.');
+  } else {
     res.writeHead(400);
     res.end();
-  });
+  }
 });
 
 app.listen(55880);
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports) {
 
 module.exports = require("firebase");
