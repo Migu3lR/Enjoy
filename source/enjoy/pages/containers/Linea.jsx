@@ -19,6 +19,7 @@ class Linea extends Component {
     });
   }
 
+
   render() {
     return (
       <div className="section">
@@ -33,9 +34,9 @@ class Linea extends Component {
             </div>
             <div className="collapsible-body">
               <ul>
-                {this.state.cursos
-                  .forEach(curso => (
-                    <li>{curso.nombre}</li>
+                {Object.keys(this.state.cursos)
+                  .forEach(key => (
+                    <li>{this.state.cursos[key].nombre}</li>
                   ))
                 }
               </ul>
@@ -49,12 +50,12 @@ class Linea extends Component {
 
 Linea.propTypes = {
   descripcion: PropTypes.string,
-  nombre: PropTypes.string,
+  nombre: PropTypes.string
 };
 
 Linea.defaultProps = {
   descripcion: '',
-  nombre: '',
+  nombre: ''
 };
 
 export default Linea;
