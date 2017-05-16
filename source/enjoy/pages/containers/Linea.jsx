@@ -24,7 +24,7 @@ class Linea extends Component {
   render() {
     return (
       <div className="col m6">
-        <ul className="collapsiblelinea" data-collapsible="expandable">
+        <ul className="collapsiblelineas" data-collapsible="expandable">
           <li>
             <div className="collapsible-header">
               <h4>
