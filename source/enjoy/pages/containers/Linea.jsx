@@ -23,7 +23,7 @@ class Linea extends Component {
 
   render() {
     return (
-      <div className="section">
+      <div className="col m6">
         <ul className="collapsiblelinea" data-collapsible="expandable">
           <li>
             <div className="collapsible-header">
@@ -37,7 +37,7 @@ class Linea extends Component {
               <ul>
                 {Object.keys(this.state.cursos)
                   .forEach(key => (
-                    <li>{this.state.cursos[key].nombre}</li>
+                    <li key={key}>{this.state.cursos[key].nombre}</li>
                   ))
                 }
               </ul>
