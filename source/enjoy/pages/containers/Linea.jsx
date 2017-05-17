@@ -9,7 +9,6 @@ class Linea extends Component {
       descripcion: props.descripcion,
       nombre: props.nombre,
     };
-    console.log(props.cursos);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -18,7 +17,6 @@ class Linea extends Component {
       descripcion: nextProps.descripcion,
       nombre: nextProps.nombre,
     });
-    console.log(nextProps.cursos);
   }
 
 
