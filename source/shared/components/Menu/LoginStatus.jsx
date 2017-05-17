@@ -1,9 +1,12 @@
 import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
+import { Dropdown, NavItem } from 'react-materialize';
 
 import Auth from '../../../Auth';
 import api from '../../../api';
+
+import css from './LoginStatus.css';
 
 function getDisplayName(user) {
   const u = user || api.auth.currentUser();
@@ -69,10 +72,26 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <a href="#!" title="Cerrar Sesión" className="waves-effect waves-light btn" onClick={this.logout}>
-        {this.state.displayName}
-        <i className="material-icons right" title="Cerrar Sesión">power_settings_new</i>
-      </a>
+      <Dropdown 
+        trigger={
+          <a 
+            href="javascript:;"
+            title={`Usuario conectado: ${this.state.displayName}`}
+          >
+            <i className="material-icons right">arrow_drop_down</i><div className={css.user} />
+          </a>
+        }
+        options={{
+          belowOrigin: true,
+          constrainWidth: false,
+        }}
+      >
+        <Link to="/enjoy/portal">Portal E-Learning</Link>
+        <Link to="/enjoy/portal">Mi perfil</Link>
+        <Link to="/enjoy/portal/pagos">Ir a Pagos</Link>
+        <NavItem divider />
+        <NavItem onClick={this.logout}>Cerrar sesión</NavItem>
+      </Dropdown>
     );
   }
 }

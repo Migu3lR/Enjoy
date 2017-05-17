@@ -2495,3 +2495,1642 @@ TypeError: Cannot read property 'indexOf' of undefined
     at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
     at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
     at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10413:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'prop-types'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/migu3lr/enjoy/node_modules/react-materialize/lib/Autocomplete.js:15:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'prop-types'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/migu3lr/enjoy/node_modules/react-materialize/lib/Autocomplete.js:15:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module 'prop-types'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/migu3lr/enjoy/node_modules/react-materialize/lib/Autocomplete.js:15:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10394:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+/home/migu3lr/enjoy/built/server/index.js:10566
+throw new Error("Module build failed: SyntaxError: Expected corresponding JSX closing tag for <div> (79:6)\n\n\u001b[0m \u001b[90m 77 | \u001b[39m      }\u001b[33m>\u001b[39m\n \u001b[90m 78 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\u001b[33mCerrar\u001b[39m sesión\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mDropdown\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 | \u001b[39m    )\u001b[33m;\u001b[39m\n \u001b[90m 81 | \u001b[39m  }\n \u001b[90m 82 | \u001b[39m}\u001b[0m\n");
+^
+
+Error: Module build failed: SyntaxError: Expected corresponding JSX closing tag for <div> (79:6)
+
+[0m [90m 77 | [39m      }[33m>[39m
+ [90m 78 | [39m        [33m<[39m[33mNavItem[39m[33m>[39m[33mCerrar[39m sesión[33m<[39m[33m/[39m[33mNavItem[39m[33m>[39m
+[31m[1m>[22m[39m[90m 79 | [39m      [33m<[39m[33m/[39m[33mDropdown[39m[33m>[39m
+ [90m    | [39m      [31m[1m^[22m[39m
+ [90m 80 | [39m    )[33m;[39m
+ [90m 81 | [39m  }
+ [90m 82 | [39m}[0m
+
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10566:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10587:20)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10511:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.module.exports.en.error.404 (/home/migu3lr/enjoy/built/server/index.js:9129:15)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10385:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+/home/migu3lr/enjoy/built/server/index.js:10566
+throw new Error("Module build failed: SyntaxError: Expected corresponding JSX closing tag for <div> (82:6)\n\n\u001b[0m \u001b[90m 80 | \u001b[39m      \u001b[33m>\u001b[39m\n \u001b[90m 81 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\u001b[33mCerrar\u001b[39m sesión\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 82 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mDropdown\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 83 | \u001b[39m    )\u001b[33m;\u001b[39m\n \u001b[90m 84 | \u001b[39m  }\n \u001b[90m 85 | \u001b[39m}\u001b[0m\n");
+^
+
+Error: Module build failed: SyntaxError: Expected corresponding JSX closing tag for <div> (82:6)
+
+[0m [90m 80 | [39m      [33m>[39m
+ [90m 81 | [39m        [33m<[39m[33mNavItem[39m[33m>[39m[33mCerrar[39m sesión[33m<[39m[33m/[39m[33mNavItem[39m[33m>[39m
+[31m[1m>[22m[39m[90m 82 | [39m      [33m<[39m[33m/[39m[33mDropdown[39m[33m>[39m
+ [90m    | [39m      [31m[1m^[22m[39m
+ [90m 83 | [39m    )[33m;[39m
+ [90m 84 | [39m  }
+ [90m 85 | [39m}[0m
+
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10566:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10587:20)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10511:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.module.exports.en.error.404 (/home/migu3lr/enjoy/built/server/index.js:9129:15)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10385:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+/home/migu3lr/enjoy/built/server/index.js:10566
+throw new Error("Module build failed: SyntaxError: Unexpected token, expected } (80:21)\n\n\u001b[0m \u001b[90m 78 | \u001b[39m        }\n \u001b[90m 79 | \u001b[39m        options\u001b[33m=\u001b[39m{\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 80 | \u001b[39m          belowOrigin\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m    | \u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 81 | \u001b[39m        }\n \u001b[90m 82 | \u001b[39m      \u001b[33m>\u001b[39m\n \u001b[90m 83 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mNavItem\u001b[39m onClick\u001b[33m=\u001b[39m{\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlogout}\u001b[33m>\u001b[39m\u001b[33mCerrar\u001b[39m sesión\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n");
+^
+
+Error: Module build failed: SyntaxError: Unexpected token, expected } (80:21)
+
+[0m [90m 78 | [39m        }
+ [90m 79 | [39m        options[33m=[39m{
+[31m[1m>[22m[39m[90m 80 | [39m          belowOrigin[33m:[39m [36mtrue[39m[33m,[39m
+ [90m    | [39m                     [31m[1m^[22m[39m
+ [90m 81 | [39m        }
+ [90m 82 | [39m      [33m>[39m
+ [90m 83 | [39m        [33m<[39m[33mNavItem[39m onClick[33m=[39m{[36mthis[39m[33m.[39mlogout}[33m>[39m[33mCerrar[39m sesión[33m<[39m[33m/[39m[33mNavItem[39m[33m>[39m[0m
+
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10566:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10587:20)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10511:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.module.exports.en.error.404 (/home/migu3lr/enjoy/built/server/index.js:9129:15)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10385:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+/home/migu3lr/enjoy/built/server/index.js:10566
+throw new Error("Module build failed: SyntaxError: Unexpected token (89:25)\n\n\u001b[0m \u001b[90m 87 | \u001b[39m        }}\n \u001b[90m 88 | \u001b[39m      \u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 89 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33mLink\u001b[39m to\u001b[32m\"/enjoy/portal\"\u001b[39m\u001b[33m>\u001b[39m\u001b[33mPortal\u001b[39m \u001b[33mE\u001b[39m\u001b[33m-\u001b[39m\u001b[33mLearning\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mLink\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 90 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mNavItem\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33mLink\u001b[39m to\u001b[32m\"/enjoy/p
+
+Error: Module build failed: SyntaxError: Unexpected token (89:25)
+
+[0m [90m 87 | [39m        }}
+ [90m 88 | [39m      [33m>[39m
+[31m[1m>[22m[39m[90m 89 | [39m        [33m<[39m[33mNavItem[39m[33m>[39m[33m<[39m[33mLink[39m to[32m"/enjoy/portal"[39m[33m>[39m[33mPortal[39m [33mE[39m[33m-[39m[33mLearning[39m[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mNavItem[39m[33m>[39m
+ [90m    | [39m                         [31m[1m^[22m[39m
+ [90m 90 | [39m        [33m<[39m[33mNavItem[39m[33m>[39m[33m<[39m[33mLink[39m to[32m"/enjoy/portal"[39m[33m>[39m[33mMi[39m perfil[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mNavItem[39m[33m>[39m
+ [90m 91 | [39m        [33m<[39m[33mNavItem[39m[33m>[39m[33m<[39m[33mLink[39m to[32m"/enjoy/portal/pagos"[39m[33m>[39m[33mIr[39m a [33mPagos[39m[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mNavItem[39m[33m>[39m
+ [90m 92 | [39m        [33m<[39m[33mNavItem[39m divider [33m/[39m[33m>[39m[0m
+
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10566:7)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10587:20)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10511:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.module.exports.en.error.404 (/home/migu3lr/enjoy/built/server/index.js:9129:15)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+    at Object.defineProperty.value (/home/migu3lr/enjoy/built/server/index.js:10385:13)
+    at __webpack_require__ (/home/migu3lr/enjoy/built/server/index.js:20:30)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+undefined
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{}
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a4: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object], a4: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+{ a1: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a2: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' },
+  a3: 
+   { clases: { a1: [Object], a2: [Object], a3: [Object] },
+     descripcion: 'Este es el curso de Mejora tu vida',
+     nombre: 'Mejora tu vida' } }
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+TypeError: Cannot read property 'indexOf' of undefined
+    at requestHandler (/home/migu3lr/enjoy/built/server/index.js:10400:52)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/migu3lr/enjoy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/migu3lr/enjoy/node_modules/express/lib/router/layer.js:95:5)
+    at /home/migu3lr/enjoy/node_modules/express/lib/router/index.js:281:22
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/migu3lr/enjoy/node_modules/express/lib/router/index.js:275:10)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+Warning: setState(...): Can only update a mounting component. This usually means you called setState() outside componentWillMount() on the server. This is a no-op. Please check the code for the Portal component.
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /home/migu3lr/enjoy/built/server/index.js`[39m
+undefined

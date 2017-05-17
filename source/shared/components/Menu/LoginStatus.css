@@ -1,0 +1,10 @@
+.user {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('http://icon-icons.com/icons2/317/PNG/512/user-male-icon_34332.png');
+}

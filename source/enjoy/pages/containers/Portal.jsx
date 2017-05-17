@@ -28,7 +28,7 @@ class Portal extends Component {
           <div className="row">
             {this.state.lineas
                .map(linea => (
-                 <Linea key={linea['.key']} cursos={linea.cursos} nombre={linea.nombre} descripcion={linea.descripcion} />
+                 <Linea key={linea['.key']} {...linea} />
                ))
               }
           </div>

@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { Collapsible, CollapsibleItem } from 'react-materialize';
 
 class Linea extends Component {
   constructor(props) {
@@ -23,27 +24,18 @@ class Linea extends Component {
 
   render() {
     return (
-      <div className="col m6">
-        <ul className="collapsiblelineas" data-collapsible="expandable">
-          <li>
-            <div className="collapsible-header">
-              <h4>
-                <i className="material-icons">trending_up</i>
-                {this.state.nombre}
-              </h4>
-              <p>{this.state.descripcion}</p>
-            </div>
-            <div className="collapsible-body">
-              <ul>
-                {Object.keys(this.state.cursos)
-                  .map(key => (
-                    <li key={key}>{this.state.cursos[key].nombre}</li>
-                  ))
-                }
-              </ul>
-            </div>
-          </li>
-        </ul>
+      <div className="col s12 m6">
+        <Collapsible>
+          <CollapsibleItem header={this.state.nombre} icon={'trending_up'}>
+            <ul>
+              {Object.keys(this.state.cursos)
+                .map(key => (
+                  <li key={key}>{this.state.cursos[key].nombre}</li>
+                ))
+              }
+            </ul>
+          </CollapsibleItem>
+        </Collapsible>
       </div>
     );
   }
