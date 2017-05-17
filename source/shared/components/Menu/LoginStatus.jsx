@@ -72,9 +72,9 @@ class LoginStatus extends Component {
       );
     }
     return (
-      <Dropdown 
+      <Dropdown
         trigger={
-          <a 
+          <a
             href="javascript:;"
             title={`Usuario conectado: ${this.state.displayName}`}
           >
@@ -84,6 +84,7 @@ class LoginStatus extends Component {
         options={{
           belowOrigin: true,
           constrainWidth: false,
+          hover: true,
         }}
       >
         <Link to="/enjoy/portal">Portal E-Learning</Link>
