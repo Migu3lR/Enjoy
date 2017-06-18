@@ -17,10 +17,6 @@ class Portal extends Component {
     api.db.bindState(this, 'lineas', '/lineas');
   }
 
-  componentDidUpdate() {
-    console.log(this.state.lineas);
-  }
-
   render() {
     return (
       <section name="Portal">

@@ -9,6 +9,7 @@ import Login from './Login';
 import RegisterEmail from './RegisterEmail';
 import Portal from './Portal';
 import Pagos from './Pagos';
+import Curso from './Curso';
 import Error404 from '../../../pages/containers/Error404';
 
 function Pages() {
@@ -42,6 +43,12 @@ function Pages() {
         path="/enjoy/portal"
         exact
         component={Portal}
+      />
+
+      <Route
+        path="/enjoy/portal/linea/:lid/curso/:cid"
+        exact
+        component={Curso}
       />
 
       <Route component={Error404} />

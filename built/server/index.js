@@ -1999,6 +1999,10 @@ Object.defineProperty(exports, "__esModule", {
 
 var _reactNotifyToast = __webpack_require__(54);
 
+var _isomorphicFetch = __webpack_require__(207);
+
+var _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);
+
 var _firebase = __webpack_require__(86);
 
 var _firebase2 = _interopRequireDefault(_firebase);
@@ -2029,9 +2033,9 @@ const api = {
         return snapshot;
       });
     },
-    bindState: (scope, stateElement, dbLocation) => {
+    bindState: (scope, stateElement, dbLocation, type = 'Array') => {
       const ref = _firebase2.default.database().ref().child(dbLocation);
-      scope.bindAsArray(ref, stateElement);
+      if (type === 'Array') scope.bindAsArray(ref, stateElement);else scope.bindAsObject(ref, stateElement);
     },
     nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve, reject) => {
       Auth.onAuthStateChanged(user => {
@@ -9630,6 +9634,8 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(9);
+
 var _reactMaterialize = __webpack_require__(87);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -9637,21 +9643,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 let Linea = class Linea extends _react.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      cursos: props.cursos,
-      descripcion: props.descripcion,
-      nombre: props.nombre
-    };
-    console.log(props.cursos);
-  }
-
-  componentWillReceiveProps(nextProps) {
-    this.setState({
-      cursos: nextProps.cursos,
-      descripcion: nextProps.descripcion,
-      nombre: nextProps.nombre
-    });
-    console.log(nextProps.cursos);
+    this.state = {};
   }
 
   render() {
@@ -9663,14 +9655,18 @@ let Linea = class Linea extends _react.Component {
         null,
         _react2.default.createElement(
           _reactMaterialize.CollapsibleItem,
-          { header: this.state.nombre, icon: 'trending_up' },
+          { header: this.props.nombre, icon: 'trending_up' },
           _react2.default.createElement(
             'ul',
             null,
-            Object.keys(this.state.cursos).map(key => _react2.default.createElement(
+            Object.keys(this.props.cursos).map(key => _react2.default.createElement(
               'li',
               { key: key },
-              this.state.cursos[key].nombre
+              _react2.default.createElement(
+                _reactRouterDom.Link,
+                { to: `/enjoy/portal/linea/${this.props['.key']}/curso/${key}` },
+                this.props.cursos[key].nombre
+              )
             ))
           )
         )
@@ -9841,6 +9837,10 @@ var _Pagos = __webpack_require__(100);
 
 var _Pagos2 = _interopRequireDefault(_Pagos);
 
+var _Curso = __webpack_require__(218);
+
+var _Curso2 = _interopRequireDefault(_Curso);
+
 var _Error = __webpack_require__(56);
 
 var _Error2 = _interopRequireDefault(_Error);
@@ -9876,6 +9876,11 @@ function Pages() {
       exact: true,
       component: _Portal2.default
     }),
+    _react2.default.createElement(_reactRouterDom.Route, {
+      path: '/enjoy/portal/linea/:lid/curso/:cid',
+      exact: true,
+      component: _Curso2.default
+    }),
     _react2.default.createElement(_reactRouterDom.Route, { component: _Error2.default })
   );
 }
@@ -9897,7 +9902,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _queryString = __webpack_require__(207);
+var _queryString = __webpack_require__(208);
 
 var _queryString2 = _interopRequireDefault(_queryString);
 
@@ -9970,11 +9975,11 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactMixin = __webpack_require__(208);
+var _reactMixin = __webpack_require__(209);
 
 var _reactMixin2 = _interopRequireDefault(_reactMixin);
 
-var _reactfire = __webpack_require__(209);
+var _reactfire = __webpack_require__(210);
 
 var _reactfire2 = _interopRequireDefault(_reactfire);
 
@@ -9998,10 +10003,6 @@ let Portal = class Portal extends _react.Component {
 
   componentWillMount() {
     _api2.default.db.bindState(this, 'lineas', '/lineas');
-  }
-
-  componentDidUpdate() {
-    console.log(this.state.lineas);
   }
 
   render() {
@@ -10678,7 +10679,8 @@ let LoginStatus = class LoginStatus extends _react.Component {
         ),
         options: {
           belowOrigin: true,
-          constrainWidth: false
+          constrainWidth: false,
+          hover: true
         }
       },
       _react2.default.createElement(
@@ -22652,19 +22654,95 @@ module.exports = require("dateformat");
 /* 207 */
 /***/ (function(module, exports) {
 
-module.exports = require("query-string");
+module.exports = require("isomorphic-fetch");
 
 /***/ }),
 /* 208 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-mixin");
+module.exports = require("query-string");
 
 /***/ }),
 /* 209 */
 /***/ (function(module, exports) {
 
+module.exports = require("react-mixin");
+
+/***/ }),
+/* 210 */
+/***/ (function(module, exports) {
+
 module.exports = require("reactfire");
+
+/***/ }),
+/* 211 */,
+/* 212 */,
+/* 213 */,
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactMixin = __webpack_require__(209);
+
+var _reactMixin2 = _interopRequireDefault(_reactMixin);
+
+var _reactfire = __webpack_require__(210);
+
+var _reactfire2 = _interopRequireDefault(_reactfire);
+
+var _api = __webpack_require__(17);
+
+var _api2 = _interopRequireDefault(_api);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+let Curso = class Curso extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      cursos: {}
+    };
+  }
+
+  componentWillMount() {
+    _api2.default.db.bindState(this, 'cursos', `/lineas/${this.props.match.params.lid}/cursos/${this.props.match.params.cid}`, 'Obj');
+  }
+
+  render() {
+    return _react2.default.createElement(
+      'section',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        ' Este es el curso ',
+        this.state.cursos.nombre,
+        ' '
+      )
+    );
+  }
+
+};
+
+
+(0, _reactMixin2.default)(Curso.prototype, _reactfire2.default);
+
+exports.default = Curso;
 
 /***/ })
 /******/ ]);

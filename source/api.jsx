@@ -1,4 +1,5 @@
 import { notify } from 'react-notify-toast';
+import fetch from 'isomorphic-fetch';
 
 import firebase from 'firebase';
 import dateFormat from 'dateformat';
@@ -17,9 +18,10 @@ const api = {
         return snapshot;
       });
     },
-    bindState: (scope, stateElement, dbLocation) => {
+    bindState: (scope, stateElement, dbLocation, type = 'Array') => {
       const ref = firebase.database().ref().child(dbLocation);
-      scope.bindAsArray(ref, stateElement);
+      if (type === 'Array') scope.bindAsArray(ref, stateElement);
+      else scope.bindAsObject(ref, stateElement);
     },
     nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve, reject) => {
       Auth.onAuthStateChanged((user) => {

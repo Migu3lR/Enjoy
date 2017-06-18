@@ -35144,3 +35144,509 @@ Child
        [0] ./source/Firebase.jsx 791 bytes {0} [built]
        [4] ./source/payu-listener.jsx 2.04 kB {0} [built]
         + 4 hidden modules
+############################################
+############################################
+############################################
+Tue May 16 20:12:56 COT 2017
+Already up-to-date.
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: d6d410f0069b3dbf70b5c1f7322e0ef7ae4c21925270dfda7dbb19c102a2
+Version: webpack 2.3.2
+Child
+    Hash: d6d410f0069b3dbf70b5
+    Time: 22602ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   720 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.22 kB       0  [emitted]         main
+      [56] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [58] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [89] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+      [90] ./source/messages.json 1.11 kB {0} [built]
+      [91] ./~/react-dom/server.js 65 bytes {0} [built]
+      [98] ./source/enjoy/pages/containers/Login.jsx 2.36 kB {0} [built]
+      [99] ./source/enjoy/pages/containers/Page.jsx 1.83 kB {0} [built]
+     [100] ./source/enjoy/pages/containers/Pagos.jsx 3.01 kB {0} [built] [1 error]
+     [101] ./source/enjoy/pages/containers/Portal.jsx 1.7 kB {0} [built]
+     [102] ./source/enjoy/pages/containers/RegisterEmail.jsx 2.38 kB {0} [built]
+     [103] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+     [104] ./source/server.jsx 1.79 kB {0} [built]
+     [147] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [152] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {0} [built]
+     [215] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 202 hidden modules
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      24:99  error  'reject' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Pagos.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Pagos.jsx
+      12:41  error  'location' is missing in props validation         react/prop-types
+      12:50  error  'location.search' is missing in props validation  react/prop-types
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 29:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu/LoginStatus.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu/LoginStatus.jsx
+      75:16  error  Trailing spaces not allowed   no-trailing-spaces
+      77:13  error  Trailing spaces not allowed   no-trailing-spaces
+      78:18  error  Script URL is a form of eval  no-script-url
+    
+    ✖ 3 problems (3 errors, 0 warnings)
+    
+     @ ./source/shared/components/Menu/Menu.jsx 15:19-43
+     @ ./source/shared/components/Header.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+Child
+    Hash: c1f7322e0ef7ae4c2192
+    Time: 25489ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  2.18 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.22 kB       0  [emitted]         main
+       [0] ./~/react/react.js 56 bytes {0} [built]
+      [18] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [43] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [56] ./~/react-dom/index.js 59 bytes {0} [built]
+      [57] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+     [171] ./~/react-router-dom/es/Link.js 3.8 kB {0} [built]
+     [180] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+     [181] ./source/messages.json 1.11 kB {0} [built]
+     [182] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [183] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [184] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [194] ./source/client.jsx 1.33 kB {0} [built]
+     [419] ./~/react-router-dom/es/HashRouter.js 2.08 kB {0} [built]
+     [437] ./~/react-tap-event-plugin/src/TapEventPlugin.js 4.72 kB {0} [built]
+     [439] ./~/react-tap-event-plugin/src/defaultClickRejectionStrategy.js 151 bytes {0} [built]
+        + 470 hidden modules
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      24:99  error  'reject' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Pagos.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Pagos.jsx
+      12:41  error  'location' is missing in props validation         react/prop-types
+      12:50  error  'location.search' is missing in props validation  react/prop-types
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 29:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu/LoginStatus.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu/LoginStatus.jsx
+      75:16  error  Trailing spaces not allowed   no-trailing-spaces
+      77:13  error  Trailing spaces not allowed   no-trailing-spaces
+      78:18  error  Script URL is a form of eval  no-script-url
+    
+    ✖ 3 problems (3 errors, 0 warnings)
+    
+     @ ./source/shared/components/Menu/Menu.jsx 15:19-43
+     @ ./source/shared/components/Header.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+Child
+    Hash: 5270dfda7dbb19c102a2
+    Time: 5603ms
+         Asset     Size  Chunks             Chunk Names
+    payment.js  5.97 kB       0  [emitted]  main
+       [0] ./source/Firebase.jsx 791 bytes {0} [built]
+       [4] ./source/payu-listener.jsx 2.04 kB {0} [built]
+        + 4 hidden modules
+############################################
+############################################
+############################################
+Tue May 16 20:16:26 COT 2017
+Updating dc9ca23..95e16b6
+Fast-forward
+ source/enjoy/pages/containers/Linea.jsx       | 2 --
+ source/shared/components/Menu/LoginStatus.jsx | 5 +++--
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+
+> enjoy@1.0.0 wp /home/migu3lr/enjoy
+> webpack
+
+Hash: d4df9e009002fae59bd16678f0cad877686beb775270dfda7dbb19c102a2
+Version: webpack 2.3.2
+Child
+    Hash: d4df9e009002fae59bd1
+    Time: 20791ms
+                    Asset     Size  Chunks                    Chunk Names
+                 index.js   720 kB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.22 kB       0  [emitted]         main
+      [56] ./source/pages/containers/Error404.jsx 645 bytes {0} [built]
+      [58] ./source/pages/containers/Page.css 288 bytes {0} [built]
+      [89] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+      [90] ./source/messages.json 1.11 kB {0} [built]
+      [91] ./~/react-dom/server.js 65 bytes {0} [built]
+      [98] ./source/enjoy/pages/containers/Login.jsx 2.36 kB {0} [built]
+      [99] ./source/enjoy/pages/containers/Page.jsx 1.83 kB {0} [built]
+     [100] ./source/enjoy/pages/containers/Pagos.jsx 3.01 kB {0} [built] [1 error]
+     [101] ./source/enjoy/pages/containers/Portal.jsx 1.7 kB {0} [built]
+     [102] ./source/enjoy/pages/containers/RegisterEmail.jsx 2.38 kB {0} [built]
+     [103] ./source/pages/containers/Home.jsx 8.12 kB {0} [built]
+     [104] ./source/server.jsx 1.79 kB {0} [built]
+     [147] ./~/react-dom/lib/ReactDOMServer.js 735 bytes {0} [built]
+     [152] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {0} [built]
+     [215] ./~/style-loader/addStyles.js 8.51 kB [built]
+        + 202 hidden modules
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      24:99  error  'reject' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Pagos.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Pagos.jsx
+      12:41  error  'location' is missing in props validation         react/prop-types
+      12:50  error  'location.search' is missing in props validation  react/prop-types
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 29:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/shared/components/Menu/LoginStatus.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu/LoginStatus.jsx
+      78:18  error  Script URL is a form of eval  no-script-url
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/shared/components/Menu/Menu.jsx 15:19-43
+     @ ./source/shared/components/Header.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/server.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+            + 1 hidden modules
+Child
+    Hash: 6678f0cad877686beb77
+    Time: 24109ms
+                    Asset     Size  Chunks                    Chunk Names
+                   app.js  2.18 MB       0  [emitted]  [big]  main
+    ../statics/styles.css  1.22 kB       0  [emitted]         main
+       [0] ./~/react/react.js 56 bytes {0} [built]
+      [18] ./~/react-router-dom/es/index.js 925 bytes {0} [built]
+      [43] ./~/react/lib/React.js 2.69 kB {0} [built]
+      [56] ./~/react-dom/index.js 59 bytes {0} [built]
+      [57] ./~/react-intl/lib/index.es.js 55 kB {0} [built]
+     [171] ./~/react-router-dom/es/Link.js 3.8 kB {0} [built]
+     [180] ./source/pages/containers/Page.jsx 1.93 kB {0} [built]
+     [181] ./source/messages.json 1.11 kB {0} [built]
+     [182] ./~/react-intl/locale-data/en.js 7.15 kB {0} [built]
+     [183] ./~/react-intl/locale-data/es.js 13 kB {0} [built]
+     [184] ./~/react-tap-event-plugin/src/injectTapEventPlugin.js 1.04 kB {0} [built]
+     [194] ./source/client.jsx 1.33 kB {0} [built]
+     [419] ./~/react-router-dom/es/HashRouter.js 2.08 kB {0} [built]
+     [437] ./~/react-tap-event-plugin/src/TapEventPlugin.js 4.72 kB {0} [built]
+     [439] ./~/react-tap-event-plugin/src/defaultClickRejectionStrategy.js 151 bytes {0} [built]
+        + 470 hidden modules
+    
+    ERROR in ./source/api.jsx
+    
+    /home/migu3lr/enjoy/source/api.jsx
+      24:99  error  'reject' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/pages/containers/Home.jsx 15:11-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Enjoy.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Enjoy.jsx
+       4:9   error  Identifier 'v_id' is not in camel case  camelcase
+      10:20  error  Trailing spaces not allowed             no-trailing-spaces
+      11:27  error  Identifier 'v_id' is not in camel case  camelcase
+      11:34  error  Trailing spaces not allowed             no-trailing-spaces
+      12:29  error  Identifier 'v_id' is not in camel case  camelcase
+      13:41  error  Trailing spaces not allowed             no-trailing-spaces
+      14:45  error  Trailing spaces not allowed             no-trailing-spaces
+      15:31  error  Trailing spaces not allowed             no-trailing-spaces
+      16:30  error  Trailing spaces not allowed             no-trailing-spaces
+      17:30  error  Trailing spaces not allowed             no-trailing-spaces
+      18:39  error  Trailing spaces not allowed             no-trailing-spaces
+      19:33  error  Trailing spaces not allowed             no-trailing-spaces
+      20:36  error  Trailing spaces not allowed             no-trailing-spaces
+      21:40  error  Identifier 'v_id' is not in camel case  camelcase
+    
+    ✖ 14 problems (14 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 13:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/pages/containers/Pagos.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/pages/containers/Pagos.jsx
+      12:41  error  'location' is missing in props validation         react/prop-types
+      12:50  error  'location.search' is missing in props validation  react/prop-types
+    
+    ✖ 2 problems (2 errors, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/Page.jsx 29:13-31
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/shared/components/Menu/LoginStatus.jsx
+    
+    /home/migu3lr/enjoy/source/shared/components/Menu/LoginStatus.jsx
+      78:18  error  Script URL is a form of eval  no-script-url
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/shared/components/Menu/Menu.jsx 15:19-43
+     @ ./source/shared/components/Header.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    
+    ERROR in ./source/enjoy/Register/containers/RegisterForm.jsx
+    
+    /home/migu3lr/enjoy/source/enjoy/Register/containers/RegisterForm.jsx
+      2:10  error  'notify' is defined but never used  no-unused-vars
+    
+    ✖ 1 problem (1 error, 0 warnings)
+    
+     @ ./source/enjoy/pages/containers/RegisterEmail.jsx 13:20-69
+     @ ./source/enjoy/pages/containers/Page.jsx
+     @ ./source/pages/containers/Page.jsx
+     @ ./source/client.jsx
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [4] ./~/css-loader?modules!./source/pages/containers/Page.css 1.08 kB {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+    Child extract-text-webpack-plugin:
+           [0] ./~/css-loader/lib/css-base.js 2.19 kB {0} [built]
+           [1] ./~/base64-js/index.js 3.48 kB {0} [built]
+           [2] ./~/buffer/index.js 48.6 kB {0} [built]
+           [3] ./~/buffer/~/isarray/index.js 132 bytes {0} [built]
+           [5] ./~/ieee754/index.js 2.05 kB {0} [built]
+           [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+            + 1 hidden modules
+Child
+    Hash: 5270dfda7dbb19c102a2
+    Time: 5124ms
+         Asset     Size  Chunks             Chunk Names
+    payment.js  5.97 kB       0  [emitted]  main
+       [0] ./source/Firebase.jsx 791 bytes {0} [built]
+       [4] ./source/payu-listener.jsx 2.04 kB {0} [built]
+        + 4 hidden modules

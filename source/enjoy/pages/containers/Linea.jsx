@@ -1,34 +1,27 @@
 import React, { Component, PropTypes } from 'react';
+import { Link } from 'react-router-dom';
 import { Collapsible, CollapsibleItem } from 'react-materialize';
 
 class Linea extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cursos: props.cursos,
-      descripcion: props.descripcion,
-      nombre: props.nombre,
     };
   }
-
-  componentWillReceiveProps(nextProps) {
-    this.setState({
-      cursos: nextProps.cursos,
-      descripcion: nextProps.descripcion,
-      nombre: nextProps.nombre,
-    });
-  }
-
 
   render() {
     return (
       <div className="col s12 m6">
         <Collapsible>
-          <CollapsibleItem header={this.state.nombre} icon={'trending_up'}>
+          <CollapsibleItem header={this.props.nombre} icon={'trending_up'}>
             <ul>
-              {Object.keys(this.state.cursos)
+              {Object.keys(this.props.cursos)
                 .map(key => (
-                  <li key={key}>{this.state.cursos[key].nombre}</li>
+                  <li key={key}>
+                    <Link to={`/enjoy/portal/linea/${this.props['.key']}/curso/${key}`}>
+                      {this.props.cursos[key].nombre}
+                    </Link>  
+                  </li>
                 ))
               }
             </ul>
