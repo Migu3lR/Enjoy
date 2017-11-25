@@ -16,6 +16,7 @@ function Layout(props) {
         <link rel="icon" href={`${props.domain}/images/favicon.ico`} type="image/x-icon" />
         <link type="text/css" rel="stylesheet" href={`${props.domain}/materialize.css`} media="screen,projection" />
         <link rel="stylesheet" href={`${props.domain}/styles.css`} />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
       </head>
       <body>{
         // eslint-disable-next-line react/no-danger

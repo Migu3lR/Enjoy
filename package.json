@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "forever start -a -l forever_start.log -o start.log -e start.log --uid enjoy -t --killSignal=SIGTERM -c nodemon ./built/server/index.js",
+    "start": "nodemon ./built/server/index.js",
     "static": "serve ./built/statics/ --port 3002 --cache 0",
     "watch": "webpack -w",
     "wp": "webpack",
     "stop": "forever stop ./built/server/index.js",
-    "payStart": "forever start -a -l forever_payStart.log -o payStart.log -e payStart.log --uid enjoy -t --killSignal=SIGTERM -c nodemon ./built/server/payment.js",
+    "payStart": "nodemon ./built/server/payment.js",
     "payStop": "forever stop ./built/server/payment.js"
   },
   "repository": {
@@ -36,6 +36,7 @@
     "material-ui": "^0.17.1",
     "prop-types": "^15.5.10",
     "query-string": "^4.3.4",
+    "re-base": "^3.2.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-intl": "^2.2.3",

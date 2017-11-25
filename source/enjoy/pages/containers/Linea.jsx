@@ -20,7 +20,7 @@ class Linea extends Component {
                   <li key={key}>
                     <Link to={`/enjoy/portal/linea/${this.props['.key']}/curso/${key}`}>
                       {this.props.cursos[key].nombre}
-                    </Link>  
+                    </Link>
                   </li>
                 ))
               }

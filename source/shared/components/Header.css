@@ -2,8 +2,17 @@ nav ul a,
 nav ul li,
 nav .brand_logo {
   color: #444;
+  padding-left: 1rem;
 }
 
 .button_collapse {
   color: brand-logo;
+}
+
+.brand_logo img {
+  height: 100%;
+}
+
+.brand_logo span {
+  vertical-align: top;
 }

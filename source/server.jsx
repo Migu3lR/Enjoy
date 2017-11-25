@@ -9,7 +9,7 @@ import messages from './messages.json';
 import Pages from './pages/containers/Page';
 import Layout from './pages/components/Layout';
 
-const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://138.68.131.182:3002';
+const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://localhost:3002';
 
 const app = express();
 

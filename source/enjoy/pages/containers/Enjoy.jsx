@@ -1,26 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import StartVideo from '../components/StartVideo';
 
 function Home() {
-  const v_id = '10148061';
   return (
-    <section name="Home">
-      <div className="container">
-        <div className="row">
-          <div className="col s12 center">
-            <iframe 
-              id={`vzvd-${v_id}`} 
-              name={`vzvd-${v_id}`}
-              title="vzaar video player" 
-              className="vzaar-video-player" 
-              type="text/html" 
-              frameBorder="0" 
-              allowFullScreen 
-              allowTransparency="true" 
-              mozallowfullscreen 
-              webkitAllowFullScreen 
-              src={`//view.vzaar.com/${v_id}/player`}
-            />
-          </div>
+    <section name="EnjoyHome">
+      <div className="row">
+        <StartVideo />
+      </div>
+      <div className="row">
+        <div className="col s12 m10 offset-m1">
+          <p className={'flow-text center-align'}>Conoce el proyecto Enjoy Life ProNET. Clic en el siguiente boton para empezar.</p>
+          <p className="center-align">
+            <Link to="/enjoy/register/email" className="waves-effect waves-light btn center-align">
+              Comienza a disfrutar la vida
+            </Link>
+          </p>
         </div>
       </div>
     </section>

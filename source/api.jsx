@@ -1,5 +1,4 @@
 import { notify } from 'react-notify-toast';
-import fetch from 'isomorphic-fetch';
 
 import firebase from 'firebase';
 import dateFormat from 'dateformat';
@@ -8,6 +7,63 @@ import sha256 from './CryptoSHA256';
 
 const Data = Firebase.database();
 const Auth = Firebase.auth();
+
+function notifyError(message) {
+  notify.show(message, 'error', 5000);
+}
+
+function handleAuthErrors(errorCode) {
+  console.log(errorCode);
+  switch (errorCode) {
+    case 'auth/account-exists-with-different-credential':
+      notifyError('Lo sentimos, parece que ya existe una cuenta asociada a este correo electrónico.');
+      break;
+    case 'auth/wrong-password':
+    case 'auth/user-not-found':
+      notifyError('Usuario y/o contraseña erroneos.');
+      break;
+    case 'auth/email-already-in-use':
+      notifyError('Este correo electrónico ya se encuentra registrado.');
+      break;
+    case 'auth/invalid-email':
+      notifyError('Correo electrónico invalido.');
+      break;
+    case 'auth/weak-password':
+      notifyError('Tu contraseña es demasiado facil, por favor intenta con otra.');
+      break;
+    default:
+      notifyError('Ha ocurrido un error al intentar iniciar sesión.');
+      break;
+  }
+}
+
+function InitializeUser(user) {
+  Data.ref(`/usuarios/${user.uid}`).once('value').then((u) => {
+    const now = Math.trunc((new Date()).getTime() / 1000);
+    if (!u.exists()) {
+      Data.ref('/parametros/cuentas/').once('value').then((params) => {
+        const freeDays = params.val().startFreeDays * 86400;
+        const points = params.val().startPoints;
+
+        Data.ref(`usuarios/${user.uid}`).set({
+          email: user.email,
+          displayName: user.displayName,
+          firstLogin: true,
+          created: now,
+          balance: {
+            points,
+            inTrx: 0,
+          },
+          plan: {
+            lastCat: 'free',
+            timeUp: now + freeDays,
+          },
+        });
+      });
+      notify.show('Gracias por registrarte.', 'success', 5000);
+    }
+  });
+}
 
 const api = {
   db: {
@@ -23,7 +79,15 @@ const api = {
       if (type === 'Array') scope.bindAsArray(ref, stateElement);
       else scope.bindAsObject(ref, stateElement);
     },
-    nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve, reject) => {
+    async getOnce(location) {
+      const response = await Data.ref(location).once('value').then(a => a.val());
+      return response;
+    },
+    async getOn(location) {
+      const response = await Data.ref(location).once('value').then(a => a.val());
+      return response;
+    },
+    nuevaTrx: (Descripcion, Valor, Iva = 0, BaseIva = 0, Moneda = 'COP') => new Promise((resolve) => {
       Auth.onAuthStateChanged((user) => {
         if (user) {
           const transaccion = {
@@ -82,33 +146,38 @@ const api = {
     }),
   },
   auth: {
-    Login_Google() {
-      let user = null;
+    Login_oAuth(oauth) {
+      Auth.languageCode = 'es';
       // Start a sign in process for an unauthenticated user.
-      const provider = new firebase.auth.GoogleAuthProvider();
-      provider.addScope('profile');
-      provider.addScope('email');
-      Auth.signInWithPopup(provider).then((result) => {
-        // This gives you a Google Access Token.
-        const token = result.credential.accessToken;
-        // The signed-in user info.
-        user = result.user;
-        console.log(user, token);
-      });
+      let provider = null;
+      switch (oauth) {
+        case 'Google':
+          provider = new firebase.auth.GoogleAuthProvider();
+          provider.addScope('profile');
+          provider.addScope('email');
+          break;
+        case 'Facebook':
+          provider = new firebase.auth.FacebookAuthProvider();
+          provider.addScope('public_profile');
+          provider.addScope('email');
+          break;
+        case 'Twitter':
+          provider = new firebase.auth.TwitterAuthProvider();
+          break;
+        default:
+          break;
+      }
 
-      return user;
+      Auth.signInWithPopup(provider).then((result) => {
+        InitializeUser(result.user);
+      }).catch((error) => {
+        handleAuthErrors(error.code);
+      });
     },
     Login_Email(email, pass) {
       Auth.signInWithEmailAndPassword(email, pass)
         .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          if (errorCode === 'auth/wrong-password' || errorCode === 'auth/user-not-found') {
-            notify.show('Usuario y/o contraseña erroneos.', 'error', 5000);
-          } else {
-            notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo.', 'error', 5000);
-          }
-          console.log(errorCode, errorMessage);
+          handleAuthErrors(error.code);
         });
     },
     Register_Email(email, pass, displayName, fullName) {
@@ -118,46 +187,9 @@ const api = {
         Auth.currentUser.updateProfile({
           displayName: `${displayName}|${fullName}`,
         });
-        Data.ref(`usuarios/${Auth.currentUser.uid}`).set({
-          email,
-          displayName,
-        });
-        notify.show('Gracias por registrarte.', 'success', 5000);
-      });
-
-      createUser.catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        switch (errorCode) {
-          case 'auth/email-already-in-use':
-            notify.show('Este correo electrónico ya se encuentra registrado.', 'error', 5000);
-            break;
-          case 'auth/invalid-email':
-            notify.show('Correo electrónico invalido.', 'error', 5000);
-            break;
-          case 'auth/weak-password':
-            notify.show('Tu contraseña es demasiado facil, por favor intenta con otra.', 'error', 5000);
-            break;
-          default:
-            notify.show('Ha ocurrido un error inesperado, vuelve a intentarlo.', 'error', 5000);
-        }
-        console.log(errorCode, errorMessage);
-      });
-    },
-    currentUser: () => {
-      const user = Auth.currentUser;
-      if (user) {
-        return (user);
-      }
-      return null;
-    },
-    SuscribeAuthChage() {
-      Auth.onAuthStateChanged((user) => {
-        if (user) {
-          console.log(user);
-          return (user);
-        }
-        return null;
+        InitializeUser(Auth.currentUser);
+      }).catch((error) => {
+        handleAuthErrors(error.code);
       });
     },
     logOut(history) {
@@ -165,9 +197,38 @@ const api = {
         notify.show('Sesión de usuario cerrada.', 'success', 5000);
         history.push('/enjoy/login');
       }, (error) => {
-        notify.show('Ha ocurrido un error inesperado al cerrar tu sesión.', 'error', 5000);
-        console.log(error);
+        handleAuthErrors(error.code);
       });
+    },
+  },
+  acct: {
+    async lastCategory(uid) {
+      const last = await api.db.getOnce(`/usuarios/${uid}/plan/lastCat`);
+      return last;
+    },
+    async timeUp(uid) {
+      const time = await api.db.getOnce(`/usuarios/${uid}/plan/timeUp`);
+      const date = await dateFormat(new Date(time * 1000), 'yyyy-mm-dd HH:MM:ss');
+      return {
+        date,
+        epoch: time,
+      };
+    },
+    timeLeft(timeUp) {
+      const now = Math.trunc((new Date()).getTime() / 1000);
+      const left = timeUp - now;
+
+      const d = Math.trunc(left / 86400);
+      const h = Math.trunc((left / 3600) % 24);
+      const m = Math.trunc((left / 60) % 60);
+      const s = Math.trunc(left % 60);
+
+      return {
+        d,
+        h: h > 9 ? h : `0${h}`,
+        m: m > 9 ? m : `0${m}`,
+        s: s > 9 ? s : `0${s}`,
+      };
     },
   },
 

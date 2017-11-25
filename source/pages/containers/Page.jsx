@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Route,
   Switch,
@@ -13,36 +13,65 @@ import Error404 from './Error404';
 import Header from '../../shared/components/Header';
 import Footer from '../../shared/components/Footer';
 
+import Auth from '../../Auth';
+
 import css from './Page.css';
 
-function Pages() {
-  return (
-    <main role="application">
+class Pages extends Component {
+  constructor(props) {
+    super(props);
 
-      <Notifications />
-      <Route component={Header} />
+    this.state = {
+      user: null,
+    };
+    this.suscribeAuth = this.suscribeAuth.bind(this);
+  }
 
-      <section className={css.MainSection}>
+  componentDidMount() {
+    this.suscribeAuth();
+  }
 
-        <Switch>
-          <Route
-            path="/"
-            exact
-            component={Home}
-          />
+  suscribeAuth() {
+    Auth.onAuthStateChanged(
+      user => this.setState({
+        user: user || this.state.user,
+      }),
+    );
+  }
 
-          <Route
-            path="/enjoy"
-            component={PageEnjoy}
-          />
+  render() {
+    return (
+      <main role="application">
 
-          <Route component={Error404} />
-        </Switch>
-      </section>
+        <Notifications />
+        <Route
+          render={props => (
+            <Header {...props} user={this.state.user} />
+          )}
+        />
 
-      <Footer />
-    </main>
-  );
+        <section className={css.MainSection}>
+
+          <Switch>
+            <Route
+              path="/"
+              exact
+              component={Home}
+            />
+
+            <Route
+              path="/enjoy"
+              component={PageEnjoy}
+            />
+
+            <Route component={Error404} />
+          </Switch>
+        </section>
+
+        <Footer />
+      </main>
+    );
+  }
 }
 
 export default Pages;

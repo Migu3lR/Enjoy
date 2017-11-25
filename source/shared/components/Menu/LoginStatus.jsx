@@ -1,28 +1,33 @@
 import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
 import { Dropdown, NavItem } from 'react-materialize';
 
-import Auth from '../../../Auth';
 import api from '../../../api';
 
 import css from './LoginStatus.css';
 
-function getDisplayName(user) {
-  const u = user || api.auth.currentUser();
-  let displayName = '';
+function getDisplay(u) {
+  const display = {
+    name: '',
+    photo: '',
+  };
 
   if (u) {
     const dn = u.providerData[0].displayName;
+    const dp = u.providerData[0].photoURL;
     if (dn) {
-      const display = dn.split('|');
-      displayName = display[0];
+      const displayN = dn.split('|');
+      display.name = displayN[0];
     } else {
-      displayName = u.email;
+      display.name = u.email;
+    }
+    if (dp) {
+      display.photo = dp;
+    } else {
+      display.photo = 'http://icon-icons.com/icons2/317/PNG/512/user-male-icon_34332.png';
     }
   }
-
-  return (displayName);
+  return (display);
 }
 
 class LoginStatus extends Component {
@@ -30,31 +35,19 @@ class LoginStatus extends Component {
     super(props);
 
     this.state = {
-      user: api.auth.currentUser(),
-      displayName: getDisplayName(),
+      user: this.props.user,
+      displayName: getDisplay(this.props.user).name,
+      displayPhoto: getDisplay(this.props.user).photo,
     };
 
-    this.suscribeAuth = this.suscribeAuth.bind(this);
     this.logout = this.logout.bind(this);
   }
 
-  componentDidMount() {
-    this.suscribeAuth();
-  }
-
-  suscribeAuth() {
-    Auth.onAuthStateChanged((user) => {
-      if (user) {
-        this.setState({
-          user,
-          displayName: getDisplayName(),
-        });
-      } else {
-        this.setState({
-          user: null,
-          displayName: '',
-        });
-      }
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      user: nextProps.user,
+      displayName: getDisplay(nextProps.user).name,
+      displayPhoto: getDisplay(nextProps.user).photo,
     });
   }
 
@@ -63,14 +56,7 @@ class LoginStatus extends Component {
   }
 
   render() {
-    if (!this.state.user) {
-      return (
-        <Link to="/enjoy/login" className="waves-effect waves-light btn">
-          <i className="material-icons right">assignment_ind</i>
-          <FormattedMessage id="login" />
-        </Link>
-      );
-    }
+    /* eslint no-script-url: "off" */
     return (
       <Dropdown
         trigger={
@@ -78,7 +64,11 @@ class LoginStatus extends Component {
             href="javascript:;"
             title={`Usuario conectado: ${this.state.displayName}`}
           >
-            <i className="material-icons right">arrow_drop_down</i><div className={css.user} />
+            <i className="material-icons right">arrow_drop_down</i>
+            <div
+              className={css.user}
+              style={{ backgroundImage: `url(${this.state.displayPhoto})` }}
+            />
           </a>
         }
         options={{
@@ -101,9 +91,13 @@ LoginStatus.propTypes = {
   history: PropTypes.shape({
     push: PropTypes.func,
   }),
+  user: PropTypes.shape({
+    providerData: PropTypes.array,
+  }),
 };
 
 LoginStatus.defaultProps = {
+  user: null,
   history: {},
 };
 

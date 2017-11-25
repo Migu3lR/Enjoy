@@ -2,6 +2,7 @@ import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import LoginForm from '../../Login/containers/LoginForm';
+import OauthAll from '../components/OauthAll';
 
 import Auth from '../../../Auth';
 
@@ -12,7 +13,7 @@ class Login extends Component {
     this.authSuscribe = () => {
       Auth.onAuthStateChanged((user) => {
         if (user) {
-          this.props.history.push('/enjoy');
+          this.props.history.push('/enjoy/portal');
         }
       });
     };
@@ -33,7 +34,7 @@ class Login extends Component {
         </div>
 
         <div className="row">
-          <div className="col s12 m6 offset-m3 l4 offset-l4">
+          <div className="col s12 m5 offset-m1 l5 offset-l2">
             <div className="card">
               <div className="card-content">
                 <LoginForm />
@@ -42,6 +43,10 @@ class Login extends Component {
                 ¿Aún no tienes un cuenta? <Link to="/enjoy/register/email">Regístrate aquí</Link>
               </div>
             </div>
+          </div>
+
+          <div className="col s10 offset-s1 m5 l3">
+            <OauthAll />
           </div>
         </div>
       </section>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { notify } from 'react-notify-toast';
+// import { notify } from 'react-notify-toast';
 
 import SingleInput from '../../../shared/components/forms/SingleInput';
 

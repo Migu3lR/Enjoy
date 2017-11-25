@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+
+.videoForeground{
+  display: flex;
+  pointer-events: none; 
+}
+
+iframe {
+  width: 100vw;
+  height: calc(100vw/1.8);
+}

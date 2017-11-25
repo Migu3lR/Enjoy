@@ -16,7 +16,7 @@ const config = {
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, '../built/server'),
-    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'http://138.68.131.182:3002',
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'http://localhost:3002',
   },
   module: {
     loaders: [

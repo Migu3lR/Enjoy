@@ -7,12 +7,19 @@
     "profile.field.basic": "Basic info",
     "profile.field.address": "Address",
     "header.nav.home": "Home",
-    "header.nav.platzi": "Platzi",
+    "header.nav.empresas": "PARA EMPRESAS",
+    "header.nav.emprendedores": "¡SOY EMPRENDEDOR!",
+    "header.nav.planes": "PLANES",
+    "header.nav.login": "INICIAR SESIÓN",
+    "header.nav.start": "EMPIEZA AHORA",
+    "header.nav.timeleft": "Time Left:",
+    "header.nav.mypoints": "My Points:",
     "comment.meta.author": "By: <a href=\"mailto:{email}\" target=\"_blank\">{name}</a>",
     "post.meta.comments": "{amount} comments",
     "post.meta.readMore": "Read more...",
     "loading": "Loading data...",
-    "login": "Sign In"
+    "login": "Sign In",
+    "login.oauth": "Sign in with "
   },
   "es": {
     "error.404": "Volver al inicio",
@@ -22,11 +29,18 @@
     "profile.field.basic": "Información básica",
     "profile.field.address": "Dirección",
     "header.nav.home": "Inicio",
-    "header.nav.platzi": "Platzi",
+    "header.nav.empresas": "PARA EMPRESAS",
+    "header.nav.emprendedores": "¡SOY EMPRENDEDOR!",
+    "header.nav.planes": "PLANES",
+    "header.nav.login": "INICIAR SESIÓN",
+    "header.nav.start": "EMPIEZA AHORA",
+    "header.nav.timeleft": "Tiempo Restante:",
+    "header.nav.mypoints": "Mis Puntos:",
     "comment.meta.author": "Por: <a href=\"mailto:{email}\" target=\"_blank\">{name}</a>",
     "post.meta.comments": "{amount} comentarios",
     "post.meta.readMore": "Leer más...",
     "loading": "Cargando datos...",
-    "login": "Iniciar Sesión"
+    "login": "Iniciar Sesión",
+    "login.oauth": "Acceder con "
   }
 }

@@ -6,6 +6,7 @@ import {
 
 import Home from './Enjoy';
 import Login from './Login';
+import Planes from './Planes';
 import RegisterEmail from './RegisterEmail';
 import Portal from './Portal';
 import Pagos from './Pagos';
@@ -25,6 +26,12 @@ function Pages() {
         path="/enjoy/login"
         exact
         component={Login}
+      />
+
+      <Route
+        path="/enjoy/planes"
+        exact
+        component={Planes}
       />
 
       <Route
