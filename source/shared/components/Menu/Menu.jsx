@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 
 import LoginStatus from './LoginStatus';
 import TimeLeft from './TimeLeft';
+import Points from './Points';
 
 import api from '../../../api';
 
@@ -17,35 +18,31 @@ class Menu extends Component {
       PrintLogin: this.props.PrintLogin || null,
       Mobile: this.props.Mobile || null,
     };
-
-    this.initialFetch = this.initialFetch.bind(this);
   }
 
-  async componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps(nextProps) {
     this.setState({
+      loading: true,
       PrintLogin: nextProps.PrintLogin || null,
       Mobile: nextProps.Mobile || null,
     });
-    if (nextProps.user) this.initialFetch(nextProps.user.uid);
-    else {
-      this.initialFetch(null);
+
+    if (nextProps.user) {
+      this.syncState = api.base.syncState(`/usuarios/${nextProps.user.uid}/plan/timeUp`, {
+        context: this,
+        state: 'timeUp',
+        then: () => {
+          this.setState({
+            loading: false,
+          });
+        },
+      });
+    } else {
+      if (this.syncState) api.base.removeBinding(this.syncState);
       this.setState({
         loading: false,
       });
     }
-  }
-
-  async initialFetch(uid) {
-    if (this.state.timeUp) return this.setState({ loading: false });
-
-    const [timeUp] = await Promise.all([
-      !this.state.timeUp ? api.acct.timeUp(uid) : Promise.resolve(null),
-    ]);
-
-    return this.setState({
-      loading: false,
-      timeUp: timeUp || this.state.timeUp,
-    });
   }
 
   render() {
@@ -86,19 +83,22 @@ class Menu extends Component {
         );
       }
       return (
+        !this.state.loading && (
         <ul
           className={this.state.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
           id={this.state.Mobile ? 'nav-mobile' : null}
         >
-          {!this.state.loading && (
-            <li>
-              <TimeLeft timeUp={this.state.timeUp.epoch} />
-            </li>
-          )}
+          <li>
+            <TimeLeft timeUp={this.state.timeUp} />
+          </li>
+          <li>
+            <Points {...this.props} />
+          </li>
           <li>
             <LoginStatus {...this.props} />
           </li>
         </ul>
+        )
       );
     }
 

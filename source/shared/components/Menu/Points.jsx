@@ -1,7 +1,5 @@
 import React, { Component, PropTypes } from 'react';
 import { FormattedMessage } from 'react-intl';
-import reactMixin from 'react-mixin';
-import ReactFireMixin from 'reactfire';
 
 import api from '../../../api';
 
@@ -10,37 +8,55 @@ class Points extends Component {
     super(props);
 
     this.state = {
-      balance: {},
+      loading: true,
+      points: 0,
     };
   }
 
   componentWillReceiveProps(nextProps) {
-    api.db.bindState(this, 'balance', `/usuarios/${nextProps.user.uid}/balance`);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.timer);
-  }
-
-  updateTimer() {
     this.setState({
-      timeLeft: api.acct.timeLeft(this.props.timeUp),
+      loading: true,
     });
+
+    if (nextProps.user) {
+      this.syncState = api.base.syncState(`/usuarios/${nextProps.user.uid}/balance/points`, {
+        context: this,
+        state: 'points',
+
+        then: () => {
+          this.setState({
+            loading: false,
+          });
+        },
+      });
+    } else {
+      if (this.syncState) api.base.removeBinding(this.syncState);
+      this.setState({
+        loading: false,
+      });
+    }
   }
 
   render() {
     return (
-      <span>
-        <FormattedMessage id="header.nav.timeleft" />
-        {` ${this.state.timeLeft.d} Dias - ${this.state.timeLeft.h}:${this.state.timeLeft.m}:${this.state.timeLeft.s}`}
-      </span>
-
+      !this.state.loading && (
+        <span>
+          <b><FormattedMessage id="header.nav.mypoints" /></b>
+          {` ${this.state.points}`}
+        </span>
+      )
     );
   }
 }
 
-TimeLeft.propTypes = {
-  timeUp: PropTypes.number.isRequired,
+Points.propTypes = {
+  user: PropTypes.shape({
+    uid: PropTypes.string,
+  }),
+};
+
+Points.defaultProps = {
+  user: null,
 };
 
 export default Points;

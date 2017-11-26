@@ -24,6 +24,7 @@ class Pages extends Component {
     this.state = {
       user: null,
     };
+
     this.suscribeAuth = this.suscribeAuth.bind(this);
   }
 
@@ -34,7 +35,7 @@ class Pages extends Component {
   suscribeAuth() {
     Auth.onAuthStateChanged(
       user => this.setState({
-        user: user || this.state.user,
+        user,
       }),
     );
   }

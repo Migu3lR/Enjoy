@@ -2,10 +2,13 @@ import { notify } from 'react-notify-toast';
 
 import firebase from 'firebase';
 import dateFormat from 'dateformat';
+import Rebase from 're-base';
+
 import Firebase from './Firebase';
 import sha256 from './CryptoSHA256';
 
 const Data = Firebase.database();
+const base = Rebase.createClass(Data);
 const Auth = Firebase.auth();
 
 function notifyError(message) {
@@ -38,34 +41,46 @@ function handleAuthErrors(errorCode) {
 }
 
 function InitializeUser(user) {
-  Data.ref(`/usuarios/${user.uid}`).once('value').then((u) => {
-    const now = Math.trunc((new Date()).getTime() / 1000);
-    if (!u.exists()) {
-      Data.ref('/parametros/cuentas/').once('value').then((params) => {
-        const freeDays = params.val().startFreeDays * 86400;
-        const points = params.val().startPoints;
+  base.fetch(`/usuarios/${user.uid}`, {
+    then: (u) => {
+      if (Object.keys(u).length === 0) {
+        base.fetch('/parametros/cuentas/', {
+          then: (params) => {
+            const freeDays = params.startFreeDays * 86400;
+            const points = params.startPoints;
+            const now = Math.trunc((new Date()).getTime() / 1000);
 
-        Data.ref(`usuarios/${user.uid}`).set({
-          email: user.email,
-          displayName: user.displayName,
-          firstLogin: true,
-          created: now,
-          balance: {
-            points,
-            inTrx: 0,
-          },
-          plan: {
-            lastCat: 'free',
-            timeUp: now + freeDays,
+            base.post(`usuarios/${user.uid}`, {
+              data: {
+                email: user.email,
+                displayName: user.displayName,
+                firstLogin: true,
+                created: now,
+                balance: {
+                  points,
+                  inTrx: 0,
+                },
+                plan: {
+                  lastCat: 'free',
+                  timeUp: now + freeDays,
+                },
+              },
+              then: (e) => {
+                if (!e) notify.show('Gracias por registrarte.', 'success', 5000);
+                else {
+                  notify.show('Error al registrarte.', 'success', 5000);
+                }
+              },
+            });
           },
         });
-      });
-      notify.show('Gracias por registrarte.', 'success', 5000);
-    }
+      }
+    },
   });
 }
 
 const api = {
+  base,
   db: {
     getList() {
       const response = Data.ref('lista');
@@ -205,30 +220,6 @@ const api = {
     async lastCategory(uid) {
       const last = await api.db.getOnce(`/usuarios/${uid}/plan/lastCat`);
       return last;
-    },
-    async timeUp(uid) {
-      const time = await api.db.getOnce(`/usuarios/${uid}/plan/timeUp`);
-      const date = await dateFormat(new Date(time * 1000), 'yyyy-mm-dd HH:MM:ss');
-      return {
-        date,
-        epoch: time,
-      };
-    },
-    timeLeft(timeUp) {
-      const now = Math.trunc((new Date()).getTime() / 1000);
-      const left = timeUp - now;
-
-      const d = Math.trunc(left / 86400);
-      const h = Math.trunc((left / 3600) % 24);
-      const m = Math.trunc((left / 60) % 60);
-      const s = Math.trunc(left % 60);
-
-      return {
-        d,
-        h: h > 9 ? h : `0${h}`,
-        m: m > 9 ? m : `0${m}`,
-        s: s > 9 ? s : `0${s}`,
-      };
     },
   },
 

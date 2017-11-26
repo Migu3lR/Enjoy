@@ -596,6 +596,10 @@ var _dateformat = __webpack_require__(218);
 
 var _dateformat2 = _interopRequireDefault(_dateformat);
 
+var _reBase = __webpack_require__(230);
+
+var _reBase2 = _interopRequireDefault(_reBase);
+
 var _Firebase = __webpack_require__(54);
 
 var _Firebase2 = _interopRequireDefault(_Firebase);
@@ -609,6 +613,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 const Data = _Firebase2.default.database();
+const base = _reBase2.default.createClass(Data);
 const Auth = _Firebase2.default.auth();
 
 function notifyError(message) {
@@ -641,34 +646,45 @@ function handleAuthErrors(errorCode) {
 }
 
 function InitializeUser(user) {
-  Data.ref(`/usuarios/${user.uid}`).once('value').then(u => {
-    const now = Math.trunc(new Date().getTime() / 1000);
-    if (!u.exists()) {
-      Data.ref('/parametros/cuentas/').once('value').then(params => {
-        const freeDays = params.val().startFreeDays * 86400;
-        const points = params.val().startPoints;
+  base.fetch(`/usuarios/${user.uid}`, {
+    then: u => {
+      if (Object.keys(u).length === 0) {
+        base.fetch('/parametros/cuentas/', {
+          then: params => {
+            const freeDays = params.startFreeDays * 86400;
+            const points = params.startPoints;
+            const now = Math.trunc(new Date().getTime() / 1000);
 
-        Data.ref(`usuarios/${user.uid}`).set({
-          email: user.email,
-          displayName: user.displayName,
-          firstLogin: true,
-          created: now,
-          balance: {
-            points,
-            inTrx: 0
-          },
-          plan: {
-            lastCat: 'free',
-            timeUp: now + freeDays
+            base.post(`usuarios/${user.uid}`, {
+              data: {
+                email: user.email,
+                displayName: user.displayName,
+                firstLogin: true,
+                created: now,
+                balance: {
+                  points,
+                  inTrx: 0
+                },
+                plan: {
+                  lastCat: 'free',
+                  timeUp: now + freeDays
+                }
+              },
+              then: e => {
+                if (!e) _reactNotifyToast.notify.show('Gracias por registrarte.', 'success', 5000);else {
+                  _reactNotifyToast.notify.show('Error al registrarte.', 'success', 5000);
+                }
+              }
+            });
           }
         });
-      });
-      _reactNotifyToast.notify.show('Gracias por registrarte.', 'success', 5000);
+      }
     }
   });
 }
 
 const api = {
+  base,
   db: {
     getList() {
       const response = Data.ref('lista');
@@ -814,32 +830,6 @@ const api = {
         const last = yield api.db.getOnce(`/usuarios/${uid}/plan/lastCat`);
         return last;
       })();
-    },
-    timeUp(uid) {
-      return _asyncToGenerator(function* () {
-        const time = yield api.db.getOnce(`/usuarios/${uid}/plan/timeUp`);
-        const date = yield (0, _dateformat2.default)(new Date(time * 1000), 'yyyy-mm-dd HH:MM:ss');
-        return {
-          date,
-          epoch: time
-        };
-      })();
-    },
-    timeLeft(timeUp) {
-      const now = Math.trunc(new Date().getTime() / 1000);
-      const left = timeUp - now;
-
-      const d = Math.trunc(left / 86400);
-      const h = Math.trunc(left / 3600 % 24);
-      const m = Math.trunc(left / 60 % 60);
-      const s = Math.trunc(left % 60);
-
-      return {
-        d,
-        h: h > 9 ? h : `0${h}`,
-        m: m > 9 ? m : `0${m}`,
-        s: s > 9 ? s : `0${s}`
-      };
     }
   }
 
@@ -9308,6 +9298,7 @@ let Pages = class Pages extends _react.Component {
     this.state = {
       user: null
     };
+
     this.suscribeAuth = this.suscribeAuth.bind(this);
   }
 
@@ -9317,7 +9308,7 @@ let Pages = class Pages extends _react.Component {
 
   suscribeAuth() {
     _Auth2.default.onAuthStateChanged(user => this.setState({
-      user: user || this.state.user
+      user
     }));
   }
 
@@ -11306,13 +11297,15 @@ var _TimeLeft = __webpack_require__(117);
 
 var _TimeLeft2 = _interopRequireDefault(_TimeLeft);
 
+var _Points = __webpack_require__(231);
+
+var _Points2 = _interopRequireDefault(_Points);
+
 var _api = __webpack_require__(10);
 
 var _api2 = _interopRequireDefault(_api);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 let Menu = class Menu extends _react.Component {
   constructor(props) {
@@ -11324,40 +11317,31 @@ let Menu = class Menu extends _react.Component {
       PrintLogin: this.props.PrintLogin || null,
       Mobile: this.props.Mobile || null
     };
-
-    this.initialFetch = this.initialFetch.bind(this);
   }
 
   componentWillReceiveProps(nextProps) {
-    var _this = this;
+    this.setState({
+      loading: true,
+      PrintLogin: nextProps.PrintLogin || null,
+      Mobile: nextProps.Mobile || null
+    });
 
-    return _asyncToGenerator(function* () {
-      _this.setState({
-        PrintLogin: nextProps.PrintLogin || null,
-        Mobile: nextProps.Mobile || null
+    if (nextProps.user) {
+      this.syncState = _api2.default.base.syncState(`/usuarios/${nextProps.user.uid}/plan/timeUp`, {
+        context: this,
+        state: 'timeUp',
+        then: () => {
+          this.setState({
+            loading: false
+          });
+        }
       });
-      if (nextProps.user) _this.initialFetch(nextProps.user.uid);else {
-        _this.initialFetch(null);
-        _this.setState({
-          loading: false
-        });
-      }
-    })();
-  }
-
-  initialFetch(uid) {
-    var _this2 = this;
-
-    return _asyncToGenerator(function* () {
-      if (_this2.state.timeUp) return _this2.setState({ loading: false });
-
-      const [timeUp] = yield Promise.all([!_this2.state.timeUp ? _api2.default.acct.timeUp(uid) : Promise.resolve(null)]);
-
-      return _this2.setState({
-        loading: false,
-        timeUp: timeUp || _this2.state.timeUp
+    } else {
+      if (this.syncState) _api2.default.base.removeBinding(this.syncState);
+      this.setState({
+        loading: false
       });
-    })();
+    }
   }
 
   render() {
@@ -11416,16 +11400,21 @@ let Menu = class Menu extends _react.Component {
           )
         );
       }
-      return _react2.default.createElement(
+      return !this.state.loading && _react2.default.createElement(
         'ul',
         {
           className: this.state.Mobile ? 'side-nav' : 'right hide-on-med-and-down',
           id: this.state.Mobile ? 'nav-mobile' : null
         },
-        !this.state.loading && _react2.default.createElement(
+        _react2.default.createElement(
           'li',
           null,
-          _react2.default.createElement(_TimeLeft2.default, { timeUp: this.state.timeUp.epoch })
+          _react2.default.createElement(_TimeLeft2.default, { timeUp: this.state.timeUp })
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          _react2.default.createElement(_Points2.default, this.props)
         ),
         _react2.default.createElement(
           'li',
@@ -11488,26 +11477,29 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactIntl = __webpack_require__(18);
 
-var _api = __webpack_require__(10);
-
-var _api2 = _interopRequireDefault(_api);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 let TimeLeft = class TimeLeft extends _react.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      timeLeft: {
-        d: 0,
-        h: '00',
-        m: '00',
-        s: '00'
-      }
-    };
-
     this.updateTimer = this.updateTimer.bind(this);
+    this.calcTime = this.calcTime.bind(this);
+
+    if (this.props.timeUp) {
+      this.state = {
+        timeLeft: this.calcTime(this.props.timeUp)
+      };
+    } else {
+      this.state = {
+        timeLeft: {
+          d: 0,
+          h: '00',
+          m: '00',
+          s: '00'
+        }
+      };
+    }
   }
 
   componentDidMount() {
@@ -11519,9 +11511,28 @@ let TimeLeft = class TimeLeft extends _react.Component {
     clearInterval(this.timer);
   }
 
+  calcTime(timeUp) {
+    const now = Math.trunc(new Date().getTime() / 1000);
+    const left = timeUp - now;
+
+    if (left === 0) clearInterval(this.timer);
+
+    const d = left > 0 ? Math.trunc(left / 86400) : 0;
+    const h = left > 0 ? Math.trunc(left / 3600 % 24) : 0;
+    const m = left > 0 ? Math.trunc(left / 60 % 60) : 0;
+    const s = left > 0 ? Math.trunc(left % 60) : 0;
+
+    return {
+      d,
+      h: h > 9 ? h : `0${h}`,
+      m: m > 9 ? m : `0${m}`,
+      s: s > 9 ? s : `0${s}`
+    };
+  }
+
   updateTimer() {
     this.setState({
-      timeLeft: _api2.default.acct.timeLeft(this.props.timeUp)
+      timeLeft: this.calcTime(this.props.timeUp)
     });
   }
 
@@ -11529,7 +11540,11 @@ let TimeLeft = class TimeLeft extends _react.Component {
     return _react2.default.createElement(
       'span',
       null,
-      _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'header.nav.timeleft' }),
+      _react2.default.createElement(
+        'b',
+        null,
+        _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'header.nav.timeleft' })
+      ),
       ` ${this.state.timeLeft.d} Dias - ${this.state.timeLeft.h}:${this.state.timeLeft.m}:${this.state.timeLeft.s}`
     );
   }
@@ -11537,7 +11552,11 @@ let TimeLeft = class TimeLeft extends _react.Component {
 
 
 TimeLeft.propTypes = {
-  timeUp: _react.PropTypes.number.isRequired
+  timeUp: _react.PropTypes.number
+};
+
+TimeLeft.defaultProps = {
+  timeUp: null
 };
 
 exports.default = TimeLeft;
@@ -23398,6 +23417,106 @@ module.exports = require("dateformat");
 /***/ (function(module, exports) {
 
 module.exports = require("query-string");
+
+/***/ }),
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */
+/***/ (function(module, exports) {
+
+module.exports = require("re-base");
+
+/***/ }),
+/* 231 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactIntl = __webpack_require__(18);
+
+var _api = __webpack_require__(10);
+
+var _api2 = _interopRequireDefault(_api);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+let Points = class Points extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      loading: true,
+      points: 0
+    };
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      loading: true
+    });
+
+    if (nextProps.user) {
+      this.syncState = _api2.default.base.syncState(`/usuarios/${nextProps.user.uid}/balance/points`, {
+        context: this,
+        state: 'points',
+
+        then: () => {
+          this.setState({
+            loading: false
+          });
+        }
+      });
+    } else {
+      if (this.syncState) _api2.default.base.removeBinding(this.syncState);
+      this.setState({
+        loading: false
+      });
+    }
+  }
+
+  render() {
+    return !this.state.loading && _react2.default.createElement(
+      'span',
+      null,
+      _react2.default.createElement(
+        'b',
+        null,
+        _react2.default.createElement(_reactIntl.FormattedMessage, { id: 'header.nav.mypoints' })
+      ),
+      ` ${this.state.points}`
+    );
+  }
+};
+
+
+Points.propTypes = {
+  user: _react.PropTypes.shape({
+    uid: _react.PropTypes.string
+  })
+};
+
+Points.defaultProps = {
+  user: null
+};
+
+exports.default = Points;
 
 /***/ })
 /******/ ]);
