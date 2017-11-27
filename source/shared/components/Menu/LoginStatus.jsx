@@ -39,8 +39,6 @@ class LoginStatus extends Component {
       displayName: getDisplay(this.props.user).name,
       displayPhoto: getDisplay(this.props.user).photo,
     };
-
-    this.logout = this.logout.bind(this);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -49,10 +47,6 @@ class LoginStatus extends Component {
       displayName: getDisplay(nextProps.user).name,
       displayPhoto: getDisplay(nextProps.user).photo,
     });
-  }
-
-  logout() {
-    api.auth.logOut(this.props.history);
   }
 
   render() {
@@ -81,16 +75,13 @@ class LoginStatus extends Component {
         <Link to="/enjoy/portal">Mi perfil</Link>
         <Link to="/enjoy/portal/pagos">Ir a Pagos</Link>
         <NavItem divider />
-        <NavItem onClick={this.logout}>Cerrar sesión</NavItem>
+        <NavItem onClick={api.auth.logOut}>Cerrar sesión</NavItem>
       </Dropdown>
     );
   }
 }
 
 LoginStatus.propTypes = {
-  history: PropTypes.shape({
-    push: PropTypes.func,
-  }),
   user: PropTypes.shape({
     providerData: PropTypes.array,
   }),
@@ -98,7 +89,6 @@ LoginStatus.propTypes = {
 
 LoginStatus.defaultProps = {
   user: null,
-  history: {},
 };
 
 export default LoginStatus;

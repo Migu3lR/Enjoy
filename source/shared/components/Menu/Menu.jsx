@@ -74,7 +74,7 @@ class Menu extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/enjoy/register/email" className="waves-effect waves-light btn">
+              <Link to="/enjoy/register" className="waves-effect waves-light btn">
                 {/* <i className="material-icons right">assignment_ind</i> */}
                 <FormattedMessage id="header.nav.start" />
               </Link>

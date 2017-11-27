@@ -207,10 +207,9 @@ const api = {
         handleAuthErrors(error.code);
       });
     },
-    logOut(history) {
+    logOut() {
       Auth.signOut().then(() => {
         notify.show('Sesión de usuario cerrada.', 'success', 5000);
-        history.push('/enjoy/login');
       }, (error) => {
         handleAuthErrors(error.code);
       });

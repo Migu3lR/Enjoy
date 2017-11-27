@@ -19,7 +19,7 @@ class Points extends Component {
     });
 
     if (nextProps.user) {
-      this.syncState = api.base.syncState(`/usuarios/${nextProps.user.uid}/balance/points`, {
+      this.bind = api.base.bindToState(`/usuarios/${nextProps.user.uid}/balance/points`, {
         context: this,
         state: 'points',
 
@@ -30,7 +30,7 @@ class Points extends Component {
         },
       });
     } else {
-      if (this.syncState) api.base.removeBinding(this.syncState);
+      if (this.bind) api.base.removeBinding(this.bind);
       this.setState({
         loading: false,
       });

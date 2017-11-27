@@ -61,8 +61,10 @@ class Pages extends Component {
             />
 
             <Route
+              render={props => (
+                <PageEnjoy {...props} user={this.state.user} />
+              )}
               path="/enjoy"
-              component={PageEnjoy}
             />
 
             <Route component={Error404} />

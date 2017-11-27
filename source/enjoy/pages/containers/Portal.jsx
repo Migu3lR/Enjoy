@@ -1,39 +1,87 @@
-import React, { Component } from 'react';
-import reactMixin from 'react-mixin';
-import ReactFireMixin from 'reactfire';
+import React, { Component, PropTypes } from 'react';
+import {
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
+
+import Pagos from './Pagos';
+import Curso from './Curso';
+import Cursos from './Cursos';
+import InitCustomer from './InitCustomer';
+import Error404 from '../../../pages/containers/Error404';
 
 import api from '../../../api';
-import Linea from './Linea';
 
 class Portal extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      lineas: [],
+      firstLogin: false,
+      loading: true,
     };
   }
 
-  componentWillMount() {
-    api.db.bindState(this, 'lineas', '/lineas');
+  componentDidMount() {
+    api.base.fetch(`/usuarios/${this.props.user.uid}/firstLogin`, {
+      then: (first) => {
+        this.setState({
+          firstLogin: first,
+          loading: false,
+        });
+      },
+    });
   }
 
   render() {
+    if (this.state.firstLogin) {
+      return (
+        <Route
+          render={props => (
+            <InitCustomer {...props} user={this.props.user} />
+          )}
+        />
+      );
+    }
     return (
-      <section name="Portal">
-        <div className="container">
-          <div className="row">
-            {this.state.lineas
-               .map(linea => (
-                 <Linea key={linea['.key']} {...linea} />
-               ))
-              }
-          </div>
-        </div>
-      </section>
+      !this.state.loading && (
+        <Switch>
+          <Route
+            path="/enjoy/portal/cursos"
+            exact
+            component={Cursos}
+          />
+
+          <Route
+            path="/enjoy/portal/linea/:lid/curso/:cid"
+            exact
+            component={Curso}
+          />
+
+          <Route
+            path="/enjoy/portal/pagos"
+            exact
+            component={Pagos}
+          />
+
+          <Redirect from="/enjoy/portal" to="/enjoy/portal/cursos" />
+
+          <Route component={Error404} />
+        </Switch>
+      )
     );
   }
 }
 
-reactMixin(Portal.prototype, ReactFireMixin);
+Portal.propTypes = {
+  user: PropTypes.shape({
+    uid: PropTypes.string,
+  }),
+};
+
+Portal.defaultProps = {
+  user: null,
+};
 
 export default Portal;
