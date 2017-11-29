@@ -6725,6 +6725,9 @@ function handleAuthErrors(errorCode) {
     case 'auth/weak-password':
       notifyError('Tu contraseña es demasiado facil, por favor intenta con otra.');
       break;
+    case 'InitCustomer/none-selected':
+      notifyError('Debe seleccionar al menos una opción.');
+      break;
     default:
       notifyError('Ha ocurrido un error al intentar iniciar sesión.');
       break;
@@ -6770,6 +6773,7 @@ function InitializeUser(user) {
 }
 
 const api = {
+  handleAuthErrors,
   base,
   db: {
     getList() {
@@ -28614,10 +28618,11 @@ class Portal extends _react.Component {
   }
 
   componentDidMount() {
-    _api2.default.base.fetch(`/usuarios/${this.props.user.uid}/firstLogin`, {
-      then: first => {
+    _api2.default.base.bindToState(`/usuarios/${this.props.user.uid}/firstLogin`, {
+      context: this,
+      state: 'firstLogin',
+      then: () => {
         this.setState({
-          firstLogin: first,
           loading: false
         });
       }
@@ -66335,12 +66340,8 @@ class Points extends _react.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    this.setState({
-      loading: true
-    });
-
     if (nextProps.user) {
-      this.bind = _api2.default.base.bindToState(`/usuarios/${nextProps.user.uid}/balance/points`, {
+      _api2.default.base.bindToState(`/usuarios/${nextProps.user.uid}/balance/points`, {
         context: this,
         state: 'points',
 
@@ -66351,7 +66352,6 @@ class Points extends _react.Component {
         }
       });
     } else {
-      if (this.bind) _api2.default.base.removeBinding(this.bind);
       this.setState({
         loading: false
       });
@@ -66545,19 +66545,22 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(13);
+var _InitCustomerForm = __webpack_require__(532);
 
-var _LoginForm = __webpack_require__(198);
+var _InitCustomerForm2 = _interopRequireDefault(_InitCustomerForm);
 
-var _LoginForm2 = _interopRequireDefault(_LoginForm);
+var _api = __webpack_require__(19);
 
-var _OauthAll = __webpack_require__(115);
-
-var _OauthAll2 = _interopRequireDefault(_OauthAll);
+var _api2 = _interopRequireDefault(_api);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function Login() {
+function InitCustomer(props) {
+  function omitir() {
+    _api2.default.base.update(`/usuarios/${props.user.uid}`, {
+      data: { firstLogin: false }
+    });
+  }
   return _react2.default.createElement(
     'section',
     { name: 'login' },
@@ -66570,7 +66573,7 @@ function Login() {
         _react2.default.createElement(
           'h3',
           { className: 'center-align' },
-          'Iniciar Sesi\xF3n'
+          '!Hola, bienvenido a Enjoy Life Pro NET\xA1'
         )
       )
     ),
@@ -66579,37 +66582,222 @@ function Login() {
       { className: 'row' },
       _react2.default.createElement(
         'div',
-        { className: 'col s12 m5 offset-m1 l5 offset-l2' },
+        { className: 'col s12 m8 offset-m2 ' },
         _react2.default.createElement(
           'div',
           { className: 'card' },
           _react2.default.createElement(
             'div',
             { className: 'card-content' },
-            _react2.default.createElement(_LoginForm2.default, null)
+            _react2.default.createElement(_InitCustomerForm2.default, null)
           ),
           _react2.default.createElement(
             'div',
             { className: 'card-action' },
-            '\xBFA\xFAn no tienes un cuenta? ',
             _react2.default.createElement(
-              _reactRouterDom.Link,
-              { to: '/enjoy/register' },
-              'Reg\xEDstrate aqu\xED'
+              'a',
+              { href: '#', onClick: omitir },
+              'Omitir'
             )
           )
         )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'col s10 offset-s1 m5 l3' },
-        _react2.default.createElement(_OauthAll2.default, null)
       )
     )
   );
 }
 
-exports.default = Login;
+InitCustomer.propTypes = {
+  user: _react.PropTypes.shape({
+    uid: _react.PropTypes.string
+  })
+};
+
+InitCustomer.defaultProps = {
+  user: null
+};
+
+exports.default = InitCustomer;
+
+/***/ }),
+/* 532 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CheckboxOrRadioGroup = __webpack_require__(533);
+
+var _CheckboxOrRadioGroup2 = _interopRequireDefault(_CheckboxOrRadioGroup);
+
+var _api = __webpack_require__(19);
+
+var _api2 = _interopRequireDefault(_api);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class InitCustomerForm extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      interestSelections: ['Entrenamientos para Jóvenes que quieren ingresar a la universidad (Introducción a la vida universitaria)', 'Entrenamientos para Jóvenes estudiantes e investigadores (libros en video)', 'Entrenamientos para Profesionales (cursos de actualización)', 'Entrenamientos para emprendedores “Soy emprendedor”', 'Entrenamientos para Empresas MyPimes', 'Entrenamientos para Grandes empresas (Módulo para organizaciones)', 'Educación para Adultos Mayores', 'Educación Especializada (Personas en las cárceles, educación para el post-conflicto)', 'Animación socio-cultural y Desarrollo Comunitario'],
+      selectedInterest: []
+    };
+
+    this.handleFormSubmit = this.handleFormSubmit.bind(this);
+    this.handleClearForm = this.handleClearForm.bind(this);
+    this.handleInterestSelection = this.handleInterestSelection.bind(this);
+  }
+
+  handleInterestSelection(e) {
+    const newSelection = e.target.value;
+    let newSelectionArray;
+    if (this.state.selectedInterest.indexOf(newSelection) > -1) {
+      newSelectionArray = this.state.selectedInterest.filter(s => s !== newSelection);
+    } else {
+      newSelectionArray = [...this.state.selectedInterest, newSelection];
+    }
+    this.setState({ selectedInterest: newSelectionArray });
+  }
+
+  handleClearForm(e) {
+    e.preventDefault();
+    this.setState({
+      selectedInterest: []
+    });
+  }
+
+  handleFormSubmit(e) {
+    e.preventDefault();
+
+    if (this.state.selectedInterest.length < 1) _api2.default.handleAuthErrors('InitCustomer/none-selected');else {
+      const formPayload = {
+        selectedInterest: this.state.selectedInterest
+      };
+
+      console.log('Send this in a POST request:', formPayload);
+      this.handleClearForm(e);
+    }
+  }
+
+  render() {
+    return _react2.default.createElement(
+      'form',
+      { className: 'container', onSubmit: this.handleFormSubmit },
+      _react2.default.createElement(
+        'h5',
+        null,
+        '\xBFEn que tipo de entrenamientos est\xE1 interesado?'
+      ),
+      _react2.default.createElement(_CheckboxOrRadioGroup2.default, {
+        title: '',
+        name: 'Interest',
+        type: 'checkbox',
+        controlFunc: this.handleInterestSelection,
+        options: this.state.interestSelections,
+        selectedOptions: this.state.selectedInterest
+      }),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('input', {
+        type: 'submit',
+        className: 'btn btn-primary float-right',
+        value: 'Guardar cambios'
+      })
+    );
+  }
+}
+
+exports.default = InitCustomerForm;
+
+/***/ }),
+/* 533 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _CheckboxOrRadioGroup = __webpack_require__(535);
+
+var _CheckboxOrRadioGroup2 = _interopRequireDefault(_CheckboxOrRadioGroup);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function CheckboxOrRadioGroup(props) {
+  let id = 0;
+  return _react2.default.createElement(
+    'div',
+    { className: 'input-field' },
+    _react2.default.createElement(
+      'label',
+      { htmlFor: props.name },
+      props.title
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'checkbox-group' },
+      props.options.map(opt => {
+        id += 1;
+        return _react2.default.createElement(
+          'p',
+          { key: `ipt-${id}`, className: _CheckboxOrRadioGroup2.default.pCheck },
+          _react2.default.createElement('input', {
+            className: 'form-checkbox',
+            name: props.name,
+            onChange: props.controlFunc,
+            value: opt,
+            id: `ipt-${id}`,
+            checked: props.selectedOptions.indexOf(opt) > -1,
+            type: props.type
+          }),
+          _react2.default.createElement(
+            'label',
+            { htmlFor: `ipt-${id}`, className: `capitalize ${_CheckboxOrRadioGroup2.default.labelCheck}` },
+            opt
+          )
+        );
+      })
+    )
+  );
+}
+
+CheckboxOrRadioGroup.propTypes = {
+  title: _react.PropTypes.string.isRequired,
+  type: _react.PropTypes.oneOf(['checkbox', 'radio']).isRequired,
+  name: _react.PropTypes.string.isRequired,
+  options: _react.PropTypes.arrayOf(_react.PropTypes.string).isRequired,
+  selectedOptions: _react.PropTypes.arrayOf(_react.PropTypes.string),
+  controlFunc: _react.PropTypes.func.isRequired
+};
+
+CheckboxOrRadioGroup.defaultProps = {
+  selectedOptions: []
+};
+
+exports.default = CheckboxOrRadioGroup;
+
+/***/ }),
+/* 534 */,
+/* 535 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"labelCheck":"_22p_IJhiHEGOKQYtDDCj3i","pCheck":"_3r5_WqujcfJ12kSQrBe5G8"};
 
 /***/ })
 /******/ ]);

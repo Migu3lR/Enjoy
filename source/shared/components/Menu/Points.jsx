@@ -14,12 +14,8 @@ class Points extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    this.setState({
-      loading: true,
-    });
-
     if (nextProps.user) {
-      this.bind = api.base.bindToState(`/usuarios/${nextProps.user.uid}/balance/points`, {
+      api.base.bindToState(`/usuarios/${nextProps.user.uid}/balance/points`, {
         context: this,
         state: 'points',
 
@@ -30,7 +26,6 @@ class Points extends Component {
         },
       });
     } else {
-      if (this.bind) api.base.removeBinding(this.bind);
       this.setState({
         loading: false,
       });

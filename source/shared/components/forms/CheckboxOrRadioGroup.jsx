@@ -1,5 +1,7 @@
 import React, { PropTypes } from 'react';
 
+import css from './CheckboxOrRadioGroup.css';
+
 function CheckboxOrRadioGroup(props) {
   let id = 0;
   return (
@@ -9,7 +11,7 @@ function CheckboxOrRadioGroup(props) {
         {props.options.map((opt) => {
           id += 1;
           return (
-            <p>
+            <p key={`ipt-${id}`} className={css.pCheck}>
               <input
                 className="form-checkbox"
                 name={props.name}
@@ -19,7 +21,7 @@ function CheckboxOrRadioGroup(props) {
                 checked={props.selectedOptions.indexOf(opt) > -1}
                 type={props.type}
               />
-              <label htmlFor={`ipt-${id}`} className="capitalize">{opt}</label>
+              <label htmlFor={`ipt-${id}`} className={`capitalize ${css.labelCheck}`}>{opt}</label>
             </p>
           );
         })}

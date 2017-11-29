@@ -24,10 +24,11 @@ class Portal extends Component {
   }
 
   componentDidMount() {
-    api.base.fetch(`/usuarios/${this.props.user.uid}/firstLogin`, {
-      then: (first) => {
+    api.base.bindToState(`/usuarios/${this.props.user.uid}/firstLogin`, {
+      context: this,
+      state: 'firstLogin',
+      then: () => {
         this.setState({
-          firstLogin: first,
           loading: false,
         });
       },

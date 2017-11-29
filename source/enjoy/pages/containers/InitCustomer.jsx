@@ -1,36 +1,47 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { PropTypes } from 'react';
 
-import LoginForm from '../../Login/containers/LoginForm';
-import OauthAll from '../components/OauthAll';
+import InitCustomerForm from '../../InitCustomer/containers/InitCustomerForm';
+import api from '../../../api';
 
-function Login() {
+function InitCustomer(props) {
+  function omitir() {
+    api.base.update(`/usuarios/${props.user.uid}`, {
+      data: { firstLogin: false },
+    });
+  }
   return (
     <section name="login">
       <div className="row">
         <div className="col s12">
-          <h3 className="center-align">Iniciar Sesión</h3>
+          <h3 className="center-align">!Hola, bienvenido a Enjoy Life Pro NET¡</h3>
         </div>
       </div>
 
       <div className="row">
-        <div className="col s12 m5 offset-m1 l5 offset-l2">
+        <div className="col s12 m8 offset-m2 ">
           <div className="card">
             <div className="card-content">
-              <LoginForm />
+              <InitCustomerForm />
             </div>
             <div className="card-action">
-              ¿Aún no tienes un cuenta? <Link to="/enjoy/register">Regístrate aquí</Link>
+              <a href="#" onClick={omitir}>Omitir</a>
             </div>
           </div>
         </div>
 
-        <div className="col s10 offset-s1 m5 l3">
-          <OauthAll />
-        </div>
       </div>
     </section>
   );
 }
 
-export default Login;
+InitCustomer.propTypes = {
+  user: PropTypes.shape({
+    uid: PropTypes.string,
+  }),
+};
+
+InitCustomer.defaultProps = {
+  user: null,
+};
+
+export default InitCustomer;

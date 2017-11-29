@@ -34,6 +34,9 @@ function handleAuthErrors(errorCode) {
     case 'auth/weak-password':
       notifyError('Tu contraseña es demasiado facil, por favor intenta con otra.');
       break;
+    case 'InitCustomer/none-selected':
+      notifyError('Debe seleccionar al menos una opción.');
+      break;
     default:
       notifyError('Ha ocurrido un error al intentar iniciar sesión.');
       break;
@@ -80,6 +83,7 @@ function InitializeUser(user) {
 }
 
 const api = {
+  handleAuthErrors,
   base,
   db: {
     getList() {
