@@ -16,7 +16,7 @@ const config = {
   output: {
     filename: 'payment.js',
     path: path.resolve(__dirname, '../built/server'),
-    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'http://138.68.131.182:3002',
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'https://enjoylife-32afb.firebaseapp.com',
   },
   module: {
     loaders: [
