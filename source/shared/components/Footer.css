@@ -5,9 +5,13 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 109px;
+  /* height: 109px; */
 }
 
 footer.page_footer {
   padding-top: 0;
+}
+
+.footer_copyright {
+  padding: 0 !important;
 }
