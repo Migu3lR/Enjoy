@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./built/server/index.js",
+    "start": "forever start ./built/server/index.js",
     "static": "serve ./built/statics/ --port 3002 --cache 0",
     "watch": "webpack -w",
     "wp": "webpack",

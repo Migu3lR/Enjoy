@@ -18,83 +18,79 @@ class Pages extends Component {
 
     this.state = {
       isAuthenticated: !!this.props.user,
-      loading: true,
     };
   }
 
   componentWillReceiveProps(nextProps) {
     this.setState({
       isAuthenticated: !!nextProps.user,
-      loading: false,
     });
   }
 
   render() {
     return (
-      !this.state.loading && (
-        <Switch>
-          <Route
-            path="/enjoy"
-            exact
-            component={Home}
-          />
+      <Switch>
+        <Route
+          path="/enjoy"
+          exact
+          component={Home}
+        />
 
-          <Route
-            path="/enjoy/planes"
-            exact
-            component={Planes}
-          />
+        <Route
+          path="/enjoy/planes"
+          exact
+          component={Planes}
+        />
 
-          <Route
-            path="/enjoy/login"
-            exact
-            render={props => (
-              !this.state.isAuthenticated ? (
-                <Login {...props} />
-              ) : (
-                <Redirect
-                  to={{
-                    pathname: '/enjoy/portal',
-                  }}
-                />
-              )
-            )}
-          />
+        <Route
+          path="/enjoy/login"
+          exact
+          render={props => (
+            !this.state.isAuthenticated ? (
+              <Login {...props} />
+            ) : (
+              <Redirect
+                to={{
+                  pathname: '/enjoy/portal',
+                }}
+              />
+            )
+          )}
+        />
 
-          <Route
-            path="/enjoy/register"
-            exact
-            render={props => (
-              !this.state.isAuthenticated ? (
-                <Register {...props} />
-              ) : (
-                <Redirect
-                  to={{
-                    pathname: '/enjoy/portal',
-                  }}
-                />
-              )
-            )}
-          />
+        <Route
+          path="/enjoy/register"
+          exact
+          render={props => (
+            !this.state.isAuthenticated ? (
+              <Register {...props} />
+            ) : (
+              <Redirect
+                to={{
+                  pathname: '/enjoy/portal',
+                }}
+              />
+            )
+          )}
+        />
 
-          <Route
-            path="/enjoy/portal"
-            render={props => (
-              this.state.isAuthenticated ? (
-                <Portal user={this.props.user} {...props} />
-              ) : (
-                <Redirect
-                  to={{
-                    pathname: '/enjoy/login',
-                  }}
-                />
-              )
-            )}
-          />
+        <Route
+          path="/enjoy/portal"
+          render={props => (
+            this.state.isAuthenticated ? (
+              <Portal user={this.props.user} {...props} />
+            ) : (
+              <Redirect
+                to={{
+                  pathname: '/enjoy/login',
+                }}
+              />
+            )
+          )}
+        />
 
-          <Route component={Error404} />
-        </Switch>
-      )
+        <Route component={Error404} />
+      </Switch>
     );
   }
 }
