@@ -11230,24 +11230,30 @@ function Footer() {
     { className: `page-footer ${_Footer2.default.page_footer}` },
     _react2.default.createElement(
       'div',
-      { className: 'footer-copyright' },
+      { className: `footer-copyright ${_Footer2.default.footer_copyright}` },
       _react2.default.createElement(
         'div',
         { className: 'container' },
         _react2.default.createElement(
           'p',
+          { className: 'center grey-text text-lighten-4' },
+          'Coaching Alegra \xA9 2017'
+        ),
+        _react2.default.createElement(
+          'p',
           { className: 'center white-text' },
-          'Enjoy Life ProNET is </> by ',
+          'Enjoy Life ProNET was ',
+          _react2.default.createElement(
+            'b',
+            null,
+            '</>'
+          ),
+          ' by ',
           _react2.default.createElement(
             'a',
             { href: 'https://migu3lr.github.io/' },
             'Miguel Romero'
           )
-        ),
-        _react2.default.createElement(
-          'p',
-          { className: 'center grey-text text-lighten-4' },
-          'Coaching Alegra \xA9 2017'
         )
       )
     )
@@ -11994,7 +12000,7 @@ module.exports = {"videoForeground":"_3Re-c7H_wP6NcZBusem5DW"};
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"page_footer":"_1194ERoD2Jm6kAx3s4NgTH"};
+module.exports = {"page_footer":"_1194ERoD2Jm6kAx3s4NgTH","footer_copyright":"_21Niy2CW7jA3aNs4K-LPJC"};
 
 /***/ }),
 /* 126 */

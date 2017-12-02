@@ -226,9 +226,13 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 109px;
+  /* height: 109px; */
 }
 
 footer._1194ERoD2Jm6kAx3s4NgTH {
   padding-top: 0;
+}
+
+._21Niy2CW7jA3aNs4K-LPJC {
+  padding: 0 !important;
 }
