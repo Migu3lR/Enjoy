@@ -30517,7 +30517,7 @@ class Pages extends _react.Component {
     super(props);
 
     this.state = {
-      isAuthenticated: !!this.props.user
+      isAuthenticated: false
     };
   }
 
