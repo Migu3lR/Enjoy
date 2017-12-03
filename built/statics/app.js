@@ -26265,6 +26265,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -26333,51 +26335,45 @@ class Pages extends _react.Component {
   }
 
   render() {
-    //if (this.state.loading) {
+    if (this.state.loading) {
+      return _react2.default.createElement(
+        'main',
+        { role: 'application' },
+        _react2.default.createElement(
+          'section',
+          { className: 'valign-wrapper' },
+          _react2.default.createElement(_Loading2.default, null)
+        )
+      );
+    }
+
     return _react2.default.createElement(
       'main',
       { role: 'application' },
+      _react2.default.createElement(_reactNotifyToast2.default, null),
+      _react2.default.createElement(_reactRouterDom.Route, {
+        render: props => _react2.default.createElement(_Header2.default, _extends({}, props, { user: this.state.user }))
+      }),
       _react2.default.createElement(
         'section',
-        { className: 'valign-wrapper' },
-        _react2.default.createElement(_Loading2.default, null)
-      )
+        { className: _Page4.default.MainSection },
+        _react2.default.createElement(
+          _reactRouterDom.Switch,
+          null,
+          _react2.default.createElement(_reactRouterDom.Route, {
+            path: '/',
+            exact: true,
+            component: _Home2.default
+          }),
+          _react2.default.createElement(_reactRouterDom.Route, {
+            render: props => _react2.default.createElement(_Page2.default, _extends({}, props, { user: this.state.user })),
+            path: '/enjoy'
+          }),
+          _react2.default.createElement(_reactRouterDom.Route, { component: _Error2.default })
+        )
+      ),
+      _react2.default.createElement(_Footer2.default, null)
     );
-    /*    }
-    
-        return (
-          <main role="application">
-    
-            <Notifications />
-            <Route
-              render={props => (
-                <Header {...props} user={this.state.user} />
-              )}
-            />
-    
-            <section className={css.MainSection}>
-    
-              <Switch>
-                <Route
-                  path="/"
-                  exact
-                  component={Home}
-                />
-    
-                <Route
-                  render={props => (
-                    <PageEnjoy {...props} user={this.state.user} />
-                  )}
-                  path="/enjoy"
-                />
-    
-                <Route component={Error404} />
-              </Switch>
-            </section>
-    
-            <Footer />
-          </main>
-        );*/
   }
 }
 
