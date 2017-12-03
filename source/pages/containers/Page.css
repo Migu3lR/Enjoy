@@ -9,6 +9,10 @@ main {
   min-height:100%;
   position:relative;
 }
+.loading {
+  height: 100%;
+  background-color: #2980b9;
+}
 
 .MainSection {
   padding-bottom:109px;

@@ -44,15 +44,15 @@ class Pages extends Component {
   }
 
   render() {
-    //if (this.state.loading) {
+    if (this.state.loading) {
       return (
         <main role="application">
-          <section className="valign-wrapper">
+          <section className={`valign-wrapper ${css.loading}`}>
             <Loading />
           </section>
         </main>
       );
-/*    }
+    }
 
     return (
       <main role="application">
@@ -86,7 +86,7 @@ class Pages extends Component {
 
         <Footer />
       </main>
-    );*/
+    );
   }
 }
 

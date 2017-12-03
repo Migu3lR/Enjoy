@@ -6621,7 +6621,7 @@ exports.default = SingleInput;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"MainSection":"_15zbdv0tozwc9y5LLAkuQt","icon_block":"_1xyWgPdu_TBNJo1MYkpBuF","material_icons":"_2GyWMtMbgQ7P0yVoa_Q65t","section1":"_1Wdn7uhBISuszHyblsnUuf","p_dona":"_2ds3lqo3z-960iehtVtq37","section2":"-m2EGIi-6qWN9mvwjGpU-"};
+module.exports = {"loading":"_3Wz0fUdM5MGGlz-924Fhg7","MainSection":"_15zbdv0tozwc9y5LLAkuQt","icon_block":"_1xyWgPdu_TBNJo1MYkpBuF","material_icons":"_2GyWMtMbgQ7P0yVoa_Q65t","section1":"_1Wdn7uhBISuszHyblsnUuf","p_dona":"_2ds3lqo3z-960iehtVtq37","section2":"-m2EGIi-6qWN9mvwjGpU-"};
 
 /***/ }),
 /* 58 */
@@ -9219,6 +9219,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
@@ -9287,51 +9289,45 @@ let Pages = class Pages extends _react.Component {
   }
 
   render() {
-    //if (this.state.loading) {
+    if (this.state.loading) {
+      return _react2.default.createElement(
+        'main',
+        { role: 'application' },
+        _react2.default.createElement(
+          'section',
+          { className: `valign-wrapper ${_Page4.default.loading}` },
+          _react2.default.createElement(_Loading2.default, null)
+        )
+      );
+    }
+
     return _react2.default.createElement(
       'main',
       { role: 'application' },
+      _react2.default.createElement(_reactNotifyToast2.default, null),
+      _react2.default.createElement(_reactRouterDom.Route, {
+        render: props => _react2.default.createElement(_Header2.default, _extends({}, props, { user: this.state.user }))
+      }),
       _react2.default.createElement(
         'section',
-        { className: 'valign-wrapper' },
-        _react2.default.createElement(_Loading2.default, null)
-      )
+        { className: _Page4.default.MainSection },
+        _react2.default.createElement(
+          _reactRouterDom.Switch,
+          null,
+          _react2.default.createElement(_reactRouterDom.Route, {
+            path: '/',
+            exact: true,
+            component: _Home2.default
+          }),
+          _react2.default.createElement(_reactRouterDom.Route, {
+            render: props => _react2.default.createElement(_Page2.default, _extends({}, props, { user: this.state.user })),
+            path: '/enjoy'
+          }),
+          _react2.default.createElement(_reactRouterDom.Route, { component: _Error2.default })
+        )
+      ),
+      _react2.default.createElement(_Footer2.default, null)
     );
-    /*    }
-    
-        return (
-          <main role="application">
-    
-            <Notifications />
-            <Route
-              render={props => (
-                <Header {...props} user={this.state.user} />
-              )}
-            />
-    
-            <section className={css.MainSection}>
-    
-              <Switch>
-                <Route
-                  path="/"
-                  exact
-                  component={Home}
-                />
-    
-                <Route
-                  render={props => (
-                    <PageEnjoy {...props} user={this.state.user} />
-                  )}
-                  path="/enjoy"
-                />
-    
-                <Route component={Error404} />
-              </Switch>
-            </section>
-    
-            <Footer />
-          </main>
-        );*/
   }
 };
 exports.default = Pages;
