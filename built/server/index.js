@@ -10488,66 +10488,49 @@ var _Error2 = _interopRequireDefault(_Error);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-let Pages = class Pages extends _react.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      isAuthenticated: false
-    };
-  }
-
-  componentWillReceiveProps(nextProps) {
-    this.setState({
-      isAuthenticated: !!nextProps.user
-    });
-  }
-
-  render() {
-    return _react2.default.createElement(
-      _reactRouterDom.Switch,
-      null,
-      _react2.default.createElement(_reactRouterDom.Route, {
-        path: '/enjoy',
-        exact: true,
-        component: _Enjoy2.default
-      }),
-      _react2.default.createElement(_reactRouterDom.Route, {
-        path: '/enjoy/planes',
-        exact: true,
-        component: _Planes2.default
-      }),
-      _react2.default.createElement(_reactRouterDom.Route, {
-        path: '/enjoy/login',
-        exact: true,
-        render: props => !this.state.isAuthenticated ? _react2.default.createElement(_Login2.default, props) : _react2.default.createElement(_reactRouterDom.Redirect, {
-          to: {
-            pathname: '/enjoy/portal'
-          }
-        })
-      }),
-      _react2.default.createElement(_reactRouterDom.Route, {
-        path: '/enjoy/register',
-        exact: true,
-        render: props => !this.state.isAuthenticated ? _react2.default.createElement(_Register2.default, props) : _react2.default.createElement(_reactRouterDom.Redirect, {
-          to: {
-            pathname: '/enjoy/portal'
-          }
-        })
-      }),
-      _react2.default.createElement(_reactRouterDom.Route, {
-        path: '/enjoy/portal',
-        render: props => this.state.isAuthenticated ? _react2.default.createElement(_Portal2.default, _extends({ user: this.props.user }, props)) : _react2.default.createElement(_reactRouterDom.Redirect, {
-          to: {
-            pathname: '/enjoy/login'
-          }
-        })
-      }),
-      _react2.default.createElement(_reactRouterDom.Route, { component: _Error2.default })
-    );
-  }
-};
-
+function Pages(props) {
+  return _react2.default.createElement(
+    _reactRouterDom.Switch,
+    null,
+    _react2.default.createElement(_reactRouterDom.Route, {
+      path: '/enjoy',
+      exact: true,
+      component: _Enjoy2.default
+    }),
+    _react2.default.createElement(_reactRouterDom.Route, {
+      path: '/enjoy/planes',
+      exact: true,
+      component: _Planes2.default
+    }),
+    _react2.default.createElement(_reactRouterDom.Route, {
+      path: '/enjoy/login',
+      exact: true,
+      render: prop => !props.user ? _react2.default.createElement(_Login2.default, prop) : _react2.default.createElement(_reactRouterDom.Redirect, {
+        to: {
+          pathname: '/enjoy/portal'
+        }
+      })
+    }),
+    _react2.default.createElement(_reactRouterDom.Route, {
+      path: '/enjoy/register',
+      exact: true,
+      render: prop => !props.user ? _react2.default.createElement(_Register2.default, prop) : _react2.default.createElement(_reactRouterDom.Redirect, {
+        to: {
+          pathname: '/enjoy/portal'
+        }
+      })
+    }),
+    _react2.default.createElement(_reactRouterDom.Route, {
+      path: '/enjoy/portal',
+      render: prop => props.user ? _react2.default.createElement(_Portal2.default, _extends({ user: props.user }, prop)) : _react2.default.createElement(_reactRouterDom.Redirect, {
+        to: {
+          pathname: '/enjoy/login'
+        }
+      })
+    }),
+    _react2.default.createElement(_reactRouterDom.Route, { component: _Error2.default })
+  );
+}
 
 Pages.propTypes = {
   user: _react.PropTypes.shape({

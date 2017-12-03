@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import {
   Route,
   Switch,
@@ -12,87 +12,71 @@ import Register from './Register';
 import Portal from './Portal';
 import Error404 from '../../../pages/containers/Error404';
 
-class Pages extends Component {
-  constructor(props) {
-    super(props);
+function Pages(props) {
+  return (
+    <Switch>
+      <Route
+        path="/enjoy"
+        exact
+        component={Home}
+      />
 
-    this.state = {
-      isAuthenticated: false,
-    };
-  }
+      <Route
+        path="/enjoy/planes"
+        exact
+        component={Planes}
+      />
 
-  componentWillReceiveProps(nextProps) {
-    this.setState({
-      isAuthenticated: !!nextProps.user,
-    });
-  }
+      <Route
+        path="/enjoy/login"
+        exact
+        render={prop => (
+          !props.user ? (
+            <Login {...prop} />
+          ) : (
+            <Redirect
+              to={{
+                pathname: '/enjoy/portal',
+              }}
+            />
+          )
+        )}
+      />
 
-  render() {
-    return (
-      <Switch>
-        <Route
-          path="/enjoy"
-          exact
-          component={Home}
-        />
+      <Route
+        path="/enjoy/register"
+        exact
+        render={prop => (
+          !props.user ? (
+            <Register {...prop} />
+          ) : (
+            <Redirect
+              to={{
+                pathname: '/enjoy/portal',
+              }}
+            />
+          )
+        )}
+      />
 
-        <Route
-          path="/enjoy/planes"
-          exact
-          component={Planes}
-        />
+      <Route
+        path="/enjoy/portal"
+        render={prop => (
+          props.user ? (
+            <Portal user={props.user} {...prop} />
+          ) : (
+            <Redirect
+              to={{
+                pathname: '/enjoy/login',
+              }}
+            />
+          )
+        )}
+      />
 
-        <Route
-          path="/enjoy/login"
-          exact
-          render={props => (
-            !this.state.isAuthenticated ? (
-              <Login {...props} />
-            ) : (
-              <Redirect
-                to={{
-                  pathname: '/enjoy/portal',
-                }}
-              />
-            )
-          )}
-        />
-
-        <Route
-          path="/enjoy/register"
-          exact
-          render={props => (
-            !this.state.isAuthenticated ? (
-              <Register {...props} />
-            ) : (
-              <Redirect
-                to={{
-                  pathname: '/enjoy/portal',
-                }}
-              />
-            )
-          )}
-        />
-
-        <Route
-          path="/enjoy/portal"
-          render={props => (
-            this.state.isAuthenticated ? (
-              <Portal user={this.props.user} {...props} />
-            ) : (
-              <Redirect
-                to={{
-                  pathname: '/enjoy/login',
-                }}
-              />
-            )
-          )}
-        />
-
-        <Route component={Error404} />
-      </Switch>
-    );
-  }
+      <Route component={Error404} />
+    </Switch>
+  );
 }
 
 Pages.propTypes = {
