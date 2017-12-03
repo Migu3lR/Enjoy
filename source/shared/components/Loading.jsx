@@ -1,11 +1,13 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+
+import css from './Loading.css';
 
 function Loading() {
   return (
-    <h3>
-      <FormattedMessage id="loading" />
-    </h3>
+    <div className={`center-align ${css.spinner}`}>
+      <div className={css.cube1} />
+      <div className={css.cube2} />
+    </div>
   );
 }
 

@@ -12,6 +12,7 @@ import Error404 from './Error404';
 
 import Header from '../../shared/components/Header';
 import Footer from '../../shared/components/Footer';
+import Loading from '../../shared/components/Loading';
 
 import Auth from '../../Auth';
 
@@ -23,6 +24,7 @@ class Pages extends Component {
 
     this.state = {
       user: null,
+      loading: true,
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
@@ -36,11 +38,22 @@ class Pages extends Component {
     Auth.onAuthStateChanged(
       user => this.setState({
         user,
+        loading: false,
       }),
     );
   }
 
   render() {
+    if (this.state.loading) {
+      return (
+        <main role="application">
+          <section className="valign-wrapper">
+            <Loading />
+          </section>
+        </main>
+      );
+    }
+
     return (
       <main role="application">
 

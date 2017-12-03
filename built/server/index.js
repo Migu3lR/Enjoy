@@ -9251,6 +9251,10 @@ var _Footer = __webpack_require__(114);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
+var _Loading = __webpack_require__(238);
+
+var _Loading2 = _interopRequireDefault(_Loading);
+
 var _Auth = __webpack_require__(93);
 
 var _Auth2 = _interopRequireDefault(_Auth);
@@ -9266,7 +9270,8 @@ let Pages = class Pages extends _react.Component {
     super(props);
 
     this.state = {
-      user: null
+      user: null,
+      loading: true
     };
 
     this.suscribeAuth = this.suscribeAuth.bind(this);
@@ -9278,11 +9283,24 @@ let Pages = class Pages extends _react.Component {
 
   suscribeAuth() {
     _Auth2.default.onAuthStateChanged(user => this.setState({
-      user
+      user,
+      loading: false
     }));
   }
 
   render() {
+    if (this.state.loading) {
+      return _react2.default.createElement(
+        'main',
+        { role: 'application' },
+        _react2.default.createElement(
+          'section',
+          { className: 'valign-wrapper' },
+          _react2.default.createElement(_Loading2.default, null)
+        )
+      );
+    }
+
     return _react2.default.createElement(
       'main',
       { role: 'application' },
@@ -11236,7 +11254,8 @@ function Footer() {
             'a',
             { href: 'https://migu3lr.github.io/' },
             'Miguel Romero'
-          )
+          ),
+          ' with \u2764'
         )
       )
     )
@@ -23803,6 +23822,56 @@ module.exports = require("react-mixin");
 /***/ (function(module, exports) {
 
 module.exports = require("reactfire");
+
+/***/ }),
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Loading = __webpack_require__(239);
+
+var _Loading2 = _interopRequireDefault(_Loading);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Loading() {
+  return _react2.default.createElement(
+    'div',
+    { className: `center-align ${_Loading2.default.spinner}` },
+    _react2.default.createElement('div', { className: _Loading2.default.cube1 }),
+    _react2.default.createElement('div', { className: _Loading2.default.cube2 })
+  );
+}
+
+exports.default = Loading;
+
+/***/ }),
+/* 239 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"spinner":"_3NyzId16cq0lsGU3e3Jz8X","cube1":"_3pqldJNf34yzEq9_VVNIwK","cube2":"_3hG7iKkG6-WA_VJ2DzKEjX","sk-cubemove":"_2Jp8wZYcX-NsEXRO919Twi"};
 
 /***/ })
 /******/ ]);

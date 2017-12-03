@@ -8,7 +8,7 @@ function Footer() {
       <div className={`footer-copyright ${css.footer_copyright}`}>
         <div className="container">
           <p className="center grey-text text-lighten-4">Coaching Alegra © 2017</p>
-          <p className="center white-text">Enjoy Life ProNET was <b>&lt;/&gt;</b> by <a href="https://migu3lr.github.io/">Miguel Romero</a></p>
+          <p className="center white-text">Enjoy Life ProNET was <b>&lt;/&gt;</b> by <a href="https://migu3lr.github.io/">Miguel Romero</a> with ❤</p>
         </div>
       </div>
     </footer>
