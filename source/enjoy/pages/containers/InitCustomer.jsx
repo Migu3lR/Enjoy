@@ -24,7 +24,7 @@ function InitCustomer(props) {
               <InitCustomerForm />
             </div>
             <div className="card-action">
-              <a href="#" onClick={omitir}>Omitir</a>
+              <a href="#!" onClick={omitir}>Omitir</a>
             </div>
           </div>
         </div>

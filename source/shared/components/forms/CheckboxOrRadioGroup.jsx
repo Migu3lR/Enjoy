@@ -16,12 +16,12 @@ function CheckboxOrRadioGroup(props) {
                 className="form-checkbox"
                 name={props.name}
                 onChange={props.controlFunc}
-                value={opt}
+                value={opt.tags}
                 id={`ipt-${id}`}
                 checked={props.selectedOptions.indexOf(opt) > -1}
                 type={props.type}
               />
-              <label htmlFor={`ipt-${id}`} className={`capitalize ${css.labelCheck}`}>{opt}</label>
+              <label htmlFor={`ipt-${id}`} className={`capitalize ${css.labelCheck}`}>{opt.ask}</label>
             </p>
           );
         })}

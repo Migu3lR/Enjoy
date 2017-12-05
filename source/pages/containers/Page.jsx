@@ -47,7 +47,7 @@ class Pages extends Component {
     if (this.state.loading) {
       return (
         <main role="application">
-          <section className={`valign-wrapper ${css.loading}`}><Loading /></section>
+          <Loading />
         </main>
       );
     }

@@ -1,3 +1,7 @@
+.loading {
+  height: 100%;
+}
+
 .spinner {
     margin: 100px auto;
     width: 40px;
@@ -6,7 +10,7 @@
   }
   
   .cube1, .cube2 {
-    background-color: #fff;
+    background-color: #333;
     width: 15px;
     height: 15px;
     position: absolute;

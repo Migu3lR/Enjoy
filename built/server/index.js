@@ -6621,7 +6621,7 @@ exports.default = SingleInput;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"loading":"_3Wz0fUdM5MGGlz-924Fhg7","MainSection":"_15zbdv0tozwc9y5LLAkuQt","icon_block":"_1xyWgPdu_TBNJo1MYkpBuF","material_icons":"_2GyWMtMbgQ7P0yVoa_Q65t","section1":"_1Wdn7uhBISuszHyblsnUuf","p_dona":"_2ds3lqo3z-960iehtVtq37","section2":"-m2EGIi-6qWN9mvwjGpU-"};
+module.exports = {"MainSection":"_15zbdv0tozwc9y5LLAkuQt","icon_block":"_1xyWgPdu_TBNJo1MYkpBuF","material_icons":"_2GyWMtMbgQ7P0yVoa_Q65t","section1":"_1Wdn7uhBISuszHyblsnUuf","p_dona":"_2ds3lqo3z-960iehtVtq37","section2":"-m2EGIi-6qWN9mvwjGpU-"};
 
 /***/ }),
 /* 58 */
@@ -9293,11 +9293,7 @@ let Pages = class Pages extends _react.Component {
       return _react2.default.createElement(
         'main',
         { role: 'application' },
-        _react2.default.createElement(
-          'section',
-          { className: `valign-wrapper ${_Page4.default.loading}` },
-          _react2.default.createElement(_Loading2.default, null)
-        )
+        _react2.default.createElement(_Loading2.default, null)
       );
     }
 
@@ -9463,6 +9459,10 @@ var _CheckboxOrRadioGroup = __webpack_require__(122);
 
 var _CheckboxOrRadioGroup2 = _interopRequireDefault(_CheckboxOrRadioGroup);
 
+var _Loading = __webpack_require__(116);
+
+var _Loading2 = _interopRequireDefault(_Loading);
+
 var _api = __webpack_require__(8);
 
 var _api2 = _interopRequireDefault(_api);
@@ -9474,13 +9474,27 @@ let InitCustomerForm = class InitCustomerForm extends _react.Component {
     super(props);
 
     this.state = {
-      interestSelections: ['Entrenamientos para Jóvenes que quieren ingresar a la universidad (Introducción a la vida universitaria)', 'Entrenamientos para Jóvenes estudiantes e investigadores (libros en video)', 'Entrenamientos para Profesionales (cursos de actualización)', 'Entrenamientos para emprendedores “Soy emprendedor”', 'Entrenamientos para Empresas MyPimes', 'Entrenamientos para Grandes empresas (Módulo para organizaciones)', 'Educación para Adultos Mayores', 'Educación Especializada (Personas en las cárceles, educación para el post-conflicto)', 'Animación socio-cultural y Desarrollo Comunitario'],
-      selectedInterest: []
+      interestSelections: [],
+      selectedInterest: [],
+      loading: true
     };
 
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
     this.handleClearForm = this.handleClearForm.bind(this);
     this.handleInterestSelection = this.handleInterestSelection.bind(this);
+  }
+
+  componentDidMount() {
+    _api2.default.base.bindToState('parametros/cuentas/firstLoginQuest', {
+      context: this,
+      state: 'interestSelections',
+      asArray: true,
+      then: () => {
+        this.setState({
+          loading: false
+        });
+      }
+    });
   }
 
   handleInterestSelection(e) {
@@ -9515,6 +9529,9 @@ let InitCustomerForm = class InitCustomerForm extends _react.Component {
   }
 
   render() {
+    if (this.state.loading) {
+      return _react2.default.createElement(_Loading2.default, null);
+    }
     return _react2.default.createElement(
       'form',
       { className: 'container', onSubmit: this.handleFormSubmit },
@@ -10283,7 +10300,7 @@ function InitCustomer(props) {
             { className: 'card-action' },
             _react2.default.createElement(
               'a',
-              { href: '#', onClick: omitir },
+              { href: '#!', onClick: omitir },
               'Omitir'
             )
           )
@@ -11383,10 +11400,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Loading() {
   return _react2.default.createElement(
-    'div',
-    { className: `center-align ${_Loading2.default.spinner}` },
-    _react2.default.createElement('div', { className: _Loading2.default.cube1 }),
-    _react2.default.createElement('div', { className: _Loading2.default.cube2 })
+    'section',
+    { className: `valign-wrapper ${_Loading2.default.loading}` },
+    _react2.default.createElement(
+      'div',
+      { className: `center-align ${_Loading2.default.spinner}` },
+      _react2.default.createElement('div', { className: _Loading2.default.cube1 }),
+      _react2.default.createElement('div', { className: _Loading2.default.cube2 })
+    )
   );
 }
 
@@ -11977,7 +11998,7 @@ function CheckboxOrRadioGroup(props) {
             className: 'form-checkbox',
             name: props.name,
             onChange: props.controlFunc,
-            value: opt,
+            value: opt.tags,
             id: `ipt-${id}`,
             checked: props.selectedOptions.indexOf(opt) > -1,
             type: props.type
@@ -11985,7 +12006,7 @@ function CheckboxOrRadioGroup(props) {
           _react2.default.createElement(
             'label',
             { htmlFor: `ipt-${id}`, className: `capitalize ${_CheckboxOrRadioGroup2.default.labelCheck}` },
-            opt
+            opt.ask
           )
         );
       })
@@ -12048,7 +12069,7 @@ module.exports = {"brand_logo":"_3RSfhGQ5lroMItmJ-wbuN3","button_collapse":"EQ5q
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"spinner":"_3NyzId16cq0lsGU3e3Jz8X","cube1":"_3pqldJNf34yzEq9_VVNIwK","cube2":"_3hG7iKkG6-WA_VJ2DzKEjX","sk-cubemove":"_2Jp8wZYcX-NsEXRO919Twi"};
+module.exports = {"loading":"_1KF2Kyq8Y-9NI4iVittwe6","spinner":"_3NyzId16cq0lsGU3e3Jz8X","cube1":"_3pqldJNf34yzEq9_VVNIwK","cube2":"_3hG7iKkG6-WA_VJ2DzKEjX","sk-cubemove":"_2Jp8wZYcX-NsEXRO919Twi"};
 
 /***/ }),
 /* 129 */

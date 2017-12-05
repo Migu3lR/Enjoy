@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CheckboxOrRadioGroup from '../../../shared/components/forms/CheckboxOrRadioGroup';
+import Loading from '../../../shared/components/Loading';
 
 import api from '../../../api';
 
@@ -8,23 +9,27 @@ class InitCustomerForm extends Component {
     super(props);
 
     this.state = {
-      interestSelections: [
-        'Entrenamientos para Jóvenes que quieren ingresar a la universidad (Introducción a la vida universitaria)',
-        'Entrenamientos para Jóvenes estudiantes e investigadores (libros en video)',
-        'Entrenamientos para Profesionales (cursos de actualización)',
-        'Entrenamientos para emprendedores “Soy emprendedor”',
-        'Entrenamientos para Empresas MyPimes',
-        'Entrenamientos para Grandes empresas (Módulo para organizaciones)',
-        'Educación para Adultos Mayores',
-        'Educación Especializada (Personas en las cárceles, educación para el post-conflicto)',
-        'Animación socio-cultural y Desarrollo Comunitario',
-      ],
+      interestSelections: [],
       selectedInterest: [],
+      loading: true,
     };
 
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
     this.handleClearForm = this.handleClearForm.bind(this);
     this.handleInterestSelection = this.handleInterestSelection.bind(this);
+  }
+
+  componentDidMount() {
+    api.base.bindToState('parametros/cuentas/firstLoginQuest', {
+      context: this,
+      state: 'interestSelections',
+      asArray: true,
+      then: () => {
+        this.setState({
+          loading: false,
+        });
+      },
+    });
   }
 
   handleInterestSelection(e) {
@@ -60,6 +65,11 @@ class InitCustomerForm extends Component {
   }
 
   render() {
+    if (this.state.loading) {
+      return (
+        <Loading />
+      );
+    }
     return (
       <form className="container" onSubmit={this.handleFormSubmit}>
         <h5>¿En que tipo de entrenamientos está interesado?</h5>
