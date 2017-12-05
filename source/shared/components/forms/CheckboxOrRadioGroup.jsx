@@ -35,7 +35,7 @@ CheckboxOrRadioGroup.propTypes = {
   type: PropTypes.oneOf(['checkbox', 'radio']).isRequired,
   name: PropTypes.string.isRequired,
   options: PropTypes.arrayOf(
-    PropTypes.string,
+    PropTypes.object,
   ).isRequired,
   selectedOptions: PropTypes.arrayOf(
     PropTypes.string,

@@ -31962,7 +31962,7 @@ CheckboxOrRadioGroup.propTypes = {
   title: _react.PropTypes.string.isRequired,
   type: _react.PropTypes.oneOf(['checkbox', 'radio']).isRequired,
   name: _react.PropTypes.string.isRequired,
-  options: _react.PropTypes.arrayOf(_react.PropTypes.string).isRequired,
+  options: _react.PropTypes.arrayOf(_react.PropTypes.object).isRequired,
   selectedOptions: _react.PropTypes.arrayOf(_react.PropTypes.string),
   controlFunc: _react.PropTypes.func.isRequired
 };
