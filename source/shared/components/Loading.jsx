@@ -4,7 +4,7 @@ import css from './Loading.css';
 
 function Loading() {
   return (
-    <section className={`valign-wrapper ${css.loading}`}>
+    <section className={`${css.loading} valign-wrapper`}>
       <div className={`center-align ${css.spinner}`}>
         <div className={css.cube1} />
         <div className={css.cube2} />

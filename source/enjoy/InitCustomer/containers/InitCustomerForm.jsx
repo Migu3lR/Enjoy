@@ -55,8 +55,16 @@ class InitCustomerForm extends Component {
 
     if (this.state.selectedInterest.length < 1) api.handleAuthErrors('InitCustomer/none-selected');
     else {
+      const tags = [];
+      this.state.selectedInterest.forEach( (key) => {
+	this.state.interestSelections[key].tags.split(",").forEach( (tag) => {
+	  if (tags.indexOf(tag.trim()) > -1) {
+	    tags.push(tag.trim());
+	  }
+	});
+      });
       const formPayload = {
-        selectedInterest: this.state.selectedInterest,
+        selectedInterest: tags,
       };
 
       console.log('Send this in a POST request:', formPayload);

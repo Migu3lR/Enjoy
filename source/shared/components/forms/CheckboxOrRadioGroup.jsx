@@ -16,9 +16,9 @@ function CheckboxOrRadioGroup(props) {
                 className="form-checkbox"
                 name={props.name}
                 onChange={props.controlFunc}
-                value={opt.tags}
+                value={id - 1}
                 id={`ipt-${id}`}
-                checked={props.selectedOptions.indexOf(opt) > -1}
+                checked={props.selectedOptions.indexOf(id - 1) > -1}
                 type={props.type}
               />
               <label htmlFor={`ipt-${id}`} className={`capitalize ${css.labelCheck}`}>{opt.ask}</label>
