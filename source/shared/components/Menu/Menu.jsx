@@ -25,7 +25,7 @@ class Menu extends Component {
     });
 
     if (nextProps.user) {
-      this.syncState = api.base.syncState(`/usuarios/${nextProps.user.uid}/plan/timeUp`, {
+      api.base.bindState(`/usuarios/${nextProps.user.uid}/plan/timeUp`, {
         context: this,
         state: 'timeUp',
         then: () => {
@@ -33,11 +33,6 @@ class Menu extends Component {
             loading: false,
           });
         },
-      });
-    } else {
-      if (this.syncState) api.base.removeBinding(this.syncState);
-      this.setState({
-        loading: false,
       });
     }
   }

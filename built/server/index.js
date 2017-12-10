@@ -11600,7 +11600,7 @@ let Menu = class Menu extends _react.Component {
     });
 
     if (nextProps.user) {
-      this.syncState = _api2.default.base.syncState(`/usuarios/${nextProps.user.uid}/plan/timeUp`, {
+      _api2.default.base.bindState(`/usuarios/${nextProps.user.uid}/plan/timeUp`, {
         context: this,
         state: 'timeUp',
         then: () => {
@@ -11608,11 +11608,6 @@ let Menu = class Menu extends _react.Component {
             loading: false
           });
         }
-      });
-    } else {
-      if (this.syncState) _api2.default.base.removeBinding(this.syncState);
-      this.setState({
-        loading: false
       });
     }
   }
