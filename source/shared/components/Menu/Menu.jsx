@@ -1,6 +1,7 @@
 import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
+import { SideNav, SideNavItem, Button } from 'react-materialize';
 
 import LoginStatus from './LoginStatus';
 import TimeLeft from './TimeLeft';
@@ -15,16 +16,12 @@ class Menu extends Component {
     this.state = {
       loading: true,
       timeUp: null,
-      PrintLogin: this.props.PrintLogin || null,
-      Mobile: this.props.Mobile || null,
     };
   }
 
   componentWillReceiveProps(nextProps) {
     this.setState({
       loading: true,
-      PrintLogin: nextProps.PrintLogin || null,
-      Mobile: nextProps.Mobile || null,
     });
 
     if (nextProps.user) {
@@ -46,73 +43,128 @@ class Menu extends Component {
   }
 
   render() {
-    if (this.state.PrintLogin) {
-      if (!this.state.loading && !this.props.user) {
+    if (!this.props.Mobile) {
+      if (this.props.PrintLogin) {
+        if (!this.state.loading && !this.props.user) {
+          return (
+            <ul className="right hide-on-med-and-down">
+              <li>
+                <Link to="/enjoy">
+                  <FormattedMessage id="header.nav.empresas" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/enjoy">
+                  <FormattedMessage id="header.nav.emprendedores" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/enjoy/planes">
+                  <FormattedMessage id="header.nav.planes" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/enjoy/login">
+                  <FormattedMessage id="header.nav.login" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/enjoy/register" className="waves-effect waves-light btn">
+                  {/* <i className="material-icons right">assignment_ind</i> */}
+                  <FormattedMessage id="header.nav.start" />
+                </Link>
+              </li>
+            </ul>
+          );
+        }
         return (
-          <ul
-            className={this.state.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
-            id={this.state.Mobile ? 'nav-mobile' : null}
-          >
+          !this.state.loading && (
+          <ul className="right hide-on-med-and-down">
             <li>
-              <Link to="/enjoy">
-                <FormattedMessage id="header.nav.empresas" />
-              </Link>
+              <TimeLeft timeUp={this.state.timeUp} />
             </li>
             <li>
-              <Link to="/enjoy">
-                <FormattedMessage id="header.nav.emprendedores" />
-              </Link>
+              <Points {...this.props} />
             </li>
             <li>
-              <Link to="/enjoy/planes">
-                <FormattedMessage id="header.nav.planes" />
-              </Link>
-            </li>
-            <li>
-              <Link to="/enjoy/login">
-                <FormattedMessage id="header.nav.login" />
-              </Link>
-            </li>
-            <li>
-              <Link to="/enjoy/register" className="waves-effect waves-light btn">
-                {/* <i className="material-icons right">assignment_ind</i> */}
-                <FormattedMessage id="header.nav.start" />
-              </Link>
+              <LoginStatus {...this.props} />
             </li>
           </ul>
+          )
         );
       }
+
       return (
-        !this.state.loading && (
-        <ul
-          className={this.state.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
-          id={this.state.Mobile ? 'nav-mobile' : null}
-        >
+        <ul className="right hide-on-med-and-down">
           <li>
-            <TimeLeft timeUp={this.state.timeUp} />
-          </li>
-          <li>
-            <Points {...this.props} />
-          </li>
-          <li>
-            <LoginStatus {...this.props} />
+            <Link to="/">
+              <FormattedMessage id="header.nav.home" />
+            </Link>
           </li>
         </ul>
+      );
+    }
+
+    // else Mobile true
+    if (this.props.PrintLogin) {
+      if (!this.state.loading && !this.props.user) {
+        return (
+          <SideNav
+            trigger={<Button>Menu</Button>}
+            options={{ closeOnClick: true }}
+          >
+            <SideNavItem href="/enjoy">
+              <FormattedMessage id="header.nav.empresas" />
+            </SideNavItem>
+            <SideNavItem href="/enjoy">
+              <FormattedMessage id="header.nav.emprendedores" />
+            </SideNavItem>
+            <SideNavItem href="/enjoy/planes">
+              <FormattedMessage id="header.nav.planes" />
+            </SideNavItem>
+            <SideNavItem href="/enjoy/login">
+              <FormattedMessage id="header.nav.login" />
+            </SideNavItem>
+            <SideNavItem href="/enjoy/register" className="waves-effect waves-light btn">
+              <FormattedMessage id="header.nav.start" />
+            </SideNavItem>
+          </SideNav>
+        );
+      }
+
+      return (
+        !this.state.loading && (
+          <SideNav
+            trigger={<Button>Menu</Button>}
+            options={{ closeOnClick: true }}
+          >
+            <SideNavItem
+              userView
+              user={{
+                background: 'img/office.jpg',
+                image: 'img/yuna.jpg',
+                name: 'John Doe',
+                email: 'jdandturk@gmail.com',
+              }}
+            />
+            <SideNavItem>
+              <TimeLeft timeUp={this.state.timeUp} />
+            </SideNavItem>
+            <SideNavItem>
+              <Points {...this.props} />
+            </SideNavItem>
+          </SideNav>
         )
       );
     }
 
     return (
-      <ul
-        className={this.props.Mobile ? 'side-nav' : 'right hide-on-med-and-down'}
-        id={this.props.Mobile ? 'nav-mobile' : ''}
+      <SideNav
+        trigger={<Button>Menu</Button>}
+        options={{ closeOnClick: true }}
       >
-        <li>
-          <Link to="/">
-            <FormattedMessage id="header.nav.home" />
-          </Link>
-        </li>
-      </ul>
+        <SideNavItem href="/"><FormattedMessage id="header.nav.home" /></SideNavItem>
+      </SideNav>
     );
   }
 }

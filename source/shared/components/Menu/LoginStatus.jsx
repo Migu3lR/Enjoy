@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Dropdown, NavItem } from 'react-materialize';
+import { Dropdown, NavItem, SideNavItem } from 'react-materialize';
 
 import api from '../../../api';
 
@@ -51,6 +51,19 @@ class LoginStatus extends Component {
 
   render() {
     /* eslint no-script-url: "off" */
+    if (this.props.Mobile) {
+      return (
+        <SideNavItem
+          userView
+          user={{
+            background: 'https://react-materialize.github.io/img/office.jpg',
+            image: this.state.displayPhoto,
+            name: `Usuario conectado: ${this.state.displayName}`,
+          }}
+        />
+      );
+    }
+
     return (
       <Dropdown
         trigger={
@@ -85,10 +98,12 @@ LoginStatus.propTypes = {
   user: PropTypes.shape({
     providerData: PropTypes.array,
   }),
+  Mobile: PropTypes.bool,
 };
 
 LoginStatus.defaultProps = {
   user: null,
+  Mobile: false,
 };
 
 export default LoginStatus;
