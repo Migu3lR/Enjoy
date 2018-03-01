@@ -20604,7 +20604,7 @@ function findPrime(bits, gen) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"MainSection":"_15zbdv0tozwc9y5LLAkuQt","icon_block":"_1xyWgPdu_TBNJo1MYkpBuF","material_icons":"_2GyWMtMbgQ7P0yVoa_Q65t","section1":"_1Wdn7uhBISuszHyblsnUuf","p_dona":"_2ds3lqo3z-960iehtVtq37","section2":"-m2EGIi-6qWN9mvwjGpU-"};
+module.exports = {"MainSection":"vhIN9-rJWOJYOVF1SBZM1","icon_block":"_1_fRGbuIXGk9cLTOcZygbi","material_icons":"w0P_h8no2DSiuAjHNAdpZ","section1":"_1J5H15dJSO6tfqAW8pkDqK","p_dona":"_36C1SgoElJyrYh2yXIlV8s","section2":"_1Si38y_6YVuCN00cYtvDWB"};
 
 /***/ }),
 /* 137 */
@@ -30114,7 +30114,7 @@ function StartVideo() {
   return _react2.default.createElement(
     'div',
     { className: _StartVideo2.default.videoForeground },
-    _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/fT_CXOpjaHw?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&disablekb=1&modestbranding=1&playlist=fT_CXOpjaHw', frameBorder: '0', allowFullScreen: true })
+    _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/3lVRTbbdSSE?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&disablekb=1&modestbranding=1&playlist=3lVRTbbdSSE', frameBorder: '0', allowFullScreen: true })
   );
 }
 
@@ -31022,7 +31022,7 @@ var _Page2 = _interopRequireDefault(_Page);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const domain =  false ? 'https://proyecto-react-sfs.now.sh' : 'https://enjoylife-32afb.firebaseapp.com';
+const domain =  false ? 'https://proyecto-react-sfs.now.sh' : 'http://alegratuvida.com:8080';
 
 function Home() {
   console.log(_api2.default.db.getList());
@@ -31303,7 +31303,7 @@ var _Menu2 = _interopRequireDefault(_Menu);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const domain =  false ? 'https://proyecto-react-sfs.now.sh' : 'https://enjoylife-32afb.firebaseapp.com';
+const domain =  false ? 'https://proyecto-react-sfs.now.sh' : 'http://alegratuvida.com:8080';
 
 function Header(props) {
   const PrintLogin = props.location.pathname.indexOf('/enjoy') === 0;
@@ -38364,56 +38364,56 @@ utils.intFromLE = intFromLE;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"btn":"_2HmNBlw2Cl3UTJHZWn_7jk","icon_wrapper":"_5atAqVtWkU9sogDqqfdal","icon":"SFVx8NdLhhD4fgtUcCvIP","btn_text":"_2KKEV28HtUdzgpF9pASnpX"};
+module.exports = {"btn":"_2xSTAKOYUvBqQr1xdaBh9Z","icon_wrapper":"VQKqcIKrKDmEYk_ISyJzk","icon":"_3a-5bBDQDJi32IMPI04Ibw","btn_text":"szq_ELuEmw_vLtho9djh1"};
 
 /***/ }),
 /* 283 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"pricing":"_2uawPTLy14C-SR-_G45Kxt","thumbnail":"_3wkkmNyQCnUW7BeDi6wZ9g","title":"_2APPrkqg8UgeNEHBkIAKZS","content":"_3NKMi5s7Fi1f1GmFUZFHdK","sub_title":"_32HqMb03yJQxSQOFOAa6iC","fa":"_1DhXi6nHxhYaor7n1LKamt"};
+module.exports = {"pricing":"_1EvneJtXQvrH3vGCE9SprD","thumbnail":"_3wWfD_pRQzce9u0-iEXGPB","title":"_2zGM4TArkcIpFKb5FNJn_f","content":"_3eRY3IjnuhLpUBqdB0j62M","sub_title":"_1eM1sYaYWzrnVUbwd3vFDT","fa":"_1xIDnTGIMcMlqbZa7s563Y"};
 
 /***/ }),
 /* 284 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"videoForeground":"_3Re-c7H_wP6NcZBusem5DW"};
+module.exports = {"videoForeground":"_288-Cwzew33pG4MxuyaVIC"};
 
 /***/ }),
 /* 285 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"page_footer":"_1194ERoD2Jm6kAx3s4NgTH","footer_copyright":"_21Niy2CW7jA3aNs4K-LPJC"};
+module.exports = {"page_footer":"_1eS9wUVNr3aYTKqQeQunSJ","footer_copyright":"_17aEUM8r-TiQmHceDwmlAE"};
 
 /***/ }),
 /* 286 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"brand_logo":"_3RSfhGQ5lroMItmJ-wbuN3","button_collapse":"EQ5qsAZaELTJ4jAeSX2L2"};
+module.exports = {"brand_logo":"rCru-8v_keeZnvf_qas9_","button_collapse":"_39gOJvnGZdixJbo-2vFBJa"};
 
 /***/ }),
 /* 287 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"loading":"_1KF2Kyq8Y-9NI4iVittwe6","spinner":"_3NyzId16cq0lsGU3e3Jz8X","cube1":"_3pqldJNf34yzEq9_VVNIwK","cube2":"_3hG7iKkG6-WA_VJ2DzKEjX","sk-cubemove":"_2Jp8wZYcX-NsEXRO919Twi"};
+module.exports = {"loading":"_23ojywbCynFpwqTK8C9ooM","spinner":"_3AzpgLPNgOgCYt9F1sJbiY","cube1":"_1Hz0vajv86-tOunlGP73VN","cube2":"_3CvjlTSnmyiuxfCezVrxdQ","sk-cubemove":"_24YyzCeH1SV3xKAd5UPbn3"};
 
 /***/ }),
 /* 288 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"user":"_1m2dWNiV8oAzMwTfaTT6bX"};
+module.exports = {"user":"_5YXSDrol4AQQzW0iJbsoN"};
 
 /***/ }),
 /* 289 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"labelCheck":"_22p_IJhiHEGOKQYtDDCj3i","pCheck":"_3r5_WqujcfJ12kSQrBe5G8"};
+module.exports = {"labelCheck":"_2to7N51oCUXlWIPfx5cWyj","pCheck":"D5OaBraHo9zuFlqDP0-_Q"};
 
 /***/ }),
 /* 290 */

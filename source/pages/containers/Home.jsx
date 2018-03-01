@@ -9,7 +9,7 @@ import Title from '../../shared/components/Title';
 import css from './Page.css';
 
 
-const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'https://enjoylife-32afb.firebaseapp.com';
+const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://alegratuvida.com:8080';
 
 function Home() {
   console.log(api.db.getList());

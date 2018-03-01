@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "forever start ./built/server/index.js",
-    "static": "serve ./built/statics/ --port 3002 --cache 0",
+    "start": "pm2 start ./built/server/index.js --name Alegratuvida.com --watch",
+    "static": "pm2 serve ./built/statics/ --port 8080 --name Statics --watch",
     "watch": "webpack -w",
     "wp": "webpack",
-    "stop": "forever stop ./built/server/index.js",
+    "stop": "pm2 delete Alegratuvida.com",
     "payStart": "nodemon ./built/server/payment.js",
     "payStop": "forever stop ./built/server/payment.js"
   },
