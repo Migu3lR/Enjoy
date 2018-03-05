@@ -15,7 +15,7 @@ const config = {
   entry: './source/payu-listener.jsx',
   output: {
     filename: 'payment.js',
-    path: path.resolve(__dirname, '../built/server'),
+    path: path.resolve(__dirname, '../dist'),
     publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'https://enjoylife-32afb.firebaseapp.com',
   },
   module: {

@@ -1,52 +1,46 @@
 import express from 'express';
-import React from 'react';
-import { renderToString, renderToStaticMarkup } from 'react-dom/server';
-import { StaticRouter } from 'react-router-dom';
-import { IntlProvider } from 'react-intl';
-
-import messages from './messages.json';
-
-import Pages from './pages/containers/Page';
-import Layout from './pages/components/Layout';
-
-const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://alegratuvida.com:8080';
+import morgan from 'morgan';
+import bodyParser from 'body-parser';
+import path from 'path';
 
 const app = express();
+const port = process.env.PORT || 3001;
 
-function requestHandler(request, response) {
-  const locale = request.headers['accept-language'].indexOf('es') >= 0 ? 'es' : 'en';
+app.use(morgan('dev'));
 
-  const context = {};
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-  const html = renderToString(
-    <IntlProvider locale={locale} messages={messages[locale]} >
-      <StaticRouter location={request.url} context={context}>
-        <Pages />
-      </StaticRouter>
-    </IntlProvider>,
-  );
+app.use(express.static(path.join(__dirname, 'dist')));
 
-  response.setHeader('Content-Type', 'text/html');
+const imageList = [
+  {
+    key: 0,
+    url: 'https://process.filestackapi.com/sharpen/negative/sb5RRdoQiiy5l5JUglB1',
+  },
+  {
+    key: 1,
+    url: 'https://process.filestackapi.com/sharpen/oil_paint/urjTyRrAQA6sUzK2qIsd',
+  },
+  {
+    key: 2,
+    url: 'https://process.filestackapi.com/sepia/modulate/wxYyL4yQyyRH1RQLZ6gL',
+  },
+];
 
-  if (context.url) {
-    response.writeHead(301, {
-      Location: context.url,
+app.route('/api')
+    .get((req, res) => res.json(imageList))
+    .post((req, res) => {
+      const { url } = req.body;
+      imageList.push({
+        key: imageList.lenght,
+        url,
+      });
+      res.json({
+        success: 1,
+        message: 'Image successfully added!',
+      });
     });
-    response.end();
-  }
 
-  response.write(
-    renderToStaticMarkup(
-      <Layout
-        title="Enjoy Life"
-        content={html}
-        domain={domain}
-      />,
-    ),
-  );
-  response.end();
-}
-
-app.get('*', requestHandler);
-
-app.listen(3000);
+app.listen(port);
+console.log(`Listening on port ${port}`);

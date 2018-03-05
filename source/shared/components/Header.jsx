@@ -5,7 +5,7 @@ import css from './Header.css';
 
 import Menu from './Menu/Menu';
 
-const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://alegratuvida.com:8080';
+const domain = process.env.NODE_ENV === 'production' ? 'https://proyecto-react-sfs.now.sh' : 'http://34.239.53.122:3002';
 
 function Header(props) {
   const PrintLogin = props.location.pathname.indexOf('/enjoy') === 0;

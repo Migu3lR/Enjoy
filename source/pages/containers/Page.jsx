@@ -4,6 +4,8 @@ import {
   Switch,
 } from 'react-router-dom';
 
+import { connect } from 'react-redux';
+
 import Notifications from 'react-notify-toast';
 
 import Home from './Home';
@@ -32,6 +34,8 @@ class Pages extends Component {
 
   componentDidMount() {
     this.suscribeAuth();
+
+    console.log(this.props);
   }
 
   suscribeAuth() {
@@ -88,4 +92,8 @@ class Pages extends Component {
   }
 }
 
-export default Pages;
+const mapStateToProps = state => {
+    return state;
+}
+
+export default connect(mapStateToProps)(Pages);

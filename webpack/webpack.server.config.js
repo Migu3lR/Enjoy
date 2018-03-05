@@ -15,9 +15,9 @@ const nodeModules = fs
 const config = {
   entry: './source/server.jsx',
   output: {
-    filename: 'index.js',
-    path: path.resolve(__dirname, '../built/server'),
-    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'https://enjoylife-32afb.firebaseapp.com',
+    filename: 'server.js',
+    path: path.resolve(__dirname, '../dist'),
+    publicPath: process.env.NODE_ENV === 'production' ? 'https://platzi-react-sfs.now.sh' : 'http://34.239.53.122:3001/',
   },
   module: {
     loaders: [
@@ -71,7 +71,7 @@ const config = {
       },
     }),
     new webpack.optimize.OccurrenceOrderPlugin(true),
-    new ExtractTextPlugin({ filename: '../statics/styles.css' }),
+    new ExtractTextPlugin({ filename: '../styles.css' }),
   ],
 };
 
